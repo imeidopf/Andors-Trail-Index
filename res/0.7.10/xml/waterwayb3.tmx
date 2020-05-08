@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="13" tilewidth="32" tileheight="32">
+    <properties>
+        <property name="outdoors" value="1" />
+    </properties>
+    <tileset firstgid="1" name="map_5" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_5.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_19" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_19.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_16" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_16.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_6" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_6.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_17" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_17.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_4" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_4.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_14" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_14.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_7" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_7.png" />
+    </tileset>
+    <tileset firstgid="513" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <layer name="Ground" width="30" height="13">
+        <data encoding="base64" compression="zlib"> eJwzZ2BgMKcSDgBiXyqaN4pH8SgexaOYthhWbiOX3wAdf1RY
+</data>
+    </layer>
+    <layer name="Objects" width="30" height="13">
+        <data encoding="base64" compression="zlib"> eJyNVDEOwjAMdHgL/QMjW6ZKfIFPMNIf8B4olRBDK8TEiuApDCRqrF6vTlVLltPU8Z0dx42IfILWQXdBy6BN+p6z56CXdPaX9lWWnFcstAXEWLleWZjn3Q0xP+RbuV47jWlgqlXMR7DPtK7cgIfYVeJ1In7e4BelzWCiT8Rj/vhfc/Qy8GrAt5XxXvQ5unlMrJGuMd822bdMpaBv9dX4uRpvgm6Nc5gjckOfCurdgZ9yfhmYnO+B7gzjfJO1+oi5+WQVJ5cv1hPrzDlawnXXOmCPzeVr1ZPvDXvYS16UJ+eLb/plcF0ia+DL9bvKODfFivs3+u8hTiPj2nrgx+8E81LLXPYGF6u/VKx7z/nkZlIp05mCNvbpSqYzB99DDb44J3Ees8T9P/BEg5Q=
+</data>
+    </layer>
+    <layer name="Above" width="30" height="13">
+        <data encoding="base64" compression="zlib"> eJy1U0EOwCAI46u80wOv2N4zLySGQEFlTYxbhLZqFSIacwjtQXtOehGf4pnjBetIkw/8ZTVWmwNfVb4Mo6H/xsNJb6b5R054+Ub56Mqp5fQgZvb8IHBeEqLzjO2ZZZnUevQ22KmPsLOXiKty796+bvK/aopZq3qqwHKg/129D/UYOH8=
+</data>
+    </layer>
+    <layer name="Walkable" width="30" height="13">
+        <data encoding="base64" compression="zlib"> eJxTYWJgUBkkmBiATQ8pZhCyGx+fkB3EmEtIDTbzsPkRm1vIsROXH8gFlMQ1uXaTYiexaYSQ22iRtokFpPiVFLsJqaW1PwnlbUr8jU+eVDuI8Tcx4UEte6lhDjoGANOwIRs=
+</data>
+    </layer>
+    <objectgroup name="Mapevents">
+        <object name="east" type="mapchange" x="928" y="32" width="32" height="64">
+            <properties>
+                <property name="map" value="waterwayb4" />
+                <property name="place" value="west" />
+            </properties>
+        </object>
+        <object name="south" type="mapchange" x="256" y="384" width="32" height="32">
+            <properties>
+                <property name="map" value="waterwayb2" />
+                <property name="place" value="north" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Spawn">
+        <object name="waterwayacaterpillar" type="spawn" x="224" y="64" width="224" height="256">
+            <properties>
+                <property name="quantity" value="4" />
+                <property name="spawngroup" value="waterwayacaterpillar" />
+            </properties>
+        </object>
+        <object name="waterwayamushroom" type="spawn" x="544" y="128" width="160" height="256">
+            <properties>
+                <property name="spawngroup" value="waterwayamushroom" />
+            </properties>
+        </object>
+        <object name="waterwayamushroom_1" type="spawn" x="416" y="128" width="192" height="192">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="waterwayamushroom" />
+            </properties>
+        </object>
+        <object name="waterwayacaterpillar_1" type="spawn" x="576" y="64" width="320" height="224">
+            <properties>
+                <property name="quantity" value="5" />
+                <property name="spawngroup" value="waterwayacaterpillar" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys" />
+    <objectgroup name="Replace" />
+</map>

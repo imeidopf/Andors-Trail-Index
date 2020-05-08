@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="30" tilewidth="32" tileheight="32">
+    <tileset firstgid="1" name="map_17" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_17.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_0" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_0.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_1" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_1.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_3" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_3.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_4" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_4.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_7" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_7.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_10" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_10.png" />
+    </tileset>
+    <tileset firstgid="513" name="map_9" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_9.png" />
+    </tileset>
+    <tileset firstgid="577" name="map_5" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_5.png" />
+    </tileset>
+    <tileset firstgid="641" name="map_29" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_29.png" />
+    </tileset>
+    <tileset firstgid="705" name="map_14" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_14.png" />
+    </tileset>
+    <tileset firstgid="769" name="map_19" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_19.png" />
+    </tileset>
+    <tileset firstgid="833" name="map_8" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_8.png" />
+    </tileset>
+    <tileset firstgid="897" name="map_18" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_18.png" />
+    </tileset>
+    <tileset firstgid="961" name="map_30" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_30.png" />
+    </tileset>
+    <tileset firstgid="1025" name="map_23" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_23.png" />
+    </tileset>
+    <tileset firstgid="1089" name="map_31" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_31.png" />
+    </tileset>
+    <layer name="Ground" width="20" height="30">
+        <data encoding="base64" compression="zlib"> eJzFlV0OwiAQhLkRFGur1zC9/1nEBJLNusNM0kYf5oWwH/tPTillQWvT0vTq2vuZYuv14dybquE9+tku+GG1dM5mWENb5z6JH1Y14HhFvGL8sEKMwwjx/L2DcH7Jy8F9FifjFcJCXNQzhdghNuoZz4tiQ9xZDq/klT/wIq5SE8azzNkcRzlU3lBiVnv6DA8x0Q4s4L6vgeLb2INKDdRY68U8dXbV3KFeQbzItzV9/4lqfT3P/kM+d0pfW57/h9gMsNyxHRrxbkbqLFjGzJ7NP3tf1Vn7oTcXX51m
+</data>
+    </layer>
+    <layer name="Objects" width="20" height="30">
+        <data encoding="base64" compression="zlib"> eJy9VbFKA0EQ3buTIOgPGD/C2qhEFPwHC5uAxSEWYtDCFH6EjV8gWAiCnW3qVDaWAYszaJNKwcIZsmPezt3t7hHwwZDbu9m3szNvJsY0QytpuKEGK+n8eWSfPxbgWyWODqx3yJYjYn0me0jcs5mnbff2yL4Ubwg3tHef4ukaN6ZDeje0vG9kr2QHaXk/xiF+6Is1kO+Xdv3iiWtqjXFONoZvE/BB+Phy6y9c1+o75+2TrCC7iOAz1n9s3JxLitYy168w7h2qcKU0oPP+o84YeeqB4Foyl+S9r3iPwdenmRzO1rlncL4G9g6ncaH9oY5P42wpzMX9UMWH9z6JjEt6gGvIumD9FMbVSd/4ewPBOWwBJ2viLnXPwFhDfSfoqfVRVuYUhHQteha9DUGX35nLqXuzCjgX9J02bD2lXqHY0BeBNUgb8un7SH3lXoMkno/n4KNxZ43glnK3ns3vEJO7LmhDfKXvce5MI2JDYH+yHkUvPAtkVtTx3cOznlET+47XckYod/x/9mRmuRNf1D/Gwr3im6fM8U62qfp2Ly3XdrsmHo1dM8t1Gzhj5nkVcvu71eD8/8IvHMCGQQ==
+</data>
+    </layer>
+    <layer name="Above" width="20" height="30">
+        <data encoding="base64" compression="zlib"> eJxjYCANZJKoHhdohNL3qWQWueY0YhGjxCxq+AcGqBXWtDLPjsrmgQC2+KAEjIYh5YAeYbiCiXzzyAlDWwLy+MLwBzPp9uELw2WMDAyWjKhiNhSYRw6gpnkDXQ4OxbBDTm+Ewo5QXqEk/LGFHT3Di1DcYQO0KEOpBQDPqRag
+</data>
+    </layer>
+    <layer name="Walkable" width="20" height="30" visible="0">
+        <data encoding="base64" compression="zlib"> eJzVkkEOgDAIBPf/7+hDPXmpVdllNErCpWmHKTAkDSP3cN78kXcWFIvyov/5Fd5dpKz53HWu3HNd3brVu2/6VXvj8JLaq/nS+9fhJf1PvWkmySOdEj/pyJqD2JXE7WqWXV5nFiuX7r+IPlE79URue8ArPA==
+</data>
+    </layer>
+    <objectgroup name="Mapevents">
+        <object name="north" type="mapchange" x="384" y="0" width="64" height="32">
+            <properties>
+                <property name="map" value="lodar5cave0" />
+                <property name="place" value="south" />
+            </properties>
+        </object>
+        <object name="down lodar5cave1" type="mapchange" x="64" y="864" width="32" height="32">
+            <properties>
+                <property name="map" value="lodar5cave2" />
+                <property name="place" value="up lodar5cave2" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Spawn">
+        <object name="caveburr1" type="spawn" x="128" y="64" width="448" height="736">
+            <properties>
+                <property name="quantity" value="8" />
+                <property name="spawngroup" value="caveburr1" />
+            </properties>
+        </object>
+        <object name="cavebat1" type="spawn" x="96" y="96" width="512" height="736">
+            <properties>
+                <property name="quantity" value="7" />
+                <property name="spawngroup" value="cavebat1" />
+            </properties>
+        </object>
+        <object name="cavebat2" type="spawn" x="416" y="640" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="cavebat2" />
+            </properties>
+        </object>
+        <object name="caveburr2" type="spawn" x="224" y="832" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="caveburr2" />
+            </properties>
+        </object>
+        <object name="caveburr1_1" type="spawn" x="128" y="832" width="32" height="64">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="caveburr1" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys" />
+</map>

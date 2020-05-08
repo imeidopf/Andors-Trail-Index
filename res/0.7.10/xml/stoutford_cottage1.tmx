@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="7" height="8" tilewidth="32" tileheight="32">
+    <tileset firstgid="1" name="map_36" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_36.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_38" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_38.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_19" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_19.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_30" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_30.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_20" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_20.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_8" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_8.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_12" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_12.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_11" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_11.png" />
+    </tileset>
+    <tileset firstgid="513" name="map_0" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_0.png" />
+    </tileset>
+    <tileset firstgid="577" name="map_3" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_3.png" />
+    </tileset>
+    <tileset firstgid="641" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <layer name="Ground" width="7" height="8">
+        <data encoding="base64" compression="zlib"> eJx9yc0NQFAQReHp46ErO7p4/hviYUNfanAkM8lExOJLbu4JIhJ+lKherNUfrEV0zuBagxkJG0b9M20HLpzanj9HiwUrdkz6F6p329xdMRI9
+</data>
+    </layer>
+    <layer name="Objects" width="7" height="8">
+        <data encoding="base64" compression="zlib"> eJxjYECAfkYGrKALKD6BEULPRVLDCWR3A/FEKF2DpIcLSR0/kK2I3WgwUMIi9gSLW3LRxObhcC8yAAD8+wdW
+</data>
+    </layer>
+    <layer name="Above" width="7" height="8">
+        <data encoding="base64" compression="zlib"> eJxjYMAPNJnIl6vEIU+JmaQCALsyAX4=
+</data>
+    </layer>
+    <layer name="Walkable" width="7" height="8" visible="0">
+        <data encoding="base64" compression="zlib"> eJxbwsTAsIRGGAZwiWOTxwZwyWMzF10MAC/JGpc=
+</data>
+    </layer>
+    <objectgroup name="Mapevents">
+        <object name="entrance" type="mapchange" x="64" y="224" width="32" height="32">
+            <properties>
+                <property name="map" value="stoutford_se" />
+                <property name="place" value="cottage1" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Spawn">
+        <object name="stoutford_cottager" type="spawn" x="32" y="96" width="160" height="96">
+            <properties>
+                <property name="spawngroup" value="stoutford_cottager" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys" />
+</map>

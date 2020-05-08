@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="22" tilewidth="32" tileheight="32">
+    <tileset firstgid="1" name="map_3" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_3.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_33" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_33.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_16" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_16.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_32" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_32.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_40" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_40.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_0" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_0.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_4" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_4.png" />
+    </tileset>
+    <tileset firstgid="513" name="map_9" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_9.png" />
+    </tileset>
+    <tileset firstgid="577" name="map_5" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_5.png" />
+    </tileset>
+    <tileset firstgid="641" name="map_12" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_12.png" />
+    </tileset>
+    <tileset firstgid="705" name="map_1" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_1.png" />
+    </tileset>
+    <tileset firstgid="769" name="map_17" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_17.png" />
+    </tileset>
+    <layer name="Ground" width="20" height="22">
+        <data encoding="base64" compression="zlib"> eJy1VMsOwjAM674H8Q29sMHaE1zG7/DntFKsBcsdHY+DFS2rvSVxE0MI0RCGV4wlJJGPxPHPQOVOBVcXLwVZ5GfiJNI6GfdccHPxYeD8TJxMmqPj9gB6PpfpO71ah2Gtqec7ipesBvStVVNq6GGm4Garwfdb/UO29yo/2f8o32z1OzY069yWoH3T6rfvh6rhHrRvtub+rid7ffQvPdXDvVD3+JdaQPVyrw5834N6lrWR29Lh/ca7DrNSu5B3Yj2L3XYcViCHu1v11C5ETE4Pu83rIYe7y57m6PcVznq9b/z3CVd5QM2yB4qH5yc5xZld
+</data>
+    </layer>
+    <layer name="Objects" width="20" height="22">
+        <data encoding="base64" compression="zlib"> eJy9VDsOwjAMTXOglr0TYmEAKSMLH3XjZghWFuAYvUYPgZ8qq66xo9KhT4qSOPH/JSEsg5sh+xT/29nEYV2SfkWjibZ9oIu2HLrQecRe30JLd1bFWAeojLhxt46DT+z3tE5hPEus6d6R5rOyWSr7Ws8D8jjRfAm/ObWZWluxbcOQT1DrazHeA1znp+NH54Tay5yTOIOc7Xkc6UTP62jnxzKO9UDjReud8I06IbZcfTTYb0PjLXxzza24cvF557mzuyGz+qL3Wo9j9TiWHF8cE/rQKZ5M4Wty5JI/U3nv2Z6rvwS4fpLfVp0B703p+/pf8v4+668Ed9E72OC3qu9JHkpf4J0Xu8Vd7gv3qZnImTn4AqSSOdQ=
+</data>
+    </layer>
+    <layer name="No helm" width="20" height="22">
+        <data encoding="base64" compression="zlib"> eJxjYBgF+IAW80C7YBSMglEwCkYBOQAACawALg==
+</data>
+    </layer>
+    <layer name="Above" width="20" height="22">
+        <data encoding="base64" compression="zlib"> eJxjYKAdyGTELubIRJoemDgIr2NC1X+fgFn4zMOnlxQ9+OwhZB4MIPuJHLehm0eMOD7QiMdPAaQbh9VPvkTqQwawcCLGT4040h8I7ISmo51Q84gJb2x2wvTtQqOJAeTECz5ATryMAuIAtrSEC8DilVDZRKp5yAC9DKXUPHS34nM7ut2DOd0BANGjHC8=
+</data>
+    </layer>
+    <layer name="Walkable" width="20" height="22" visible="0">
+        <data encoding="base64" compression="zlib"> eJxbwsjAsGQEYxCA0bgAueZQ6i5qmIPNb+ToJVWOHD+RG97INC7zCJlLTLzjMg+XWkJ+phQQG86EzMBnFqnupCRdoruX0jRPab6h1Dx84TLQ5hGKN/S4IEY9sYCW8YSOAZVDywg=
+</data>
+    </layer>
+    <objectgroup name="Mapevents">
+        <object name="south" type="mapchange" x="96" y="544" width="96" height="32">
+            <properties>
+                <property name="map" value="waytobrimhavencave3b" />
+                <property name="place" value="north" />
+            </properties>
+        </object>
+        <object name="sign_toszylae" type="sign" x="352" y="96" width="32" height="32" />
+        <object name="trigger_toszylae_1" type="script" x="256" y="96" width="32" height="32">
+            <properties>
+                <property name="when" value="enter" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Spawn">
+        <object name="toszylae" type="spawn" x="320" y="96" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="toszylae" />
+            </properties>
+        </object>
+        <object name="allaceph_4" type="spawn" x="224" y="96" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="allaceph_4" />
+            </properties>
+        </object>
+        <object name="toszylae_guard" type="spawn" x="288" y="96" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="toszylae_guard" />
+            </properties>
+        </object>
+        <object name="allaceph_4_1" type="spawn" x="96" y="224" width="64" height="32">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="allaceph_4" />
+            </properties>
+        </object>
+        <object name="allaceph_4_2" type="spawn" x="320" y="512" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="allaceph_4" />
+            </properties>
+        </object>
+        <object name="allaceph_3" type="spawn" x="160" y="320" width="448" height="160">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="allaceph_3" />
+            </properties>
+        </object>
+        <object name="allaceph_4_3" type="spawn" x="288" y="640" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="allaceph_4" />
+            </properties>
+        </object>
+        <object name="allaceph_3_1" type="spawn" x="224" y="640" width="64" height="32">
+            <properties>
+                <property name="spawngroup" value="allaceph_3" />
+            </properties>
+        </object>
+        <object name="allaceph_3_2" type="spawn" x="416" y="608" width="64" height="32">
+            <properties>
+                <property name="spawngroup" value="allaceph_3" />
+            </properties>
+        </object>
+        <object name="allaceph_3_3" type="spawn" x="448" y="192" width="160" height="160">
+            <properties>
+                <property name="spawngroup" value="allaceph_3" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys" />
+    <objectgroup name="Replace">
+        <object name="darkprotector:10" type="replace" x="384" y="96" width="32" height="32">
+            <properties>
+                <property name="Objects" value="No helm" />
+            </properties>
+        </object>
+    </objectgroup>
+</map>

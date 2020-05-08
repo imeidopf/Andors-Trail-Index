@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="14" height="10" tilewidth="32" tileheight="32">
+    <tileset firstgid="1" name="map_3" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_3.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_4" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_4.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_8" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_8.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_5" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_5.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_1" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_1.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_10" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_10.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_6" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_6.png" />
+    </tileset>
+    <tileset firstgid="513" name="map_9" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_9.png" />
+    </tileset>
+    <tileset firstgid="577" name="map_14" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_14.png" />
+    </tileset>
+    <tileset firstgid="641" name="map_13" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_13.png" />
+    </tileset>
+    <tileset firstgid="705" name="map_12" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_12.png" />
+    </tileset>
+    <tileset firstgid="769" name="map_0" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_0.png" />
+    </tileset>
+    <layer name="Ground" width="14" height="10">
+        <data encoding="base64" compression="zlib"> eJyzZWBgsMWDE7BgmHgKEKfiUAOSS0TD6VA6DYhjscjD5JLQcDqUXgTF6PLIcsg4HYc4IUyJvjgy9cHCGyYWh2YWNnOR9eHD8WTqs0VyRxyUDwCkhD8R
+</data>
+    </layer>
+    <layer name="Objects" width="14" height="10">
+        <data encoding="base64" compression="zlib"> eJxjYKAdeAXEdkyoYr/R5OczMjDYoKnJYYTQ+5ggGAZ0gOJmjBD5r0D+dyBWQdLnBFS7E4j3QjEykAJiaSD+BsQ/oGxkcB+qvgRJjA1KmwPxI6CddVD92IAkI4ItAWVXMELsgemHAZgdu4B2WqKZA9LLwoidDzOXD81vxABFqB57MvQiAwBQKBVz
+</data>
+    </layer>
+    <layer name="Objects_replace" width="14" height="10">
+        <data encoding="base64" compression="zlib"> eJxjYBg5gA2JrctMml5tqHpVEvRJMpJmx1AAALE2AKc=
+</data>
+    </layer>
+    <layer name="Above" width="14" height="10">
+        <data encoding="base64" compression="zlib"> eJxjYKAd0GQmT188I355FSxiOgT0gIA1EL+GqvsKxN+xqKnBYydM/w/CVmEF8gTsoCU4SCVzAJ15CAw=
+</data>
+    </layer>
+    <layer name="Above_replace" width="14" height="10">
+        <data encoding="base64" compression="zlib"> eJxjYBgFo4B4AAACMAAB
+</data>
+    </layer>
+    <layer name="Walkable" width="14" height="10">
+        <data encoding="base64" compression="zlib"> eJx7wsDA8GQYY2SATw5dDT59hPQ+wSH2BEkMnaaGf4jRR2l4AgB03GWJ
+</data>
+    </layer>
+    <layer name="Walkable_replace" width="14" height="10">
+        <data encoding="base64" compression="zlib"> eJxjYBgFo4B4AAACMAAB
+</data>
+    </layer>
+    <objectgroup name="Mapevents">
+        <object name="east" type="mapchange" x="320" y="256" width="32" height="32">
+            <properties>
+                <property name="map" value="blackwater_mountain31" />
+                <property name="place" value="east" />
+            </properties>
+        </object>
+        <object name="north" type="mapchange" x="0" y="128" width="32" height="64">
+            <properties>
+                <property name="map" value="blackwater_mountain52" />
+                <property name="place" value="south" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Spawn">
+        <object name="restless_dead_1" type="spawn" x="64" y="128" width="160" height="96">
+            <properties>
+                <property name="spawngroup" value="restless_dead_1" />
+            </properties>
+        </object>
+        <object name="restless_dead_1_1" type="spawn" x="256" y="128" width="160" height="96">
+            <properties>
+                <property name="spawngroup" value="restless_dead_1" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys" />
+    <objectgroup name="Replace">
+        <object name="quest:100" type="replace" x="96" y="128" width="160" height="96">
+            <properties>
+                <property name="Walkable" value="Walkable_replace" />
+            </properties>
+        </object>
+        <object name="quest:100" type="replace" x="96" y="96" width="160" height="128">
+            <properties>
+                <property name="Above" value="Above_replace" />
+                <property name="Objects" value="Objects_replace" />
+            </properties>
+        </object>
+    </objectgroup>
+</map>

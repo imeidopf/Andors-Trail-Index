@@ -1,2 +1,4 @@
 #!/usr/bin/env python3
-print("Hello, World!")
+from modules import questlist
+
+questlist.test("Hello, World!")

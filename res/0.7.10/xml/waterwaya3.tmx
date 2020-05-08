@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="22" height="8" tilewidth="32" tileheight="32">
+    <properties>
+        <property name="outdoors" value="1" />
+    </properties>
+    <tileset firstgid="1" name="map_5" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_5.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_19" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_19.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_16" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_16.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_6" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_6.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_14" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_14.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_4" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_4.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_17" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_17.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_10" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_10.png" />
+    </tileset>
+    <tileset firstgid="513" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <layer name="Ground" width="22" height="8">
+        <data encoding="base64" compression="zlib"> eJwzZ2BgMB/Fo5jO2BeIA3DQpJgDAHWgJnQ=
+</data>
+    </layer>
+    <layer name="Objects" width="22" height="8">
+        <data encoding="base64" compression="zlib"> eJydkEEKAjEMRX8v4Cm8y6wG5gpewu2Ap9LqxkVHx5XoRvAy/kKDP7UiGHhM2kn6fxIBDKQnB7IOcDGRG7mTKLV1Tyy5fa/yP5GRNR2+h745lLuFeDkGr5Njlv5H0ZjhvbT8opH38pbpjtUuLBI+54XoaW66kHvbyRNeZ1nNNcnZ+rqS60z/RvawCW/9BL+n1v5a+9S6OvL7J/G/IvsfvqzO5latM7mQLdmRFxCRP3w=
+</data>
+    </layer>
+    <layer name="Above" width="22" height="8">
+        <data encoding="base64" compression="zlib"> eJxjYMAEiVjESAW7iVSzH4fa/WhqYGxkPjXchswOwGEvqQCkDz0Mkc2mNoCZvZtEmpZuuQrE12hkBwjA/AAAuZQcDQ==
+</data>
+    </layer>
+    <layer name="Walkable" width="22" height="8">
+        <data encoding="base64" compression="zlib"> eJxTYWJgUMGCkQE2eVIwsjm4AD77sanBB4hxDzY2IXMJuReXmfjUkGsfMeFFDqA0romJO2piAJUUD3E=
+</data>
+    </layer>
+    <objectgroup name="Mapevents">
+        <object name="north" type="mapchange" x="192" y="0" width="96" height="32">
+            <properties>
+                <property name="map" value="waterwaya2" />
+                <property name="place" value="south" />
+            </properties>
+        </object>
+        <object name="east" type="mapchange" x="672" y="160" width="32" height="64">
+            <properties>
+                <property name="map" value="waterwaya5" />
+                <property name="place" value="west" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Spawn" visible="0">
+        <object name="waterwayacaterpillar" type="spawn" x="96" y="64" width="448" height="128">
+            <properties>
+                <property name="quantity" value="5" />
+                <property name="spawngroup" value="waterwayacaterpillar" />
+            </properties>
+        </object>
+        <object name="waterwayamushroom" type="spawn" x="576" y="160" width="32" height="64">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="waterwayamushroom" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys" />
+    <objectgroup name="Replace" />
+</map>

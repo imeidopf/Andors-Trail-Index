@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="11" height="8" tilewidth="32" tileheight="32">
+    <tileset firstgid="1" name="map_10" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_10.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_11" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_11.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_12" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_12.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_13" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_13.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_5" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_5.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_8" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_8.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_9" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_9.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_1" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_1.png" />
+    </tileset>
+    <tileset firstgid="513" name="map_3" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_3.png" />
+    </tileset>
+    <tileset firstgid="577" name="map_14" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_14.png" />
+    </tileset>
+    <tileset firstgid="641" name="map_0" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_0.png" />
+    </tileset>
+    <tileset firstgid="705" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <layer name="Ground" width="11" height="8">
+        <data encoding="base64" compression="zlib"> eJzjYWBg4CEBcxCBYWo5icCE7GtDwqSq5UCTd8ejlpBbviCp48KCeXCIAwBPQwkx
+</data>
+    </layer>
+    <layer name="Objects" width="11" height="8">
+        <data encoding="base64" compression="zlib"> eJxjYMAP+tH4X4G4C4h/Q/n/gdiRiYFhDyMDwwQ0td+AuBuI/wDxP5AAI0JuIpra70D8C4j/QvFmoFonoLmzoPKvkPT+QNLXhyQuicRGB7jk6pDEf0LpaqDYSyC2ZELVV4/HfFwAAK15FXw=
+</data>
+    </layer>
+    <layer name="Above" width="11" height="8">
+        <data encoding="base64" compression="zlib"> eJxjYCANrGQiXe0/Msy1xGMPOW6gtlpiAQAzMgU8
+</data>
+    </layer>
+    <layer name="Walkable" width="11" height="8">
+        <data encoding="base64" compression="zlib"> eJx7wsTA8GSQYxhA5+MDxKrFZhcuvYTciE0cAFFWOJs=
+</data>
+    </layer>
+    <objectgroup name="Mapevents">
+        <object name="south" type="mapchange" x="160" y="224" width="32" height="32">
+            <properties>
+                <property name="map" value="blackwater_mountain30" />
+                <property name="place" value="east" />
+            </properties>
+        </object>
+        <object name="rest" type="rest" x="32" y="128" width="32" height="32" />
+        <object name="east" type="mapchange" x="256" y="192" width="32" height="32">
+            <properties>
+                <property name="map" value="blackwater_mountain51" />
+                <property name="place" value="east" />
+            </properties>
+        </object>
+        <object name="sign_bwm31" type="sign" x="128" y="128" width="32" height="32" />
+    </objectgroup>
+    <objectgroup name="Spawn" />
+    <objectgroup name="Keys" />
+</map>

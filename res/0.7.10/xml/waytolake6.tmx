@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="27" height="17" tilewidth="32" tileheight="32">
+    <properties>
+        <property name="outdoors" value="1" />
+    </properties>
+    <tileset firstgid="1" name="map_3" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_3.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_4" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_4.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_1" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_1.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_5" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_5.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_6" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_6.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_9" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_9.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_22" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_22.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_8" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_8.png" />
+    </tileset>
+    <tileset firstgid="513" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <tileset firstgid="577" name="map_0" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_0.png" />
+    </tileset>
+    <tileset firstgid="641" name="map_7" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_7.png" />
+    </tileset>
+    <layer name="Ground" width="27" height="17">
+        <data encoding="base64" compression="zlib"> eJyzZWBgsB3Fo3gUDwqcgESjY0rNRcYpQJwIxFlQGh2nkmlvChaz0oA4CYizoTQ6jkWzl1i70rCYRYw+ZHvpGbfEum+w46JB4IaBwADPpHRV
+</data>
+    </layer>
+    <layer name="Objects" width="27" height="17">
+        <data encoding="base64" compression="zlib"> eJylU0EKwjAQTC9FfII3FV+jX7BVkVL0JujJx/iMPqD+waOefIOXagq7dBiSNNSBZd0kOzMb08wYk0n4sEgCm5FQjkrqq+NMLT5uSefpCv4y4cH6YWNk18bg8dbjt5Y8kfy18QmcV68VeWl1HrTGkfxxd+rvKTmn9dJ09zkEZWAvh98XG4cIvpCXUH9O9TGCrwXfbUr9MVp3xxnX21RMqHb1+7QQqYMrFq57CWnFYNqzj99IjNYy8O5nPb0biD2s49y4vgKts2T9X+bEfaJ6C1GQtuoXwDsUb+vxZfNO4kzaqq86+jYaqi/E+5S8dnAhdhT/zINzhLjYawx8c7xNd4cp9TTGD+ZTzvYbPxn3HGs4hzP8AHrGRMA=
+</data>
+    </layer>
+    <layer name="Above" width="27" height="17" opacity="0.9">
+        <data encoding="base64" compression="zlib"> eJy1lD0OwjAMhZ2KkRG4C4dhgAHRsiFxE/begFsw9RCIiWsQS1ixoviviE+yWqW132vsFOA/rBPAJs3PX+Tc5Q/5Giuh7hsjlXgpNZ7C+uT0sMuxZ3HMkTp/PoE5iOb9kuPA4ppjrPI99J3uHZH2lvK9e0xamnfLq+aT46mnMSo+IzMVpT4j3u8l6FlkBojoTFE/+xlaEqjT6t1YXS3uhifS8dajfwPvPXEzznhExwJ9n6D0g+tOAZ16hltgrQFKf7kuv2/Vs85Fa57OTGsQ7jW2wnq9J/je47v+AQZJSAY=
+</data>
+    </layer>
+    <layer name="Walkable" width="27" height="17" visible="0">
+        <data encoding="base64" compression="zlib"> eJzllMEOwCAIQ80O+xL//xt3NQTKK9ttJB5EKQWL+1pr/3Cdlvni+XlPYVWxmZ/iKAxiVa4YfzfxE+4u13hX5er6QnhSX8d10pNoVf8dLo6mMj3QGVGaIrPnzCatVWmbxFVaoO+p3u/N30T2Dv5Un5Na3FwTbKLbL9YDHoQklw==
+</data>
+    </layer>
+    <objectgroup name="Mapevents">
+        <object name="south" type="mapchange" x="160" y="512" width="96" height="32">
+            <properties>
+                <property name="map" value="waytolake3" />
+                <property name="place" value="north1" />
+            </properties>
+        </object>
+        <object name="west" type="mapchange" x="0" y="96" width="32" height="320">
+            <properties>
+                <property name="map" value="waytolake9" />
+                <property name="place" value="east" />
+            </properties>
+        </object>
+        <object name="lostfound1_0" type="script" x="576" y="448" width="32" height="32">
+            <properties>
+                <property name="when" value="enter" />
+            </properties>
+        </object>
+        <object name="lostfound2_0" type="script" x="672" y="384" width="32" height="32">
+            <properties>
+                <property name="when" value="enter" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Spawn" visible="0">
+        <object name="plaguespider" type="spawn" x="544" y="64" width="320" height="256">
+            <properties>
+                <property name="quantity" value="3" />
+                <property name="spawngroup" value="plaguespider_2" />
+            </properties>
+        </object>
+        <object name="plaguespider_3_4" type="spawn" x="224" y="352" width="352" height="128">
+            <properties>
+                <property name="quantity" value="4" />
+                <property name="spawngroup" value="plaguespider_3" />
+            </properties>
+        </object>
+        <object name="plaguespider_3" type="spawn" x="192" y="32" width="384" height="256">
+            <properties>
+                <property name="quantity" value="6" />
+                <property name="spawngroup" value="plaguespider_3" />
+            </properties>
+        </object>
+        <object name="plaguespider_2" type="spawn" x="64" y="96" width="128" height="320">
+            <properties>
+                <property name="quantity" value="3" />
+                <property name="spawngroup" value="plaguespider_2" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys" />
+</map>

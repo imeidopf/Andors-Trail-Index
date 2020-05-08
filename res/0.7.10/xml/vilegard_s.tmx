@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="21" height="20" tilewidth="32" tileheight="32">
+    <properties>
+        <property name="outdoors" value="1" />
+    </properties>
+    <tileset firstgid="1" name="map_5" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_5.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_21" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_21.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_22" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_22.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_36" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_36.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_19" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_19.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_7" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_7.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_3" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_3.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_6" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_6.png" />
+    </tileset>
+    <tileset firstgid="513" name="map_4" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_4.png" />
+    </tileset>
+    <tileset firstgid="577" name="map_1" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_1.png" />
+    </tileset>
+    <tileset firstgid="641" name="map_9" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_9.png" />
+    </tileset>
+    <tileset firstgid="705" name="map_20" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_20.png" />
+    </tileset>
+    <tileset firstgid="769" name="map_18" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_18.png" />
+    </tileset>
+    <tileset firstgid="833" name="map_14" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_14.png" />
+    </tileset>
+    <tileset firstgid="897" name="map_8" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_8.png" />
+    </tileset>
+    <tileset firstgid="961" name="map_0" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_0.png" />
+    </tileset>
+    <tileset firstgid="1025" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <layer name="Ground" width="21" height="20">
+        <data encoding="base64" compression="zlib"> eJzV0dEJgDAMBNBmFrtDf3QBt1HpUDqUsyhIoVzD0VSE+vEIhdxRSHDOBcVaQcsxSwVr5xf/3CtYO4/MBu/E2nlmIrwTa2cuvsz3YJSSdR+zk5RYp7aP2UFKrFPbx6y/5yzPTFinh11LtgfsZq3YzVqxm7X6683QBYJYbKE=
+</data>
+    </layer>
+    <layer name="Objects" width="21" height="20">
+        <data encoding="base64" compression="zlib"> eJyVVDFOAzEQ9NlUfAKKe0J00qGcTtTXQE2kVDwhIuIBp9RUPAAqWjqqQ3kCj0mRAm/w6MYb+xJWWtlee8ez6/W2xpjaa18Y01ljtl5v/fwcEZ82+GMUaWgOzP+IYM3DvPQ6FON6Tzx/zuS5LWLchkbNcwhnH4L91cVrjIi3sjGejGsbY1ZhvVC8FubYLr45niVh3gdem0QO2FaSnXER90D5vHN5v9qMudGC/Z72d35+Y2L9LsYYIeyjefXqPuE59xybCb0gnzZNN8pBF7hIXS3J9yoT61PGjrc6xGTHmF8o1usT9bry+88Zngfc4N8l/tNKYVfqzEb9ARbUlcilwhG/R7LJuwD6zY3++g8wT/H58mc/XbouuDYQb+oPyMi5he5O5BW1KTwkL9yv9D0Q4f7ujrEg6Ck12WYUr+6L6K974qrfDGdnE/1S76VqQQTvvbR/75PKJce8tvkc420+XOzbF9O4qXtQl+gBusf9Ato0U2k=
+</data>
+    </layer>
+    <layer name="Above" width="21" height="20">
+        <data encoding="base64" compression="zlib"> eJylVDEOwjAMDLAx8ALES4r4CIiJN7QDFQNfy8jYT/ALYpGTrJOdROlJVVv1fHZyl8ZNCJ90adzo3cOUeJHqF0NPcG3UHDMPulp/zZzWTGvw3f3v0dDt7QVND0tFV+qxX+Det32zAF699qU2VwusfRRwBiycjG8yU2vmgBZ+LXM9GZ2Ic2yc+5V47+T5rPiolSxoXx6k6e2r1Byc/pwFfUYZPWdA63iZ8ua2vEMu8E+RmgtxuI/WLXnH/5RaRhnPzIWHApx/rPGcnodgr7nUb589LPmjwRxPl3V4L2vgdVhz/QCjW0R4
+</data>
+    </layer>
+    <layer name="Walkable" width="21" height="20" visible="0">
+        <data encoding="base64" compression="zlib"> eJzVUTkOACAIc+Ap/P+NupAQAqJQB5u4gNYeTGPwOgIm3EFzavysczff6ehwenuZ6Z2HiM/uu/C8aI2eh26fkU9E9y95b95VddrZTRcRb4ZKvq9yRnZT8Xiamb1b9Zz9h8g2y2ICCEgteQ==
+</data>
+    </layer>
+    <objectgroup name="Mapevents" visible="0">
+        <object name="west" type="mapchange" x="0" y="544" width="32" height="32">
+            <properties>
+                <property name="map" value="vilegard_sw" />
+                <property name="place" value="east" />
+            </properties>
+        </object>
+        <object name="tavern" type="mapchange" x="352" y="384" width="32" height="32">
+            <properties>
+                <property name="map" value="vilegard_tavern" />
+                <property name="place" value="entrance" />
+            </properties>
+        </object>
+        <object name="chapel" type="mapchange" x="288" y="128" width="32" height="32">
+            <properties>
+                <property name="map" value="vilegard_chapel" />
+                <property name="place" value="entrance" />
+            </properties>
+        </object>
+        <object name="armorer" type="mapchange" x="544" y="352" width="32" height="32">
+            <properties>
+                <property name="map" value="vilegard_armorer" />
+                <property name="place" value="entrance" />
+            </properties>
+        </object>
+        <object name="smith" type="mapchange" x="480" y="544" width="32" height="32">
+            <properties>
+                <property name="map" value="vilegard_smith" />
+                <property name="place" value="entrance" />
+            </properties>
+        </object>
+        <object name="north" type="mapchange" x="64" y="0" width="64" height="32">
+            <properties>
+                <property name="map" value="vilegard_n" />
+                <property name="place" value="south" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Spawn" visible="0">
+        <object name="fallhaven_priest" type="spawn" x="224" y="192" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="fallhaven_priest" />
+            </properties>
+        </object>
+        <object name="vilegard_villager_4" type="spawn" x="64" y="288" width="160" height="192">
+            <properties>
+                <property name="spawngroup" value="vilegard_villager_4" />
+            </properties>
+        </object>
+        <object name="vilegard_villager_5" type="spawn" x="416" y="128" width="192" height="160">
+            <properties>
+                <property name="spawngroup" value="vilegard_villager_5" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys" visible="0" />
+</map>

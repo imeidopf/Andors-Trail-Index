@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="16" tilewidth="32" tileheight="32">
+    <properties>
+        <property name="outdoors" value="1" />
+    </properties>
+    <tileset firstgid="1" name="map_5" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_5.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_18" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_18.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_6" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_6.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_17" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_17.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_22" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_22.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_20" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_20.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_1" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_1.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_14" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_14.png" />
+    </tileset>
+    <tileset firstgid="513" name="map_4" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_4.png" />
+    </tileset>
+    <tileset firstgid="577" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <layer name="Ground" width="20" height="16">
+        <data encoding="base64" compression="zlib"> eJwzZ2BgMKciLsGCcYmPqhtVN6pucKkrw4IpMQ9bGbFjEPkXAHR5hHE=
+</data>
+    </layer>
+    <layer name="Objects" width="20" height="16">
+        <data encoding="base64" compression="zlib"> eJytktsNwzAIRaELpO82GaXqLpkkf/6pspUH6EzFKkjEBdWxg3RFkMjxxXgCgGlDRdIBAS4k4PpF3+8Cpb6BFDgPzOhhGbPzf+rT9aw4otQz4tdXx7XHy2Xx4gp/JTyJyPrH0zN7POH0Bi80+BuxfV65vyva8+Y7LfF3pHxTb6fWX+DzYzazxetW+DtRvjvz1tzfOfnEbfYhoedu4T3gVx5P3qLs3OLtDdX6e+4APtimmn4=
+</data>
+    </layer>
+    <layer name="Above" width="20" height="16">
+        <data encoding="base64" compression="zlib"> eJxjYBg6gI9xoF1AGZDG4358cqOA+mCop6VRQB0AACm/AFc=
+</data>
+    </layer>
+    <layer name="Walkable" width="20" height="16" visible="0">
+        <data encoding="base64" compression="zlib"> eJxLYWJgSKEiBgFkNjmAEr2kmE9re3DZS6ocLcFgiSdqm0UN87CZgctcUuyjlvvQ7R6oNEQtQIz7cZU55NoHAE1AElU=
+</data>
+    </layer>
+    <objectgroup name="Mapevents">
+        <object name="south" type="mapchange" x="160" y="480" width="448" height="32">
+            <properties>
+                <property name="map" value="loneford2" />
+                <property name="place" value="north2" />
+            </properties>
+        </object>
+        <object name="west2" type="mapchange" x="0" y="32" width="32" height="448">
+            <properties>
+                <property name="map" value="fields7" />
+                <property name="place" value="east2" />
+            </properties>
+        </object>
+        <object name="east2" type="mapchange" x="608" y="32" width="32" height="256">
+            <properties>
+                <property name="map" value="loneford11" />
+                <property name="place" value="west2" />
+            </properties>
+        </object>
+        <object name="east" type="mapchange" x="608" y="320" width="32" height="160">
+            <properties>
+                <property name="map" value="loneford11" />
+                <property name="place" value="west" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Spawn" />
+    <objectgroup name="Keys" />
+</map>

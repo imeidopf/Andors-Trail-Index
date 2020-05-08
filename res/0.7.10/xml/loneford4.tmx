@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="13" height="10" tilewidth="32" tileheight="32">
+    <tileset firstgid="1" name="map_21" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_21.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_7" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_7.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_10" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_10.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_17" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_17.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_11" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_11.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_31" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_31.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_0" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_0.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_14" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_14.png" />
+    </tileset>
+    <tileset firstgid="513" name="map_3" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_3.png" />
+    </tileset>
+    <tileset firstgid="577" name="map_8" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_8.png" />
+    </tileset>
+    <tileset firstgid="641" name="map_12" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_12.png" />
+    </tileset>
+    <tileset firstgid="705" name="map_16" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_16.png" />
+    </tileset>
+    <tileset firstgid="769" name="map_1" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_1.png" />
+    </tileset>
+    <tileset firstgid="833" name="map_9" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_9.png" />
+    </tileset>
+    <tileset firstgid="897" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <layer name="Ground" width="13" height="10">
+        <data encoding="base64" compression="zlib"> eJzjYWBg4CEDe5CAYXo8ScAwPU9JwNTQw8+IG1NqjwcRdiDb5QENC1LsAanvwoOf4hAHAIb4PaE=
+</data>
+    </layer>
+    <layer name="Objects" width="13" height="10">
+        <data encoding="base64" compression="zlib"> eJxjYCAPSAPxfCQaBF4yQej5aPIwIAPExYwQOgGothmIW4C4FYgTmVDlkUERUMwSKB8OxLZAtj0QOwBxFBNEHCaPDNYykuevD0B9n4D4BQMq/RlqB7nmEmMHul24ADXcgA4AlvkcBQ==
+</data>
+    </layer>
+    <layer name="Above" width="13" height="10">
+        <data encoding="base64" compression="zlib"> eJxjYCAPrGQcGD2WTPSxBxn4MdPGHlzmogN5ItVRAgBrCAWm
+</data>
+    </layer>
+    <layer name="Walkable" width="13" height="10">
+        <data encoding="base64" compression="zlib"> eJxbwszAsGQQYxBApomRJwWg6yHkFmrYQ4q/ybWHGHORMQC7sjgb
+</data>
+    </layer>
+    <objectgroup name="Mapevents">
+        <object name="south" type="mapchange" x="224" y="288" width="32" height="32">
+            <properties>
+                <property name="map" value="loneford2" />
+                <property name="place" value="lonefordhouse2" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Spawn">
+        <object name="Talion" type="spawn" x="192" y="128" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="Talion" />
+            </properties>
+        </object>
+        <object name="loneford_chapelguard" type="spawn" x="32" y="96" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="loneford_chapelguard" />
+            </properties>
+        </object>
+        <object name="loneford_chapelguard_1" type="spawn" x="352" y="96" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="loneford_chapelguard" />
+            </properties>
+        </object>
+        <object name="Buceth" type="spawn" x="96" y="96" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="Buceth" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys" />
+</map>

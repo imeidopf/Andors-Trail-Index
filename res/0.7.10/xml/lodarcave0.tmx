@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="15" tilewidth="32" tileheight="32">
+    <tileset firstgid="1" name="map_17" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_17.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_0" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_0.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_31" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_31.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_32" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_32.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_19" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_19.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_1" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_1.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_3" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_3.png" />
+    </tileset>
+    <tileset firstgid="513" name="map_5" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_5.png" />
+    </tileset>
+    <tileset firstgid="577" name="map_6" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_6.png" />
+    </tileset>
+    <tileset firstgid="641" name="map_14" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_14.png" />
+    </tileset>
+    <tileset firstgid="705" name="map_4" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_4.png" />
+    </tileset>
+    <tileset firstgid="769" name="map_7" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_7.png" />
+    </tileset>
+    <tileset firstgid="833" name="map_18" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_18.png" />
+    </tileset>
+    <tileset firstgid="897" name="map_23" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_23.png" />
+    </tileset>
+    <tileset firstgid="961" name="map_9" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_9.png" />
+    </tileset>
+    <tileset firstgid="1025" name="map_10" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_10.png" />
+    </tileset>
+    <tileset firstgid="1089" name="map_8" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_8.png" />
+    </tileset>
+    <layer name="Ground" width="20" height="15">
+        <data encoding="base64" compression="zlib"> eJyVklsOgzAMBHOjNFAKXIO7ttAHbY9WR3Iky1pj92MEipzJJtqcUsrE2SA7oLlCDAbjgauAuRPREReDiWd17qL21bmZfYvDBHJ3YC7qW0BuNDPznSO+CM3nZbwSD+Kl1vugT75Dda38vwsn2hvx3YiN/9/EN+DTb6jf9c7fj1iTHUS+o9w141Nka31sHfzXZ/VRd1D65P3QGuqj1RePnvHOiLi8M/RZP3pnUe4=
+</data>
+    </layer>
+    <layer name="Objects" width="20" height="15">
+        <data encoding="base64" compression="zlib"> eJxjYKAN+APEaxgh7N9ArMaM4OMDIDWnmTHFGYHi9kCamQnCVweqeUWEO74A8Rk0u62AmAnIvwrl90HNdABiWyR3wNyOrA8EIpkR6mAgF0pnY3EDTO0JqJk/kczqxqI+E0rvgLmBCSH3EUqfBPkByj6G5Lf10LD7jxaGkUhqbIDYDsrOx2I/TA0DVB0LC3Y1qWh8kJsagPgB1K5CJHF0cAstLawE8n8yovrlGJI5txkR8fQATe8qLOkqE1MILgYKT2R/26Cp24EjnUoyYYoh+42JAbtfQQA9rGAgHIuZMLV/mCDhCQKO0DRshakcDkD+Q/cLSAwWjrB4B6VHJ2aEWceIyJf4ACwtwbwSy4LpDmoBAHPiMa0=
+</data>
+    </layer>
+    <layer name="Objects_after" width="20" height="15">
+        <data encoding="base64" compression="zlib"> eJxjYBgFQxHsYRxoF2ACXG6ihlvvD0L/ggC63wZjvAwnAACGyQSS
+</data>
+    </layer>
+    <layer name="Above" width="20" height="15">
+        <data encoding="base64" compression="zlib"> eJxjYKANOEhFfSCx+YzkmYVNXybpRoEBLjcQY94JEuyxI0EtOtiDw43YwhWXm4hxKzY/w+zIBeIneOILm1uwmQcTA5mnx4wQzyVCL7YwBInB/AYzA5tfccUnrrSJD+BLu/j8jAvgywe4/DycAABGbRcB
+</data>
+    </layer>
+    <layer name="Above_after" width="20" height="15">
+        <data encoding="base64" compression="zlib"> eJxjYBgFo4A64OBAO2AAwEj080ACAOeiAYM=
+</data>
+    </layer>
+    <layer name="Walkable" width="20" height="15" visible="0">
+        <data encoding="base64" compression="zlib"> eJx7wsDA8GQEY3RAjHpCZhBrJj516OLY1OKyi5AbiXE3Nr2EzCNWnlRxcvXRyzx8fiWkj1SziPEXMeoZGIi3jxQ7qGEWPgwAnKe/fQ==
+</data>
+    </layer>
+    <objectgroup name="Mapevents">
+        <object name="up lodarcave0" type="mapchange" x="448" y="384" width="32" height="32">
+            <properties>
+                <property name="map" value="lodar3" />
+                <property name="place" value="down lodar3" />
+            </properties>
+        </object>
+        <object name="down lodarcave0" type="mapchange" x="224" y="96" width="32" height="32">
+            <properties>
+                <property name="map" value="lodarcave1" />
+                <property name="place" value="up lodarcave1" />
+            </properties>
+        </object>
+        <object name="sign_lodarcave0" type="sign" x="256" y="192" width="160" height="224" />
+    </objectgroup>
+    <objectgroup name="Spawn" visible="0">
+        <object name="hirathil0" type="spawn" x="64" y="160" width="96" height="224">
+            <properties>
+                <property name="spawngroup" value="hirathil0" />
+            </properties>
+        </object>
+        <object name="hirathil0_1" type="spawn" x="32" y="96" width="160" height="160">
+            <properties>
+                <property name="spawngroup" value="hirathil0" />
+            </properties>
+        </object>
+        <object name="hirathil0_2" type="spawn" x="448" y="160" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="hirathil0" />
+            </properties>
+        </object>
+        <object name="hirathil0_3" type="spawn" x="480" y="128" width="32" height="64">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="hirathil0" />
+            </properties>
+        </object>
+        <object name="hirathil0_4" type="spawn" x="544" y="192" width="64" height="192">
+            <properties>
+                <property name="spawngroup" value="hirathil0" />
+            </properties>
+        </object>
+        <object name="hirathil0_5" type="spawn" x="512" y="384" width="32" height="64">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="hirathil0" />
+            </properties>
+        </object>
+        <object name="hirathil0_6" type="spawn" x="192" y="160" width="224" height="256">
+            <properties>
+                <property name="spawngroup" value="hirathil0" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Spawn_bats" visible="0">
+        <object name="cavebat1" type="spawn" x="32" y="160" width="416" height="256">
+            <properties>
+                <property name="quantity" value="4" />
+                <property name="spawngroup" value="cavebat1" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys" />
+    <objectgroup name="Replace">
+        <object name="lodar2:50" type="replace" x="416" y="192" width="32" height="64">
+            <properties>
+                <property name="Above" value="Above_after" />
+                <property name="Objects" value="Objects_after" />
+            </properties>
+        </object>
+        <object name="lodar2:50" type="replace" x="320" y="128" width="32" height="64">
+            <properties>
+                <property name="Above" value="Above_after" />
+                <property name="Objects" value="Objects_after" />
+            </properties>
+        </object>
+        <object name="lodar2:50" type="replace" x="320" y="224" width="32" height="64">
+            <properties>
+                <property name="Above" value="Above_after" />
+                <property name="Objects" value="Objects_after" />
+            </properties>
+        </object>
+        <object name="lodar2:50" type="replace" x="384" y="288" width="32" height="64">
+            <properties>
+                <property name="Above" value="Above_after" />
+                <property name="Objects" value="Objects_after" />
+            </properties>
+        </object>
+        <object name="lodar2:50" type="replace" x="256" y="288" width="32" height="64">
+            <properties>
+                <property name="Above" value="Above_after" />
+                <property name="Objects" value="Objects_after" />
+            </properties>
+        </object>
+        <object name="lodar2:50" type="replace" x="224" y="192" width="32" height="64">
+            <properties>
+                <property name="Above" value="Above_after" />
+                <property name="Objects" value="Objects_after" />
+            </properties>
+        </object>
+    </objectgroup>
+</map>

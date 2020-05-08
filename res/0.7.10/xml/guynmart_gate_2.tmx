@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="8" height="8" tilewidth="32" tileheight="32">
+    <tileset firstgid="1" name="map_23" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_23.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_25" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_25.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_12" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_12.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_19" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_19.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_20" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_20.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <layer name="Ground" width="8" height="8">
+        <data encoding="base64" compression="zlib"> eJyzYmBgsCKAS3BgmHwpDgyTX4wDw8wmVx6f3GKoGx4TwAD60yGx
+</data>
+    </layer>
+    <layer name="Objects" width="8" height="8">
+        <data encoding="base64" compression="zlib"> eJxjYCAOuOBgg0AZAb3lUHoOEEswQmhKQQUB+UoizQEAAhEDuA==
+</data>
+    </layer>
+    <layer name="Above" width="8" height="8">
+        <data encoding="base64" compression="zlib"> eJxjYKAclJGgtpgK9oFAFQH5aiLNAQDN4AHf
+</data>
+    </layer>
+    <layer name="Walkable" width="8" height="8" visible="0">
+        <data encoding="base64" compression="zlib"> eJxLYWRgSKEDhgF0NjIfHeCTJ1YvIQwAvTgQ+A==
+</data>
+    </layer>
+    <objectgroup name="Mapevents">
+        <object name="west" type="mapchange" x="0" y="192" width="32" height="32">
+            <properties>
+                <property name="map" value="guynmart" />
+                <property name="place" value="gate" />
+            </properties>
+        </object>
+        <object name="guynmart_s_gate1" type="script" x="160" y="160" width="32" height="64" />
+    </objectgroup>
+    <objectgroup name="Spawn">
+        <object name="guynmart_gateguard" type="spawn" x="64" y="96" width="160" height="128">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="guynmart_gateguard" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys" />
+    <objectgroup name="Replace" />
+</map>
