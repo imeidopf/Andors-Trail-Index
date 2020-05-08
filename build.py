@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-from modules import questlist
+from modules import questlist, monsterlist, itemlist, itemcategories
 
-questlist.build()
-print("Finished building resources for Questlist.")
+appVersion = '0.7.10'
+
+questlist.build(appVersion)
+monsterlist.build(appVersion)
+itemlist.build(appVersion)
+itemcategories.build(appVersion)
