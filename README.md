@@ -9,7 +9,10 @@ Here's a checklist of what I will be working on:
     + Monsters
     + Weapons
     + Consumables
-    + ... and more! (Will complete this list later. This is just the initial README)
+    + ... and more!
+* Create a website for all to view the new game content.
+* Figure out a way to make the build process more dynamic so future releases of the game can be uploaded to the system.
+* ... and more! (Will complete this list later. This is just the initial README)
 
 # Note
 There are some files that will not be present until this project is completed, for security reasons. I will be uploading to personal servers and a website for all to view. Stay tuned!
