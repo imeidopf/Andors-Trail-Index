@@ -12,4 +12,4 @@ Here's a checklist of what I will be working on:
     + ... and more! (Will complete this list later. This is just the initial README)
 
 # Note
-There are some files that will not be present until this project is completed. I will be uploading to personal servers and a website for all to view. Stay tuned!
+There are some files that will not be present until this project is completed, for security reasons. I will be uploading to personal servers and a website for all to view. Stay tuned!
