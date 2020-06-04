@@ -12,4 +12,4 @@ questlist.build(appVersion)
 #itemcategories.build(appVersion)
 
 # Done!
-#print("All resources have been built!")
+print("All resources have been built!")
