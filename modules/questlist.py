@@ -73,7 +73,7 @@ def build(appVersion):
                         rewardExp = stage['rewardExperience']
 
                     # If the stage is not the final stage for the quest, it will not have this key. Set it to 0 for sake of query.
-                    if 'finishesQuest' not in stage:
+                    if 'finishesQuest' not in stage or stage['finishesQuest'] == 0:
                         finishesQuest = 0
                     else:
                         finishesQuest = 1
@@ -89,11 +89,12 @@ def build(appVersion):
             continue
 
     try:
-        # pyperclip.copy(queryLineStarterStage + queryInsertAllStages + ';')
         cursor.execute(queryLineStarterQuest + queryInsertAllQuests + ';') # Run INSERT statement with all quests.
+        print("Inserting Quest list into database...")
         cursor.execute(queryLineStarterStage + queryInsertAllStages + ';') # Run INSERT statement with all stages.
+        print("Inserting Stage list into database...")
         con.commit()
         con.close()
-        print("Finished building resources for Quests...")
+        print("Finished Quest data generation...")
     except mysql.connector.Error as err:
         print("MySQL Error: {}".format(err))

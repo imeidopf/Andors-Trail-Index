@@ -6,10 +6,14 @@ from modules import questlist, monsterlist, itemlist, itemcategories
 appVersion = '0.7.10'
 
 # Run each module and build out the database material.
+print('Starting Quest data generation...')
 questlist.build(appVersion)
-#monsterlist.build(appVersion)
-#itemlist.build(appVersion)
-#itemcategories.build(appVersion)
+# print('Starting Monster data generation...')
+# monsterlist.build(appVersion)
+# print('Starting Item data generation...')
+# itemlist.build(appVersion)
+# print('Starting Item Category data generation...')
+# itemcategories.build(appVersion)
 
 # Done!
 print("All resources have been built!")
