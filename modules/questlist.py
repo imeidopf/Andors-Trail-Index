@@ -26,6 +26,8 @@ def build(appVersion):
     queryLineStarterStage = 'INSERT INTO stage (shortName, progress, logText, exp, finishesQuest) VALUES '
     isFinalFile = False
 
+    print('Starting Quest data generation...')
+
     # Iterate over all found files in the glob.
     for file in globPath:
         filename = os.path.basename(file) # The 'file' variable is a string with a path ('/raw/0.7.10/raw/questlist.json') and we need just the filename.
@@ -89,7 +91,7 @@ def build(appVersion):
             continue
 
     try:
-        cursor.execute(queryLineStarterQuest + queryInsertAllQuests + ';') # Run INSERT statement with all quests.
+        cursor.execute(queryLineStarterQuest + queryInsertAllQuests + 'ON DUPLICATE KEY UPDATE questID=questID;') # Run INSERT statement with all quests.
         print("Inserting Quest list into database...")
         cursor.execute(queryLineStarterStage + queryInsertAllStages + ';') # Run INSERT statement with all stages.
         print("Inserting Stage list into database...")
