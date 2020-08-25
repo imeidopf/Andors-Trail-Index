@@ -16,4 +16,18 @@
 --     FOREIGN KEY (questShortName) REFERENCES quest(questShortName)
 -- );
 
-SELECT * FROM quest ORDER BY questID ASC;
+-- CREATE TABLE monster (
+--     monsterID int(5) NOT NULL AUTO_INCREMENT,
+--     monsterName varchar(50) NOT NULL,
+--     monsterFriendlyName varchar(50) NOT NULL,
+--     maxHP int,
+--     maxAP int,
+--     monsterClass char(50),
+--     dtoplistID char(50),
+--     attackCost int,
+--     attackChance int,
+--     criticalSkill int,
+--     criticalMultiplier decimal(2,1),
+--     blockChance int,
+--     UNIQUE KEY (monsterID)
+-- )

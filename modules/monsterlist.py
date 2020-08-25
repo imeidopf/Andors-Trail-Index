@@ -23,9 +23,13 @@ def build(appVersion):
     queryInsertAllMonsters = ''
     queryLineStarterMonster = ''
     isFinalFile = False
+    count = 0
 
+    print('Starting Monster data generation...')
+
+    # Iterate over all found files in the glob.
     for file in globPath:
         count += 1
 
     print("Monsterlist Files Found: " + str(count))
-    print("Finished building resources for Monsters.")
+    print("Finished Monster data generation...")

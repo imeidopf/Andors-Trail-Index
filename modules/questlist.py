@@ -1,8 +1,4 @@
-import os
-import glob
-import json
-import configparser
-import mysql.connector
+import os, glob, json, configparser, mysql.connector
 
 def build(appVersion):
     resPath = "res/{}/raw/".format(appVersion) # Path to resource files from the APK.
