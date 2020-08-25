@@ -22,8 +22,8 @@ def build(appVersion):
     # Generic query variables used to build out the MySQL queries.
     queryInsertAllQuests = ''
     queryInsertAllStages = ''
-    queryLineStarterQuest = 'INSERT INTO quest (shortName, questName, showInLog) VALUES '
-    queryLineStarterStage = 'INSERT INTO stage (shortName, progress, logText, exp, finishesQuest) VALUES '
+    queryLineStarterQuest = 'INSERT INTO quest (questShortName, questName) VALUES '
+    queryLineStarterStage = 'INSERT INTO stage (questShortName, progress, logText, rewardExp, finishesQuest) VALUES '
     isFinalFile = False
 
     print('Starting Quest data generation...')
@@ -54,9 +54,9 @@ def build(appVersion):
 
                 # Check that the current quest is NOT the last quest in the final file in 'globPath'.
                 if (isFinalFile and quest['id'] != fileData[-1]['id']) or not isFinalFile:
-                    queryInsertAllQuests += '(\'%s\', \'%s\', %s), ' % (quest['id'], questName, quest['showInLog'])
+                    queryInsertAllQuests += '(\'%s\', \'%s\'), ' % (quest['id'], questName)
                 else:
-                    queryInsertAllQuests += '(\'%s\', \'%s\', %s)' % (quest['id'], questName, quest['showInLog'])
+                    queryInsertAllQuests += '(\'%s\', \'%s\')' % (quest['id'], questName)
 
                 # Iterate over the quest for its stages.
                 for stage in quest['stages']:
@@ -93,6 +93,7 @@ def build(appVersion):
     try:
         cursor.execute(queryLineStarterQuest + queryInsertAllQuests + 'ON DUPLICATE KEY UPDATE questID=questID;') # Run INSERT statement with all quests.
         print("Inserting Quest list into database...")
+        cursor.execute("TRUNCATE TABLE stage;") # Needed because a method to prevent duplicate stages hasn't been created yet.
         cursor.execute(queryLineStarterStage + queryInsertAllStages + ';') # Run INSERT statement with all stages.
         print("Inserting Stage list into database...")
         con.commit()
