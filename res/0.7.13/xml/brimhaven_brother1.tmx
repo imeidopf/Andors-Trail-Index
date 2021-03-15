@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="10" height="8" tilewidth="32" tileheight="32">
+    <tileset firstgid="1" name="map_20" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_20.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_22" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_22.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_5" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_5.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_19" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_19.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_0" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_0.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_18" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_18.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_1" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_1.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_4" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_4.png" />
+    </tileset>
+    <tileset firstgid="513" name="map_16" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_16.png" />
+    </tileset>
+    <tileset firstgid="577" name="map_3" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_3.png" />
+    </tileset>
+    <tileset firstgid="641" name="map_10" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_10.png" />
+    </tileset>
+    <tileset firstgid="705" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <tileset firstgid="769" name="map_11" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_11.png" />
+    </tileset>
+    <tileset firstgid="833" name="map_12" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_12.png" />
+    </tileset>
+    <tileset firstgid="897" name="map_8" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_8.png" />
+    </tileset>
+    <layer name="Ground" width="10" height="8">
+        <data encoding="base64" compression="zlib"> eJwzZmBgMCYSpxPAMHUZBDBMXSYaPoOEM/GoQ8cwtxFSlw61n5A6kJrtOHAmGh8A5Osgzg==
+</data>
+    </layer>
+    <layer name="Objects" width="10" height="8">
+        <data encoding="base64" compression="zlib"> eJxjYMAOYpgxxUIZGRisGSE0DMQyQ8SQQRiQ78EEoRcDaXcgjgOqs4GKw8AiIH83kL8PyGaCyk+F2rEVyczFQPYrJH0zGRB2ZkHFQHoZkNTA2CDx3UCzs4Hss1AxMSC9ihFhFgyA1OUwoLqREAAAXJ0Qrw==
+</data>
+    </layer>
+    <layer name="Above" width="10" height="8">
+        <data encoding="base64" compression="zlib"> eJxjYCAeaDIOD3XziVRHDAAA0YIBcw==
+</data>
+    </layer>
+    <layer name="Walkable" width="10" height="8">
+        <data encoding="base64" compression="zlib"> eJx7wsTA8GQAMQigs2EAXR0uQIoaQurQ1eJzLwgDADRrL58=
+</data>
+    </layer>
+    <objectgroup name="Mapevents">
+        <object name="entrance" type="mapchange" x="192" y="224" width="32" height="32">
+            <properties>
+                <property name="map" value="brimhaven3" />
+                <property name="place" value="brother1" />
+            </properties>
+        </object>
+        <object name="brv_brother1" type="container" x="32" y="192" width="32" height="32" />
+    </objectgroup>
+    <objectgroup name="Spawn">
+        <object name="watchdog" type="spawn" x="256" y="128" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="brv_brother1_watchdog" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys" />
+</map>

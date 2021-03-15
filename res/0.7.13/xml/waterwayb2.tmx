@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="22" height="13" tilewidth="32" tileheight="32">
+    <properties>
+        <property name="outdoors" value="1" />
+    </properties>
+    <tileset firstgid="1" name="map_6" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_6.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_19" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_19.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_16" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_16.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_17" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_17.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_5" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_5.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_4" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_4.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_10" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_10.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_7" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_7.png" />
+    </tileset>
+    <tileset firstgid="513" name="map_20" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_20.png" />
+    </tileset>
+    <tileset firstgid="577" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <layer name="Ground" width="22" height="13">
+        <data encoding="base64" compression="zlib"> eJzjYGBg4ADiHCDOR6M5qIBpYeYoHsXIGFvaJZWGmZWPxqbUbHQ3Usu92NxPbTOR3U8pRg9nABV5LKA=
+</data>
+    </layer>
+    <layer name="Objects" width="22" height="13">
+        <data encoding="base64" compression="zlib"> eJy1klEKwjAQREfxDBU/hf4o9WBCwT9/PUKPZAKeoCcygR0Y1g0VtANhk93sy5AEABJi5TK2G+BY4rOMm+UfJTdafXC1k9Wvlo+YVN0H6R+FMwe1bF5fjZ7O4lnOiPbdHVvnLbZKfWeJVZOrJeF4tt4F1cmc5+xtXe/00Lgzsv2Z6om8qh0+c3C9yuZ7qne+MzULq7f5xfZ5v8r2fpekntOXPUviO1YNiP/uP5RW4q7ll+z8Y6S4fgNdWU3I
+</data>
+    </layer>
+    <layer name="Above" width="22" height="13">
+        <data encoding="base64" compression="zlib"> eJxjY2IgCRwB4gME5I6QZiSKfmSaHL345A/gUEeMXlIAGwlheoAM80mx+wgO8cEKkOOJEE1LN1DTrANUNG+4AADqkhbx
+</data>
+    </layer>
+    <layer name="Walkable" width="22" height="13">
+        <data encoding="base64" compression="zlib"> eJxLYWJgSMGDQQCfPDkYHeCTJ9dMfGaT6i9SzKaWu3HZR0vzSTEXPSypZS4t3TuKBw8GAIgVVUU=
+</data>
+    </layer>
+    <objectgroup name="Mapevents">
+        <object name="north" type="mapchange" x="256" y="0" width="32" height="32">
+            <properties>
+                <property name="map" value="waterwayb3" />
+                <property name="place" value="south" />
+            </properties>
+        </object>
+        <object name="east" type="mapchange" x="672" y="128" width="32" height="128">
+            <properties>
+                <property name="map" value="waterwayb1" />
+                <property name="place" value="west" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Spawn">
+        <object name="waterwayacaterpillar" type="spawn" x="384" y="128" width="192" height="128">
+            <properties>
+                <property name="quantity" value="3" />
+                <property name="spawngroup" value="waterwayacaterpillar" />
+            </properties>
+        </object>
+        <object name="waterwayamushroom" type="spawn" x="256" y="64" width="160" height="128">
+            <properties>
+                <property name="spawngroup" value="waterwayamushroom" />
+            </properties>
+        </object>
+        <object name="waterwayamushroom_1" type="spawn" x="512" y="64" width="128" height="192">
+            <properties>
+                <property name="spawngroup" value="waterwayamushroom" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys" />
+    <objectgroup name="Replace" />
+</map>

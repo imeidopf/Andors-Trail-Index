@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="25" tilewidth="32" tileheight="32">
+    <tileset firstgid="1" name="map_16" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_16.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_38" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_38.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_41" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_41.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_0" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_0.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_4" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_4.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_3" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_3.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_1" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_1.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_5" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_5.png" />
+    </tileset>
+    <tileset firstgid="513" name="map_10" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_10.png" />
+    </tileset>
+    <tileset firstgid="577" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <tileset firstgid="641" name="map_9" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_9.png" />
+    </tileset>
+    <tileset firstgid="705" name="map_15" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_15.png" />
+    </tileset>
+    <tileset firstgid="769" name="map_7" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_7.png" />
+    </tileset>
+    <tileset firstgid="833" name="map_19" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_19.png" />
+    </tileset>
+    <tileset firstgid="897" name="map_6" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_6.png" />
+    </tileset>
+    <tileset firstgid="961" name="map_34" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_34.png" />
+    </tileset>
+    <tileset firstgid="1025" name="map_17" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_17.png" />
+    </tileset>
+    <tileset firstgid="1089" name="map_8" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_8.png" />
+    </tileset>
+    <layer name="Ground" width="20" height="25">
+        <data encoding="base64" compression="zlib"> eJzNlTsOxCAMRN2yP3FIEDlb9pLrSESyLBibT7HFiCZ+RszYCUQU/lyJ9WKd4CxO1pOVWW/WF5yH0bMI3scp1PPqFwd5lmK9426e547IA83z3NHyVPM0czRvLd5sVvMgL6lanRf9fonwbORGbc/fR/0ezYY3L6HydmQvLPJ6b+3lWT4VxbO87uVE7p8oeGi/JcI5kf7es4L2W27U9vIid8FqXnbvP+9umfF/R/YQc/Zf+QOs7jiC
+</data>
+    </layer>
+    <layer name="Objects" width="20" height="25">
+        <data encoding="base64" compression="zlib"> eJzVVDtuwzAMlewA2QMEOUFPkQDdfIgCPUCddOvWNacJnH427zlF93rI0KlFu5bP1oNpWZbhdOoDCFmy+EiJTzTm/+A5ab8L24zX6WVcD8L1IpY7zpPju/L4wM9YwGNieijE1rLnVf5lbu8iadaAUsaj6fLniicPcBJvjuNT7NtbO6hYiLt08w/TxgPOYpXLo4bk8CXDj9je5bMVewrYTmw+a2MSG9vNCbhNmzy2w8epAc7M40OOzOnG9vMZw/2svzbF30d1gY8Prc1FpMYhaJ1pbUK3dyN+Q28iV74bdf+obWnD+xkXOWBepQ0Ha49z0Rf6Y121Bgpvv47/njZ3zdozn1j9EYf7V7atFbWcTdRPaL9vQygC93YIrMV8/XrF+sEY4Kt1wh6k+4F+y8hBx2dOqBnvVb9z1NrXMuZH09ULQN1Sc6jbXvWeuXuz6Fdaj5Xp6mWteg31xTNQezxn/T/t6k/3Fvpxrs+yUtodq//O5VxGfKb2nr/0K+IXtOx0aw==
+</data>
+    </layer>
+    <layer name="Above" width="20" height="25">
+        <data encoding="base64" compression="zlib"> eJxjYBgawJGJumbNZ6SeeS+pZxRNzMuhsnkgQM34AAFK3Uht91ASB9jcQqp5yGZg04uefgn5H9kMQmmfmPxBSv4Z7PljoOKaWL3EmIcrzrCJEWMeKWFCjNqBTC+0KP8GKwAAwcwXtg==
+</data>
+    </layer>
+    <layer name="Walkable" width="20" height="25">
+        <data encoding="base64" compression="zlib"> eJxLYWJgSBmhGASobR4yQBajxBxyAD4zcbmVkHuI9S+5YU+se+gVl8PVPHLSAKlplJS0Qox+fOmEVP2DOW5oYR66fmLNIzaOiTGPWLPwpRVC+rGZRaz9yGaQkw+oGd+UYABP3JVr
+</data>
+    </layer>
+    <objectgroup name="Mapevents">
+        <object name="up oldcave1" type="mapchange" x="96" y="96" width="32" height="32">
+            <properties>
+                <property name="map" value="oldcave0" />
+                <property name="place" value="down oldcave0" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Spawn">
+        <object name="zombie3" type="spawn" x="32" y="160" width="128" height="128">
+            <properties>
+                <property name="spawngroup" value="zombie3" />
+            </properties>
+        </object>
+        <object name="zombie3_1" type="spawn" x="352" y="160" width="192" height="32">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="zombie3" />
+            </properties>
+        </object>
+        <object name="zombie2" type="spawn" x="544" y="160" width="32" height="64">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="zombie2" />
+            </properties>
+        </object>
+        <object name="zombie3_2" type="spawn" x="576" y="256" width="32" height="128">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="zombie3" />
+            </properties>
+        </object>
+        <object name="zombie4" type="spawn" x="320" y="384" width="256" height="96">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="zombie4" />
+            </properties>
+        </object>
+        <object name="zombie3_3" type="spawn" x="256" y="480" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="zombie3" />
+            </properties>
+        </object>
+        <object name="zombie4_1" type="spawn" x="96" y="448" width="32" height="64">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="zombie4" />
+            </properties>
+        </object>
+        <object name="zombie4_2" type="spawn" x="32" y="512" width="32" height="160">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="zombie4" />
+            </properties>
+        </object>
+        <object name="zombie3_4" type="spawn" x="64" y="672" width="128" height="96">
+            <properties>
+                <property name="spawngroup" value="zombie3" />
+            </properties>
+        </object>
+        <object name="zombie2_1" type="spawn" x="192" y="672" width="128" height="64">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="zombie2" />
+            </properties>
+        </object>
+        <object name="oldcaveboss" type="spawn" x="512" y="576" width="96" height="128">
+            <properties>
+                <property name="spawngroup" value="oldcaveboss" />
+            </properties>
+        </object>
+        <object name="zombie4_3" type="spawn" x="320" y="608" width="192" height="128">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="zombie4" />
+            </properties>
+        </object>
+        <object name="zombie3_5" type="spawn" x="192" y="480" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="zombie3" />
+            </properties>
+        </object>
+        <object name="zombie2_2" type="spawn" x="160" y="128" width="160" height="160">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="zombie2" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys" />
+</map>

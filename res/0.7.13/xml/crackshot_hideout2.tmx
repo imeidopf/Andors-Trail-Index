@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="9" height="27" tilewidth="32" tileheight="32">
+    <tileset firstgid="1" name="map_25" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_25.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_21" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_21.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_0" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_0.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_26" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_26.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_17" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_17.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_1" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_1.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_10" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_10.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <tileset firstgid="513" name="map_5" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_5.png" />
+    </tileset>
+    <tileset firstgid="577" name="map_16" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_16.png" />
+    </tileset>
+    <tileset firstgid="641" name="map_4" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_4.png" />
+    </tileset>
+    <tileset firstgid="705" name="map_9" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_9.png" />
+    </tileset>
+    <layer name="Ground" width="9" height="27">
+        <data encoding="base64" compression="zlib"> eJy1k8ENgDAIRRmoVl2hnUHdqyM5mZpAgqQf6sHDP5T/UqDQRETpB81Kz3kz3s4xUbt1sj9x7OC4lTAL8DWDfGGS46+mpxGml/PrPQ30vgZ+VjX0/KjOEaaomSKm8vxsT1HfqKZC773pMZXv8vZG8nk7McLIO0d7hRj7VzxPlFVepAvhGVv2
+</data>
+    </layer>
+    <layer name="Objects" width="9" height="27">
+        <data encoding="base64" compression="zlib"> eJxjYKAc6BOQDwPiPTjkspggdDgQG2CRB4lFMEFoSyB+xISQc2SEiNkxoerRZ0Swj+Cw1wiJvRKI7dHMmMDIgAGMcZiFDRwD4j1M2OXCkNhXgfZMZMSUD0fT48iIKW+JJG+Eph5dHhsAyR9F4htiUWOEJRzQAchthgTUgcIYWY01A/b4RgagcDmORfwYFjH09HUVi3usoTQsLaEDUJzDwvkwFKMD9HCmljzIr4T0EgIABXkYmA==
+</data>
+    </layer>
+    <layer name="Above" width="9" height="27">
+        <data encoding="base64" compression="zlib"> eJxjYKAPWEmE2EosbHQ18YyYapDFQOARE3570YExEWpIAQcZCash5C6QGfjUwOTR/Y5L3giHG3DpJ9aduNScQONjC+OTWMSoEXbEqiHk96EGAFlEE6g=
+</data>
+    </layer>
+    <layer name="Walkable" width="9" height="27" visible="0">
+        <data encoding="base64" compression="zlib"> eJx7wsjA8GSQYxDAxkZXgwzwyZFjBqlqiHUvsX7CFzaUyBNSQ4x/SXUrsWoodRchNfjswgVIdSsp7qQ0nwAAR32Tmg==
+</data>
+    </layer>
+    <objectgroup name="Mapevents" visible="0">
+        <object name="West" type="mapchange" x="0" y="704" width="32" height="128">
+            <properties>
+                <property name="map" value="crackshot_hideout1" />
+                <property name="place" value="East" />
+            </properties>
+        </object>
+        <object name="North" type="mapchange" x="160" y="128" width="32" height="32">
+            <properties>
+                <property name="map" value="crackshot_hideout3" />
+                <property name="place" value="South" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Spawn" visible="0">
+        <object name="g03_deadpatrol_1" type="spawn" x="192" y="576" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="g03_deadpatrol_1" />
+            </properties>
+        </object>
+        <object name="g03_deadpatrol_2" type="spawn" x="32" y="480" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="g03_deadpatrol_2" />
+            </properties>
+        </object>
+        <object name="Rebelled thief" type="spawn" x="128" y="192" width="128" height="96">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="g03_thief_1" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys" visible="0">
+        <object name="Webslock" type="key" x="256" y="128" width="32" height="64">
+            <properties>
+                <property name="phrase" value="guild03_doorlock_3" />
+                <property name="requireId" value="ThievesGuild" />
+                <property name="requireType" value="factionScore" />
+                <property name="requireValue" value="999" />
+            </properties>
+        </object>
+        <object name="g03_doorlock_2b" type="key" x="160" y="160" width="64" height="32">
+            <properties>
+                <property name="phrase" value="guild03_doorlock_2" />
+                <property name="requireId" value="thieves_hidden" />
+                <property name="requireType" value="questProgress" />
+                <property name="requireValue" value="40" />
+            </properties>
+        </object>
+        <object name="g03_doorlock_2a" type="key" x="160" y="160" width="64" height="32">
+            <properties>
+                <property name="phrase" value="guild03_doorlock_2" />
+                <property name="requireId" value="thieves_hidden" />
+                <property name="requireType" value="questProgress" />
+                <property name="requireValue" value="50" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Replace" visible="0" />
+</map>

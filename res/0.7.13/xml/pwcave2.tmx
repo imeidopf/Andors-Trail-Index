@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
+    <tileset firstgid="1" name="map_25" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_25.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_21" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_21.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_0" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_0.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_35" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_35.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_26" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_26.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_5" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_5.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_1" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_1.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_10" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_10.png" />
+    </tileset>
+    <tileset firstgid="513" name="map_3" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_3.png" />
+    </tileset>
+    <tileset firstgid="577" name="map_18" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_18.png" />
+    </tileset>
+    <tileset firstgid="641" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <tileset firstgid="705" name="map_17" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_17.png" />
+    </tileset>
+    <tileset firstgid="769" name="map_16" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_16.png" />
+    </tileset>
+    <tileset firstgid="833" name="map_37" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_37.png" />
+    </tileset>
+    <tileset firstgid="897" name="map_6" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_6.png" />
+    </tileset>
+    <tileset firstgid="961" name="map_15" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_15.png" />
+    </tileset>
+    <tileset firstgid="1025" name="map_41" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_41.png" />
+    </tileset>
+    <tileset firstgid="1089" name="map_27" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_27.png" />
+    </tileset>
+    <tileset firstgid="1153" name="map_14" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_14.png" />
+    </tileset>
+    <tileset firstgid="1217" name="map_29" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_29.png" />
+    </tileset>
+    <tileset firstgid="1281" name="map_28" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_28.png" />
+    </tileset>
+    <layer name="Ground" width="30" height="30">
+        <data encoding="base64" compression="zlib"> eJy1lk1uxDAIhT3b9irzo+y6ts+Q5F454xxkWilo3hB4YEddoFiJ7Q8bHuRaSrk69hiwaA+PJXOXX5sHrCqOvL/v5jGFtwb7b877ZvgxBedcgLedMO1HJczbzjzD84yxb//EjNiMy2LT47fF9tZlmJIbE4wZewq4LB9Qm5KPFcbs3BGX5QPqe4X5mdwUrvjcExPUd2+OCVdqyZmYeFbVfK9meXzksrzxfGY1MpNjI/UlqpPsPG3gjrO6wBrt+dxzxzo3vT7ItCfc0RoufUrzI72jfyPcrXz2yUyuZOLfy2e5ci/HupGpgxnzuBN8E3Yvk8Uly/VqmqX9n2JrVq+z4oW60frz/tGkzn9djtzVmG/dXQVGM9ZYvVB60/fl+F8p/uM5oh64lHed1ftgL5zV+ll9b/BksRf2cx/rntsMntaL7pW6tzE23t9oz7VyJ2Kf5Yxys4a5ZP1/MS7qJDKt26a+yVjr5Y/7Ak52VcM=
+</data>
+    </layer>
+    <layer name="Objects" width="30" height="30">
+        <data encoding="base64" compression="zlib"> eJy9V71OwzAQjtuKoQwg1ImHAIl0ibKVAbF2QGLpeyAGHoGKRwjq0KrsWUBqX4U574BPydHL17PjNGo/yXLqv+98953tRlEYnk3gwBMiq+pC2Lao6tiWO8/chfguYG/3yl4/Am0atvRTYstrb/f7rOcc+o/cckxtPRZt58DrildS1WvRvxKcW/v93mIPlwFjE0c7xeel7y8xzJH+mTrW9WnVpwkGa4Pti5U+FzeO0zi75FIWwH0MsC407jZ6YVDObUxdG/KbNZlY/89NyY+YA2+IX377O5402tcmxUrGm/gRy6r2aZHjz+tv7Dpb4rZz3hr85dKoPNsktH1npizHwMSz7qftu1Z8hpA2L6BPyw+pMdKC9JGM4Xig8yFHKKTGUAuPVTwZD4OyLe/od96PZjPF/ht4iZPaiD9R8oR9jfecximBOpS6oz3+9Pd94OIO5bw40Heci6xNvt+QX8t3AuYUYuXZI54ZXUE28n7wjiSeK1OPDd5RMj9v7ffYlpUtN8Z9LyWOdt9dRX1PYKMG13nR5R7UuJpiQP0TaFsrNnwdaBMhax5Swwj4Z9HuTVWAlgmUH3Lvy6iOVFl/qKzDwPcgz+e35UxZk8H+Zk3xODxnaG1eR+rMdybnYE8TUsHT9CaVeo3h98jodrFW0d8+25FHwyn+V7neE2QTnod/deNXsQ==
+</data>
+    </layer>
+    <layer name="Above" width="30" height="30">
+        <data encoding="base64" compression="zlib"> eJzNljEOwjAMRQ0tM4fp1JmTlYmNiblzOEZ7lt4DKoFkoiTNJ9+BL1WKMvjFzq9jkf+TC+xdWpHp9Q2tDS/EXXU8iMxP5pnIdYo37nhxc5i1eJpbm/nm/kJM7rCvw3XeOhZrCpwH5fosvY75pG/KuDqnpfnkoN7sQC4S/0r6T6y8n/JjyjelSsW16i9b+VjkmtOjY9we6BUoky2UifTBLW4uk+nn3Djsu8jldkQmwmWLkcM3Zy/xp54/T0ZvUSgn9vwZmw3u3j7Cu0Xqqusdmg2sehny9iNa68TqcShX1+oBywQ79A==
+</data>
+    </layer>
+    <layer name="Walkable" width="30" height="30" visible="0">
+        <data encoding="base64" compression="zlib"> eJztk1EOgDAIQxfvf4wd1Pi7GNtCOz+UhC+BV8qcxxjzT5hXpOcrkWKpejrMrt4kE81y1Tp3SHLf2lepVzlPM5xer3MdnqFeNtz3SXHRTZRIcZGWlM/IBxdT3Zdhs/XVqPw7KpfxntHFvjlG6923BLN7V3d+jYvunu6v9CpR5VZmrr1d/VUvd76dlXsCE+CUsA==
+</data>
+    </layer>
+    <objectgroup name="Mapevents" visible="0">
+        <object name="south" type="mapchange" x="864" y="928" width="64" height="32">
+            <properties>
+                <property name="map" value="pwcave1" />
+                <property name="place" value="north" />
+            </properties>
+        </object>
+        <object name="north" type="mapchange" x="448" y="64" width="32" height="32">
+            <properties>
+                <property name="map" value="pwcave2a" />
+                <property name="place" value="south" />
+            </properties>
+        </object>
+        <object name="east" type="mapchange" x="928" y="608" width="32" height="64">
+            <properties>
+                <property name="map" value="pwcave3" />
+                <property name="place" value="west" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Spawn" visible="0">
+        <object name="iqhan_2" type="spawn" x="768" y="832" width="64" height="32">
+            <properties>
+                <property name="spawngroup" value="iqhan_2" />
+            </properties>
+        </object>
+        <object name="iqhan_3" type="spawn" x="704" y="832" width="64" height="32">
+            <properties>
+                <property name="spawngroup" value="iqhan_3" />
+            </properties>
+        </object>
+        <object name="iqhan_3_1" type="spawn" x="480" y="864" width="64" height="32">
+            <properties>
+                <property name="spawngroup" value="iqhan_3" />
+            </properties>
+        </object>
+        <object name="iqhan_2_1" type="spawn" x="256" y="896" width="128" height="32">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="iqhan_2" />
+            </properties>
+        </object>
+        <object name="iqhan_3_2" type="spawn" x="192" y="864" width="32" height="64">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="iqhan_3" />
+            </properties>
+        </object>
+        <object name="iqhan_3_3" type="spawn" x="64" y="704" width="128" height="160">
+            <properties>
+                <property name="spawngroup" value="iqhan_3" />
+            </properties>
+        </object>
+        <object name="iqhan_3_4" type="spawn" x="96" y="640" width="96" height="32">
+            <properties>
+                <property name="quantity" value="3" />
+                <property name="spawngroup" value="iqhan_3" />
+            </properties>
+        </object>
+        <object name="iqhan_2_2" type="spawn" x="96" y="512" width="224" height="128">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="iqhan_2" />
+            </properties>
+        </object>
+        <object name="iqhan_3_5" type="spawn" x="96" y="192" width="224" height="288">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="iqhan_3" />
+            </properties>
+        </object>
+        <object name="iqhan_4" type="spawn" x="384" y="96" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="iqhan_4" />
+            </properties>
+        </object>
+        <object name="iqhan_4_1" type="spawn" x="512" y="96" width="32" height="64">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="iqhan_4" />
+            </properties>
+        </object>
+        <object name="iqhan_3_6" type="spawn" x="608" y="128" width="288" height="224">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="iqhan_3" />
+            </properties>
+        </object>
+        <object name="iqhan_ch_1" type="spawn" x="416" y="352" width="480" height="352">
+            <properties>
+                <property name="spawngroup" value="iqhan_ch_1" />
+            </properties>
+        </object>
+        <object name="iqhan_4_2" type="spawn" x="448" y="320" width="416" height="320">
+            <properties>
+                <property name="quantity" value="4" />
+                <property name="spawngroup" value="iqhan_4" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys" />
+</map>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="25" tilewidth="32" tileheight="32">
+    <properties>
+        <property name="outdoors" value="1" />
+    </properties>
+    <tileset firstgid="1" name="map_19" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_19.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_6" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_6.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_0" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_0.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_7" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_7.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_29" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_29.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_42" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_42.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_8" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_8.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_16" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_16.png" />
+    </tileset>
+    <tileset firstgid="513" name="map_1" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_1.png" />
+    </tileset>
+    <tileset firstgid="577" name="map_17" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_17.png" />
+    </tileset>
+    <tileset firstgid="641" name="map_4" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_4.png" />
+    </tileset>
+    <tileset firstgid="705" name="map_3" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_3.png" />
+    </tileset>
+    <tileset firstgid="769" name="map_5" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_5.png" />
+    </tileset>
+    <tileset firstgid="833" name="map_26" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_26.png" />
+    </tileset>
+    <tileset firstgid="897" name="map_28" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_28.png" />
+    </tileset>
+    <tileset firstgid="961" name="map_21" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_21.png" />
+    </tileset>
+    <tileset firstgid="1025" name="map_20" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_20.png" />
+    </tileset>
+    <tileset firstgid="1089" name="map_27" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_27.png" />
+    </tileset>
+    <tileset firstgid="1153" name="map_9" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_9.png" />
+    </tileset>
+    <tileset firstgid="1217" name="map_18" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_18.png" />
+    </tileset>
+    <tileset firstgid="1281" name="map_10" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_10.png" />
+    </tileset>
+    <tileset firstgid="1345" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <layer name="Ground" width="25" height="25">
+        <data encoding="base64" compression="zlib"> eJztlFsKgCAQRWcgdyO0jf57LKzFtJWCNpNSwWTq+CIo+jhIah7vKEoAqBWNwXhA+/Q8Sb4l6aMtHW8cYz6PZo7Etj/OsURC62Cu5fJUCNAqeuQz6LlmbUMcQv3XKQbkMwi8n11oFjOTjR6vdXLl4BxnphX2lqJzThaPbR3OU4qvOFI8vjMu4eHuaqgnxJeSw+V56j682eV740q5nngbcu7Nz08OG/re0GM=
+</data>
+    </layer>
+    <layer name="Objects" width="25" height="25">
+        <data encoding="base64" compression="zlib"> eJyNVbFKA0EQ3WyikKS1SW9hYyMKaW0MRIzCFbHzC9TGzs5CsBELC3/Awl6CWljpgWCVH/AXRGysdEb3ce/mds8MDHe7NzNv3szsnnNlyb1zC75YL8v7RJ7fjWJv3buZJWV7KzrfLNYrwU5x2KfTmg3H5jcO7zEu18Z3Y0aMvi/jDELsFBfkcCE+l+SXErXbTnxrJ/pyEnCf5PncjLqWRO1sT7Du+DIX5QcuH6Kfou+id7J3LrmeNgpuzHF1rlwn5qAydXEukDPpxz19VzzlFuNo+94lv1Rf1kS/yE7zOm5WeUIWm+W57PpivWe4KMauPDeN3rSKeYDksvcasVV9offMxeuVR87WlcR8aFRVBfj2jKXqBZyJsYX/wOw/1twL8JkmcJaCKt5izRzviG6Z9ZDW/Zr+WzzMHHLjWbI4+4l8xjU4MSzgIeeRwQH20FVFcXr+T//jNQ6KWDYmzw7Xux1mmvHqsIbk/2buvZTgjHK967BUUKeRq9YG3HhOO4k7LoWFftv4qV5gztpmbnrmrmAsrTn3G7F7IY/UjGm9cl+Oy3dMRry433auWJiX9g89mYbYGdlyP9UWddZ/VYxP7F5SwZ2WxT//CmrA/eC+xGaL97oRbI5hzzTi2nrF5g25AcPOTCxnjqt9tucRzwP5dhj0KPQDe3YGre8PMveCQg==
+</data>
+    </layer>
+    <layer name="Above" width="25" height="25">
+        <data encoding="base64" compression="zlib"> eJzFVcENgzAMNDAIy7ACT7boEGUU9ug6VKq6QAPUUpTG5owt9aQIcOI7n2MJogNDSzak872wtXMJfIjOaizlCp7OfGu/EE/35rd3iM4rrTdhnuaGxLuJwlKJmecrw6M7nuxzQ6/xtT69v8Jbe5mP8Hk0s7wxrYnkby9/Djevgkl43xDiKeOSdCLg4jTMBPek1hukX2c6oxI/9Vhyg76u3LPFh8YdOWPMEz23fN+ljocL5UByajUyOK7tRcPT+9v3/yf5/gD24yJg
+</data>
+    </layer>
+    <layer name="Above_replace" width="25" height="25" visible="0">
+        <data encoding="base64" compression="zlib"> eJxjYBgFo2AUDAaQyzT07Yilgx2jYBSMglEwCiAAAJotAas=
+</data>
+    </layer>
+    <layer name="Walkable" width="25" height="25">
+        <data encoding="base64" compression="zlib"> eJzdlEsOACEIQ914U+5/hvEAfAqtk8k0YWEMfYKo7bXsRCXbmvgKh2Wh+ku/3rgPj5Wxvb2pKr9qPWWyHpFn1pfJDGf5SP+ZWrN6lPfAzi3D8/ZvcxRSvPMuI+pX5IVwmPlCc6K/CxVTx8QLZUzr6TJU580YVQ5yRkV0/B9f122E
+</data>
+    </layer>
+    <layer name="Walkable_replace" width="25" height="25" visible="0">
+        <data encoding="base64" compression="zlib"> eJxjYBgFo2AUDAaQwjr07QCZTw9/jIJRMApGwShgYAAAcqcBpQ==
+</data>
+    </layer>
+    <layer name="Above_replace2" width="25" height="25">
+        <data encoding="base64" compression="zlib"> eJxjYBgFo2AUjALqgNiBdsAoGAWjYBSMIAAABQYAXg==
+</data>
+    </layer>
+    <layer name="Walkable_replace2" width="25" height="25" visible="0">
+        <data encoding="base64" compression="zlib"> eJztwQENAAAAwqD3T20ON6AAAHgzCcQAAQ==
+</data>
+    </layer>
+    <objectgroup name="Mapevents">
+        <object name="west" type="mapchange" x="0" y="224" width="32" height="128">
+            <properties>
+                <property name="map" value="wild15" />
+                <property name="place" value="east" />
+            </properties>
+        </object>
+        <object name="foaming_flask" type="mapchange" x="576" y="192" width="32" height="32">
+            <properties>
+                <property name="map" value="foaming_flask" />
+                <property name="place" value="entrance" />
+            </properties>
+        </object>
+        <object name="south" type="mapchange" x="448" y="768" width="32" height="32">
+            <properties>
+                <property name="map" value="vilegard_n" />
+                <property name="place" value="north" />
+            </properties>
+        </object>
+        <object name="east" type="mapchange" x="768" y="448" width="32" height="288">
+            <properties>
+                <property name="map" value="road2" />
+                <property name="place" value="west" />
+            </properties>
+        </object>
+        <object name="sign_foamingflask" type="sign" x="448" y="224" width="32" height="32" />
+        <object name="sign_road1_nw" type="sign" x="256" y="256" width="32" height="32" />
+        <object name="sign_road1_s" type="sign" x="448" y="480" width="32" height="32" />
+        <object name="north" type="mapchange" x="64" y="0" width="256" height="32">
+            <properties>
+                <property name="map" value="roadbeforecrossroads9" />
+                <property name="place" value="south" />
+            </properties>
+        </object>
+        <object name="brv_patrol_check_stop_hero" type="script" x="192" y="224" width="544" height="448">
+            <properties>
+                <property name="when" value="enter" />
+            </properties>
+        </object>
+        <object name="achieve_road" type="script" x="128" y="224" width="32" height="256" />
+    </objectgroup>
+    <objectgroup name="Spawn">
+        <object name="ff_outsideguard" type="spawn" x="640" y="224" width="32" height="32">
+            <properties>
+                <property name="ignoreAreas" value="true" />
+                <property name="spawngroup" value="ff_outsideguard" />
+            </properties>
+        </object>
+        <object name="forestserpent2" type="spawn" x="128" y="544" width="224" height="224">
+            <properties>
+                <property name="ignoreAreas" value="true" />
+                <property name="spawngroup" value="forestserpent2" />
+            </properties>
+        </object>
+        <object name="beetle2" type="spawn" x="544" y="608" width="192" height="128">
+            <properties>
+                <property name="ignoreAreas" value="true" />
+                <property name="spawngroup" value="beetle2" />
+            </properties>
+        </object>
+        <object name="beetle2_1" type="spawn" x="64" y="352" width="224" height="352">
+            <properties>
+                <property name="ignoreAreas" value="true" />
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="beetle2" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys">
+        <object name="stop_hero" type="key" x="160" y="192" width="608" height="512">
+            <properties>
+                <property name="phrase" value="brv_wait_patrol" />
+                <property name="requireId" value="brv_nondisplay" />
+                <property name="requireNegation" value="true" />
+                <property name="requireType" value="questProgress" />
+                <property name="requireValue" value="140" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Replace">
+        <object name="thieves_hidden:20" type="replace" x="32" y="288" width="64" height="96">
+            <properties>
+                <property name="Above" value="Above_replace" />
+                <property name="Walkable" value="Walkable_replace" />
+            </properties>
+        </object>
+        <object name="thieves_hidden:30" type="replace" x="32" y="288" width="64" height="96">
+            <properties>
+                <property name="Above" value="Above_replace2" />
+                <property name="Walkable" value="Walkable_replace2" />
+                <property name="requireId" value="thieves_hidden" />
+                <property name="requireType" value="questProgress" />
+                <property name="requireValue" value="30" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Spawn_guild">
+        <object name="Feygard_BG" type="spawn" x="96" y="288" width="192" height="32">
+            <properties>
+                <property name="active" value="false" />
+                <property name="spawngroup" value="Feygard_BG" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Spawn_knights">
+        <object name="knights" type="spawn" x="160" y="192" width="608" height="512">
+            <properties>
+                <property name="active" value="false" />
+                <property name="ignoreAreas" value="true" />
+                <property name="quantity" value="6" />
+                <property name="spawngroup" value="patrol_roaming" />
+            </properties>
+        </object>
+    </objectgroup>
+</map>

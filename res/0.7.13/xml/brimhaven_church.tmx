@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="24" height="16" tilewidth="32" tileheight="32">
+    <properties>
+        <property name="colorfilter" value="none" />
+    </properties>
+    <tileset firstgid="1" name="map_12" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_12.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_7" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_7.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_5" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_5.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_20" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_20.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_23" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_23.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_11" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_11.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_14" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_14.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_3" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_3.png" />
+    </tileset>
+    <tileset firstgid="513" name="map_0" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_0.png" />
+    </tileset>
+    <tileset firstgid="577" name="map_1" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_1.png" />
+    </tileset>
+    <tileset firstgid="641" name="map_8" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_8.png" />
+    </tileset>
+    <tileset firstgid="705" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <layer name="Ground" width="24" height="16">
+        <data encoding="base64" compression="zlib"> eJzVlNsNgCAMRVvfbzdxJlzB5VzCoYSISdNQkdgfP040Qg/XproAwOIBcq+JUYK7bv+qBHfd/kOgRICa0aO8n7ti/sq6GsbwwZ8JtRtehNZoTcyfP2ST6EiNSewPzSi9G820Rvxo9xYBWk9ozTH6MyZ7nTE9v+tB96J3JZsv6peyp+R/8v81P58pzfwmMFPSDL75NrjfuXdFKv//oM9O/3a1Sg==
+</data>
+    </layer>
+    <layer name="Objects" width="24" height="16">
+        <data encoding="base64" compression="zlib"> eJxjYKAP4ARiAUYEG1ncGIrRxRmgepDFcQEuIBZkRLBnI7FNoJgLqhYkB2MLIrFxAR4oLQRU+xNq7iwom5cBFfMhyWkyIfTwoJk5k5EITxEAIPOJBacpMJ+QXh40NclAnALE6UCcgYbToXJ1QBxPpPl7cYizMSDiA58YMe6nJQCZvxXoJmE0vIMR063EqhOhQvohBYy6H1Udvd1PKwAA0L0lXQ==
+</data>
+    </layer>
+    <layer name="Above" width="24" height="16">
+        <data encoding="base64" compression="zlib"> eJxjYEAAPQbaAE0m2pqFLtYE5QsCsRAaFoaqqaWC+dxQvjgjph5qmI8PkGq+KJIbm4H8FiBux6J2ElRuMZIcsl5c5othCQNWLO7DJkaM+ZQAZLfF08B8QmDU/FHzBysAAB44C0s=
+</data>
+    </layer>
+    <layer name="Walkable" width="24" height="16">
+        <data encoding="base64" compression="zlib"> eJx7wsTA8ASKQeAJ0yjGhmFhQ0oYYdODDLCJIevBB4jRh80d5JiPzQxk89H9gU0Mnxwh84lxIzFi+NxPC0BsGiFGDz51tALo6WfU/QPjfmqWYejmAgB+ea8z
+</data>
+    </layer>
+    <objectgroup name="Mapevents">
+        <object name="entrance" type="mapchange" x="608" y="480" width="64" height="32">
+            <properties>
+                <property name="map" value="brimhaven2" />
+                <property name="place" value="church" />
+            </properties>
+        </object>
+        <object name="down" type="mapchange" x="704" y="96" width="32" height="32">
+            <properties>
+                <property name="map" value="brimhaven_church_basement" />
+                <property name="place" value="up" />
+            </properties>
+        </object>
+        <object name="up" type="mapchange" x="32" y="224" width="32" height="32">
+            <properties>
+                <property name="map" value="brimhaven_church_upstairs" />
+                <property name="place" value="down" />
+            </properties>
+        </object>
+        <object name="brv_church_timer" type="script" x="64" y="224" width="96" height="64">
+            <properties>
+                <property name="when" value="step" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Spawn">
+        <object name="fangwurm" type="spawn" x="256" y="128" width="128" height="64">
+            <properties>
+                <property name="spawngroup" value="fangwurm" />
+            </properties>
+        </object>
+        <object name="chapelgoer" type="spawn" x="96" y="256" width="640" height="192">
+            <properties>
+                <property name="ignoreAreas" value="true" />
+                <property name="quantity" value="3" />
+                <property name="spawngroup" value="chapelgoer" />
+            </properties>
+        </object>
+        <object name="guard" type="spawn" x="640" y="192" width="96" height="32">
+            <properties>
+                <property name="spawngroup" value="brimhaven_church_guard" />
+            </properties>
+        </object>
+        <object name="brv_churchman" type="spawn" x="96" y="0" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="brv_churchman" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys">
+        <object name="brv_ring_bells_key" type="key" x="32" y="224" width="32" height="32">
+            <properties>
+                <property name="phrase" value="brv_ring_bells_key" />
+                <property name="requireId" value="brv_nondisplay2" />
+                <property name="requireNegation" value="true" />
+                <property name="requireType" value="questProgress" />
+                <property name="requireValue" value="60" />
+            </properties>
+        </object>
+    </objectgroup>
+</map>

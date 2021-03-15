@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
+    <tileset firstgid="1" name="map_3" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_3.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_4" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_4.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_5" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_5.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_6" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_6.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_9" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_9.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_18" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_18.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_27" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_27.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_7" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_7.png" />
+    </tileset>
+    <tileset firstgid="513" name="map_1" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_1.png" />
+    </tileset>
+    <tileset firstgid="577" name="map_10" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_10.png" />
+    </tileset>
+    <tileset firstgid="641" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <tileset firstgid="705" name="map_35" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_35.png" />
+    </tileset>
+    <tileset firstgid="769" name="map_19" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_19.png" />
+    </tileset>
+    <tileset firstgid="833" name="map_23" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_23.png" />
+    </tileset>
+    <tileset firstgid="897" name="map_16" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_16.png" />
+    </tileset>
+    <tileset firstgid="961" name="map_0" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_0.png" />
+    </tileset>
+    <tileset firstgid="1025" name="map_8" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_8.png" />
+    </tileset>
+    <tileset firstgid="1089" name="map_11" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_11.png" />
+    </tileset>
+    <tileset firstgid="1153" name="map_20" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_20.png" />
+    </tileset>
+    <tileset firstgid="1217" name="map_26" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_26.png" />
+    </tileset>
+    <tileset firstgid="1281" name="map_25" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_25.png" />
+    </tileset>
+    <tileset firstgid="1345" name="map_12" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_12.png" />
+    </tileset>
+    <tileset firstgid="1409" name="map_22" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_22.png" />
+    </tileset>
+    <tileset firstgid="1473" name="map_24" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_24.png" />
+    </tileset>
+    <tileset firstgid="1537" name="map_32" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_32.png" />
+    </tileset>
+    <layer name="Ground" width="30" height="30">
+        <data encoding="base64" compression="zlib"> eJy9l0sOwkAMQ3uxOQq0IPo5YvdcDJCIFFlO4hGlC68mcsrEeS1tGIbmNDm1g1R5Pt66Oc1B/SQK/cyzQc3y1t3pQuqZVyT0M88VanYiX78FXpGY3/7tW9V4bWJdpbWz/si+16/O7msZHU/s2/7Y13yvINxdpa+ah0/2/e57MW6oc3mCWD787jNuoPydsLvLGIT1bKeNG+wuTA/4rYxp5jWLszKvinM+UxHT7F7V+XteVZxTsmz3jRnGmfXwCu/QMqXmGGeW5cjnaQR/nyklxwv0rXZ4Dc7wPVXlmHkqfbP97n2/KMzCeTFOzO6sEmMG68vmhbsazVTlVbT3jBPKTDNe9b4bevY5y0PWN9uxKEuMGYwbUd/qmViWpkTIjews69uTJcaNX5iiZolxQ2WK8l3Qww2VKdH3Uq8yn6P+j2V6AT+Uzbo=
+</data>
+    </layer>
+    <layer name="Objects" width="30" height="30">
+        <data encoding="base64" compression="zlib"> eJzNVr1KA0EQvsuZ5Bm86kgbLROCwULwBVL6gw9gmUYsUpmUlgEFS8EmWgVFIhEfwwdQEARJZWHg3OFmyGSd/Tmj4gfH3e3OfLM78+3cBcH/wFWU3Y8LP8MXL81fLpxh3P1iEGxoa1hX/mV1v1XjlTAbS5VdjT1z9NB/ReNZRvuBul7VfseKt6nubZw/EtY1VfN3iqdPA6UgqIezZ+IDdJgfcYJfHGY2TczxPeZjoq4btfZqYWY/YBxv0ez5VFgbYcLsHrU9N/C9hfcYx4eYsxGztcXIixPHfBQ65tk+aM2Uj5KDeysyz11qWplYbDnG2ntXsNlWXLsCH+T12bJffT8Stw07Hnt4sdgkOeMRoMarqOWqpruao49wfbSFeTjb55614Vym3FVY/vXYB+y97tClL6gHST0FEAtjSTCfiw6u5V1xDZHvwdBLB8IY57LVv6XVqstyMMK5teLXGFJMOqNSTTlM/UFfC4By1dXGLjz4TJDiSBx59MT3XAtlWxcahnMDfera4gexQXOgX/pWwfePauTb5zgkzbQtcxJM+TtUOu7gtVk0GAX56+pCZMjvR5SdM5N9mdkRUlbXoed/E2mZ+s4U+aQ+wfU0ZXGfhPO5CCiOdCZ8fSUAn15/qZ6kpQTfbd8/8Jd6py/evnEOfgup0CPKsunculOtn/icbV4nrh9dd/Td0nt7H/16Bbnvc0A9bVpKHP4AXQP8vzbv/9Ei2PvDWIBPqxZi6g==
+</data>
+    </layer>
+    <layer name="Objects2" width="30" height="30" visible="0">
+        <data encoding="base64" compression="zlib"> eJxjYBgF1AatTBBah4k0faZs5Nv5A2hXLZBmZ2Fg2MpMvL4soD4zoL1FZNorBbTvIwn2IQNzCvw7CkbBKBgFo2AUjIJRMApGwSigHAAA6VUFlA==
+</data>
+    </layer>
+    <layer name="Above" width="30" height="30">
+        <data encoding="base64" compression="zlib"> eJxjYBgc4CUzdc1rZILQP5nwq5HHI49uFjGAGPOItZMYddQG1I6HUXsps7cFiGcQaSY7EWYOlH+J9QMpYKD8Qiygh/vQyyZC5QYpZRk+gGwHMWXVcIp/Su0lNw4otZfcdIHPXkrTUwULA0MNFDuzosrhSzOUpqehkHaolVdJtZeaYTMU7KVm2UTLvEJuHqVluYFPbji1NUYKAAAa2CUe
+</data>
+    </layer>
+    <layer name="Above2" width="30" height="30" visible="0">
+        <data encoding="base64" compression="zlib"> eJztzkENADAIADEyI9OK7b34zgGEtAbuInbK09O9Td3fG/AAAADMV4KuAaE=
+</data>
+    </layer>
+    <layer name="Top" width="30" height="30" visible="0">
+        <data encoding="base64" compression="zlib"> eJzt1DENACAQBMEPKMcFFnFBTf/JFcwY2G6rgE5rZLpn/tXdmSzQJPUOAF4Xt5cD4A==
+</data>
+    </layer>
+    <layer name="Walkable" width="30" height="30" visible="0">
+        <data encoding="base64" compression="zlib"> eJztk1EKgDAMQ8X7H2MHFT8EEU3aNLopBvYj9b1t7do8Te3Da82I3i1uH+Puc1VfTYbhcu5ZEead3ohbYTMncmfOq84f4/XyPvEGsyyXW/VWe3BWz1gO97HWxYqE3XnUjerQOdh/vbzMrXqj+0JR3pTa1wyrem9v9aIeKanOHPpWYUe9rjn8vfm5Q0Ecx7sYdS2/yHrA
+</data>
+    </layer>
+    <layer name="Walkable2" width="30" height="30" visible="0">
+        <data encoding="base64" compression="zlib"> eJxjYBieYAkTKh7s9lLDreToHYgwGgWjYBSMglEwCkbBKBgFo2AUDA4AAA1/Cbs=
+</data>
+    </layer>
+    <objectgroup name="Mapevents" visible="0">
+        <object name="west1" type="mapchange" x="0" y="896" width="32" height="32">
+            <properties>
+                <property name="map" value="lakecave0" />
+                <property name="place" value="east" />
+            </properties>
+        </object>
+        <object name="west2" type="mapchange" x="0" y="480" width="32" height="32">
+            <properties>
+                <property name="map" value="lakecave1" />
+                <property name="place" value="east1" />
+            </properties>
+        </object>
+        <object name="west3" type="mapchange" x="0" y="160" width="32" height="32">
+            <properties>
+                <property name="map" value="lakecave1" />
+                <property name="place" value="east2" />
+            </properties>
+        </object>
+        <object name="script_grow_lakecave1_damerilias_0" type="script" x="32" y="160" width="32" height="32">
+            <properties>
+                <property name="when" value="step" />
+            </properties>
+        </object>
+        <object name="script_grow_lakecave1_damerilias_0" type="script" x="32" y="480" width="32" height="32">
+            <properties>
+                <property name="when" value="step" />
+            </properties>
+        </object>
+        <object name="lakecave2_script_keycheck3" type="script" x="864" y="96" width="32" height="32" />
+        <object name="lakecave2_script_keycheck1" type="script" x="640" y="64" width="288" height="160" />
+        <object name="script_lakecave_cleared" type="script" x="32" y="96" width="896" height="832">
+            <properties>
+                <property name="when" value="step" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Spawn" visible="0">
+        <object name="lakecave2_1" type="spawn" x="64" y="96" width="288" height="512">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="scorpion_1" />
+            </properties>
+        </object>
+        <object name="lakecave2_2" type="spawn" x="864" y="128" width="64" height="64">
+            <properties>
+                <property name="spawngroup" value="cave_troll_5" />
+            </properties>
+        </object>
+        <object name="lakecave2_3" type="spawn" x="640" y="352" width="64" height="32">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="cave_troll_3" />
+            </properties>
+        </object>
+        <object name="lakecave2_4" type="spawn" x="864" y="480" width="64" height="32">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="cave_troll_3" />
+            </properties>
+        </object>
+        <object name="lakecave2_5" type="spawn" x="384" y="96" width="416" height="256">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="cave_troll_4" />
+            </properties>
+        </object>
+        <object name="lakecave2_6" type="spawn" x="384" y="128" width="288" height="224">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="cave_troll_2" />
+            </properties>
+        </object>
+        <object name="lakecave2_7" type="spawn" x="672" y="97" width="128" height="160">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="cave_troll_3" />
+            </properties>
+        </object>
+        <object name="lakecave2_8" type="spawn" x="352" y="416" width="576" height="128">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="cave_troll_4" />
+            </properties>
+        </object>
+        <object name="lakecave2_9" type="spawn" x="64" y="608" width="864" height="320">
+            <properties>
+                <property name="quantity" value="3" />
+                <property name="spawngroup" value="cave_troll_2" />
+            </properties>
+        </object>
+        <object name="lakecave2_10" type="spawn" x="320" y="384" width="608" height="160">
+            <properties>
+                <property name="spawngroup" value="cave_troll_3" />
+            </properties>
+        </object>
+        <object name="lakecave2_11" type="spawn" x="128" y="800" width="64" height="32">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="cave_troll_3" />
+            </properties>
+        </object>
+        <object name="lakecave2_12" type="spawn" x="352" y="608" width="576" height="288">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="cave_troll_4" />
+            </properties>
+        </object>
+        <object name="lakecave2_13" type="spawn" x="448" y="544" width="416" height="64">
+            <properties>
+                <property name="spawngroup" value="cave_troll_3" />
+            </properties>
+        </object>
+        <object name="caeda" type="spawn" x="96" y="128" width="256" height="256">
+            <properties>
+                <property name="active" value="false" />
+                <property name="ignoreAreas" value="true" />
+                <property name="spawngroup" value="caeda" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys" visible="0">
+        <object name="lakecave2_key_check1" type="key" x="832" y="64" width="32" height="32">
+            <properties>
+                <property name="phrase" value="lakecave2_key_check1" />
+                <property name="requireId" value="cave_troll_5" />
+                <property name="requireType" value="killedMonster" />
+                <property name="requireValue" value="1" />
+            </properties>
+        </object>
+        <object name="lakecave2_key_check2" type="key" x="832" y="32" width="32" height="32">
+            <properties>
+                <property name="phrase" value="lakecave2_key_check2" />
+                <property name="requireId" value="base_nondisplay" />
+                <property name="requireType" value="questProgress" />
+                <property name="requireValue" value="2" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Replace" visible="0">
+        <object name="board" type="replace" x="768" y="32" width="128" height="128">
+            <properties>
+                <property name="Above" value="Above2" />
+                <property name="Objects" value="Objects2" />
+                <property name="Walkable" value="Walkable2" />
+                <property name="requireId" value="stn_nondisplay" />
+                <property name="requireType" value="questProgress" />
+                <property name="requireValue" value="211" />
+            </properties>
+        </object>
+        <object name="key_taken" type="replace" x="864" y="96" width="32" height="32">
+            <properties>
+                <property name="Above" value="Top" />
+                <property name="requireId" value="stn_nondisplay" />
+                <property name="requireType" value="questProgress" />
+                <property name="requireValue" value="212" />
+            </properties>
+        </object>
+        <object name="caedas_bed" type="replace" x="256" y="96" width="96" height="96">
+            <properties>
+                <property name="Objects" value="Objects2" />
+                <property name="Walkable" value="Walkable2" />
+                <property name="requireId" value="stn_nondisplay" />
+                <property name="requireType" value="questProgress" />
+                <property name="requireValue" value="205" />
+            </properties>
+        </object>
+    </objectgroup>
+</map>

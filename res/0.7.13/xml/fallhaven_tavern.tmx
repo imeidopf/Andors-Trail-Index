@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="19" tilewidth="32" tileheight="32">
+    <properties>
+        <property name="colorfilter" value="none" />
+    </properties>
+    <tileset firstgid="1" name="map_10" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_10.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_7" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_7.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_9" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_9.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_8" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_8.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_6" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_6.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_19" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_19.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_11" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_11.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_28" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_28.png" />
+    </tileset>
+    <tileset firstgid="513" name="map_12" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_12.png" />
+    </tileset>
+    <tileset firstgid="577" name="map_22" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_22.png" />
+    </tileset>
+    <tileset firstgid="641" name="map_15" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_15.png" />
+    </tileset>
+    <tileset firstgid="705" name="map_3" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_3.png" />
+    </tileset>
+    <tileset firstgid="769" name="map_27" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_27.png" />
+    </tileset>
+    <tileset firstgid="833" name="map_0" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_0.png" />
+    </tileset>
+    <tileset firstgid="897" name="map_1" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_1.png" />
+    </tileset>
+    <tileset firstgid="961" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <layer name="Ground" width="20" height="19">
+        <data encoding="base64" compression="zlib"> eJytk8ENgCAMRcsQJIaTuIgLuIDs5hSO5c0JhACBNCVCy+GFCPjS9BcNAHoy5ySyzyacAFv5DIPXc6iCEfooen25H/ju5et6VFw59WmiFopwvnq26j7+xj6cLUCZFU59VMY6rb15/vUmnC8EprGP+0f57gF68uD6Wu+N62vlwfW18pD0T+qrZxXP7a7i3ojPpf9y/3B9btBHzSTmA1GVbTs=
+</data>
+    </layer>
+    <layer name="Objects" width="20" height="19">
+        <data encoding="base64" compression="zlib"> eJxjYKAMyDDhlzcEYl0gXsKEYFsiiTOgsWUJmGcExHFMCHYhEBdD2chqYEAOi3kOUDwbyo8GqumEsouAuATKLkDT9xNq1mmofhjQwe/kAQHsjKj82Qy4+Q4MqP4hBsyCmv8bytcBhk0Xkrw3jngExb0umhjIDHsgbmTE5P9mIB2A3GKGxX6YmAkB/VpALEogHRIDopHMEKPAvLmUOwUFzENig+JCgUK/zqdMO0FASXzE4dBHbnwgx6kgMwT/pDD8sOmPpkL6wwYAMlAavg==
+</data>
+    </layer>
+    <layer name="Above" width="20" height="19">
+        <data encoding="base64" compression="zlib"> eJxjYKA+yGTGLr6IibrmkQtg5v0k0z24zKMWoIZ5yH4jxTxi1FLDvEgqm4cM5pNpXhwV0gMt0sIERuqaR00wlMwTYIZgaplHjbSDnFZJSbfkAgAusQ7B
+</data>
+    </layer>
+    <layer name="Walkable" width="20" height="19">
+        <data encoding="base64" compression="zlib"> eJx7wszA8GQEYxDAx4YBdDY2cygFxJqFy158fiTVPFLCjBQ+MeGOKyyIdR8hPxNSR0qawWUvKfFDrl3D1TxS44NYN1LLXGxpiNruo2aYImMAgg/+dw==
+</data>
+    </layer>
+    <objectgroup name="Mapevents">
+        <object name="entrance" type="mapchange" x="160" y="320" width="32" height="32">
+            <properties>
+                <property name="map" value="fallhaven_nw" />
+                <property name="place" value="tavern" />
+            </properties>
+        </object>
+        <object name="rest1" type="rest" x="576" y="320" width="32" height="32" />
+        <object name="rest2" type="rest" x="576" y="480" width="32" height="32" />
+    </objectgroup>
+    <objectgroup name="Spawn">
+        <object name="drunk" type="spawn" x="64" y="128" width="224" height="128">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="drunk" />
+            </properties>
+        </object>
+        <object name="Bela" type="spawn" x="416" y="128" width="64" height="64">
+            <properties>
+                <property name="spawngroup" value="Bela" />
+            </properties>
+        </object>
+        <object name="Ganos" type="spawn" x="32" y="224" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="Ganos" />
+            </properties>
+        </object>
+        <object name="burhczyd2" type="spawn" x="256" y="256" width="32" height="32">
+            <properties>
+                <property name="ignoreAreas" value="true" />
+                <property name="spawngroup" value="burhczyd2" />
+            </properties>
+        </object>
+        <object name="burhczyd2e" type="spawn" x="256" y="256" width="32" height="32">
+            <properties>
+                <property name="active" value="false" />
+                <property name="ignoreAreas" value="true" />
+                <property name="spawngroup" value="burhczyd2e" />
+            </properties>
+        </object>
+        <object name="Bela_2" type="spawn" x="576" y="224" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="Bela_2" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys">
+        <object name="fallhaventavern:20" type="key" x="448" y="288" width="32" height="32">
+            <properties>
+                <property name="phrase" value="fallhaven_tavern_room" />
+                <property name="requireId" value="fallhaventavern" />
+                <property name="requireType" value="questProgress" />
+                <property name="requireValue" value="20" />
+            </properties>
+        </object>
+        <object name="fallhaventavern:10" type="key" x="448" y="448" width="32" height="32">
+            <properties>
+                <property name="phrase" value="fallhaven_tavern_room" />
+                <property name="requireId" value="fallhaventavern" />
+                <property name="requireType" value="questProgress" />
+                <property name="requireValue" value="10" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Restarea">
+        <properties>
+            <property name="active" value="false" />
+        </properties>
+        <object name="Thieves03:3" type="key" x="480" y="448" width="32" height="64">
+            <properties>
+                <property name="phrase" value="guild03_rest2" />
+                <property name="requireId" value="Thieves03" />
+                <property name="requireType" value="questProgress" />
+                <property name="requireValue" value="3" />
+            </properties>
+        </object>
+        <object name="guild03_rest3" type="script" x="576" y="448" width="32" height="64">
+            <properties>
+                <property name="when" value="enter" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Restscript">
+        <properties>
+            <property name="active" value="false" />
+        </properties>
+        <object name="guild03_rest1" type="script" x="544" y="480" width="32" height="64">
+            <properties>
+                <property name="when" value="enter" />
+            </properties>
+        </object>
+    </objectgroup>
+</map>

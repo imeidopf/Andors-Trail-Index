@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="28" height="20" tilewidth="32" tileheight="32">
+    <properties>
+        <property name="outdoors" value="1" />
+    </properties>
+    <tileset firstgid="1" name="map_6" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_6.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_0" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_0.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_7" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_7.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_10" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_10.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_8" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_8.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_27" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_27.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_5" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_5.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_1" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_1.png" />
+    </tileset>
+    <tileset firstgid="513" name="map_26" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_26.png" />
+    </tileset>
+    <tileset firstgid="577" name="map_41" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_41.png" />
+    </tileset>
+    <tileset firstgid="641" name="map_9" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_9.png" />
+    </tileset>
+    <tileset firstgid="705" name="map_19" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_19.png" />
+    </tileset>
+    <tileset firstgid="769" name="map_3" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_3.png" />
+    </tileset>
+    <tileset firstgid="833" name="map_15" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_15.png" />
+    </tileset>
+    <tileset firstgid="897" name="map_36" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_36.png" />
+    </tileset>
+    <tileset firstgid="961" name="map_16" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_16.png" />
+    </tileset>
+    <tileset firstgid="1025" name="map_4" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_4.png" />
+    </tileset>
+    <tileset firstgid="1089" name="map_17" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_17.png" />
+    </tileset>
+    <tileset firstgid="1153" name="map_28" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_28.png" />
+    </tileset>
+    <tileset firstgid="1217" name="map_20" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_20.png" />
+    </tileset>
+    <tileset firstgid="1281" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <layer name="Ground" width="28" height="20">
+        <data encoding="base64" compression="zlib"> eJzVlEEKgCAQRW3ngdp2C6+mBdK18joVTTB8mpzMhBYPN8r7MH+0xhj7MY6hfeOJt07t/UDc3RkFSnwaJgH0SbkwY45FAH1SLsyYI21EmnNioE/KhRmfzHo/Z8Iz55nriggZSwnga8WffZpu1/Rpul3Tp+l2TR/2me9gzlfyn3P67tiBgZB8TkFJJ2vQwpHzfun5Cyuer3wv
+</data>
+    </layer>
+    <layer name="Objects" width="28" height="20">
+        <data encoding="base64" compression="zlib"> eJy1VLFOAzEMde5OHahKKyHGk7rCUBYWJBYkvoAN6F9QwQYSAzCwULHTrXRD8AOIlZXlRiQGGFg6sRRwlFjxWcnlEPCkJ8c5xy92kssBYBGZCzuPbFlfo5cArCDvlPFnKcBnasaPOLeNbOP4Sn/PADaRAxyeoP+O3Ld5Wix3yHLsqPJ+SI8wwvEX7mMjMz5pTm1MTEvbOaHXEd+4HqHL5p6Yno7vROxP6vOB6+VsvhtZd5HG62vY8WkWrq8uSK9OfWeo18b5BWX06M5QfYdJ2dJet1LnvyXx+o7teI2t06A7Q/UdJWUr0bDreX201lffkvCpp3r9Axg2cTxjerTXZbaO6iOta4yfIIdiXxrrnjO8UeYdS65a3Z6Yv8X4ceL2EbubUo8wDIfCR0XOKr3QGyTo3jTBcRQ4Sx43CcRIkB7Pz9fqc7gU+jJuLLTo7e0KK+vj/dpDvipH/Waqei1xj+zbfP2KfpLOM/IFWSj3b5f6BH7/zsHcZ+U5T8o7ZXm4zoGN0//2Qjlyfa7L6+f94TkpbyH8KpC+T9fXnzo568Cn6+vPX0P2+790foNvHa6Dlg==
+</data>
+    </layer>
+    <layer name="Above" width="28" height="20">
+        <data encoding="base64" compression="zlib"> eJxjYCAO8DMyMAgzIviiQCxLpF5SAbK5lsy45WgB0O2DgbV49HAw4pHEA46xYIrB/LcOjz5OJPvwuQsZkOtGEMhEYuNzFzLgxGEfMfF3nwy3ZhJWQlVAjhuRAa50NgowAaE0TknaxgYIpXFcaZtWYKilbVLBaF4YBeQCAESzCqo=
+</data>
+    </layer>
+    <layer name="Walkable" width="28" height="20">
+        <data encoding="base64" compression="zlib"> eJzVlMEKACAIQ7v0J/3/N3YKIko2XYIDb+Wb5Bq9tRGopUgPDy+Tq2ZZ/n/NZvXL5J3zqbjIfBYX8bGfQd7vJdbveRdlsfvk9YTyI0LyVI2HZk/Fu7E9PGZXIzw094wUfw2TUXVlcarUBClyOk0=
+</data>
+    </layer>
+    <objectgroup name="Mapevents">
+        <object name="north" type="mapchange" x="512" y="0" width="64" height="32">
+            <properties>
+                <property name="map" value="remgard1" />
+                <property name="place" value="south" />
+            </properties>
+        </object>
+        <object name="remgard_villager2" type="mapchange" x="640" y="160" width="32" height="32">
+            <properties>
+                <property name="map" value="remgard_villager2" />
+                <property name="place" value="south" />
+            </properties>
+        </object>
+        <object name="remgard_villager3" type="mapchange" x="608" y="416" width="32" height="32">
+            <properties>
+                <property name="map" value="remgard_villager3" />
+                <property name="place" value="south" />
+            </properties>
+        </object>
+        <object name="remgard_school" type="mapchange" x="224" y="224" width="32" height="32">
+            <properties>
+                <property name="map" value="remgard_school" />
+                <property name="place" value="south" />
+            </properties>
+        </object>
+        <object name="west" type="mapchange" x="0" y="320" width="32" height="192">
+            <properties>
+                <property name="map" value="remgard3" />
+                <property name="place" value="east" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Spawn">
+        <object name="remgard_villager5" type="spawn" x="64" y="320" width="288" height="128">
+            <properties>
+                <property name="spawngroup" value="remgard_villager5" />
+            </properties>
+        </object>
+        <object name="remgard_villager6" type="spawn" x="384" y="64" width="224" height="512">
+            <properties>
+                <property name="spawngroup" value="remgard_villager6" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys" />
+</map>

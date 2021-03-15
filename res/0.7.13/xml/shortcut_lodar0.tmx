@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="32" tileheight="32">
+    <tileset firstgid="1" name="map_25" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_25.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_21" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_21.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_0" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_0.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_26" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_26.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_18" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_18.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_3" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_3.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_17" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_17.png" />
+    </tileset>
+    <tileset firstgid="513" name="map_16" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_16.png" />
+    </tileset>
+    <tileset firstgid="577" name="map_42" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_42.png" />
+    </tileset>
+    <tileset firstgid="641" name="map_35" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_35.png" />
+    </tileset>
+    <tileset firstgid="705" name="map_41" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_41.png" />
+    </tileset>
+    <tileset firstgid="769" name="map_1" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_1.png" />
+    </tileset>
+    <tileset firstgid="833" name="map_6" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_6.png" />
+    </tileset>
+    <tileset firstgid="897" name="map_33" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_33.png" />
+    </tileset>
+    <tileset firstgid="961" name="map_9" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_9.png" />
+    </tileset>
+    <tileset firstgid="1025" name="map_5" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_5.png" />
+    </tileset>
+    <tileset firstgid="1089" name="map_34" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_34.png" />
+    </tileset>
+    <tileset firstgid="1153" name="map_4" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_4.png" />
+    </tileset>
+    <tileset firstgid="1217" name="map_39" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_39.png" />
+    </tileset>
+    <tileset firstgid="1281" name="map_30" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_30.png" />
+    </tileset>
+    <tileset firstgid="1345" name="map_10" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_10.png" />
+    </tileset>
+    <tileset firstgid="1409" name="map_36" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_36.png" />
+    </tileset>
+    <tileset firstgid="1473" name="map_27" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_27.png" />
+    </tileset>
+    <tileset firstgid="1537" name="map_20" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_20.png" />
+    </tileset>
+    <tileset firstgid="1601" name="map_22" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_22.png" />
+    </tileset>
+    <tileset firstgid="1665" name="map_40" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_40.png" />
+    </tileset>
+    <layer name="Ground" width="30" height="20">
+        <data encoding="base64" compression="zlib"> eJzNlUsOgzAMRNP7EEh33VWCM0DvRTkVXKpBitXpyEkM7aKLtwnGM/4EGuecjyzANdIY6BKWWI0zulNkTPQ/0s3lkfp2zUckJIbI7UCfENQdCjnGpDkT68m6tZq12XlFc2er+LXqDjC7zn32WGI0fax5Sj5qu7cQAfSFhxLHfnv33oHV2XZPyxWAkiZqyw5s4D83A2+oh2kTeMa9z91PbXYWMI82d47nXbXOboWYGfJMhndxV9FvKPgUtkwei6bkDqTrM7o8O23nrJoCzwefta6+51ZYl/eYz7/Zc0utPnNe+jZqd0m7T/dL/i7VdJv07FnxL6AP9qnl1XrMMdxHy7dfPBz9V3GOI5r/xgt3ZNOE
+</data>
+    </layer>
+    <layer name="Objects" width="30" height="20">
+        <data encoding="base64" compression="zlib"> eJzNVLFKA0EQ3cvmQjotBE0ppLBIQBKboBaChXYSSKMQjXYWWovWYhkLhWCdIp1guJBO/IKIoihIfsUZdobMbTYXz0hwYLjN7uy8N29mo5SxmqfUjaembhXA3ALvJ+Ld29CTY2/HrPc+JkeXtcCfAHcG+OciamjQtwr+rg3X8oTYJeA/q8fnqdI3k1Tq7g9mAutl7GNYf4yoOwP7qeTw3m/rZswKafcpcDuAsyJi24TFjjyyI3ie/0CTV+s313AFd3VyoHHJV2rVD/PogM8RNs4Ixy7H6MWjY+8L7gfgb5S7IM6K4PPa4CJXxFxPKdVTRge7L7aVxDpjxSIO6vEAvuTQdEEP6u37Bg97gDq0HVj4Nm5JC8wXEHeua0/g5yj3jm9nMSb7jnhlL8zzJBWOx/eL2mzCeUEb7my7Ahf1QNwsvfMzyNtVg142wWvi/wQxFykX6n9q4bJdQ0yeaub+FenbEzV1KM+FZzAxf0Dnh4C7RljIMQ1eJ30Sjj7vE8/C8FFozpvWGWrJXOpCf1krz4ord9Q+GvaIPaBcaTEHuOaZl5hsL45ZRK0aEf/zPOcHFJMXHKRxT1DfI4pF3Ue9pcsxb7sl1s90335nLmMeyNOun/NGacw5+E2yT9MQfxzH/2rfvGhJ1Q==
+</data>
+    </layer>
+    <layer name="Objects_replace" width="30" height="20" visible="0">
+        <data encoding="base64" compression="zlib"> eJxjYBgFxIINTANj73VmBgYbIA6is72SLAwM8xnpbCkDxK/I9CggH2wGYkVgOBrROSy3ALEk0M7t9LV22IMJbAPtglEwCkYBsQAA9uIGgg==
+</data>
+    </layer>
+    <layer name="Above" width="30" height="20">
+        <data encoding="base64" compression="zlib"> eJxjYICAlQwDA8ixlxpuJdUMR0YGBnlmBgYPRsrsNSZBHcxOEFhCob0MUPMOATE/M351sLCB+RVGO5LpBpB5hOxEtteTEUFfYECEAamAUFgbQO0Bmb8ViPcQsMeRwnAgBQQhsWH+JybNgtxGbfeB7A8ioGYlA/nxRKp7YXmDgQg7cYUHct7CB3TQ1OBLU51Qe7IYMcNjGpHuxQcIhRPIrcSY30lieFOjvCXVTkLxQ0k6T2TCLUfIr7jSuRF5TiHaXmLrDXwAmxvJMZdSv44kAAAFrRrw
+</data>
+    </layer>
+    <layer name="Above_replace" width="30" height="20" visible="0">
+        <data encoding="base64" compression="zlib"> eJxjYBgFxAJ55oF2wSgYBaNgFIyCUTAKhgIAACBUACM=
+</data>
+    </layer>
+    <layer name="Walkable" width="30" height="20">
+        <data encoding="base64" compression="zlib"> eJxLYWRgSBnFgxqDwEDYSW97ke0cKLvRwXAKd0L+wiVHqnvIMR8fICXeSA1TathLTlyii6ObR0w4kWIvLn3oduKzl9R4J2QnIb8QshMfICZdUdNeQmGC7iZKwpgYe8kxm9L0PooxMQBn/L71
+</data>
+    </layer>
+    <layer name="Walkable_replace" width="30" height="20" visible="0">
+        <data encoding="base64" compression="zlib"> eJztwTEBAAAAwqD1T20JT6AAAHgaCWAAAQ==
+</data>
+    </layer>
+    <objectgroup name="Mapevents">
+        <object name="up" type="mapchange" x="896" y="352" width="32" height="32">
+            <properties>
+                <property name="map" value="lodarcave4a" />
+                <property name="place" value="down" />
+            </properties>
+        </object>
+        <object name="tp1" type="mapchange" x="128" y="384" width="32" height="32">
+            <properties>
+                <property name="map" value="shortcut_lodar1" />
+                <property name="place" value="tp2" />
+            </properties>
+        </object>
+        <object name="sign_lodar_shortcut_5" type="script" x="128" y="352" width="64" height="64">
+            <properties>
+                <property name="when" value="enter" />
+            </properties>
+        </object>
+        <object name="sign_lodar_shortcut_2" type="sign" x="352" y="256" width="32" height="32" />
+    </objectgroup>
+    <objectgroup name="Spawn">
+        <object name="mudfiend" type="spawn" x="64" y="480" width="64" height="64">
+            <properties>
+                <property name="spawngroup" value="mudfiend" />
+            </properties>
+        </object>
+        <object name="hirathil2" type="spawn" x="672" y="256" width="224" height="288">
+            <properties>
+                <property name="spawngroup" value="hirathil2" />
+            </properties>
+        </object>
+        <object name="hirathil1" type="spawn" x="672" y="256" width="224" height="288">
+            <properties>
+                <property name="quantity" value="3" />
+                <property name="spawngroup" value="hirathil1" />
+            </properties>
+        </object>
+        <object name="hirathil0" type="spawn" x="672" y="256" width="224" height="288">
+            <properties>
+                <property name="spawngroup" value="hirathil0" />
+            </properties>
+        </object>
+        <object name="cavebat2" type="spawn" x="320" y="416" width="224" height="160">
+            <properties>
+                <property name="quantity" value="3" />
+                <property name="spawngroup" value="cavebat2" />
+            </properties>
+        </object>
+        <object name="hirathil1_1" type="spawn" x="416" y="256" width="160" height="320">
+            <properties>
+                <property name="spawngroup" value="hirathil1" />
+            </properties>
+        </object>
+        <object name="hirathil0_1" type="spawn" x="416" y="256" width="160" height="320">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="hirathil0" />
+            </properties>
+        </object>
+        <object name="cavebat2_1" type="spawn" x="544" y="320" width="256" height="192">
+            <properties>
+                <property name="spawngroup" value="cavebat2" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys">
+        <object name="lodar2:50" type="key" x="576" y="192" width="64" height="64">
+            <properties>
+                <property name="phrase" value="sign_lodar_shortcut_1" />
+                <property name="requireId" value="lodar2" />
+                <property name="requireType" value="questProgress" />
+                <property name="requireValue" value="50" />
+            </properties>
+        </object>
+        <object name="shortcut_lodar:30" type="key" x="192" y="320" width="32" height="96">
+            <properties>
+                <property name="phrase" value="sign_lodar_shortcut_4b" />
+                <property name="requireId" value="shortcut_lodar" />
+                <property name="requireType" value="questProgress" />
+                <property name="requireValue" value="30" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Replace">
+        <object name="lodar2:50" type="replace" x="480" y="64" width="96" height="128">
+            <properties>
+                <property name="Above" value="Above_replace" />
+                <property name="Objects" value="Objects_replace" />
+            </properties>
+        </object>
+        <object name="lodar2:50" type="replace" x="256" y="256" width="96" height="64">
+            <properties>
+                <property name="Objects" value="Objects_replace" />
+                <property name="Walkable" value="Walkable_replace" />
+            </properties>
+        </object>
+        <object name="shortcut_lodar:40" type="replace" x="128" y="384" width="32" height="32">
+            <properties>
+                <property name="Objects" value="Objects_replace" />
+            </properties>
+        </object>
+    </objectgroup>
+</map>

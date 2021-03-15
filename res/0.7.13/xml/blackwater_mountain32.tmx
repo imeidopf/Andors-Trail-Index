@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
+    <properties>
+        <property name="outdoors" value="1" />
+    </properties>
+    <tileset firstgid="1" name="map_13" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_13.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_14" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_14.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_3" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_3.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_4" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_4.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_9" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_9.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_0" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_0.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_1" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_1.png" />
+    </tileset>
+    <layer name="Ground" width="30" height="30">
+        <data encoding="base64" compression="zlib"> eJzFl0luAyEQRdk5A+007U3iQ8UnzmEsJfdII/Gl8ndVQRFZWXwZNcODmsA5pfTq6LzroOjYmVeM73nX066lta35GMey1gVzM/oq7020LTbGsax1PSa00voWe1U0y7TO5tnc0rFjg0exi2MDa58W+xxgRs/pxSTiuLfvKLM3B3Hs2byXwyzk/SHd5iMzVuHvkxBqiWcvluSUdJuPVkwtCjdiY+Zs6T4fLbbk5sBZC3G2ZivLt55fl8GzcqzDtxaX2ThnNFd4byNcsJ8FFz6Cf7lmyzGaPUa5VS+CCx+ByzVbjvFyaYSrCVwt9npzceaZeyAb3BGBO3MPYE6kbjCXYzfCnrn3CvmX2bLGcLzO+AbS9irfNLLGcLxabx9LqO+eX7w8OCnjRoT6/pf3yKyi9e5R+vwHZvXzJdnxqb0FZjlZtKufv5L/No/Gbm8dMCEZf+/t99rE/1UKjc/07UL9WGclZtW36P8Q7aty5k3p52+WfhrvF5U8Ra8=
+</data>
+    </layer>
+    <layer name="Objects" width="30" height="30">
+        <data encoding="base64" compression="zlib"> eJy9VkluwzAMZH/RAkESZ/GS7e5DkS+k2yP6hp6L/qXn3vq5mqgGmYwpJ+mhAwiSSYpDUZRkM7N512Z2RC3jZddKGnu/uzGbdn0rc9Zd29D8MvUtydg/uF2/tVM4B3Muk7xIfZPhVB+MScANn2q7lm9gG3BW9rvWgmSF8EXcTaDbEG+FWLo2DjgBxK5rcOwz3MBB7A/Jj+d7JTrnbIVn1LVHiRPQHIAb80f9cMPcMgrrw+Pciyy3bqwXMRwCTtazX9RuIXOivA/lHPvO+dV1NuK3DOIcS3MOzelc/LAPcNbWz2sR2EdxgsO5J4Euhwca986e5c90jtuEHz51XZ5HzxH2wPe3PcM5TX1l8b5uLb/2KF/AEKfP09hzNaW1YvJdkCzazxWNGe4X9aTcgNZgrkU15Lyeu0X6xt2ib0G0r+eg54DXhvUuk7+Z2PJ74NzTwL/ry0Budlov7POpa89de02+sYd6d5U0J5LnZGyPN9fPmecCa8YdxvXjMpwHzltjp6gpduXL5WKV7BYk0/uQcW5/Wa/xsY73ODo3eKuG2rVorP9mKvcl99qlZyo6Xy92rKdL7uPoDb4WXuf4L2zSeCJ6nOmdzL3mzZimfiSyqJZQ563IUSPQsy+25TPJ/zFV0nn98P+riX3k51I8ZOR8d0dniGua3wbGyE7fA7XBvw370ZqeW/5uV91fahh+AH0P/gO+z56rXH3ek27ozqrl+3bAT2X9+nwT399n7sdP0X+k/o5kX8nmnWyd7wfbqz4V
+</data>
+    </layer>
+    <layer name="Above" width="30" height="30">
+        <data encoding="base64" compression="zlib"> eJytV9sNwjAMDJu4EoIvmACJFfiCGTpGJ+0qEImoxjo/y0lV49jxOXYebWsbqNk4ivd8sO09/cCUiEH6lfbLR7cefvsjPiNYGS+PeXDuxVORj9KwwEmsfU3Gempbzlcj91lo8+Xw1tDeGDiu3/e/6ilhzZdzkrCTMh8TwcOQo3uUIzNmUdZLxMc9wUtCRraZuvK4Ld5JcCP/1nnVcVHi82KdbHVorpIzuqaQ7evznNs2nyhnh5ZjAn2aLeqfQT5J0SMuDi2fHi/CjbW9OmpAsXs173aZGiPcfBOIzP7VUIkd8Q4+K/cv1pZ5JaXNZcTr1XqMGXupg5+Dk9IecvXuqtwDrW31qI6v3rPoewSBau5VaN+AVVBRV7HN+Iui5+Ak+uT5r+VJ3u/avRHZ83vPNOTHWluLs/5QPLxP6iNcHZV/rjkx/g0xIzwt
+</data>
+    </layer>
+    <layer name="Walkable" width="30" height="30">
+        <data encoding="base64" compression="zlib"> eJztlEEOhDAMA+H/3+ChXKHEzpiWG5EqsWpsJ066x7494tjv390ZMRR3xV5/E3wV5E5xVLWofFV70oOrT3micl1QbeUF5SC6BKc4XL2dZjWXio/kV/tO9zzts8pL+nX+qX1zeit1SaQeU111/1Zrtt/Z2Sk+5aXzxXFTXdevel90Rsmcup66uzHvre7ISeec+NB9O7zKJdhOr8ISLVJzik37Xq2b7L16C85vsv/0ndCT6pK6Z3RH3kpP+dd53fVLeFYE2cmZe+eX2mGHp/53/1f/+f6c3LA+dg==
+</data>
+    </layer>
+    <objectgroup name="Mapevents">
+        <object name="east" type="mapchange" x="928" y="96" width="32" height="64">
+            <properties>
+                <property name="map" value="blackwater_mountain30" />
+                <property name="place" value="west" />
+            </properties>
+        </object>
+        <object name="north" type="mapchange" x="352" y="96" width="32" height="32">
+            <properties>
+                <property name="map" value="blackwater_mountain36" />
+                <property name="place" value="south" />
+            </properties>
+        </object>
+        <object name="sign_blackwater32" type="sign" x="832" y="128" width="32" height="32" />
+        <object name="north1" type="mapchange" x="32" y="0" width="224" height="32">
+            <properties>
+                <property name="map" value="blackwater_mountain55" />
+                <property name="place" value="south1" />
+            </properties>
+        </object>
+        <object name="north2" type="mapchange" x="544" y="0" width="160" height="32">
+            <properties>
+                <property name="map" value="blackwater_mountain55" />
+                <property name="place" value="south2" />
+            </properties>
+        </object>
+        <object name="chk_wild_berry" type="script" x="352" y="96" width="32" height="32" />
+    </objectgroup>
+    <objectgroup name="Spawn" visible="0">
+        <object name="wyrm_2" type="spawn" x="832" y="672" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="wyrm_2" />
+            </properties>
+        </object>
+        <object name="wyrm_2_1" type="spawn" x="608" y="32" width="320" height="256">
+            <properties>
+                <property name="quantity" value="3" />
+                <property name="spawngroup" value="wyrm_2" />
+            </properties>
+        </object>
+        <object name="wyrm_3" type="spawn" x="320" y="160" width="96" height="192">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="wyrm_3" />
+            </properties>
+        </object>
+        <object name="wyrm_3_1" type="spawn" x="96" y="512" width="352" height="160">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="wyrm_3" />
+            </properties>
+        </object>
+        <object name="wyrm_3_2" type="spawn" x="64" y="736" width="704" height="128">
+            <properties>
+                <property name="quantity" value="4" />
+                <property name="spawngroup" value="wyrm_3" />
+            </properties>
+        </object>
+        <object name="wyrm_3_3" type="spawn" x="288" y="448" width="64" height="64">
+            <properties>
+                <property name="spawngroup" value="wyrm_3" />
+            </properties>
+        </object>
+        <object name="wyrm_3_4" type="spawn" x="480" y="224" width="320" height="224">
+            <properties>
+                <property name="quantity" value="3" />
+                <property name="spawngroup" value="wyrm_3" />
+            </properties>
+        </object>
+        <object name="wyrm_3_5" type="spawn" x="608" y="448" width="32" height="96">
+            <properties>
+                <property name="spawngroup" value="wyrm_3" />
+            </properties>
+        </object>
+        <object name="wyrm_2_2" type="spawn" x="768" y="736" width="160" height="128">
+            <properties>
+                <property name="spawngroup" value="wyrm_2" />
+            </properties>
+        </object>
+        <object name="wyrm_3_6" type="spawn" x="352" y="672" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="wyrm_3" />
+            </properties>
+        </object>
+        <object name="wyrm_3_7" type="spawn" x="32" y="384" width="192" height="288">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="wyrm_3" />
+            </properties>
+        </object>
+        <object name="wyrm_2_3" type="spawn" x="480" y="512" width="416" height="160">
+            <properties>
+                <property name="quantity" value="3" />
+                <property name="spawngroup" value="wyrm_2" />
+            </properties>
+        </object>
+        <object name="wild_berry" type="spawn" x="32" y="480" width="192" height="384">
+            <properties>
+                <property name="active" value="false" />
+                <property name="quantity" value="3" />
+                <property name="spawngroup" value="wild_berry2" />
+            </properties>
+        </object>
+        <object name="wild_berry2" type="spawn" x="64" y="32" width="608" height="96">
+            <properties>
+                <property name="active" value="false" />
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="wild_berry2" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys" />
+</map>

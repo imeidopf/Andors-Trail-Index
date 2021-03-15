@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="20" tilewidth="32" tileheight="32">
+    <tileset firstgid="1" name="map_16" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_16.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_18" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_18.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_0" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_0.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_19" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_19.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_9" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_9.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_5" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_5.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_10" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_10.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_1" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_1.png" />
+    </tileset>
+    <tileset firstgid="513" name="map_4" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_4.png" />
+    </tileset>
+    <tileset firstgid="577" name="map_12" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_12.png" />
+    </tileset>
+    <tileset firstgid="641" name="map_6" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_6.png" />
+    </tileset>
+    <tileset firstgid="705" name="map_15" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_15.png" />
+    </tileset>
+    <tileset firstgid="769" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <tileset firstgid="833" name="map_11" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_11.png" />
+    </tileset>
+    <tileset firstgid="897" name="map_7" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_7.png" />
+    </tileset>
+    <tileset firstgid="961" name="map_3" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_3.png" />
+    </tileset>
+    <layer name="Ground" width="25" height="20">
+        <data encoding="base64" compression="zlib"> eJy1lcEOgjAMhotg2DvqSY9wBy/oMyx7IfXF3JI2/CndRqIevqgU+m1thw0Rtcwp4iMjXGsMWiPeZkixQ6Rjzuy4wLVR5cf7E47X1mVw/IwvcOH7xJHyBSbFJ16b/MaY3+nw4DhAPmFWuYPyaEdvrEP6I3vwRtziEXkph6NtLa5QL6kJ5rkWHM/I23BgLfQzcyHfQOtsWXXWjgDrrtUDZ3CidQ4tx6Ic2EvhXnHNvA+Zw9o+cj0txYQjrWfGG9+/dUgc58Op76lvPfdQwD5ac3TjzyVTZ103mV39PtB9RHDvAZw5x4m2Z0Bmx/I0yjFA7fXah0J+7ekZfN/KvHdGDumzFSt58L+g9Gyg/e9E68zV1hUyjto520soOH7BYjjkTPyLlP8DdDW+5g==
+</data>
+    </layer>
+    <layer name="Objects" width="25" height="20">
+        <data encoding="base64" compression="zlib"> eJyVVTtOAzEQtYlyha24BJegpc4FaFAilI+QqDlBWuoUgRKk5AAQ9gChSImUgoI06aDCo50nv0zGJDxptLue35vx2BtCxiT46MT8XsVdnfVhPfysTwnH2pX82io9XR8kWegaA7xq1dekq0kWJMDYqQ8Y6JN78pTkMzYSlBu+IR9JrtUPvkN9rpLuXPUeJJ74g8ut0Vdxnye48/pzaPL8B8KxS98ljsDU2KNf2C/wkTh9WpMa2I9tGT3zDT7oyd3JAYLEb+zMLvZmeUSfwE9qxPyJ/6zV6JCnopoZkoP3Evq1zsONkxO55q0yL65nSblHZLPRmUR+6cUo5J4Ih1WhB96+TCiv3UfLCdjGzKlHdrzHXi6gS3rwHioX8J+prT0zHee8faXZ2SS5TL29p7xcz5DeJXY/7N4F1YFz/J3i/yS5SjkeYz4flhtiTQuxQti/lyX+q76/GR3n8f4BmCv0Xvq5jpkPdC9JLswZ4/vHq4fjAh2NPwvZty33gHN+uzTr6C341k5s3AFr2n/gPa09GLszin9q5okxdnTbwr1rYWfkL1tPxz6/toVjpw==
+</data>
+    </layer>
+    <layer name="Above" width="25" height="20">
+        <data encoding="base64" compression="zlib"> eJzNlcsNwjAMhvOYAkbolRaoODIDW8AFBBtx6BScmaILsAA3YpFIqWs7biUkfqmyktr+4sZWjRmqM78R5G3skLF1sr+0V3ljFnb8fh33+mhbBeMQfa3/7u3D+hnsK9hleFZuHKNRyoeZvaW8acapwKDylfJjBgjOSomqQas8DvKcCZ/K676JhoF5SXCPXP6HH8eWGJfwbBwfc0Xre2RINXJ1SDHcnVE+TmBwqn35XvL+wIw5omrK+4NiTGVSvZ/XiRma71xiSGfkZuxd4N6irYUe7jI7dcZS3WB3Qg8nBn53JM4P895kflwsx9AI5h3+A61i7uYy/lUfb6A37g==
+</data>
+    </layer>
+    <layer name="Above_1" width="25" height="20" visible="0">
+        <data encoding="base64" compression="zlib"> eJxjYBgFo2AUjASwchjY8YaRgeE+I40tGQWjYIgCAIaIAyA=
+</data>
+    </layer>
+    <layer name="Above_0" width="25" height="20">
+        <data encoding="base64" compression="zlib"> eJxjYBgFo2AUDHfABMQrR+0YNHZw0Nj8UTAyAQDvkAK1
+</data>
+    </layer>
+    <layer name="Walkable" width="25" height="20" visible="0">
+        <data encoding="base64" compression="zlib"> eJzVkkEKACEMAwW/0v+/cdnbIqaTSj1soBctnRgbc4z41KuYd+vPjEzUTzOUd+Ksd47HCsOZ5TDW/sobsyyd3sw/+XMYSu6O7vKg7B0WMWiew8sYldzUH58wyK86qzKyfabd7S6HoXLvYJBOd4K8E6fqqVO3/lrVA1ZmLio=
+</data>
+    </layer>
+    <layer name="Walkable_1" width="25" height="20" visible="0">
+        <data encoding="base64" compression="zlib"> eJxjYBgFo2AUDHegwjxqx2ACIH8MF7+MgsEDAFlnAMQ=
+</data>
+    </layer>
+    <layer name="Walkable_0" width="25" height="20" visible="0">
+        <data encoding="base64" compression="zlib"> eJxjYBgFo2AUDHegwjxqx2Czgx72jIKRBQDECADr
+</data>
+    </layer>
+    <objectgroup name="Mapevents">
+        <object name="west" type="mapchange" x="0" y="416" width="32" height="32">
+            <properties>
+                <property name="map" value="bogsten3" />
+                <property name="place" value="east" />
+            </properties>
+        </object>
+        <object name="north" type="mapchange" x="128" y="0" width="32" height="32">
+            <properties>
+                <property name="map" value="mushroom_m2_1" />
+                <property name="place" value="south" />
+            </properties>
+        </object>
+        <object name="bogsten_check_necklace" type="script" x="32" y="352" width="32" height="96" />
+        <object name="bogsten_check_zuulkhan" type="script" x="96" y="480" width="160" height="128">
+            <properties>
+                <property name="when" value="step" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Spawn">
+        <object name="zuul_khan" type="spawn" x="160" y="480" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="zuul_khan" />
+            </properties>
+        </object>
+        <object name="mid_fungi_1" type="spawn" x="160" y="96" width="352" height="192">
+            <properties>
+                <property name="quantity" value="5" />
+                <property name="spawngroup" value="mid_fungi" />
+            </properties>
+        </object>
+        <object name="mid_fungi_2" type="spawn" x="544" y="448" width="224" height="160">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="mid_fungi" />
+            </properties>
+        </object>
+        <object name="dangerous_fungi_1" type="spawn" x="224" y="192" width="416" height="256">
+            <properties>
+                <property name="quantity" value="8" />
+                <property name="spawngroup" value="dangerous_fungi" />
+            </properties>
+        </object>
+        <object name="lombric_ball_1" type="spawn" x="32" y="96" width="128" height="96">
+            <properties>
+                <property name="quantity" value="3" />
+                <property name="spawngroup" value="lombric_ball" />
+            </properties>
+        </object>
+        <object name="lombric_ball_2" type="spawn" x="608" y="96" width="160" height="160">
+            <properties>
+                <property name="quantity" value="4" />
+                <property name="spawngroup" value="lombric_ball" />
+            </properties>
+        </object>
+        <object name="lombric_beast_1" type="spawn" x="32" y="352" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="lombric_beast" />
+            </properties>
+        </object>
+        <object name="lombric_beast_2" type="spawn" x="512" y="160" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="lombric_beast" />
+            </properties>
+        </object>
+        <object name="lombric_beast_3" type="spawn" x="704" y="384" width="64" height="32">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="lombric_beast" />
+            </properties>
+        </object>
+        <object name="lombric_beast_4" type="spawn" x="512" y="544" width="32" height="64">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="lombric_beast" />
+            </properties>
+        </object>
+        <object name="zuul_khan1_blocker" type="spawn" x="128" y="64" width="32" height="32">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="zuul_khan1_blocker" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys" visible="0" />
+    <objectgroup name="Replace" visible="0">
+        <object name="fungi_panic_nondisplayed:60" type="replace" x="0" y="320" width="64" height="160">
+            <properties>
+                <property name="Above" value="Above_1" />
+                <property name="Walkable" value="Walkable_1" />
+                <property name="requireId" value="fungi_panic_nondisplayed" />
+                <property name="requireType" value="questProgress" />
+                <property name="requireValue" value="60" />
+            </properties>
+        </object>
+        <object name="fungi_panic_nondisplayed:60" type="replace" x="0" y="320" width="64" height="160">
+            <properties>
+                <property name="Above" value="Above_0" />
+                <property name="Walkable" value="Walkable_0" />
+                <property name="requireId" value="fungi_panic_nondisplayed" />
+                <property name="requireNegation" value="true" />
+                <property name="requireType" value="questProgress" />
+                <property name="requireValue" value="60" />
+            </properties>
+        </object>
+    </objectgroup>
+</map>

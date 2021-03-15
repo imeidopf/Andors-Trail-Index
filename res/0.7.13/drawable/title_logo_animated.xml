@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="80" android:drawable="@drawable/logo_anim_shine_00" />
+    <item android:duration="80" android:drawable="@drawable/logo_anim_shine_01" />
+    <item android:duration="80" android:drawable="@drawable/logo_anim_shine_02" />
+    <item android:duration="80" android:drawable="@drawable/logo_anim_shine_03" />
+    <item android:duration="80" android:drawable="@drawable/logo_anim_shine_04" />
+    <item android:duration="80" android:drawable="@drawable/logo_anim_shine_05" />
+    <item android:duration="180" android:drawable="@drawable/logo_anim_shine_06" />
+    <item android:duration="80" android:drawable="@drawable/logo_anim_shine_07" />
+    <item android:duration="80" android:drawable="@drawable/logo_anim_shine_08" />
+    <item android:duration="80" android:drawable="@drawable/logo_anim_shine_09" />
+    <item android:duration="5000" android:drawable="@drawable/logo_anim_shine_00" />
+</animation-list>

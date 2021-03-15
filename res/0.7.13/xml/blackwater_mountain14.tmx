@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="32" tileheight="32">
+    <properties>
+        <property name="outdoors" value="1" />
+    </properties>
+    <tileset firstgid="1" name="map_6" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_6.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_4" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_4.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_3" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_3.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_9" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_9.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_5" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_5.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_0" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_0.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_1" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_1.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <layer name="Ground" width="30" height="20">
+        <data encoding="base64" compression="zlib"> eJzNlFEOgyAMhnnkkoouCsl2Rq/jOQZJm3Udtagl2cOXYFL45C/gnXPegJTZCGtmgfGQmTMRvpOR04NnAtAVyfjZyYt7mmFd6i28yNjSW3gAmHnI7JUeWHt55gt4eQ96eek52is96OXFzKUeFEbgaI2WmlbQi70OB3VaTS9v+EPv2fxbvfS94zVJmSt5VzJPmlvuwOQ+99HCO7jvd0Ty4t2LBt6NcbRnvHvSWW/10r6ODV5tnSteul8pay2zs15+nmkGGvyf73iD+81BgruvnCnJq+1VqqeuWj6FN1s0imA=
+</data>
+    </layer>
+    <layer name="Objects" width="30" height="20">
+        <data encoding="base64" compression="zlib"> eJytVctuwjAQXCN6oaKqVJVEkfoDiDP/xJ1jRW6VIJ/AgUs+jBu/0Yy6owyLHXHoSFbW9j68s2tnaWZvw1gO42sY7y5jbRHm1PmUOfUUvchdsizUHt+bxCrFyJ1FcX4irtrTb+W+czGAxh55KQFxtx57M3y/JV/1D6z9eyvki/VWzgZsQ16Yb2TtJezD7pDxA6wKea1lH0D+F/dxm8j9R+TK7eiHcis6yrH5OQmegfqNTUNt62F8uHxMoy185vItcdN4HlpPrW8O9bA3S2P/Vb4+T/c6mhN1NMfYC6c06hF9mFeup372PgjyCo5eZVwt3/uE8nO2PMB15LGXPZ5rJjJ5ivlSB3XQnsvlQh8X2TuHPeiyBrXXJ/YC4kSOFRq7dd+rgk2X8j0b81Xk+FOgxxvxMZO+jP4JcnJKj/Vl3l3oR8Uu/Q36KN3DbuLs8f1cig24Y11y92olchV0kPepcBehy7ejlG8E6ku+0AvxjnDwbWF/RhwD1wTirmW+z8g751jfLBOZ/4R5yIF33+yeY67r3TjYPeoCH8+AfvX/ufDztzZ9n0q+IvbhC+zSyD3XK5HJj9r8F8gfeYu10Ji/G1ZCRQ==
+</data>
+    </layer>
+    <layer name="Above" width="30" height="20">
+        <data encoding="base64" compression="zlib"> eJy9VkEOgzAMKxKn3Sf1sgfyhvXMN/YNrvxsRMKaF6VJYGiWELS0ie0miFKuQ9uuZfiem4Ix8LiQh86zbs+vTt4IR3lxnp7WM3EjrJTrrNYz8DR6uNPzQ81nvPmXRvCJeLUgDvrimcwZ8WHM+51rAOvGba6qXsgiW6O9GoBW0e7ViadXQ7TASyvmrMZ6jX7vcWL9rXx89LRAc4+b+K9rP1Pza+AhMA12vGyfsj/LXjs1sVf3o3dGxeBnQTQfqVcG8ka1BZ6im8/36HcNvln7bmqMb8VIa+ueM+O1BUvvr/0rAFerb1qwl2Htn4zz1f8PAvhUlV8ZjEZ8Pl/9voeoDlkfx3wD7vQppw==
+</data>
+    </layer>
+    <layer name="Walkable" width="30" height="20">
+        <data encoding="base64" compression="zlib"> eJy9klEOwCAMQt39r+lBFv+MEYEV16Q/G/JKtT+t9Ys96qZ/gpucUfWaS/U7aV0fxEaFGIir1Kpl5xJcpEfnv9yvw3XnRP8T3MobZbpKXtXTmU3Rqxpn/vWbwnPmc/Omds12lXhbbl52xt01qmRexkW73vk7zEpX81a4yp38nX3uFy0bZBY=
+</data>
+    </layer>
+    <objectgroup name="Mapevents">
+        <object name="west" type="mapchange" x="0" y="160" width="32" height="64">
+            <properties>
+                <property name="map" value="blackwater_mountain10" />
+                <property name="place" value="east" />
+            </properties>
+        </object>
+        <object name="north" type="mapchange" x="768" y="0" width="32" height="32">
+            <properties>
+                <property name="map" value="blackwater_mountain15" />
+                <property name="place" value="south" />
+            </properties>
+        </object>
+        <object name="east" type="mapchange" x="704" y="608" width="32" height="32">
+            <properties>
+                <property name="map" value="blackwater_mountain40" />
+                <property name="place" value="north" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Spawn">
+        <object name="primwolf1" type="spawn" x="96" y="64" width="192" height="384">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="primwolf1" />
+            </properties>
+        </object>
+        <object name="bwm_agent_3" type="spawn" x="768" y="192" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="bwm_agent_3" />
+            </properties>
+        </object>
+        <object name="primwolf1_1" type="spawn" x="384" y="416" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="primwolf1" />
+            </properties>
+        </object>
+        <object name="forestboar4" type="spawn" x="352" y="96" width="320" height="320">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="forestboar4" />
+            </properties>
+        </object>
+        <object name="primwolf1_2" type="spawn" x="704" y="320" width="192" height="256">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="primwolf1" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys" />
+</map>

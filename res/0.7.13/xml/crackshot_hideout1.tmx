@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="27" height="9" tilewidth="32" tileheight="32">
+    <properties>
+        <property name="colorfilter" value="none" />
+    </properties>
+    <tileset firstgid="1" name="map_25" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_25.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_21" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_21.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_0" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_0.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_9" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_9.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_1" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_1.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_4" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_4.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_6" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_6.png" />
+    </tileset>
+    <tileset firstgid="513" name="map_17" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_17.png" />
+    </tileset>
+    <tileset firstgid="577" name="map_3" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_3.png" />
+    </tileset>
+    <tileset firstgid="641" name="map_18" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_18.png" />
+    </tileset>
+    <tileset firstgid="705" name="map_26" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_26.png" />
+    </tileset>
+    <layer name="Ground" width="27" height="9">
+        <data encoding="base64" compression="zlib"> eJy1kzsOwCAMQzlQ6Gfr3J6hcK+euBmwFFlBqVAZnhDG2GFAUkqirISn2TOm52V/UW7icDSwU4d333I2X1aq8iibWcXsGXTlllU7PnA1Xw6yvLuYswQdjJcXZWHO6D1fukazRrpmIRNzORva8iP896C/neJiLg==
+</data>
+    </layer>
+    <layer name="Objects" width="27" height="9">
+        <data encoding="base64" compression="zlib"> eJxjYBi6YC0RagyA2ApKG0HFVkL56BiXflyYlxGhzhJJzx4kcRA4hMYXReMbQPWD9LkxYboBpN4ayY3XcbgVGaC7AQZsgNiOAdMeYyT+BiQ2ultxAReoOpg7Qf6xBWJ7IHbAow+f+chmEeMOQyxhB4pzYyxqV0LNdMFiLjZzQAA5TBchuQkUXkZYddAXAAC8shIf
+</data>
+    </layer>
+    <layer name="Above" width="27" height="9">
+        <data encoding="base64" compression="zlib"> eJxjYKA/WAnEB5kwxXABHSz6iQGMjNjVGiOxPZiwKECyA12/CQ67QOriGXG7Ax+A2YFLPy71pMoRI08Nu0yg/iDWP8TYRapZhIAxYSWD0mx8AABJMwz+
+</data>
+    </layer>
+    <layer name="Walkable" width="27" height="9" visible="0">
+        <data encoding="base64" compression="zlib"> eJxTYWRgUBnkGAQGUj8p9uCyCxkQYwY+9fjkkcWIdQ8uQMjt6OLk2IWsD5+/iHUzqX4gxVxsYUrITHrmEwB17xeQ
+</data>
+    </layer>
+    <objectgroup name="Mapevents">
+        <object name="East" type="mapchange" x="832" y="128" width="32" height="128">
+            <properties>
+                <property name="map" value="crackshot_hideout2" />
+                <property name="place" value="West" />
+            </properties>
+        </object>
+        <object name="Exit" type="mapchange" x="96" y="64" width="32" height="32">
+            <properties>
+                <property name="map" value="woodcave0" />
+                <property name="place" value="Entrance" />
+            </properties>
+        </object>
+        <object name="guild03_blood_1_select" type="script" x="256" y="224" width="32" height="32">
+            <properties>
+                <property name="when" value="enter" />
+            </properties>
+        </object>
+        <object name="guild03_blood_2_select" type="script" x="544" y="192" width="32" height="32">
+            <properties>
+                <property name="when" value="enter" />
+            </properties>
+        </object>
+        <object name="guild03_blood_3_select" type="script" x="704" y="96" width="32" height="96">
+            <properties>
+                <property name="when" value="enter" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Spawn">
+        <object name="larva_g03_1" type="spawn" x="32" y="128" width="128" height="128">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="larva_1" />
+            </properties>
+        </object>
+        <object name="larva_g03_2" type="spawn" x="256" y="96" width="160" height="128">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="larva_1" />
+            </properties>
+        </object>
+        <object name="larva_g03_3" type="spawn" x="192" y="224" width="64" height="32">
+            <properties>
+                <property name="spawngroup" value="larva_2" />
+            </properties>
+        </object>
+        <object name="larva_g03_4" type="spawn" x="576" y="128" width="128" height="128">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="larva_1" />
+            </properties>
+        </object>
+        <object name="larva_g03_5" type="spawn" x="448" y="192" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="larva_2" />
+            </properties>
+        </object>
+        <object name="unknown" type="spawn" x="448" y="32" width="32" height="32">
+            <properties>
+                <property name="ignoreAreas" value="true" />
+                <property name="spawngroup" value="unknown" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys" />
+    <objectgroup name="Replace" />
+</map>

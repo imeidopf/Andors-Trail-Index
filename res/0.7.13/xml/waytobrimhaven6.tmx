@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="7" tilewidth="32" tileheight="32">
+    <properties>
+        <property name="outdoors" value="1" />
+    </properties>
+    <tileset firstgid="1" name="map_6" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_6.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_20" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_20.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_19" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_19.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_5" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_5.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_16" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_16.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_4" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_4.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_17" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_17.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_39" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_39.png" />
+    </tileset>
+    <tileset firstgid="513" name="map_40" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_40.png" />
+    </tileset>
+    <tileset firstgid="577" name="map_9" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_9.png" />
+    </tileset>
+    <tileset firstgid="641" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <layer name="Ground" width="30" height="7">
+        <data encoding="base64" compression="zlib"> eJzjYGBg4BjFo3gUU4QB1T4GkQ==
+</data>
+    </layer>
+    <layer name="Objects" width="30" height="7">
+        <data encoding="base64" compression="zlib"> eJy1kkEKwkAMRZPuXLpR6c69V6i66mG8hBR6mYLQO3iDuZEJzie/01kI6ofwJ+3LJwzTi8hVRR7ms7x9sH7K30cNnwqW/8EvGjlgNuZbynN5lrODhndW58ounca5nIEjj+dqu0B3O++iXc0mynYdrVpZijPAJl328GfmIXAtsbyPEM+Zc8HsM4dyHaxOjcitkZ+J7wJKut4R94c9+f7/7aN+xtbexjfueS+RpVaq
+</data>
+    </layer>
+    <layer name="Above" width="30" height="7">
+        <data encoding="base64" compression="zlib"> eJxjYKAucMMi5sDIwNDCSJx+ByzqsIkNJCDFP+TqxacOJE7IHJg8TO0aoNh6NL3YaELqCMkj27+G2EAZBgAAz+8Tcg==
+</data>
+    </layer>
+    <layer name="Walkable" width="30" height="7">
+        <data encoding="base64" compression="zlib"> eJxbwsTAsGQEYVwAmzp0Nj6Abj6x9mLTS6k6WthBbjiOFAwAn+1fUw==
+</data>
+    </layer>
+    <objectgroup name="Mapevents">
+        <object name="west" type="mapchange" x="0" y="64" width="32" height="96">
+            <properties>
+                <property name="map" value="waytobrimhaven5" />
+                <property name="place" value="east" />
+            </properties>
+        </object>
+        <object name="east" type="mapchange" x="928" y="96" width="32" height="32">
+            <properties>
+                <property name="map" value="brimhaven4" />
+                <property name="place" value="west3" />
+            </properties>
+        </object>
+        <object name="release_mouse0" type="script" x="768" y="64" width="160" height="96">
+            <properties>
+                <property name="when" value="step" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Spawn">
+        <object name="forestwolf2" type="spawn" x="96" y="64" width="800" height="96">
+            <properties>
+                <property name="ignoreAreas" value="true" />
+                <property name="quantity" value="5" />
+                <property name="spawngroup" value="forestwolf2" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys" />
+    <objectgroup name="Replace" />
+</map>

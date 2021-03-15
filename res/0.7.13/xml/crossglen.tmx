@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
+    <properties>
+        <property name="outdoors" value="1" />
+    </properties>
+    <tileset firstgid="1" name="map_3" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_3.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_4" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_4.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_6" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_6.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_7" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_7.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_26" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_26.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_5" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_5.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_0" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_0.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_17" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_17.png" />
+    </tileset>
+    <tileset firstgid="513" name="map_1" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_1.png" />
+    </tileset>
+    <tileset firstgid="577" name="map_8" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_8.png" />
+    </tileset>
+    <tileset firstgid="641" name="map_21" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_21.png" />
+    </tileset>
+    <tileset firstgid="705" name="map_10" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_10.png" />
+    </tileset>
+    <tileset firstgid="769" name="map_9" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_9.png" />
+    </tileset>
+    <tileset firstgid="833" name="map_13" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_13.png" />
+    </tileset>
+    <tileset firstgid="897" name="map_19" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_19.png" />
+    </tileset>
+    <tileset firstgid="961" name="map_12" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_12.png" />
+    </tileset>
+    <tileset firstgid="1025" name="map_16" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_16.png" />
+    </tileset>
+    <tileset firstgid="1089" name="map_27" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_27.png" />
+    </tileset>
+    <tileset firstgid="1153" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <tileset firstgid="1217" name="map_20" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_20.png" />
+    </tileset>
+    <layer name="Ground" width="30" height="30">
+        <data encoding="base64" compression="zlib"> eJztlm0OgjAMhrezgF/oFTgKoongVbwhJl7GEWmob9ptKpM//HgCbGxPabaO0hhTO1rH2UPluDrKgRPjMrzTQDtRDo4bQ2rTaMBDUMyVEnMzjPF5OwHqq8BD8Pm0XLUB710A543JTQj0ZtaYHWNvp/FIXp773Hke7lrYF4dEXlrLKeYOef/tXLwjK+snlXft5t7Y9yu/T+VFFz5P5cUcbq2fqbxSDqVa3cF4rT3Uz72YQ6lWY73m7VKM2rgSvPx7sVZL9VpzSLGgt4Z1RH25Hes01Wys19yBMfb4vrc236+ZjOWhEMiUPOF59Cl0fmnnFuUM+3vnHOfRHE5pTYb245TE7NMUxOzTFMTs04Xf6OvGUSG1VyPlv9cTiCe75g==
+</data>
+    </layer>
+    <layer name="Objects" width="30" height="30">
+        <data encoding="base64" compression="zlib"> eJylVr1rVEEQ333vCIZrbcVa1PgRP05NvBhPKwULC1PZmFQHJpcQEAJaJFWUgxQ5OUttDk4sU8oVxxFI8K/Q2kJsdSY7w86bm3fvQX4w7Nt9u/ubr51d5wJW3OlwMS2e86ji3NA71xZjTR/aLvU71I5ofNNP3vNSCd6hj/yMIxh7W2KNBdR5Ogm6nSmmz/Divkc5e9/0wX62GXm+iv9r0K8iL/XrsO83sL+fhhbX4Zq6H7cBObn/GPb4B+016t9S+lwV/SmQeeJt057vXeTkFsG6boq9huRn9tNPkOu0/58kzrsNY3dA5gQ38655217JjZB+ZmCcFlWslwRHDb7v+pBv90EWfOTdoHltxT3woT9QfuZcxhji+hnoXyFZonbLxbE58R+lRbydqN7JuWAumQs/kuw5Yh3Ogn67rpzs+fh9gfzYKXGe+jRH2nfssrbkyTrZ+KASx26o/Fv2WS4r1uwD6aeOsyFzeJ72XgT+h5UQD0QjjX628ozBZ2Nf7D8LYwc0p5bEPZ3iRT04xyRWRB5JHQZqXk/ZhZwosz5yj3zW3tUSMdHC8eCaXEvcGA5y8gR5D135HNSiMWXTmLxVpWdXfOflRhGW/eT/Fm8ZcI4hej7rY5k/L2kca/YzkOfJ6XgRfRW7kR+P8SfR34bvHZBWYvOyXu98VkcJaS+D67D0Mda4X2mo24h7PsSReZ8kwRdSr0YlfiM+kC7nUtteiRmV97putwx7p2G/36LPdfmvC7qcT+3zy2+ajy7m+6Fqd41/WJtl/uqc5H8NspPv36aYV2SnPv+yvklwzW0on3KtbPrxNRLsS77vEcdqDt9re27yG03W56Jzyrx83+taqu1BcAy7bvwe0veRPKevYbwF8jQRvCKHuKZtG3aUbTnGeE75bbUK4+sgG8TLsdL+Zdus98ykOxDby+Tn7yBvkmwuc85q6NrCHFZtx7mWLj0RX/0+QlQN/yJO3m5Gbsi8kveEfFPI95WFF6I2vCrIP5lv1luGgTlRN96xGsjbS4OOvB/7a8vlx0/GW45/hjVfQP4DUNnUxA==
+</data>
+    </layer>
+    <layer name="Above" width="30" height="30">
+        <data encoding="base64" compression="zlib"> eJy9VsuNAjEMzSwc6GJL4MwNsRLa7YAznVABJXDiMH0gDitagRZ2xwIL83BsJ5qZJ6EwceKXxN+U7thNU/r8SIOibe7jpXnOEa8FuTay3uLFuWtm/bfyDtbbLLsznZrnaO0h3ltGz0/B++O7EE7KnOStkWlYKjaQ3PJslu7cm646/V8FdsZ7j+HLGohXs8us+80f83Mhl/9nFXxsh1L71UD6OKOFu3h3+HO+LS6Joe+r2XAM3hz64i31MY/3MKk+SjGvzNW/4BecrzGfYx7X5DJna7wyV6+Bl/P1Hni28O3JN4X25XPW8GJMldRTyqmL9F6/sG55ckIfPu3paJUcou3J5aFcvHi1BeVj1iP05z5i9BjgZHCMYYwStL4qAnmnXG1gn8MYJUT7KuzjvDpEsOIn4uOWbkvu9VULn7oKyDsUD6I0R0aA/bomj+A8fdWX89fIGMVOcDJq9Mi9hH/SG1J2
+</data>
+    </layer>
+    <layer name="Walkable" width="30" height="30">
+        <data encoding="base64" compression="zlib"> eJzFlEESwCAIAz30/6/wob12nJqEBFtmvLTCQgDnNcb8+SBTfFWG6tvFVWtA91ctTnJRD1g81DMUQ+UiPtNNtV3OjJ3qz/JW/rk1O+bUpWqmsNycWbx0Tyrc3d0v6u16FxDXteosoDeCxTjF7Zr/E1xHIyX/rn1/1vb2LZnnXVy1XqTdiV1yjfVc0TJhpjFXzRNmor0771V2OtNsNruZqzZVY76dfezof/dsufVX9tc9NwjVQaA=
+</data>
+    </layer>
+    <objectgroup name="Mapevents">
+        <object name="cave" type="mapchange" x="576" y="32" width="32" height="32">
+            <properties>
+                <property name="map" value="crossglen_cave" />
+                <property name="place" value="entrance" />
+            </properties>
+        </object>
+        <object name="hall" type="mapchange" x="544" y="608" width="32" height="32">
+            <properties>
+                <property name="map" value="crossglen_hall" />
+                <property name="place" value="entrance" />
+            </properties>
+        </object>
+        <object name="burhczyd_check1" type="script" x="512" y="640" width="96" height="32" />
+        <object name="farmhouse" type="mapchange" x="320" y="544" width="32" height="32">
+            <properties>
+                <property name="map" value="crossglen_farmhouse" />
+                <property name="place" value="entrance" />
+            </properties>
+        </object>
+        <object name="home" type="mapchange" x="160" y="160" width="32" height="32">
+            <properties>
+                <property name="map" value="home" />
+                <property name="place" value="entrance" />
+            </properties>
+        </object>
+        <object name="east" type="mapchange" x="928" y="416" width="32" height="64">
+            <properties>
+                <property name="map" value="wild1" />
+                <property name="place" value="west" />
+            </properties>
+        </object>
+        <object name="smith" type="mapchange" x="128" y="800" width="32" height="32">
+            <properties>
+                <property name="map" value="crossglen_smith" />
+                <property name="place" value="entrance" />
+            </properties>
+        </object>
+        <object name="south" type="mapchange" x="256" y="928" width="32" height="32">
+            <properties>
+                <property name="map" value="wild2" />
+                <property name="place" value="north" />
+            </properties>
+        </object>
+        <object name="crossglen_fortune_teller" type="script" x="96" y="64" width="32" height="32" />
+    </objectgroup>
+    <objectgroup name="Spawn">
+        <object name="crossglen_wasp" type="spawn" x="736" y="160" width="192" height="160">
+            <properties>
+                <property name="quantity" value="3" />
+                <property name="spawngroup" value="crossglen_wasp" />
+            </properties>
+        </object>
+        <object name="trainingrat" type="spawn" x="320" y="96" width="192" height="128">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="trainingrat" />
+            </properties>
+        </object>
+        <object name="crossglen_farmer1" type="spawn" x="192" y="320" width="256" height="128">
+            <properties>
+                <property name="spawngroup" value="crossglen_farmer1" />
+            </properties>
+        </object>
+        <object name="crossglen_farmer2" type="spawn" x="64" y="416" width="96" height="192">
+            <properties>
+                <property name="spawngroup" value="crossglen_farmer2" />
+            </properties>
+        </object>
+        <object name="crossglen_beetle" type="spawn" x="32" y="320" width="384" height="224">
+            <properties>
+                <property name="spawngroup" value="crossglen_beetle" />
+            </properties>
+        </object>
+        <object name="crossglen_ant" type="spawn" x="512" y="832" width="384" height="96">
+            <properties>
+                <property name="quantity" value="3" />
+                <property name="spawngroup" value="crossglen_ant" />
+            </properties>
+        </object>
+        <object name="odair" type="spawn" x="896" y="32" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="odair" />
+            </properties>
+        </object>
+        <object name="oromir" type="spawn" x="896" y="864" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="oromir" />
+            </properties>
+        </object>
+        <object name="halvor" type="spawn" x="736" y="608" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="halvor" />
+            </properties>
+        </object>
+        <object name="oromir_behind_inn_help" type="spawn" x="864" y="544" width="32" height="32">
+            <properties>
+                <property name="active" value="false" />
+                <property name="spawngroup" value="oromir_behind_inn_help" />
+            </properties>
+        </object>
+        <object name="oromir_behind_haystack_help" type="spawn" x="512" y="160" width="32" height="32">
+            <properties>
+                <property name="active" value="false" />
+                <property name="spawngroup" value="oromir_behind_haystack_help" />
+            </properties>
+        </object>
+        <object name="oromir_behind_inn" type="spawn" x="864" y="512" width="32" height="32">
+            <properties>
+                <property name="active" value="false" />
+                <property name="spawngroup" value="oromir_behind_inn" />
+            </properties>
+        </object>
+        <object name="oromir_behind_haystack" type="spawn" x="512" y="160" width="32" height="32">
+            <properties>
+                <property name="active" value="false" />
+                <property name="spawngroup" value="oromir_behind_haystack" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys" />
+</map>

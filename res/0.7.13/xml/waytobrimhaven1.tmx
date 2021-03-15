@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="27" tilewidth="32" tileheight="32">
+    <properties>
+        <property name="outdoors" value="1" />
+    </properties>
+    <tileset firstgid="1" name="map_6" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_6.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_19" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_19.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_16" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_16.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_17" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_17.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_5" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_5.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_4" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_4.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_20" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_20.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_26" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_26.png" />
+    </tileset>
+    <tileset firstgid="513" name="map_36" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_36.png" />
+    </tileset>
+    <tileset firstgid="577" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <layer name="Ground" width="30" height="27">
+        <data encoding="base64" compression="zlib"> eJztVssKwCAM8+jHDvb/t3kZFNfEtOsOAw9BUPtI08321toxcA50g3vPW+09b28+81Zku7KZ8/PiMj/diakC1eBrZGuQ4Ydiq5pX8FrVP6OZwqtS87c1itamqicUvmqfKHYRvgqvlY9M7oqOzAfKqYIvu4dyyvBF/5/KHmRvkGqf+ebYG5Sxj/RdNNc/wnJHGjGt1VmE1VeZcVA/sVmk+g3e2Nh44gKTrlLH
+</data>
+    </layer>
+    <layer name="Objects" width="30" height="27">
+        <data encoding="base64" compression="zlib"> eJytVtGtgzAMTBALdAd+eGKxSkiMwF/Xokhdhx1ercbqcbKd8PROQoEkduw7J2FJX8zvZ38/U4ohc46c0kZ9XemT9820PK+Ftn2DjeAnGFvzp438LLAmAuO2WsYO6131c+RzvAortxZOEGNp+/I+UX8NmBfr6/UdkIfazsnmTTDkOC+tBbWPNGd9Fm8i2SjU9t5gx5ort1L3M4xb/pFT5mXIZ38eN4NRbx7HDI9Dq4Y9350z18oX5+I7+2S+FKyHzkEOuE682Hh8p3EvNg/CJebk+egb/Vl+1ad+WzpF+4hjunVxrILWMwKhNe/Vhuo4plir2jmH548Vd4uOQ/b5jO4OGatxo3cY+uI959XdCH3enSOxK5d4z+J4gnH0x3Xo5XgFnt4e9J8BvwXWHuEzs+YXtbF05P+Z6KyXGKdUr8cIyrv4Qj2f6XNPLEb7KrFHc7wWsZY6wRrcKvavhjlWi/W35i/PoukDePzvtdFGILWo9a/atvB4dW3WUPEsvrw1rf/A+4W1rThTI7dDPscXxVnLd260r9X6X/L9BbXvxng=
+</data>
+    </layer>
+    <layer name="Above" width="30" height="27">
+        <data encoding="base64" compression="zlib"> eJzlllkOgzAMRM3lOZc/OBiKVNRoOt4gEKS+H4SXsUMcQOQXJbY3sH2uSmx3o4FvZB+eXvUZeFq9X52YDNk6FodvXex8jI20KjlRzZlYvatzf2YvUK+B+8FiMjUwz+pBHHumpqeBPVQ1z9Dnt56O54n2ih6LH/X+0cDGzlYUO6qPETRdby4Rtob+TET52ZgnUPmuZxM+S1rwebF9jgU7C5V81huCNm9+K/OK38xoTu7kqX8ghk6uf7X2lT2aue5/YwczNE9y
+</data>
+    </layer>
+    <layer name="Walkable" width="30" height="27" visible="0">
+        <data encoding="base64" compression="zlib"> eJzllDsOwCAMQ1HPyv3PUHWolCHCzymfoZYytCSxDYF+tdYnxYOVtW9OzM3gcNKaLKfCHT0QEM2q3uUacVM/SpvaS+o300xryJmo/c94qmfmzFmmQfUnoDPu1oy0OfdT9ax+O36VfqVR/VdrTu/qG0Z4KDfx5NxTh5PAnQeiXeVQv0pnRdeX96EC536TNTrDqkblOD0c7tnhel/Fvdt35D/FfYL3j3EDiLm+dQ==
+</data>
+    </layer>
+    <objectgroup name="Mapevents">
+        <object name="west" type="mapchange" x="0" y="288" width="32" height="288">
+            <properties>
+                <property name="map" value="waytobrimhaven0" />
+                <property name="place" value="east" />
+            </properties>
+        </object>
+        <object name="east" type="mapchange" x="928" y="96" width="32" height="160">
+            <properties>
+                <property name="map" value="waytobrimhaven2" />
+                <property name="place" value="west" />
+            </properties>
+        </object>
+        <object name="north" type="mapchange" x="608" y="0" width="32" height="32">
+            <properties>
+                <property name="map" value="waterwayb1" />
+                <property name="place" value="south" />
+            </properties>
+        </object>
+        <object name="east2" type="mapchange" x="928" y="704" width="32" height="64">
+            <properties>
+                <property name="map" value="waytobrimhaven4" />
+                <property name="place" value="west" />
+            </properties>
+        </object>
+        <object name="brv_ctrl_flood" type="script" x="896" y="96" width="32" height="192" />
+        <object name="brv_crime_scene" type="script" x="288" y="96" width="32" height="32">
+            <properties>
+                <property name="when" value="enter" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Spawn">
+        <object name="erumen_1" type="spawn" x="736" y="96" width="160" height="480">
+            <properties>
+                <property name="quantity" value="3" />
+                <property name="spawngroup" value="erumen_1" />
+            </properties>
+        </object>
+        <object name="fieldcritter_1" type="spawn" x="64" y="64" width="128" height="544">
+            <properties>
+                <property name="quantity" value="3" />
+                <property name="spawngroup" value="fieldcritter_1" />
+            </properties>
+        </object>
+        <object name="forestwolf2" type="spawn" x="224" y="96" width="512" height="512">
+            <properties>
+                <property name="quantity" value="5" />
+                <property name="spawngroup" value="forestwolf2" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys" />
+</map>

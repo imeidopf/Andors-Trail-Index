@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="18" height="16" tilewidth="32" tileheight="32">
+    <tileset firstgid="1" name="map_16" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_16.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_38" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_38.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_39" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_39.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_18" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_18.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_0" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_0.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_19" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_19.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_36" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_36.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_3" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_3.png" />
+    </tileset>
+    <tileset firstgid="513" name="map_33" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_33.png" />
+    </tileset>
+    <tileset firstgid="577" name="map_17" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_17.png" />
+    </tileset>
+    <tileset firstgid="641" name="map_34" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_34.png" />
+    </tileset>
+    <tileset firstgid="705" name="map_11" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_11.png" />
+    </tileset>
+    <tileset firstgid="769" name="map_10" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_10.png" />
+    </tileset>
+    <tileset firstgid="833" name="map_12" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_12.png" />
+    </tileset>
+    <tileset firstgid="897" name="map_14" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_14.png" />
+    </tileset>
+    <tileset firstgid="961" name="map_27" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_27.png" />
+    </tileset>
+    <tileset firstgid="1025" name="map_9" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_9.png" />
+    </tileset>
+    <tileset firstgid="1089" name="map_7" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_7.png" />
+    </tileset>
+    <tileset firstgid="1153" name="map_25" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_25.png" />
+    </tileset>
+    <tileset firstgid="1217" name="map_13" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_13.png" />
+    </tileset>
+    <tileset firstgid="1281" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <tileset firstgid="1345" name="map_23" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_23.png" />
+    </tileset>
+    <tileset firstgid="1409" name="map_22" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_22.png" />
+    </tileset>
+    <tileset firstgid="1473" name="map_37" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_37.png" />
+    </tileset>
+    <tileset firstgid="1537" name="map_15" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_15.png" />
+    </tileset>
+    <tileset firstgid="1601" name="map_40" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_40.png" />
+    </tileset>
+    <tileset firstgid="1665" name="map_1" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_1.png" />
+    </tileset>
+    <tileset firstgid="1729" name="map_5" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_5.png" />
+    </tileset>
+    <tileset firstgid="1793" name="map_24" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_24.png" />
+    </tileset>
+    <tileset firstgid="1857" name="map_21" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_21.png" />
+    </tileset>
+    <layer name="Ground" width="18" height="16">
+        <data encoding="base64" compression="zlib"> eJyVkzsKwkAQhjdqSCSdNxJvoOIBtBfU3sIXgo/ewl69khEhICh4CGfwHxyHPLT42E1252Py7yZyzkWGMvD+oJtBhXgqZ5G7l4FPJPBpnsbH8zMxTaHmffDdN4nynTGP4QyArs9DfDHc/M4zPcpe25dQJ/bqeUdcVH66R16/0nhKoeXeLq5lGjRvq/ykR/EcUvrhHm9wcW0HeCo/W8OeOVFVyNqD5iEylUw6hqN7f9OdWKQ4mBvOS2fbBANiohy839ZrEuMK4BnBwXtmNC6JIbEtcIXKVYJHsp3DwYyJTY7L3m/xrFE7hmdVcD/lfuusgh/g8+4bt++y/988xKfP+QVoe0SM
+</data>
+    </layer>
+    <layer name="Objects" width="18" height="16">
+        <data encoding="base64" compression="zlib"> eJxjYMAEG4B4MxZxYsFEKL0RiLdQYA7MLJA5a6B8XlaE+fjAaqieW4wMDGuR+I4sDAyfgbQMK0TdByD9CYilmBgY1hHpJlVGCH0MaFYKUG8aEH8EYklGiNnr0dS/w2LGNyxmzmBFFTNggJiHTT8IgNwLCgt/ZlTxHiS+LtDcNWyo8l+Q2CB/g9yrCVQnBNTXC/TTViB/FxQzAvUyIen/isUMBqgbQe5dwoSwfxtUbi+UJiUtHGGC0CC37ICKVQDDZzcDIi04sWHqQwfqQLccZ4a4ZScDRD8sLWwC4gMMmOGHDgqAbilngqhHTksujJDw2wdkO7JBzAHFVxYO83Sh6UYGGMbbGSB4DxB/hYrvh/Kd2RBpCR1oMqKa5Q20yxeK/ZghbkWWv8mGENtIRHjBgA00Lb5Fcns3C3Y3kQLeovEBAe9FIg==
+</data>
+    </layer>
+    <layer name="Above" width="18" height="16">
+        <data encoding="base64" compression="zlib"> eJxjYKAdWEclc9ZTyRwDKH2UhYEhmZWBIZUVt1pGLHJv8Zj9k5GB4TMrhEYGmozY1WMDvSyY+mFgPhumGMiNMIwOlIHqVbHowQZAblzKhGqHC5DtBsTuQGzNiNtdWkh2Y3OjK1CsGqjGA0nOkwh3fcVhHy53EAIgfULMqPpB6QAfQI9vXHYfg5rjBfSXNw6/ocdRINAtQVAczIyp3ocNu33IbjKB6hNhZ2CIZ4ewnYDx2E9kvA8GAABUMRzL
+</data>
+    </layer>
+    <layer name="Walkable" width="18" height="16" visible="0">
+        <data encoding="base64" compression="zlib"> eJxTYWVgUBmGGBugtrnUdiM+8/HZSSogJ8xI8TMhP5BjDkwPqWYgm4UvrMhNU8jmkqufVLcQo47ccKLETnIwACVSIVE=
+</data>
+    </layer>
+    <objectgroup name="Mapevents">
+        <object name="east" type="mapchange" x="544" y="160" width="32" height="32">
+            <properties>
+                <property name="map" value="mushroom_m2_5" />
+                <property name="place" value="west" />
+            </properties>
+        </object>
+        <object name="west" type="mapchange" x="0" y="96" width="32" height="32">
+            <properties>
+                <property name="map" value="mushroom_m2_7" />
+                <property name="place" value="east" />
+            </properties>
+        </object>
+        <object name="mushroom_m2_6_chest" type="container" x="480" y="448" width="32" height="32" />
+    </objectgroup>
+    <objectgroup name="Spawn">
+        <object name="zuul_khan3" type="spawn" x="224" y="384" width="64" height="32">
+            <properties>
+                <property name="spawngroup" value="zuul_khan3" />
+            </properties>
+        </object>
+        <object name="dangerous_fungi_1" type="spawn" x="160" y="96" width="128" height="128">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="dangerous_fungi" />
+            </properties>
+        </object>
+        <object name="lombric_ball_1" type="spawn" x="448" y="192" width="64" height="32">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="lombric_ball" />
+            </properties>
+        </object>
+        <object name="lombric_ball_2" type="spawn" x="352" y="320" width="160" height="160">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="lombric_ball" />
+            </properties>
+        </object>
+        <object name="zuul_khan3_blocker" type="spawn" x="96" y="96" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="zuul_khan3_blocker" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys" />
+</map>

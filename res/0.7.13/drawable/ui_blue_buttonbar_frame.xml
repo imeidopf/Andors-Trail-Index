@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.gpl.rpg.AndorsTrail">
+    <item android:drawable="@drawable/ui_blue_buttonbar_frame_solo" app:single="true" />
+    <item android:drawable="@drawable/ui_blue_buttonbar_frame_vtop" app:vertical="true" app:first="true" app:reverse="false" />
+    <item android:drawable="@drawable/ui_blue_buttonbar_frame_vbottom" app:vertical="true" app:first="true" app:reverse="true" />
+    <item android:drawable="@drawable/ui_blue_buttonbar_frame_vtop" app:vertical="true" app:first="true" />
+    <item android:drawable="@drawable/ui_blue_buttonbar_frame_vbottom" app:vertical="true" app:last="true" app:reverse="false" />
+    <item android:drawable="@drawable/ui_blue_buttonbar_frame_vtop" app:vertical="true" app:last="true" app:reverse="true" />
+    <item android:drawable="@drawable/ui_blue_buttonbar_frame_vbottom" app:vertical="true" app:last="true" />
+    <item android:drawable="@drawable/ui_blue_buttonbar_frame_vmid" app:vertical="true" />
+    <item android:drawable="@drawable/ui_blue_buttonbar_frame_hleft" app:horizontal="true" app:first="true" app:reverse="false" />
+    <item android:drawable="@drawable/ui_blue_buttonbar_frame_hright" app:horizontal="true" app:first="true" app:reverse="true" />
+    <item android:drawable="@drawable/ui_blue_buttonbar_frame_hleft" app:horizontal="true" app:first="true" />
+    <item android:drawable="@drawable/ui_blue_buttonbar_frame_hright" app:horizontal="true" app:last="true" app:reverse="false" />
+    <item android:drawable="@drawable/ui_blue_buttonbar_frame_hleft" app:horizontal="true" app:last="true" app:reverse="true" />
+    <item android:drawable="@drawable/ui_blue_buttonbar_frame_hright" app:horizontal="true" app:last="true" />
+    <item android:drawable="@drawable/ui_blue_buttonbar_frame_hmid" app:horizontal="true" />
+    <item android:drawable="@drawable/ui_blue_buttonbar_frame_solo" />
+</selector>

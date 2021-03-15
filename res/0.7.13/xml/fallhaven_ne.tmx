@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
+    <properties>
+        <property name="outdoors" value="1" />
+    </properties>
+    <tileset firstgid="1" name="map_6" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_6.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_28" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_28.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_25" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_25.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_7" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_7.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_19" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_19.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_8" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_8.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_9" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_9.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_4" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_4.png" />
+    </tileset>
+    <tileset firstgid="513" name="map_3" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_3.png" />
+    </tileset>
+    <tileset firstgid="577" name="map_16" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_16.png" />
+    </tileset>
+    <tileset firstgid="641" name="map_17" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_17.png" />
+    </tileset>
+    <tileset firstgid="705" name="map_27" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_27.png" />
+    </tileset>
+    <tileset firstgid="769" name="map_5" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_5.png" />
+    </tileset>
+    <tileset firstgid="833" name="map_21" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_21.png" />
+    </tileset>
+    <tileset firstgid="897" name="map_26" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_26.png" />
+    </tileset>
+    <tileset firstgid="961" name="map_1" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_1.png" />
+    </tileset>
+    <tileset firstgid="1025" name="map_14" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_14.png" />
+    </tileset>
+    <tileset firstgid="1089" name="map_15" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_15.png" />
+    </tileset>
+    <tileset firstgid="1153" name="map_12" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_12.png" />
+    </tileset>
+    <tileset firstgid="1217" name="map_20" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_20.png" />
+    </tileset>
+    <tileset firstgid="1281" name="map_0" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_0.png" />
+    </tileset>
+    <tileset firstgid="1345" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <layer name="Ground" width="30" height="30">
+        <data encoding="base64" compression="zlib"> eJztlU0OgjAQhdsdhyEx3oOVLlSO4Lm0eiFQ8TKW0EmGse30jwUJiy9ToO3jPRqmEkJUEezkfFzL+b2RlweYc4rE9z610X97gPnnSEIyOXhI9Ut91/Jf96j5mkpJ9Ut9028bSq7fVHL9psL5emhulrq036fmrtnLqcJ1rq7LD1RlaNFYFdCF93dVmNcW0MIohpJaG+uC63Upa0P243qdD1+v5Pb7OFja7yCmfjcQuH1z/abm6MsqJr+YzMAvzQgz9oKrnOeXe0bAb6PpTIUxcDHAM5duTGY4tx6NQbNHuty3xBnZzpnt3FUWzS5AC9MgWnJtg67vEan/sNL9cmOd/ACIrPCO
+</data>
+    </layer>
+    <layer name="Objects" width="30" height="30">
+        <data encoding="base64" compression="zlib"> eJy9VjFPVEEQ3rdHLmeofBSHPVeQSGtCY6UmGkwk2IFIS6mlDV5iToOFrQ1aUfgbaC28wB+gIP4JQ2KwcIa3H/u9cffx7k79ksnOm9vdmfl29madq7DnnRt6V4O17QX9jY86oLbXvhr/BTgW6ByDjd1ilth4LXTLzYOiGp+7+pjidRIMA6/Qz4s/5/TEvhN0jN870/sE7Bm3mT9Lrrm9xiaX02BfJi5SvEyKt7LHqyBDkWPx+5FsOXkxQc67Ic6HZBsF2+JcNR534jd4wG99mjeaIudHCb9bru6XsUX6yNfXIQfOhfWe4UXrWOtS1/fJPhaZb5AFEy9y4FygnybOAhw28QykdKyz+djvy1wSHGI9+FO/mv82zflK694Tz4ciF6L/pLn47vr4rXuqrU9zPmTqGfXKZ2DjbToPlnFGZ/lSxH0VV7zOVbqOq75ezxrbcsv65rpFTl06G+z7I4z7vtL3iefU/8cK6V3znzPopO8L47r7Oc39VVznl889Je8m9Atu2K/2u005tycyPjX72Tu44maD+rV73BPb/RDP3+h1Ob+AD/qRjHdlfFnUa6wJmwl9XfZZC3JEfkoX79GC+z/QfPT+cb5LU3Dalg8Ad1X9lkE/CLX0WGzPXHxXoc643lhf9XHM1ZvWyUZRnV3p6vl+CvucmzWoM6436KleA5yQfhYEYL+fM70F78wevasHlMcZ5ZyD8sDvKOZZgXvNfKXe2SXpqf/JpnO3PLfFN1mz6OIdaNuPcr0p9aY4kLjvhNi1H9wycaJfcJ9N9eG+saEX5+ZdtGYhQmtt0MAjeC5d+jyw9obITZFfpufdLqrz/Q3FipQA
+</data>
+    </layer>
+    <layer name="Objects_replace" width="30" height="30">
+        <data encoding="base64" compression="zlib"> eJxjYBgFo2AUjIJRMApGwSgYBaNgFIyCgQUnmBkYJIC0MJ3s+8LIwMAPpM9C+baMEDF6grNo9EAAAEIlBZU=
+</data>
+    </layer>
+    <layer name="Above" width="30" height="30">
+        <data encoding="base64" compression="zlib"> eJxjYKAueEtA3oORPHMJ6XtHQL8nmfaSqw8GNFkp009OeDUwMTC0MFFmL7K/CZl1jIUyu5ABuemDUkAonikNU1z+wpc+OCiMQxDA5S9K0yUhgGw+MpvSdEmKvfeZaWsXMqCHXUsZIRgXH5cYIdDKgkqjA2rmb2qBweImfPUdtcsyZPPw1XeU1lnkmkftMoXY8KN2mwPkX1Ui1FG7zYEt/Aj5DRsg1b/I9sL8Tchv2AAh/8LsgdGgMpOYcCYE8KU7kBysbPZHcp8lFeohkNnBRNav6O0HfP7G5x9C7RBc9RAx4UzP+hIfUARieaBb1IC0OgOEpjXYBIxHWSBOBLIlgVgaSsPqU3z1LrIaWDir4lGHDn4DxWqBcVrHhIhfUmlke8k1AwQA4Oc+dQ==
+</data>
+    </layer>
+    <layer name="Walkable" width="30" height="30">
+        <data encoding="base64" compression="zlib"> eJztkksKgDAMRLvxpr3/GYqLQgn5/+rCQEDp2OckM58x5t/ufusGc3M7+NrqYp++q9ndOeLmGdk7pffU17ncd/sdnnPP3pxid1o02Vk9NdH/9RScv2UvGVzuXMuy7knDzch1dd/gUrPv5nbN3ZOviD/JczU3c7dwdpJfjI/dZ8mKxW+Uq90jpsWeMb3Gs1RWPcWtruycR3JTyZV6Afex+CY=
+</data>
+    </layer>
+    <layer name="layer_replace" width="30" height="30">
+        <data encoding="base64" compression="zlib"> eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+</data>
+    </layer>
+    <objectgroup name="Mapevents">
+        <object name="west1" type="mapchange" x="0" y="416" width="32" height="64">
+            <properties>
+                <property name="map" value="fallhaven_nw" />
+                <property name="place" value="east1" />
+            </properties>
+        </object>
+        <object name="west2" type="mapchange" x="0" y="864" width="32" height="32">
+            <properties>
+                <property name="map" value="fallhaven_nw" />
+                <property name="place" value="east2" />
+            </properties>
+        </object>
+        <object name="clothes" type="mapchange" x="640" y="736" width="32" height="32">
+            <properties>
+                <property name="map" value="fallhaven_clothes" />
+                <property name="place" value="entrance" />
+            </properties>
+        </object>
+        <object name="barn" type="mapchange" x="224" y="672" width="64" height="32">
+            <properties>
+                <property name="map" value="fallhaven_barn" />
+                <property name="place" value="entrance" />
+            </properties>
+        </object>
+        <object name="potions" type="mapchange" x="512" y="576" width="32" height="32">
+            <properties>
+                <property name="map" value="fallhaven_potions" />
+                <property name="place" value="entrance" />
+            </properties>
+        </object>
+        <object name="church" type="mapchange" x="320" y="256" width="32" height="32">
+            <properties>
+                <property name="map" value="fallhaven_church" />
+                <property name="place" value="southeast" />
+            </properties>
+        </object>
+        <object name="gravedigger" type="mapchange" x="704" y="96" width="32" height="32">
+            <properties>
+                <property name="map" value="fallhaven_gravedigger" />
+                <property name="place" value="entrance" />
+            </properties>
+        </object>
+        <object name="south" type="mapchange" x="416" y="928" width="32" height="32">
+            <properties>
+                <property name="map" value="fallhaven_se" />
+                <property name="place" value="north" />
+            </properties>
+        </object>
+        <object name="sign_fallhaven_ne_grave1" type="sign" x="544" y="256" width="32" height="32" />
+        <object name="sign_fallhaven_ne_grave5" type="sign" x="544" y="352" width="32" height="32" />
+        <object name="sign_fallhaven_ne_grave6" type="sign" x="672" y="352" width="32" height="32" />
+        <object name="sign_fallhaven_ne_grave2" type="sign" x="672" y="256" width="32" height="32" />
+        <object name="sign_fallhaven_ne_grave3" type="sign" x="768" y="256" width="32" height="32" />
+        <object name="sign_fallhaven_ne_grave4" type="sign" x="864" y="256" width="32" height="32" />
+        <object name="sign_fallhaven_ne_grave7" type="sign" x="864" y="352" width="32" height="32" />
+        <object name="sign_fallhaven_ne_grave9" type="sign" x="832" y="448" width="32" height="32" />
+        <object name="sign_fallhaven_ne_grave8" type="sign" x="736" y="448" width="32" height="32" />
+        <object name="east" type="mapchange" x="928" y="832" width="32" height="96">
+            <properties>
+                <property name="map" value="roadbeforecrossroads5" />
+                <property name="place" value="west" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Citizens">
+        <object name="fallhaven_citizen3" type="spawn" x="672" y="224" width="256" height="288">
+            <properties>
+                <property name="spawngroup" value="fallhaven_citizen3" />
+            </properties>
+        </object>
+        <object name="fallhaven_citizen6" type="spawn" x="32" y="736" width="608" height="160">
+            <properties>
+                <property name="spawngroup" value="fallhaven_citizen6" />
+            </properties>
+        </object>
+        <object name="fallhaven_citizen5" type="spawn" x="352" y="448" width="160" height="448">
+            <properties>
+                <property name="spawngroup" value="fallhaven_citizen5" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys" />
+    <objectgroup name="NPCs">
+        <object name="fallhaven_priest" type="spawn" x="352" y="320" width="128" height="64">
+            <properties>
+                <property name="spawngroup" value="fallhaven_priest" />
+            </properties>
+        </object>
+        <object name="guard_pathway" type="spawn" x="704" y="864" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="guard_pathway" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Replace">
+        <object name="pathway_fallhaven:50" type="replace" x="768" y="832" width="192" height="96">
+            <properties>
+                <property name="Objects" value="Objects_replace" />
+                <property name="Walkable" value="layer_replace" />
+            </properties>
+        </object>
+        <object name="pathway_fallhaven:50" type="replace" x="768" y="800" width="192" height="128">
+            <properties>
+                <property name="Above" value="layer_replace" />
+            </properties>
+        </object>
+    </objectgroup>
+</map>

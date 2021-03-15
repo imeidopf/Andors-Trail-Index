@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="27" tilewidth="32" tileheight="32">
+    <properties>
+        <property name="outdoors" value="1" />
+    </properties>
+    <tileset firstgid="1" name="map_3" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_3.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_4" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_4.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_0" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_0.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_47" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_47.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_38" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_38.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_12" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_12.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_16" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_16.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_17" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_17.png" />
+    </tileset>
+    <tileset firstgid="513" name="map_6" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_6.png" />
+    </tileset>
+    <tileset firstgid="577" name="map_20" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_20.png" />
+    </tileset>
+    <tileset firstgid="641" name="map_36" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_36.png" />
+    </tileset>
+    <tileset firstgid="705" name="map_19" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_19.png" />
+    </tileset>
+    <tileset firstgid="769" name="map_1" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_1.png" />
+    </tileset>
+    <tileset firstgid="833" name="map_5" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_5.png" />
+    </tileset>
+    <tileset firstgid="897" name="map_26" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_26.png" />
+    </tileset>
+    <tileset firstgid="961" name="map_27" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_27.png" />
+    </tileset>
+    <tileset firstgid="1025" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <tileset firstgid="1089" name="map_8" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_8.png" />
+    </tileset>
+    <tileset firstgid="1153" name="map_28" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_28.png" />
+    </tileset>
+    <tileset firstgid="1217" name="map_25" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_25.png" />
+    </tileset>
+    <tileset firstgid="1281" name="map_21" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_21.png" />
+    </tileset>
+    <tileset firstgid="1345" name="map_7" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_7.png" />
+    </tileset>
+    <tileset firstgid="1409" name="map_9" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_9.png" />
+    </tileset>
+    <tileset firstgid="1473" name="map_10" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_10.png" />
+    </tileset>
+    <layer name="Ground" width="30" height="27">
+        <data encoding="base64" compression="zlib"> eJzVlW8OwiAMxUv8cyuOoptGt0vsFLusfnTLSmJIC68NavzwAoHCbzxaFoko/qnOBXn2e4DyfFcp9gmqlW8jt7tAdAj1FvHGwt0vex5DvY1f9CQX4glyVmtOIZ7UuPMPcioy15JTqLQ6Gt+4lpxCWMjdtq7HVnGf5LZ4Z61cLb70/kvfZvXPW8Ndts/dybXWcM49Vdi5H57/gsRNbM1vjeup4dlwzxrXI+nMKNeaD624KR96VhrvhTGEq51DGl/Z03J3F56/0dZP0vbScktjSOMr98rzA239JG2Nllsldu73VPnfSGsie2OJ9+RxvqZjb9D4llwk/gW/aftF
+</data>
+    </layer>
+    <layer name="Objects" width="30" height="27">
+        <data encoding="base64" compression="zlib"> eJyFVk1LHEEQ7XTPyP6AzUGzEJbk4K56MHgweIuwPyCQgITFOcSbuQ4JLno01xyTexAlnpR4jAEh91zEnyAEcskPSD27yn7TOyYFTW339FTVe/Uxu+OcO7/n3C/v3HfRV8G5b6J/+3h2l7a7J/L+VxffwRlre9Zmw3zi94X83hBbhW+3w3rRR7t9ue809gs9v9CYoJdC9J3bYGw4GxOGRbVpeq2Ieii6krVSxGcce67h+9KnuFjzHcOwGZKPFfW3HuI+j+N/3Bh/HE+Ot6s2q5Dsj9TXvui9Mmr43NfzQ+KkoriONe4bzrLc5XjhdyL3VhXbU1mvyvjue/m9VUbd0T3uPFQ/jvzc+guRJ/BXy/6LSxwZXuP4h5w9kv1jWQNZQzlbFjsz+h5iwnlP1me1g1wcka+RxnSkHIG/Vcudb/ZQV2tqXjmuipRD7I8zTMYn7OEeMHX0OTiy51vKF2I1ueU8RL9Y8z5ywz4Mk9WVne+GpIFpD1zIehYiP+DkZ5l6xMTq2jiG3wVZb/X5YdHkDfuPZTpf9okHlp5is9nSD8nXhPB26TnwvlN8f4qI3XjD2acy2b+vuCBWnxCz9VpW30/3OGpoyUe/p3J3VvSZi1yBu1l59kDWG+Lb8M25VCt5P8IWbB+UzRqye4a9q3ENfDMXM665z+cRBDHxbN0hvmcoJvi59mlO8rzgmdun+rtrzkJzbPBv9YQ8boTpGXFOsXW1b0+11iZUGxC7N9Qz3MXz52XizGJboF61OZXP7hxjj/iCrOg3oG0OmWYeURtjnl++Pb9cd1aXlX7DIGtaz9azi2xTY2C7wIsZNqR7HJfdBa8TR7YIL3x0yjjnIB3Vo6K5Z7vGNTDU9G3O67G2mCgnlk/77mHO4fvwooyzEL28TjOR8eLb9IRyW9/x/wX4NtWn1SDnF3Hv6vx7qfMdMxA2BzoTGS8EOV7yKWdt+cX7lX77Lql+wUNP5wryZVwgDvT4nN6zHHGfQLYUx6Vvz+/Ip3qCbe55y7dzqacOynS3jT+rLYuzbZ5Bf6B+vPETUj1YDVtca1kPTdw0f1xbxxRn7vuauDXB/Vpzzn2D/xVlkeZEG39cWwPNU0027J2BT+d2ZoKZMdEYtkMTWx2avvP8nqkNq5m8p6Ar5ZZjHmrexyHxmWPjdzi/JquUD/PdNtsZr/2PuAr//m/chndb5x+kCtNcIJ6/fL5yog==
+</data>
+    </layer>
+    <layer name="Above" width="30" height="27">
+        <data encoding="base64" compression="zlib"> eJy1lcENwjAMRZO2LMACnACJDbgjBBv0BgvAXp2CIrEPKyAfIrmWnf6Y9F1akOVf/9hOCMvxjiG84jK5T+309xinz74t036s8NhLh8fmoBqeBbrXSrqlIN7U8oSDeJPzhPpP9kktBiBmiZ7aAPXU6KmjEU/z9RFz5fGY+6fl1HKPIuam6O6aEPaNrZv847mSNlrHXcRpXqWacrXlOGdqsJD+EB5tC3kWlLt0z3pJdZDWG9TrHX3Ja6T+8s5wBOd52+h3mXeGkb1ErB39JRmM91JKZ4TvQHnG2k4o5dDpMy3/Q8/YC98hnH+8/ocaujEzI9r+8uhq/YTeNxx0f8ie47m1+4b4zswf0ltzNVh+WvuTNNP3Uk2oT/yeszRzyLPR+AGbwjs5
+</data>
+    </layer>
+    <layer name="Walkable" width="30" height="27">
+        <data encoding="base64" compression="zlib"> eJztkkEOwCAIBD30Kf7/jU2vRmQZUXuQhJOww25bn1Lq7dsH+qvdemqpvMi8ouV5IneS3KL5kFs8fUXTmhntth5IlqMcVuZG9HtvhJv1fVdzFf9/5JI7Z7k0n51cb4Zwlf1Mbm/eq6zsLL+tToSrZtP6PfFvUS5h050sjVl2xu0zXOv9BT0uZUE=
+</data>
+    </layer>
+    <objectgroup name="Mapevents">
+        <object name="east" type="mapchange" x="928" y="160" width="32" height="128">
+            <properties>
+                <property name="map" value="waytolostmine2" />
+                <property name="place" value="west" />
+            </properties>
+        </object>
+        <object name="south" type="mapchange" x="704" y="832" width="64" height="32">
+            <properties>
+                <property name="map" value="waytolostmine0" />
+                <property name="place" value="north" />
+            </properties>
+        </object>
+        <object name="minerhouse0" type="mapchange" x="416" y="576" width="32" height="32">
+            <properties>
+                <property name="map" value="minerhouse0" />
+                <property name="place" value="south" />
+            </properties>
+        </object>
+        <object name="minerhouse1" type="mapchange" x="320" y="320" width="32" height="32">
+            <properties>
+                <property name="map" value="minerhouse1" />
+                <property name="place" value="south" />
+            </properties>
+        </object>
+        <object name="minerhouse2" type="mapchange" x="288" y="160" width="32" height="32">
+            <properties>
+                <property name="map" value="minerhouse2" />
+                <property name="place" value="south" />
+            </properties>
+        </object>
+        <object name="minerhouse3" type="mapchange" x="704" y="224" width="32" height="32">
+            <properties>
+                <property name="map" value="minerhouse3" />
+                <property name="place" value="south" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Spawn">
+        <object name="charwdg1" type="spawn" x="672" y="640" width="128" height="160">
+            <properties>
+                <property name="spawngroup" value="charwdg1" />
+            </properties>
+        </object>
+        <object name="charwdg1_1" type="spawn" x="672" y="576" width="64" height="32">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="charwdg1" />
+            </properties>
+        </object>
+        <object name="charwdg1_2" type="spawn" x="640" y="416" width="96" height="160">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="charwdg1" />
+            </properties>
+        </object>
+        <object name="charwdg1_3" type="spawn" x="704" y="352" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="charwdg1" />
+            </properties>
+        </object>
+        <object name="charwdg1_4" type="spawn" x="512" y="352" width="128" height="96">
+            <properties>
+                <property name="spawngroup" value="charwdg1" />
+            </properties>
+        </object>
+        <object name="charwdg2" type="spawn" x="416" y="352" width="64" height="32">
+            <properties>
+                <property name="spawngroup" value="charwdg2" />
+            </properties>
+        </object>
+        <object name="charwdg1_5" type="spawn" x="192" y="384" width="128" height="32">
+            <properties>
+                <property name="spawngroup" value="charwdg1" />
+            </properties>
+        </object>
+        <object name="charwdg1_6" type="spawn" x="128" y="416" width="32" height="96">
+            <properties>
+                <property name="spawngroup" value="charwdg1" />
+            </properties>
+        </object>
+        <object name="charwdg2_1" type="spawn" x="544" y="256" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="charwdg2" />
+            </properties>
+        </object>
+        <object name="charwdg2_2" type="spawn" x="96" y="640" width="64" height="32">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="charwdg2" />
+            </properties>
+        </object>
+        <object name="charwdg1_7" type="spawn" x="64" y="512" width="96" height="128">
+            <properties>
+                <property name="spawngroup" value="charwdg1" />
+            </properties>
+        </object>
+        <object name="charwdg1_8" type="spawn" x="160" y="736" width="32" height="64">
+            <properties>
+                <property name="spawngroup" value="charwdg1" />
+            </properties>
+        </object>
+        <object name="charwdg2_3" type="spawn" x="224" y="704" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="charwdg2" />
+            </properties>
+        </object>
+        <object name="charwdg1_9" type="spawn" x="224" y="608" width="160" height="96">
+            <properties>
+                <property name="spawngroup" value="charwdg1" />
+            </properties>
+        </object>
+        <object name="charwdg1_10" type="spawn" x="384" y="640" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="charwdg1" />
+            </properties>
+        </object>
+        <object name="charwdg2_4" type="spawn" x="768" y="256" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="charwdg2" />
+            </properties>
+        </object>
+        <object name="charwdg1_11" type="spawn" x="832" y="192" width="64" height="96">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="charwdg1" />
+            </properties>
+        </object>
+        <object name="charwdg2_5" type="spawn" x="352" y="192" width="160" height="32">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="charwdg2" />
+            </properties>
+        </object>
+        <object name="halvor" type="spawn" x="448" y="672" width="32" height="32">
+            <properties>
+                <property name="active" value="false" />
+                <property name="spawngroup" value="halvor" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys" />
+</map>

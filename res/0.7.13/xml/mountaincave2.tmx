@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="30" tilewidth="32" tileheight="32">
+    <tileset firstgid="1" name="map_3" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_3.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_4" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_4.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_5" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_5.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_0" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_0.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_14" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_14.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_38" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_38.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_1" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_1.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_10" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_10.png" />
+    </tileset>
+    <tileset firstgid="513" name="map_12" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_12.png" />
+    </tileset>
+    <tileset firstgid="577" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <layer name="Ground" width="25" height="30">
+        <data encoding="base64" compression="zlib"> eJy1ldsNwzAIRZ1F2kk8QkdIX8qjI3qQDtQg2eotMhgs9+P+xITDBYfEEMLtUMraD8Usev5WhLFFdxA+X4CxsjMPg/I8QCUX1boBY85npZZFYfA4yvMEzbkO7BNySi2bwuBxPE9SGAlqSY1+YZzEiMp5MjBa7xaG5GUEIxoZGseS/1+M2rcjxV6mtqwMzUvPPEYxrLNo9avHg5S/5kXLLzFqPaox1tDeuZIHvlMlBu2hVydjbnBwx++djMKp9azsZmT09qs2F/4PwVpGMqT5aV48jEWIs3ix3OFan4pO0/eOeDlraPeJdJ5+76KHg3fLstcx3uPFw+DxVk4vw+MFZ2Jh8G929Eyk3ebpV82Ltjt7GaRrViu/p1/E+ADP1cU2
+</data>
+    </layer>
+    <layer name="Objects" width="25" height="30">
+        <data encoding="base64" compression="zlib"> eJy9VjtOxDAQtSkicYVIHITT0FNusRdgxQkoSMmnoFgaKiQKDoA4yJYrfi22khFPb9/YTgqeZG3imcybn8cbgo+zgmwJemd/9088c3F+FMIF7W3heTX9vsW/ve9G21t6XwmdgWTZn6vE9RSFchhlpof2O6FbynmNw5M9O/s9+LAGO49R58s4rI5sd+N6PsK4PtO6DNpfFce+Yr8jvYyPtG6cnCDHcCg+ANakRV9hXVeR8Oqq4lP9VPKjd+wg931aP9P7F8hKtcZ8mX20wxzGjf1U6yXUYz8RXnxLZpGyHwR/Sx3mAvNkvs/tKZtX3ozhs49xqDm4BN7ZN64SD8/mjFIsyNFybnk212K2fD3QvKzVBXuvS3fC++SniiXna4hjzqw2e6E3B9fOvtXGeLx7g+vQJ73TBTzefcXg88R18Xi4n/m7PM9uo98bLT3fEssdzx7I1zHJWvqZZxd+c0K1eAl6lqqcle5+hc1kp3VWZ3C+OMc5li7JXmfaZZT+Dy2Bqovi+AVdLXPE
+</data>
+    </layer>
+    <layer name="Above" width="25" height="30">
+        <data encoding="base64" compression="zlib"> eJxjYICAlwzYAS5xcgAus2ZQyRxHJgaG+Yy49YHkiTUflzmEwoPY8MLnTnxmlOLRW0Sk3SBAapiTC4gNc0oANdPoQNox0HHSB0xX3kDsA8R+TAj2UjxpFRcYjuFFS/uQw4tWeeYlDjat7KBFeGEr46kZXrjqEGr6BT3sWZHcTy2/4ItfavgFPZykySgjCIHhUq5jswM5vLiokJ5J9Qc5aWCg6ydq6oH5xZIEPYOpTgMAyisnUg==
+</data>
+    </layer>
+    <layer name="Walkable" width="25" height="30">
+        <data encoding="base64" compression="zlib"> eJztkzEOwCAMAxFvzf/f0C4sqCm243QqUkb77AAxx4h71onZNz/j2Wf32o/DH+GgzNM5dakyKnkQXbWzykA4SA53JqfG6c/+FcV/6Vx/rspQ91RhsNovenRzHIw3vdp512V6Za/sG1b2ymZE+6Icx905GS5O5tvVRXnD6r5Y7yxv17iyMowLpgjFoQ==
+</data>
+    </layer>
+    <objectgroup name="Mapevents">
+        <object name="south" type="mapchange" x="672" y="928" width="96" height="32">
+            <properties>
+                <property name="map" value="mountaincave1" />
+                <property name="place" value="north" />
+            </properties>
+        </object>
+        <object name="north" type="mapchange" x="64" y="0" width="64" height="32">
+            <properties>
+                <property name="map" value="mountaincave3" />
+                <property name="place" value="south" />
+            </properties>
+        </object>
+        <object name="remains_mcave_1" type="sign" x="32" y="768" width="32" height="32" />
+        <object name="remains_mcave_2" type="sign" x="160" y="256" width="32" height="32" />
+        <object name="remains_mcave_3" type="sign" x="640" y="224" width="32" height="32" />
+        <object name="remains_mcave_4" type="sign" x="576" y="352" width="32" height="32" />
+        <object name="remains_mcave_5" type="sign" x="608" y="640" width="32" height="32" />
+    </objectgroup>
+    <objectgroup name="Spawn" visible="0">
+        <object name="scaradon_3" type="spawn" x="352" y="288" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="scaradon_3" />
+            </properties>
+        </object>
+        <object name="scaradon_3_1" type="spawn" x="416" y="288" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="scaradon_3" />
+            </properties>
+        </object>
+        <object name="scaradon_2" type="spawn" x="480" y="96" width="288" height="800">
+            <properties>
+                <property name="quantity" value="5" />
+                <property name="spawngroup" value="scaradon_2" />
+            </properties>
+        </object>
+        <object name="scaradon_3_2" type="spawn" x="128" y="448" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="scaradon_3" />
+            </properties>
+        </object>
+        <object name="scaradon_2_1" type="spawn" x="32" y="480" width="256" height="416">
+            <properties>
+                <property name="quantity" value="4" />
+                <property name="spawngroup" value="scaradon_2" />
+            </properties>
+        </object>
+        <object name="scaradon_1" type="spawn" x="32" y="64" width="288" height="384">
+            <properties>
+                <property name="quantity" value="4" />
+                <property name="spawngroup" value="scaradon_1" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys" />
+</map>

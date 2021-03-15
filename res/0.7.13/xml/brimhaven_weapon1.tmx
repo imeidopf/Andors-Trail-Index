@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="7" height="8" tilewidth="32" tileheight="32">
+    <tileset firstgid="1" name="map_12" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_12.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_7" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_7.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_5" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_5.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_20" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_20.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_11" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_11.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_25" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_25.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_19" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_19.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <layer name="Ground" width="7" height="8">
+        <data encoding="base64" compression="zlib"> eJzTY2Bg0MODE7BgmFwiFgyTu4UFE5JLwCGXADUbmxxIfDsSvoXGBwC7Eh4m
+</data>
+    </layer>
+    <layer name="Objects" width="7" height="8">
+        <data encoding="base64" compression="zlib"> eJxjYMAPlBgZGBQZIWw5RlS5f2hqk5Dk/6PJhSHJPQfi10D8Hot9L4D4DRB/IOAuYgEAxpgIoQ==
+</data>
+    </layer>
+    <layer name="Above" width="7" height="8">
+        <data encoding="base64" compression="zlib"> eJxjYKA/SGZkYDgOpOcx0t4uALoCAcs=
+</data>
+    </layer>
+    <layer name="Walkable" width="7" height="8" visible="0">
+        <data encoding="base64" compression="zlib"> eJx7wsjA8IRGGBkQUkOMHDaATQ8yHwAHpiZ4
+</data>
+    </layer>
+    <objectgroup name="Mapevents">
+        <object name="entrance" type="mapchange" x="96" y="224" width="32" height="32">
+            <properties>
+                <property name="map" value="brimhaven4" />
+                <property name="place" value="weapon1" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Spawn">
+        <object name="truric" type="spawn" x="32" y="96" width="160" height="96">
+            <properties>
+                <property name="spawngroup" value="truric" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys" />
+    <objectgroup name="Replace" />
+</map>

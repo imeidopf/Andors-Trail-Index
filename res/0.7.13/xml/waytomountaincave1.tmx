@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="27" height="19" tilewidth="32" tileheight="32">
+    <properties>
+        <property name="outdoors" value="1" />
+    </properties>
+    <tileset firstgid="1" name="map_6" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_6.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_0" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_0.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_7" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_7.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_4" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_4.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_3" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_3.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_19" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_19.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_17" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_17.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_16" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_16.png" />
+    </tileset>
+    <tileset firstgid="513" name="map_1" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_1.png" />
+    </tileset>
+    <tileset firstgid="577" name="map_5" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_5.png" />
+    </tileset>
+    <tileset firstgid="641" name="map_9" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_9.png" />
+    </tileset>
+    <tileset firstgid="705" name="map_20" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_20.png" />
+    </tileset>
+    <tileset firstgid="769" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <layer name="Ground" width="27" height="19">
+        <data encoding="base64" compression="zlib"> eJzjYGBg4CARhxCBkdXbMkIwqfbQ0y5i7BlqdhFrTwgWewarXaTYA7PrOZqdtPQTepzROl3Q0i5c9tAizQ+0Xc/pFIYgO+hhFyzsngLZD0gMP1LCEDkP3wXyH9HArnI0e2CYmnZ1AvE9HPbQojzEZw+1yyhCdgEATBpYpA==
+</data>
+    </layer>
+    <layer name="Objects" width="27" height="19">
+        <data encoding="base64" compression="zlib"> eJyVlbFqw0AMhs8XyBP4BQIZMjRLpizeQl4hz1AwdGhp50x5FD+VhxaCd68tuFJttX+F7iwLlMTG93/3S/KlLkJ4oqwz31dKiTKGcIghG/qZjrKJo86Q0B8U55lys4D1Bayf+/wR0z4elMaW8i2PMn11Gc6t+L/e60mzVsDT/cG4qD55PCGrpd/vwLLmQccSTzlWav70Wq8n3JewpF967vB6D6w95avTk+yrp/wAlujKvA2GrxfKs6OG6GkNGuhLR6qOc95StUZfqKvruMSbfq+kB8y5B1tX83mNZxat8+s0XbczvvC+ZxaF9Vj8cY4Tq0/4suro7Zf4Ohn+U++vvr+kX8KpijElvL70vjG4l7s49pM5ldp7D/tHPak1/p/wOZybjTLjpYHnrfpx4LkrnNRsMIvn+tOW+o25c1e0cjMoLIy1ofUN4d9r4g==
+</data>
+    </layer>
+    <layer name="Above" width="27" height="19">
+        <data encoding="base64" compression="zlib"> eJxjYBhewIKJgcGFaaBdQT2QjuQXbP5qYaSfW4aDfX+oaxzZgFbhiGIuEw5xWtlHL0AFfx0jUEbgMndA/EtFQO/0AQKEwnooAXA4MQ39chAZAABE3wuP
+</data>
+    </layer>
+    <layer name="Walkable" width="27" height="19">
+        <data encoding="base64" compression="zlib"> eJxTYWZgUCECIwNi1JOL0QGtzKe1n/CBoWgPIfuGanrAZx8tzMYXjrQML1qFIy7z6GUfrcORXumDkH3UtmcwpQ9q20NLfxELqJk28NlNDXMB90o9Zg==
+</data>
+    </layer>
+    <objectgroup name="Mapevents">
+        <object name="north" type="mapchange" x="320" y="0" width="96" height="32">
+            <properties>
+                <property name="map" value="waytomountaincave0" />
+                <property name="place" value="south" />
+            </properties>
+        </object>
+        <object name="south" type="mapchange" x="160" y="576" width="160" height="32">
+            <properties>
+                <property name="map" value="waytomountaincave2" />
+                <property name="place" value="north1" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Spawn">
+        <object name="irdegh_2" type="spawn" x="96" y="320" width="32" height="32">
+            <properties>
+                <property name="spawngroup" value="irdegh_2" />
+            </properties>
+        </object>
+        <object name="irdegh_2_1" type="spawn" x="160" y="96" width="224" height="128">
+            <properties>
+                <property name="spawngroup" value="irdegh_2" />
+            </properties>
+        </object>
+        <object name="irdegh_3" type="spawn" x="288" y="416" width="64" height="32">
+            <properties>
+                <property name="spawngroup" value="irdegh_3" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Spawn2">
+        <object name="irdegh_spawn" type="spawn" x="32" y="64" width="384" height="480">
+            <properties>
+                <property name="quantity" value="8" />
+                <property name="spawngroup" value="irdegh_spawn" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys" />
+</map>

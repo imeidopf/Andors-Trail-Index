@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="16" height="16" tilewidth="32" tileheight="32">
+    <tileset firstgid="1" name="map_16" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_16.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_36" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_36.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_19" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_19.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_38" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_38.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_18" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_18.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_0" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_0.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_39" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_39.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_5" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_5.png" />
+    </tileset>
+    <tileset firstgid="513" name="map_3" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_3.png" />
+    </tileset>
+    <tileset firstgid="577" name="map_10" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_10.png" />
+    </tileset>
+    <tileset firstgid="641" name="map_9" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_9.png" />
+    </tileset>
+    <tileset firstgid="705" name="map_4" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_4.png" />
+    </tileset>
+    <tileset firstgid="769" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <tileset firstgid="833" name="map_33" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_33.png" />
+    </tileset>
+    <tileset firstgid="897" name="map_1" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_1.png" />
+    </tileset>
+    <layer name="Ground" width="16" height="16">
+        <data encoding="base64" compression="zlib"> eJyNkk0OgkAMhVt/AndAN2z1DMYzuHOBngW9IQrHMDFuiGFhG9rQ1JnRxRcy0Peqbx4CAArzAPgDnSvosIBvtpj20rkVHZbwTYlpL5070OFIzzVOVPI+5sV6q7nKvFJD2iuHUXMnOsOD2GHYqzI7WJ8ZGmFwXtbnZM6hPBvH4HxUn7rTLMKGP/7ZC98n7Qe4/GP4Pvl+aP4h7Uzme5m94ZiFzyCHcOcLyZf1T+ItWb5gustK/kOo87ybO9GKRn0u7h7LSOft7honH9XuibNk2UVoZV/vfjuj98lZfQDWPD+k
+</data>
+    </layer>
+    <layer name="Objects" width="16" height="16">
+        <data encoding="base64" compression="zlib"> eJxjYKAe2MqEYJswE6dHBqqnhpGBYRuSfmsi9cOAHlB/EBOq2H+gmDEjhP0ZKDeREVPfTSxiuIAxCWpBIIoZtx3YzNLFYX4umjjInyY41OIyAxng0jsYwQWgWy8B8TWom5dA6TVEpI8OIL4IVP+AAZI+QAAWF4TiUo+EMPJGSnffmXCrgwFYusClFtnum3jMITU9HmLEjHsAgkAWBA==
+</data>
+    </layer>
+    <layer name="Above" width="16" height="16">
+        <data encoding="base64" compression="zlib"> eJxjYKAeyGSkTA+MvZQEc5D1z2eG0MtI0A/TMxxBI5X9ps0IweQCUFyxkKgenc9IpJ9A6kDqb0H51xlR49qAgD8yGSlLG+huJzUuQHaD9NzCIQ8SN6EgLmAAAGKaDlg=
+</data>
+    </layer>
+    <layer name="Top" width="16" height="16">
+        <data encoding="base64" compression="zlib"> eJxjYBgFo4B+YDnjwNh7e2CsHfQAAPoWAYQ=
+</data>
+    </layer>
+    <layer name="Walkable" width="16" height="16" visible="0">
+        <data encoding="base64" compression="zlib"> eJxTYWZgUBkmGAbQ2cToIQbg0k+OueT4i1z92MKHkjAe6vopMYNacUCOfkrTADY9AKeqH9g=
+</data>
+    </layer>
+    <objectgroup name="Mapevents">
+        <object name="south" type="mapchange" x="352" y="480" width="32" height="32">
+            <properties>
+                <property name="map" value="mushroom_m2_4" />
+                <property name="place" value="north" />
+            </properties>
+        </object>
+        <object name="west" type="mapchange" x="0" y="160" width="32" height="32">
+            <properties>
+                <property name="map" value="mushroom_m2_6" />
+                <property name="place" value="east" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Spawn">
+        <object name="dangerous_fungi_1" type="spawn" x="96" y="96" width="224" height="96">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="dangerous_fungi" />
+            </properties>
+        </object>
+        <object name="mid_fungi_1" type="spawn" x="384" y="352" width="96" height="96">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="mid_fungi" />
+            </properties>
+        </object>
+        <object name="weak_fungi_1" type="spawn" x="256" y="128" width="192" height="128">
+            <properties>
+                <property name="quantity" value="3" />
+                <property name="spawngroup" value="weak_fungi" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys" />
+</map>

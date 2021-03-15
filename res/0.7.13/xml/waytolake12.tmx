@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1.0" orientation="orthogonal" width="23" height="15" tilewidth="32" tileheight="32">
+    <tileset firstgid="1" name="map_3" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_3.png" />
+    </tileset>
+    <tileset firstgid="65" name="map_4" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_4.png" />
+    </tileset>
+    <tileset firstgid="129" name="map_30" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_30.png" />
+    </tileset>
+    <tileset firstgid="193" name="map_47" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_47.png" />
+    </tileset>
+    <tileset firstgid="257" name="map_31" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_31.png" />
+    </tileset>
+    <tileset firstgid="321" name="map_5" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_5.png" />
+    </tileset>
+    <tileset firstgid="385" name="map_6" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_6.png" />
+    </tileset>
+    <tileset firstgid="449" name="map_0" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_0.png" />
+    </tileset>
+    <tileset firstgid="513" name="map_1" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_1.png" />
+    </tileset>
+    <tileset firstgid="577" name="map_40" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_40.png" />
+    </tileset>
+    <tileset firstgid="641" name="map_28" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_28.png" />
+    </tileset>
+    <tileset firstgid="705" name="map_2" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_2.png" />
+    </tileset>
+    <tileset firstgid="769" name="map_25" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_25.png" />
+    </tileset>
+    <tileset firstgid="833" name="map_37" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_37.png" />
+    </tileset>
+    <tileset firstgid="897" name="map_10" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_10.png" />
+    </tileset>
+    <tileset firstgid="961" name="map_16" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_16.png" />
+    </tileset>
+    <tileset firstgid="1025" name="map_21" tilewidth="32" tileheight="32">
+        <image source="../drawable/map_21.png" />
+    </tileset>
+    <layer name="Ground" width="23" height="15">
+        <data encoding="base64" compression="zlib"> eJzNk0kOgCAMRfE8egWO4hiHs5g4HVVvIAtImqb8ssDExVs1vJZfsMYYm5n2A2dO90aQ3B1Ac9/e+0TcPWBS+mhzD4Ca9eHu03E59oRMpNlon4XVdu8uCz0TaTYKdx/eXUXcPAN+XnOvwM0J+0M1jTFyPuxPyofuFjGDu6N80LsKpPw7lP3faDw5XC9NEWYm
+</data>
+    </layer>
+    <layer name="Objects" width="23" height="15">
+        <data encoding="base64" compression="zlib"> eJylVDsOwjAMTYrEIdigIxyAA3RkZarUcgAmBhYugBBDV4RAotyAoYdi4zsgBmxhC9ekVRBPipzY8fMnbo3xx8oas7Zl3ci694wmrAz0C4eNEQfGzGifwr0zyINYV/Oxa27EyZZj9INyToV9824xf9BtxMoV1y9oUV4xxUPuJaxu4y3zSk9/YP4J5S3B3GlNX32A/hfa96CODOSeznHg9tFvMang3gn/AfTkCbFudHbNigT2Vr8JxkmU3xFizEEugf9eT+kEz01hv7kR2JMh2RFytjg/tFX1wAeu2Xah/acd8RA1cv6Ye0fd4zqndF/bNcY17xma+v6EFXrfvkS2XBdDvk/h8Z0kdC+yn/g8E/rfJ88jIbeO/+EL4lwz+g==
+</data>
+    </layer>
+    <layer name="Above" width="23" height="15">
+        <data encoding="base64" compression="zlib"> eJxjYICAqYwMDHMZGXCCeDxy2MBLLOoJ2UGJ2aQAcxYEe/8QM3sTAwRT22xkQEuzkcOHWLOJTTfkmE0s2ILGp6bZ6ICWZssz0c5sagH0sobYsmcZUN1yRux8mBnRTKjmRZMYHnFAvS+ZITQyqEZio8sDAKyaG8U=
+</data>
+    </layer>
+    <layer name="Top" width="23" height="15">
+        <data encoding="base64" compression="zlib"> eJxjYBgFQwVsGmgHjIJRMApIBgCbcgCz
+</data>
+    </layer>
+    <layer name="Walkable" width="23" height="15">
+        <data encoding="base64" compression="zlib"> eJy1k8ENACAIA4n7j+kgxp8x0lLAJvzoCVXN4ppDq9sX5ao9yFtlM6nsaGa3v4Pt3U2GjXqr87Gsf+TrsdEZLwaane3F5vQ4pyebQQcbSf1XiifzblBfZ20tdA6f7Q==
+</data>
+    </layer>
+    <objectgroup name="Mapevents">
+        <object name="west1" type="mapchange" x="0" y="288" width="32" height="96">
+            <properties>
+                <property name="map" value="waytolake10" />
+                <property name="place" value="east1" />
+            </properties>
+        </object>
+        <object name="west2" type="mapchange" x="0" y="384" width="32" height="96">
+            <properties>
+                <property name="map" value="waytolake9" />
+                <property name="place" value="east1" />
+            </properties>
+        </object>
+        <object name="west3" type="mapchange" x="0" y="0" width="32" height="128">
+            <properties>
+                <property name="map" value="waytolake10" />
+                <property name="place" value="east2" />
+            </properties>
+        </object>
+        <object name="north1" type="mapchange" x="32" y="0" width="320" height="32">
+            <properties>
+                <property name="map" value="waytolake11" />
+                <property name="place" value="south1" />
+            </properties>
+        </object>
+        <object name="east1" type="mapchange" x="704" y="352" width="32" height="128">
+            <properties>
+                <property name="map" value="mountainlake0" />
+                <property name="place" value="west" />
+            </properties>
+        </object>
+        <object name="down" type="mapchange" x="512" y="96" width="32" height="32">
+            <properties>
+                <property name="map" value="lookout_upper" />
+                <property name="place" value="up" />
+            </properties>
+        </object>
+        <object name="tower_door" type="mapchange" x="512" y="256" width="32" height="32">
+            <properties>
+                <property name="map" value="lookout_lower" />
+                <property name="place" value="tower_door" />
+            </properties>
+        </object>
+        <object name="lookout_sign" type="sign" x="544" y="288" width="32" height="32" />
+        <object name="birdwatching_achievement" type="script" x="384" y="256" width="160" height="64">
+            <properties>
+                <property name="when" value="enter" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Spawn">
+        <object name="maonit" type="spawn" x="64" y="320" width="96" height="160">
+            <properties>
+                <property name="quantity" value="2" />
+                <property name="spawngroup" value="maonit_2" />
+            </properties>
+        </object>
+        <object name="mwolf_0" type="spawn" x="64" y="64" width="384" height="256">
+            <properties>
+                <property name="quantity" value="3" />
+                <property name="spawngroup" value="mwolf_2" />
+            </properties>
+        </object>
+        <object name="plaguespider_0" type="spawn" x="224" y="384" width="448" height="64">
+            <properties>
+                <property name="quantity" value="3" />
+                <property name="spawngroup" value="plaguespider_3" />
+            </properties>
+        </object>
+        <object name="plaguespider_1" type="spawn" x="96" y="64" width="352" height="256">
+            <properties>
+                <property name="quantity" value="3" />
+                <property name="spawngroup" value="plaguespider_2" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Keys">
+        <object name="north" type="key" x="512" y="32" width="32" height="32">
+            <properties>
+                <property name="phrase" value="lookout_north_0" />
+                <property name="requireId" value="nondisplay_2" />
+                <property name="requireType" value="questProgress" />
+                <property name="requireValue" value="220" />
+            </properties>
+        </object>
+        <object name="south" type="key" x="512" y="160" width="32" height="32">
+            <properties>
+                <property name="phrase" value="lookout_south_0" />
+                <property name="requireId" value="nondisplay_2" />
+                <property name="requireType" value="questProgress" />
+                <property name="requireValue" value="220" />
+            </properties>
+        </object>
+        <object name="southwest_a" type="key" x="448" y="160" width="64" height="32">
+            <properties>
+                <property name="phrase" value="lookout_southwest_0" />
+                <property name="requireId" value="nondisplay_2" />
+                <property name="requireType" value="questProgress" />
+                <property name="requireValue" value="220" />
+            </properties>
+        </object>
+        <object name="southeast_b" type="key" x="544" y="160" width="64" height="32">
+            <properties>
+                <property name="phrase" value="lookout_southeast_0" />
+                <property name="requireId" value="nondisplay_2" />
+                <property name="requireType" value="questProgress" />
+                <property name="requireValue" value="220" />
+            </properties>
+        </object>
+        <object name="northeast_a" type="key" x="544" y="32" width="64" height="32">
+            <properties>
+                <property name="phrase" value="lookout_northeast_0" />
+                <property name="requireId" value="nondisplay_2" />
+                <property name="requireType" value="questProgress" />
+                <property name="requireValue" value="220" />
+            </properties>
+        </object>
+        <object name="northwest_b" type="key" x="448" y="32" width="64" height="32">
+            <properties>
+                <property name="phrase" value="lookout_northwest_0" />
+                <property name="requireId" value="nondisplay_2" />
+                <property name="requireType" value="questProgress" />
+                <property name="requireValue" value="220" />
+            </properties>
+        </object>
+        <object name="northwest_a" type="key" x="448" y="64" width="32" height="32">
+            <properties>
+                <property name="phrase" value="lookout_northwest_0" />
+                <property name="requireId" value="nondisplay_2" />
+                <property name="requireType" value="questProgress" />
+                <property name="requireValue" value="220" />
+            </properties>
+        </object>
+        <object name="west" type="key" x="448" y="96" width="32" height="32">
+            <properties>
+                <property name="phrase" value="lookout_west_0" />
+                <property name="requireId" value="nondisplay_2" />
+                <property name="requireType" value="questProgress" />
+                <property name="requireValue" value="220" />
+            </properties>
+        </object>
+        <object name="southwest_b" type="key" x="448" y="128" width="32" height="32">
+            <properties>
+                <property name="phrase" value="lookout_southwest_0" />
+                <property name="requireId" value="nondisplay_2" />
+                <property name="requireType" value="questProgress" />
+                <property name="requireValue" value="220" />
+            </properties>
+        </object>
+        <object name="northeast_b" type="key" x="576" y="64" width="32" height="32">
+            <properties>
+                <property name="phrase" value="lookout_northeast_0" />
+                <property name="requireId" value="nondisplay_2" />
+                <property name="requireType" value="questProgress" />
+                <property name="requireValue" value="220" />
+            </properties>
+        </object>
+        <object name="east" type="key" x="576" y="96" width="32" height="32">
+            <properties>
+                <property name="phrase" value="lookout_east_0" />
+                <property name="requireId" value="nondisplay_2" />
+                <property name="requireType" value="questProgress" />
+                <property name="requireValue" value="220" />
+            </properties>
+        </object>
+        <object name="southeast_a" type="key" x="576" y="128" width="32" height="32">
+            <properties>
+                <property name="phrase" value="lookout_southeast_0" />
+                <property name="requireId" value="nondisplay_2" />
+                <property name="requireType" value="questProgress" />
+                <property name="requireValue" value="220" />
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Replace" />
+</map>
