@@ -23,13 +23,22 @@ def build(appVersion):
     queryInsertAllMonsters = ''
     queryLineStarterMonster = ''
     isFinalFile = False
-    count = 0
+    masterDict = {}
 
     print('Starting Monster data generation...')
 
     # Iterate over all found files in the glob.
     for file in globPath:
-        count += 1
+        if file == globPath[-1]:
+            isFileFile = True
 
-    print("Monsterlist Files Found: " + str(count))
+        f = open(file)
+        fileData = json.load(f)
+        f.close()
+        
+        for monster in fileData:
+            masterDict.update(monster)
+
+    #print(masterDict.keys())
+    print(json.dumps(masterDict, indent=4))
     print("Finished Monster data generation...")
