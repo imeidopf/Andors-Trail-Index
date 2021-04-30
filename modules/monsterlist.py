@@ -1,23 +1,8 @@
-import os
-import glob
-import json
-import configparser
-import mysql.connector
+import os, glob, json, mysql.connector
 
-def build(appVersion):
-    resPath = "res/{}/raw/".format(appVersion) # Path to resource files from the APK.
-    globPath = glob.glob(resPath + "monsterlist*.json") # Glob path to get all files that starts with monsterlist and ends with .json.
-
-    # Setup the database connection.
-    config = configparser.ConfigParser()
-    config.read('configs/db.ini') # This file will hold your database connection information. THIS FILE IS NOT INCLUDED AS OF RIGHT NOW!
-    con = mysql.connector.connect(
-        host = config.get('DATABASE', 'host'),
-        db = config.get('DATABASE', 'db'),
-        user = config.get('DATABASE', 'user'),
-        passwd = config.get('DATABASE', 'pwd')
-    )
-    cursor = con.cursor()
+def build(resPath, globFilter, config, con, cursor):
+    globPath = glob.glob(resPath + globFilter) # Glob path to get all files that starts with monsterlist and ends with .json.
+    print("Monsterlist files found: " + str(len(globPath)))
 
     # Generic query variables used to build out the MySQL queries.
     queryInsertAllMonsters = ''
@@ -40,5 +25,5 @@ def build(appVersion):
             masterDict.update(monster)
 
     #print(masterDict.keys())
-    print(json.dumps(masterDict, indent=4))
+    #print(json.dumps(masterDict, indent=4))
     print("Finished Monster data generation...")

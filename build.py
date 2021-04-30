@@ -1,17 +1,30 @@
 #!/usr/bin/env python3
-from modules import questlist, monsterlist, itemlist, itemcategories
+import configparser, mysql.connector
+from modules import questlist, monsterlist, itemlist, itemcategories, worldmap
 
 # Update this to reflect the version of Andor's Trail we want to use.
 # Place the xml and raw files inside the res folder. E.g. res/0.7.10
-appVersion = '0.7.10'
+appVersion = '0.7.13'
+resPath = "versions/{}/raw/".format(appVersion)
 
-# Run each module and build out the database material.
-questlist.build(appVersion)
-monsterlist.build(appVersion)
-# print('Starting Item data generation...')
+# Database connection
+# Setup the database connection.
+config = configparser.ConfigParser()
+config.read('configs/db.ini') # This file will hold your database connection information. THIS FILE IS NOT INCLUDED AS OF RIGHT NOW!
+con = mysql.connector.connect(
+    host = config.get('DATABASE', 'host'),
+    db = config.get('DATABASE', 'db'),
+    user = config.get('DATABASE', 'user'),
+    passwd = config.get('DATABASE', 'pwd')
+)
+cursor = con.cursor()
+
+# Run each module and generate database records.
+questlist.build(resPath, "questlist*.json", config, con, cursor)
+monsterlist.build(resPath, "monsterlist*.json", config, con, cursor)
 # itemlist.build(appVersion)
-# print('Starting Item Category data generation...')
 # itemcategories.build(appVersion)
+worldmap.generateMap(appVersion)
 
 # Done!
 print("All resources have been built!")
