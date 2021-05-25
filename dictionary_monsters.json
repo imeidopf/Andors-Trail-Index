@@ -1,0 +1,42 @@
+{
+    "id": "highwayman",
+    "name": "Highwayman",
+    "iconID": "obj_6:40",
+    "maxHP": 54,
+    "maxAP": 10,
+    "moveCost": 10,
+    "monsterClass": "humanoid",
+    "attackDamage": {
+        "min": 2,
+        "max": 4
+    },
+    "spawnGroup": "bandit1",
+    "droplistID": "bandit1",
+    "attackCost": 5,
+    "attackChance": 90,
+    "criticalSkill": 50,
+    "criticalMultiplier": 2.0,
+    "blockChance": 30,
+    "damageResistance": 2,
+    "hitEffect": {
+        "conditionsTarget": [{
+            "condition": "slime",
+            "magnitude": 3,
+            "duration": 5,
+            "chance": "40"
+        }]
+    },
+    "unique": 1,
+    "phraseID": "bandit1",
+    "faction": "fct_bandit1",
+    "deathEffect": {},
+    "movementAggressionType": "protectSpawn",
+    "hitReceivedEffect": {
+        "conditionsSource": [{
+            "condition": "g03_concentration",
+            "magnitude": 1,
+            "duration": 2,
+            "chance": "33"
+        }]
+    }
+}
