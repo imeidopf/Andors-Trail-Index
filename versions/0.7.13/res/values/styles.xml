@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="actorinfo_sectionheader">
+        <item name="android:layout_marginTop">@dimen/section_margin</item>
+    </style>
+    <style name="ConversationListView" parent="@style/AndorsTrail_Style_ListView" />
+    <style name="AndorsTrail_Style_ListView" parent="@android:style/Widget.ListView">
+        <item name="android:background">?ui_theme_stdframe_bitmap</item>
+        <item name="android:divider">?ui_theme_listseparator_drawable</item>
+    </style>
+    <style name="AndorsTrail_Style_ListView_Frameless" parent="@android:style/Widget.ListView">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:divider">?ui_theme_listseparator_drawable</item>
+    </style>
+    <style name="AndorsTrail_Style_TextButton_Base" parent="@android:style/Widget.Button">
+        <item name="android:textColor">?ui_theme_textbutton_textcolor_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:background">?ui_theme_textbutton_drawable</item>
+        <item name="android:paddingLeft">5.0dip</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingRight">5.0dip</item>
+        <item name="android:paddingBottom">10.0dip</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="AndorsTrail_Style_TextButton_Quickslots" parent="@android:style/Widget.Button">
+        <item name="android:textColor">?ui_theme_textbutton_textcolor_color</item>
+        <item name="android:background">?ui_theme_textbutton_drawable</item>
+        <item name="android:paddingTop">2.0dip</item>
+        <item name="android:paddingBottom">2.0dip</item>
+    </style>
+    <style name="AndorsTrail_Style_TextButton" parent="@style/AndorsTrail_Style_TextButton_Base" />
+    <style name="AndorsTrail_Style_ImageButton" parent="@android:style/Widget.ImageButton">
+        <item name="android:background">?ui_theme_textbutton_drawable</item>
+    </style>
+    <style name="AndorsTrail_Style_ToggleButton" parent="@android:style/Widget.Button.Toggle">
+        <item name="android:background">?ui_theme_togglebutton_drawable</item>
+        <item name="android:textOn">@null</item>
+        <item name="android:textOff">@null</item>
+    </style>
+    <style name="AndorsTrail_Style_RadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:paddingLeft">22.0dip</item>
+        <item name="android:button">?ui_theme_radiobutton_drawable</item>
+    </style>
+    <style name="AndorsTrail_Style_Checkbox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">?ui_theme_radiobutton_drawable</item>
+    </style>
+    <style name="AndorsTrail_Style_SpinnerEmulator" parent="@android:style/Widget.Button">
+        <item name="android:textColor">?ui_theme_textbutton_textcolor_color</item>
+        <item name="android:background">?ui_theme_spinner_drawable</item>
+    </style>
+    <style name="AndorsTrail_Style_ExpandableListView" parent="@android:style/Widget.ExpandableListView">
+        <item name="android:textAppearanceLarge">@style/AndorsTrail_Style_TextAppearance_ListItemTitle</item>
+        <item name="android:textAppearanceSmall">@style/AndorsTrail_Style_TextAppearance.ListItemSubtitle</item>
+        <item name="android:textColor">?ui_theme_textbutton_textcolor_color</item>
+        <item name="android:groupIndicator">?ui_theme_groupindicator_drawable</item>
+        <item name="android:childDivider">?ui_theme_listseparator_drawable</item>
+        <item name="android:divider">?ui_theme_listseparator_drawable</item>
+    </style>
+    <style name="AndorsTrail_Style_PreferencesListHeader_Base">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?ui_theme_palette_text_gray_mid_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:background">?ui_theme_lightframe_bitmap</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="AndorsTrail_Style_PreferencesListHeader" parent="@style/AndorsTrail_Style_PreferencesListHeader_Base" />
+    <style name="AndorsTrail_Style_TextAppearance_ListItemTitle" parent="@android:style/TextAppearance.Large.Inverse">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">?ui_theme_textbutton_textcolor_color</item>
+    </style>
+    <style name="AndorsTrail_Style_TextAppearance.ListItemSubtitle" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?ui_theme_textbutton_textcolor_color</item>
+    </style>
+    <style name="AndorsTrail_Style_RichFrame">
+        <item name="android:background">?ui_theme_richframe_bitmap</item>
+    </style>
+    <style name="AndorsTrail_Style_StdFrame">
+        <item name="android:background">?ui_theme_stdframe_bitmap</item>
+    </style>
+    <style name="AndorsTrail_Style_LightFrame">
+        <item name="android:background">?ui_theme_lightframe_bitmap</item>
+    </style>
+    <style name="AndorsTrail_Style_TabFrame">
+        <item name="android:background">?ui_theme_tabframe_bitmap</item>
+    </style>
+    <style name="textView" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">?ui_theme_textbutton_textcolor_color</item>
+    </style>
+    <style name="autoScrollingText" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">?ui_theme_textbutton_textcolor_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="textWithIcon" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">?ui_theme_textbutton_textcolor_color</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawablePadding">@dimen/dialog_iconpadding_right</item>
+    </style>
+    <style name="textWithIconInList" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">?ui_theme_textbutton_textcolor_color</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawablePadding">@dimen/dialog_iconpadding_right</item>
+    </style>
+    <style name="contextMenuText" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/titletext</item>
+        <item name="android:textColor">?ui_theme_textbutton_textcolor_color</item>
+    </style>
+    <style name="titleWithIcon" parent="@style/textWithIcon">
+        <item name="android:textSize">@dimen/titletext</item>
+        <item name="android:textColor">?ui_theme_textbutton_textcolor_color</item>
+        <item name="android:paddingBottom">@dimen/dialog_iconpadding_bottom</item>
+    </style>
+    <style name="checkedListItem" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/titletext</item>
+        <item name="android:textColor">?ui_theme_textbutton_textcolor_color</item>
+    </style>
+    <style name="statsBoxStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/smalltext</item>
+        <item name="android:textColor">?ui_theme_textbutton_textcolor_color</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">?ui_theme_richframe_bitmap</item>
+        <item name="android:padding">@dimen/boxshape_margin</item>
+        <item name="android:layout_margin">@dimen/boxshape_margin</item>
+        <item name="android:drawablePadding">@dimen/boxshape_margin</item>
+    </style>
+    <style name="quickButton" parent="@style/AndorsTrail_Style_TextButton">
+        <item name="android:textSize">@dimen/actionbar_text</item>
+        <item name="android:padding">5.0dip</item>
+        <item name="android:longClickable">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/smalltext_buttonheight</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+    <style name="toolboxButtonTile" parent="@style/AndorsTrail_Style_TextButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="toolboxButtonDrawable" parent="@style/AndorsTrail_Style_TextButton">
+        <item name="android:padding">0.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="traitsinfo_label" parent="@android:style/Widget.TextView">
+        <item name="android:layout_marginRight">10.0sp</item>
+    </style>
+    <style name="traitsinfo_2linelabel" parent="@android:style/Widget.TextView" />
+    <style name="traitsinfo_2linevalue" parent="@android:style/Widget.TextView">
+        <item name="android:layout_marginLeft">30.0sp</item>
+    </style>
+    <style name="AndorsTrailTheme_Base" parent="@android:style/Theme">
+        <item name="android:buttonStyle">@style/AndorsTrail_Style_TextButton</item>
+        <item name="android:buttonStyleToggle">@style/AndorsTrail_Style_ToggleButton</item>
+        <item name="android:checkboxStyle">@style/AndorsTrail_Style_Checkbox</item>
+        <item name="android:expandableListViewStyle">@style/AndorsTrail_Style_ExpandableListView</item>
+        <item name="android:imageButtonStyle">@style/AndorsTrail_Style_ImageButton</item>
+        <item name="android:listViewStyle">@style/AndorsTrail_Style_ListView</item>
+        <item name="android:radioButtonStyle">@style/AndorsTrail_Style_RadioButton</item>
+        <item name="android:listSeparatorTextViewStyle">@style/AndorsTrail_Style_PreferencesListHeader</item>
+        <item name="buttonQuickslotsButtonStyle">@style/AndorsTrail_Style_TextButton_Quickslots</item>
+        <item name="ui_theme_buttonbar_bg_drawable">@drawable/ui_blue_buttonbar_bg</item>
+        <item name="ui_theme_buttonbar_drawable">@drawable/ui_blue_buttonbar</item>
+        <item name="ui_theme_buttonbar_frame_drawable">@drawable/ui_blue_buttonbar_frame</item>
+        <item name="ui_theme_groupindicator_drawable">@drawable/ui_blue_groupindicator</item>
+        <item name="ui_theme_listseparator_drawable">@drawable/ui_blue_listseparator</item>
+        <item name="ui_theme_radiobutton_drawable">@drawable/ui_blue_radiobutton</item>
+        <item name="ui_theme_spinner_drawable">@drawable/ui_blue_spinner</item>
+        <item name="ui_theme_spinner_bg_drawable">@drawable/ui_blue_spinner_bg</item>
+        <item name="ui_theme_spinner_list_bg_drawable">@drawable/ui_blue_spinner_list_bg</item>
+        <item name="ui_theme_tabwidget_drawable">@drawable/ui_blue_tabwidget</item>
+        <item name="ui_theme_textbutton_drawable">@drawable/ui_blue_textbutton</item>
+        <item name="ui_theme_togglebutton_drawable">@drawable/ui_blue_togglebutton</item>
+        <item name="ui_theme_buttonbar_bg_disabled_pressed_bitmap">@drawable/ui_blue_buttonbar_bg_disabled_pressed</item>
+        <item name="ui_theme_buttonbar_bg_disabled_unpressed_bitmap">@drawable/ui_blue_buttonbar_bg_disabled_unpressed</item>
+        <item name="ui_theme_buttonbar_bg_enabled_pressed_bitmap">@drawable/ui_blue_buttonbar_bg_enabled_pressed</item>
+        <item name="ui_theme_buttonbar_bg_enabled_unpressed_bitmap">@drawable/ui_blue_buttonbar_bg_enabled_unpressed</item>
+        <item name="ui_theme_buttonbar_frame_hleft_bitmap">@drawable/ui_blue_buttonbar_frame_hleft</item>
+        <item name="ui_theme_buttonbar_frame_hmid_bitmap">@drawable/ui_blue_buttonbar_frame_hmid</item>
+        <item name="ui_theme_buttonbar_frame_hright_bitmap">@drawable/ui_blue_buttonbar_frame_hright</item>
+        <item name="ui_theme_buttonbar_frame_solo_bitmap">@drawable/ui_blue_buttonbar_frame_solo</item>
+        <item name="ui_theme_buttonbar_frame_vbottom_bitmap">@drawable/ui_blue_buttonbar_frame_vbottom</item>
+        <item name="ui_theme_buttonbar_frame_vmid_bitmap">@drawable/ui_blue_buttonbar_frame_vmid</item>
+        <item name="ui_theme_buttonbar_frame_vtop_bitmap">@drawable/ui_blue_buttonbar_frame_vtop</item>
+        <item name="ui_theme_lightframe_bitmap">@drawable/ui_blue_lightframe</item>
+        <item name="ui_theme_lightframe_highlight_bitmap">@drawable/ui_blue_lightframe_highlight</item>
+        <item name="ui_theme_radiobutton_disabled_checked_bitmap">@drawable/ui_blue_radiobutton_disabled_checked</item>
+        <item name="ui_theme_radiobutton_disabled_unchecked_bitmap">@drawable/ui_blue_radiobutton_disabled_unchecked</item>
+        <item name="ui_theme_radiobutton_enabled_checked_bitmap">@drawable/ui_blue_radiobutton_enabled_checked</item>
+        <item name="ui_theme_radiobutton_enabled_unchecked_bitmap">@drawable/ui_blue_radiobutton_enabled_unchecked</item>
+        <item name="ui_theme_richframe_bitmap">@drawable/ui_blue_richframe</item>
+        <item name="ui_theme_spinner_arrow_bitmap">@drawable/ui_blue_spinner_arrow</item>
+        <item name="ui_theme_spinner_disabled_pressed_bitmap">@drawable/ui_blue_spinner_disabled_pressed</item>
+        <item name="ui_theme_spinner_disabled_unpressed_bitmap">@drawable/ui_blue_spinner_disabled_unpressed</item>
+        <item name="ui_theme_spinner_enabled_pressed_bitmap">@drawable/ui_blue_spinner_enabled_pressed</item>
+        <item name="ui_theme_spinner_enabled_unpressed_bitmap">@drawable/ui_blue_spinner_enabled_unpressed</item>
+        <item name="ui_theme_stdframe_bitmap">@drawable/ui_blue_stdframe</item>
+        <item name="ui_theme_submenu_indicator_bitmap">@drawable/ui_blue_submenu_indicator</item>
+        <item name="ui_theme_tabframe_bitmap">@drawable/ui_blue_tabframe</item>
+        <item name="ui_theme_tabwidget_disabled_selected_bitmap">@drawable/ui_blue_tabwidget_disabled_selected</item>
+        <item name="ui_theme_tabwidget_disabled_unselected_bitmap">@drawable/ui_blue_tabwidget_disabled_unselected</item>
+        <item name="ui_theme_tabwidget_enabled_selected_bitmap">@drawable/ui_blue_tabwidget_enabled_selected</item>
+        <item name="ui_theme_tabwidget_enabled_unselected_bitmap">@drawable/ui_blue_tabwidget_enabled_unselected</item>
+        <item name="ui_theme_textbutton_disabled_pressed_bitmap">@drawable/ui_blue_textbutton_disabled_pressed</item>
+        <item name="ui_theme_textbutton_disabled_unpressed_bitmap">@drawable/ui_blue_textbutton_disabled_unpressed</item>
+        <item name="ui_theme_textbutton_enabled_pressed_bitmap">@drawable/ui_blue_textbutton_enabled_pressed</item>
+        <item name="ui_theme_textbutton_enabled_unpressed_bitmap">@drawable/ui_blue_textbutton_enabled_unpressed</item>
+        <item name="ui_theme_stdframe_bg_color">@color/ui_blue_palette_blue_dark</item>
+        <item name="ui_theme_buttonbar_bg_color">@color/ui_blue_palette_blue_mid</item>
+        <item name="ui_theme_displayworldmap_bg_color">@color/ui_blue_palette_blue_dark</item>
+        <item name="ui_theme_palette_text_gray_darker_color">@color/ui_blue_palette_text_gray_darker</item>
+        <item name="ui_theme_palette_text_gray_light_color">@color/ui_blue_palette_text_gray_light</item>
+        <item name="ui_theme_palette_text_gray_mid_color">@color/ui_blue_palette_text_gray_mid</item>
+        <item name="ui_theme_textbutton_textcolor_color">@color/ui_blue_textbutton_textcolor</item>
+        <item name="ui_theme_playername_dark_color">@color/ui_blue_palette_orange_dark</item>
+        <item name="ui_theme_playername_light_color">@color/ui_blue_palette_orange_light</item>
+        <item name="ui_theme_npcname_dark_color">@color/ui_blue_palette_mustard_dark</item>
+        <item name="ui_theme_npcname_light_color">@color/ui_blue_palette_mustard_light</item>
+        <item name="ui_theme_reward_dark_color">@color/ui_blue_palette_cyan_dark</item>
+        <item name="ui_theme_reward_light_color">@color/ui_blue_palette_cyan_light</item>
+        <item name="ui_theme_dialogue_dark_color">@color/ui_blue_palette_text_gray_mid</item>
+        <item name="ui_theme_dialogue_light_color">@color/ui_blue_palette_text_gray_light</item>
+    </style>
+    <style name="AndorsTrailDialogTheme_Base" parent="@android:style/Theme.Dialog">
+        <item name="android:buttonStyle">@style/AndorsTrail_Style_TextButton</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:checkboxStyle">@style/AndorsTrail_Style_Checkbox</item>
+        <item name="android:expandableListViewStyle">@style/AndorsTrail_Style_ExpandableListView</item>
+        <item name="android:imageButtonStyle">@style/AndorsTrail_Style_ImageButton</item>
+        <item name="android:listViewStyle">@style/AndorsTrail_Style_ListView</item>
+        <item name="android:radioButtonStyle">@style/AndorsTrail_Style_RadioButton</item>
+        <item name="android:background">@null</item>
+        <item name="android:listSeparatorTextViewStyle">@style/AndorsTrail_Style_PreferencesListHeader</item>
+        <item name="buttonQuickslotsButtonStyle">@style/AndorsTrail_Style_TextButton_Quickslots</item>
+        <item name="ui_theme_buttonbar_bg_drawable">@drawable/ui_blue_buttonbar_bg</item>
+        <item name="ui_theme_buttonbar_drawable">@drawable/ui_blue_buttonbar</item>
+        <item name="ui_theme_buttonbar_frame_drawable">@drawable/ui_blue_buttonbar_frame</item>
+        <item name="ui_theme_groupindicator_drawable">@drawable/ui_blue_groupindicator</item>
+        <item name="ui_theme_listseparator_drawable">@drawable/ui_blue_listseparator</item>
+        <item name="ui_theme_radiobutton_drawable">@drawable/ui_blue_radiobutton</item>
+        <item name="ui_theme_spinner_drawable">@drawable/ui_blue_spinner</item>
+        <item name="ui_theme_spinner_bg_drawable">@drawable/ui_blue_spinner_bg</item>
+        <item name="ui_theme_spinner_list_bg_drawable">@drawable/ui_blue_spinner_list_bg</item>
+        <item name="ui_theme_tabwidget_drawable">@drawable/ui_blue_tabwidget</item>
+        <item name="ui_theme_textbutton_drawable">@drawable/ui_blue_textbutton</item>
+        <item name="ui_theme_togglebutton_drawable">@drawable/ui_blue_togglebutton</item>
+        <item name="ui_theme_buttonbar_bg_disabled_pressed_bitmap">@drawable/ui_blue_buttonbar_bg_disabled_pressed</item>
+        <item name="ui_theme_buttonbar_bg_disabled_unpressed_bitmap">@drawable/ui_blue_buttonbar_bg_disabled_unpressed</item>
+        <item name="ui_theme_buttonbar_bg_enabled_pressed_bitmap">@drawable/ui_blue_buttonbar_bg_enabled_pressed</item>
+        <item name="ui_theme_buttonbar_bg_enabled_unpressed_bitmap">@drawable/ui_blue_buttonbar_bg_enabled_unpressed</item>
+        <item name="ui_theme_buttonbar_frame_hleft_bitmap">@drawable/ui_blue_buttonbar_frame_hleft</item>
+        <item name="ui_theme_buttonbar_frame_hmid_bitmap">@drawable/ui_blue_buttonbar_frame_hmid</item>
+        <item name="ui_theme_buttonbar_frame_hright_bitmap">@drawable/ui_blue_buttonbar_frame_hright</item>
+        <item name="ui_theme_buttonbar_frame_solo_bitmap">@drawable/ui_blue_buttonbar_frame_solo</item>
+        <item name="ui_theme_buttonbar_frame_vbottom_bitmap">@drawable/ui_blue_buttonbar_frame_vbottom</item>
+        <item name="ui_theme_buttonbar_frame_vmid_bitmap">@drawable/ui_blue_buttonbar_frame_vmid</item>
+        <item name="ui_theme_buttonbar_frame_vtop_bitmap">@drawable/ui_blue_buttonbar_frame_vtop</item>
+        <item name="ui_theme_lightframe_bitmap">@drawable/ui_blue_lightframe</item>
+        <item name="ui_theme_lightframe_highlight_bitmap">@drawable/ui_blue_lightframe_highlight</item>
+        <item name="ui_theme_radiobutton_disabled_checked_bitmap">@drawable/ui_blue_radiobutton_disabled_checked</item>
+        <item name="ui_theme_radiobutton_disabled_unchecked_bitmap">@drawable/ui_blue_radiobutton_disabled_unchecked</item>
+        <item name="ui_theme_radiobutton_enabled_checked_bitmap">@drawable/ui_blue_radiobutton_enabled_checked</item>
+        <item name="ui_theme_radiobutton_enabled_unchecked_bitmap">@drawable/ui_blue_radiobutton_enabled_unchecked</item>
+        <item name="ui_theme_richframe_bitmap">@drawable/ui_blue_richframe</item>
+        <item name="ui_theme_spinner_arrow_bitmap">@drawable/ui_blue_spinner_arrow</item>
+        <item name="ui_theme_spinner_disabled_pressed_bitmap">@drawable/ui_blue_spinner_disabled_pressed</item>
+        <item name="ui_theme_spinner_disabled_unpressed_bitmap">@drawable/ui_blue_spinner_disabled_unpressed</item>
+        <item name="ui_theme_spinner_enabled_pressed_bitmap">@drawable/ui_blue_spinner_enabled_pressed</item>
+        <item name="ui_theme_spinner_enabled_unpressed_bitmap">@drawable/ui_blue_spinner_enabled_unpressed</item>
+        <item name="ui_theme_stdframe_bitmap">@drawable/ui_blue_stdframe</item>
+        <item name="ui_theme_submenu_indicator_bitmap">@drawable/ui_blue_submenu_indicator</item>
+        <item name="ui_theme_tabframe_bitmap">@drawable/ui_blue_tabframe</item>
+        <item name="ui_theme_tabwidget_disabled_selected_bitmap">@drawable/ui_blue_tabwidget_disabled_selected</item>
+        <item name="ui_theme_tabwidget_disabled_unselected_bitmap">@drawable/ui_blue_tabwidget_disabled_unselected</item>
+        <item name="ui_theme_tabwidget_enabled_selected_bitmap">@drawable/ui_blue_tabwidget_enabled_selected</item>
+        <item name="ui_theme_tabwidget_enabled_unselected_bitmap">@drawable/ui_blue_tabwidget_enabled_unselected</item>
+        <item name="ui_theme_textbutton_disabled_pressed_bitmap">@drawable/ui_blue_textbutton_disabled_pressed</item>
+        <item name="ui_theme_textbutton_disabled_unpressed_bitmap">@drawable/ui_blue_textbutton_disabled_unpressed</item>
+        <item name="ui_theme_textbutton_enabled_pressed_bitmap">@drawable/ui_blue_textbutton_enabled_pressed</item>
+        <item name="ui_theme_textbutton_enabled_unpressed_bitmap">@drawable/ui_blue_textbutton_enabled_unpressed</item>
+        <item name="ui_theme_stdframe_bg_color">@color/ui_blue_palette_blue_dark</item>
+        <item name="ui_theme_buttonbar_bg_color">@color/ui_blue_palette_blue_mid</item>
+        <item name="ui_theme_displayworldmap_bg_color">@color/ui_blue_palette_blue_dark</item>
+        <item name="ui_theme_palette_text_gray_darker_color">@color/ui_blue_palette_text_gray_darker</item>
+        <item name="ui_theme_palette_text_gray_light_color">@color/ui_blue_palette_text_gray_light</item>
+        <item name="ui_theme_palette_text_gray_mid_color">@color/ui_blue_palette_text_gray_mid</item>
+        <item name="ui_theme_textbutton_textcolor_color">@color/ui_blue_textbutton_textcolor</item>
+        <item name="ui_theme_playername_dark_color">@color/ui_blue_palette_orange_dark</item>
+        <item name="ui_theme_playername_light_color">@color/ui_blue_palette_orange_light</item>
+        <item name="ui_theme_npcname_dark_color">@color/ui_blue_palette_mustard_dark</item>
+        <item name="ui_theme_npcname_light_color">@color/ui_blue_palette_mustard_light</item>
+        <item name="ui_theme_reward_dark_color">@color/ui_blue_palette_cyan_dark</item>
+        <item name="ui_theme_reward_light_color">@color/ui_blue_palette_cyan_light</item>
+        <item name="ui_theme_dialogue_dark_color">@color/ui_blue_palette_text_gray_mid</item>
+        <item name="ui_theme_dialogue_light_color">@color/ui_blue_palette_text_gray_light</item>
+    </style>
+    <style name="AndorsTrailTheme_Blue_v14" parent="@style/AndorsTrailTheme_Base" />
+    <style name="AndorsTrailTheme_Blue" parent="@style/AndorsTrailTheme_Blue_v14" />
+    <style name="AndorsTrailDialogTheme_Blue_v14" parent="@style/AndorsTrailDialogTheme_Base" />
+    <style name="AndorsTrailDialogTheme_Blue" parent="@style/AndorsTrailDialogTheme_Blue_v14" />
+    <style name="AndorsTrailTheme_Blue.NoBackground" parent="@style/AndorsTrailTheme_Blue">
+        <item name="android:windowBackground">@null</item>
+    </style>
+    <style name="AndorsTrailTheme_Green_Base" parent="@style/AndorsTrailTheme_Blue">
+        <item name="ui_theme_buttonbar_bg_drawable">@drawable/ui_green_buttonbar_bg</item>
+        <item name="ui_theme_buttonbar_drawable">@drawable/ui_green_buttonbar</item>
+        <item name="ui_theme_buttonbar_frame_drawable">@drawable/ui_green_buttonbar_frame</item>
+        <item name="ui_theme_groupindicator_drawable">@drawable/ui_green_groupindicator</item>
+        <item name="ui_theme_listseparator_drawable">@drawable/ui_green_listseparator</item>
+        <item name="ui_theme_radiobutton_drawable">@drawable/ui_green_radiobutton</item>
+        <item name="ui_theme_spinner_drawable">@drawable/ui_green_spinner</item>
+        <item name="ui_theme_spinner_bg_drawable">@drawable/ui_green_spinner_bg</item>
+        <item name="ui_theme_spinner_list_bg_drawable">@drawable/ui_green_spinner_list_bg</item>
+        <item name="ui_theme_tabwidget_drawable">@drawable/ui_green_tabwidget</item>
+        <item name="ui_theme_textbutton_drawable">@drawable/ui_green_textbutton</item>
+        <item name="ui_theme_togglebutton_drawable">@drawable/ui_green_togglebutton</item>
+        <item name="ui_theme_buttonbar_bg_disabled_pressed_bitmap">@drawable/ui_green_buttonbar_bg_disabled_pressed</item>
+        <item name="ui_theme_buttonbar_bg_disabled_unpressed_bitmap">@drawable/ui_green_buttonbar_bg_disabled_unpressed</item>
+        <item name="ui_theme_buttonbar_bg_enabled_pressed_bitmap">@drawable/ui_green_buttonbar_bg_enabled_pressed</item>
+        <item name="ui_theme_buttonbar_bg_enabled_unpressed_bitmap">@drawable/ui_green_buttonbar_bg_enabled_unpressed</item>
+        <item name="ui_theme_buttonbar_frame_hleft_bitmap">@drawable/ui_green_buttonbar_frame_hleft</item>
+        <item name="ui_theme_buttonbar_frame_hmid_bitmap">@drawable/ui_green_buttonbar_frame_hmid</item>
+        <item name="ui_theme_buttonbar_frame_hright_bitmap">@drawable/ui_green_buttonbar_frame_hright</item>
+        <item name="ui_theme_buttonbar_frame_solo_bitmap">@drawable/ui_green_buttonbar_frame_solo</item>
+        <item name="ui_theme_buttonbar_frame_vbottom_bitmap">@drawable/ui_green_buttonbar_frame_vbottom</item>
+        <item name="ui_theme_buttonbar_frame_vmid_bitmap">@drawable/ui_green_buttonbar_frame_vmid</item>
+        <item name="ui_theme_buttonbar_frame_vtop_bitmap">@drawable/ui_green_buttonbar_frame_vtop</item>
+        <item name="ui_theme_lightframe_bitmap">@drawable/ui_green_lightframe</item>
+        <item name="ui_theme_lightframe_highlight_bitmap">@drawable/ui_green_lightframe_highlight</item>
+        <item name="ui_theme_radiobutton_disabled_checked_bitmap">@drawable/ui_green_radiobutton_disabled_checked</item>
+        <item name="ui_theme_radiobutton_disabled_unchecked_bitmap">@drawable/ui_green_radiobutton_disabled_unchecked</item>
+        <item name="ui_theme_radiobutton_enabled_checked_bitmap">@drawable/ui_green_radiobutton_enabled_checked</item>
+        <item name="ui_theme_radiobutton_enabled_unchecked_bitmap">@drawable/ui_green_radiobutton_enabled_unchecked</item>
+        <item name="ui_theme_richframe_bitmap">@drawable/ui_green_richframe</item>
+        <item name="ui_theme_spinner_arrow_bitmap">@drawable/ui_green_spinner_arrow</item>
+        <item name="ui_theme_spinner_disabled_pressed_bitmap">@drawable/ui_green_spinner_disabled_pressed</item>
+        <item name="ui_theme_spinner_disabled_unpressed_bitmap">@drawable/ui_green_spinner_disabled_unpressed</item>
+        <item name="ui_theme_spinner_enabled_pressed_bitmap">@drawable/ui_green_spinner_enabled_pressed</item>
+        <item name="ui_theme_spinner_enabled_unpressed_bitmap">@drawable/ui_green_spinner_enabled_unpressed</item>
+        <item name="ui_theme_stdframe_bitmap">@drawable/ui_green_stdframe</item>
+        <item name="ui_theme_submenu_indicator_bitmap">@drawable/ui_green_submenu_indicator</item>
+        <item name="ui_theme_tabframe_bitmap">@drawable/ui_green_tabframe</item>
+        <item name="ui_theme_tabwidget_disabled_selected_bitmap">@drawable/ui_green_tabwidget_disabled_selected</item>
+        <item name="ui_theme_tabwidget_disabled_unselected_bitmap">@drawable/ui_green_tabwidget_disabled_unselected</item>
+        <item name="ui_theme_tabwidget_enabled_selected_bitmap">@drawable/ui_green_tabwidget_enabled_selected</item>
+        <item name="ui_theme_tabwidget_enabled_unselected_bitmap">@drawable/ui_green_tabwidget_enabled_unselected</item>
+        <item name="ui_theme_textbutton_disabled_pressed_bitmap">@drawable/ui_green_textbutton_disabled_pressed</item>
+        <item name="ui_theme_textbutton_disabled_unpressed_bitmap">@drawable/ui_green_textbutton_disabled_unpressed</item>
+        <item name="ui_theme_textbutton_enabled_pressed_bitmap">@drawable/ui_green_textbutton_enabled_pressed</item>
+        <item name="ui_theme_textbutton_enabled_unpressed_bitmap">@drawable/ui_green_textbutton_enabled_unpressed</item>
+        <item name="ui_theme_stdframe_bg_color">@color/ui_green_palette_green_dark</item>
+        <item name="ui_theme_buttonbar_bg_color">@color/ui_green_palette_green_mid</item>
+        <item name="ui_theme_displayworldmap_bg_color">@color/ui_green_palette_green_dark</item>
+    </style>
+    <style name="AndorsTrailDialogTheme_Green_Base" parent="@style/AndorsTrailDialogTheme_Blue">
+        <item name="ui_theme_buttonbar_bg_drawable">@drawable/ui_green_buttonbar_bg</item>
+        <item name="ui_theme_buttonbar_drawable">@drawable/ui_green_buttonbar</item>
+        <item name="ui_theme_buttonbar_frame_drawable">@drawable/ui_green_buttonbar_frame</item>
+        <item name="ui_theme_groupindicator_drawable">@drawable/ui_green_groupindicator</item>
+        <item name="ui_theme_listseparator_drawable">@drawable/ui_green_listseparator</item>
+        <item name="ui_theme_radiobutton_drawable">@drawable/ui_green_radiobutton</item>
+        <item name="ui_theme_spinner_drawable">@drawable/ui_green_spinner</item>
+        <item name="ui_theme_spinner_bg_drawable">@drawable/ui_green_spinner_bg</item>
+        <item name="ui_theme_spinner_list_bg_drawable">@drawable/ui_green_spinner_list_bg</item>
+        <item name="ui_theme_tabwidget_drawable">@drawable/ui_green_tabwidget</item>
+        <item name="ui_theme_textbutton_drawable">@drawable/ui_green_textbutton</item>
+        <item name="ui_theme_togglebutton_drawable">@drawable/ui_green_togglebutton</item>
+        <item name="ui_theme_buttonbar_bg_disabled_pressed_bitmap">@drawable/ui_green_buttonbar_bg_disabled_pressed</item>
+        <item name="ui_theme_buttonbar_bg_disabled_unpressed_bitmap">@drawable/ui_green_buttonbar_bg_disabled_unpressed</item>
+        <item name="ui_theme_buttonbar_bg_enabled_pressed_bitmap">@drawable/ui_green_buttonbar_bg_enabled_pressed</item>
+        <item name="ui_theme_buttonbar_bg_enabled_unpressed_bitmap">@drawable/ui_green_buttonbar_bg_enabled_unpressed</item>
+        <item name="ui_theme_buttonbar_frame_hleft_bitmap">@drawable/ui_green_buttonbar_frame_hleft</item>
+        <item name="ui_theme_buttonbar_frame_hmid_bitmap">@drawable/ui_green_buttonbar_frame_hmid</item>
+        <item name="ui_theme_buttonbar_frame_hright_bitmap">@drawable/ui_green_buttonbar_frame_hright</item>
+        <item name="ui_theme_buttonbar_frame_solo_bitmap">@drawable/ui_green_buttonbar_frame_solo</item>
+        <item name="ui_theme_buttonbar_frame_vbottom_bitmap">@drawable/ui_green_buttonbar_frame_vbottom</item>
+        <item name="ui_theme_buttonbar_frame_vmid_bitmap">@drawable/ui_green_buttonbar_frame_vmid</item>
+        <item name="ui_theme_buttonbar_frame_vtop_bitmap">@drawable/ui_green_buttonbar_frame_vtop</item>
+        <item name="ui_theme_lightframe_bitmap">@drawable/ui_green_lightframe</item>
+        <item name="ui_theme_lightframe_highlight_bitmap">@drawable/ui_green_lightframe_highlight</item>
+        <item name="ui_theme_radiobutton_disabled_checked_bitmap">@drawable/ui_green_radiobutton_disabled_checked</item>
+        <item name="ui_theme_radiobutton_disabled_unchecked_bitmap">@drawable/ui_green_radiobutton_disabled_unchecked</item>
+        <item name="ui_theme_radiobutton_enabled_checked_bitmap">@drawable/ui_green_radiobutton_enabled_checked</item>
+        <item name="ui_theme_radiobutton_enabled_unchecked_bitmap">@drawable/ui_green_radiobutton_enabled_unchecked</item>
+        <item name="ui_theme_richframe_bitmap">@drawable/ui_green_richframe</item>
+        <item name="ui_theme_spinner_arrow_bitmap">@drawable/ui_green_spinner_arrow</item>
+        <item name="ui_theme_spinner_disabled_pressed_bitmap">@drawable/ui_green_spinner_disabled_pressed</item>
+        <item name="ui_theme_spinner_disabled_unpressed_bitmap">@drawable/ui_green_spinner_disabled_unpressed</item>
+        <item name="ui_theme_spinner_enabled_pressed_bitmap">@drawable/ui_green_spinner_enabled_pressed</item>
+        <item name="ui_theme_spinner_enabled_unpressed_bitmap">@drawable/ui_green_spinner_enabled_unpressed</item>
+        <item name="ui_theme_stdframe_bitmap">@drawable/ui_green_stdframe</item>
+        <item name="ui_theme_submenu_indicator_bitmap">@drawable/ui_green_submenu_indicator</item>
+        <item name="ui_theme_tabframe_bitmap">@drawable/ui_green_tabframe</item>
+        <item name="ui_theme_tabwidget_disabled_selected_bitmap">@drawable/ui_green_tabwidget_disabled_selected</item>
+        <item name="ui_theme_tabwidget_disabled_unselected_bitmap">@drawable/ui_green_tabwidget_disabled_unselected</item>
+        <item name="ui_theme_tabwidget_enabled_selected_bitmap">@drawable/ui_green_tabwidget_enabled_selected</item>
+        <item name="ui_theme_tabwidget_enabled_unselected_bitmap">@drawable/ui_green_tabwidget_enabled_unselected</item>
+        <item name="ui_theme_textbutton_disabled_pressed_bitmap">@drawable/ui_green_textbutton_disabled_pressed</item>
+        <item name="ui_theme_textbutton_disabled_unpressed_bitmap">@drawable/ui_green_textbutton_disabled_unpressed</item>
+        <item name="ui_theme_textbutton_enabled_pressed_bitmap">@drawable/ui_green_textbutton_enabled_pressed</item>
+        <item name="ui_theme_textbutton_enabled_unpressed_bitmap">@drawable/ui_green_textbutton_enabled_unpressed</item>
+        <item name="ui_theme_stdframe_bg_color">@color/ui_green_palette_green_dark</item>
+        <item name="ui_theme_buttonbar_bg_color">@color/ui_green_palette_green_mid</item>
+        <item name="ui_theme_displayworldmap_bg_color">@color/ui_green_palette_green_dark</item>
+    </style>
+    <style name="AndorsTrailTheme_Green.NoBackground" parent="@style/AndorsTrailTheme_Green">
+        <item name="android:windowBackground">@null</item>
+    </style>
+    <style name="AndorsTrailTheme_Green_v14" parent="@style/AndorsTrailTheme_Green_Base" />
+    <style name="AndorsTrailDialogTheme_Green_v14" parent="@style/AndorsTrailDialogTheme_Green_Base" />
+    <style name="AndorsTrailTheme_Green" parent="@style/AndorsTrailTheme_Green_v14" />
+    <style name="AndorsTrailDialogTheme_Green" parent="@style/AndorsTrailDialogTheme_Green_v14" />
+    <style name="AndorsTrailTheme_Charcoal_Base" parent="@style/AndorsTrailTheme_Blue">
+        <item name="ui_theme_buttonbar_bg_drawable">@drawable/ui_charcoal_buttonbar_bg</item>
+        <item name="ui_theme_buttonbar_drawable">@drawable/ui_charcoal_buttonbar</item>
+        <item name="ui_theme_buttonbar_frame_drawable">@drawable/ui_charcoal_buttonbar_frame</item>
+        <item name="ui_theme_groupindicator_drawable">@drawable/ui_charcoal_groupindicator</item>
+        <item name="ui_theme_listseparator_drawable">@drawable/ui_charcoal_listseparator</item>
+        <item name="ui_theme_radiobutton_drawable">@drawable/ui_charcoal_radiobutton</item>
+        <item name="ui_theme_spinner_drawable">@drawable/ui_charcoal_spinner</item>
+        <item name="ui_theme_spinner_bg_drawable">@drawable/ui_charcoal_spinner_bg</item>
+        <item name="ui_theme_spinner_list_bg_drawable">@drawable/ui_charcoal_spinner_list_bg</item>
+        <item name="ui_theme_tabwidget_drawable">@drawable/ui_charcoal_tabwidget</item>
+        <item name="ui_theme_textbutton_drawable">@drawable/ui_charcoal_textbutton</item>
+        <item name="ui_theme_togglebutton_drawable">@drawable/ui_charcoal_togglebutton</item>
+        <item name="ui_theme_buttonbar_bg_disabled_pressed_bitmap">@drawable/ui_charcoal_buttonbar_bg_disabled_pressed</item>
+        <item name="ui_theme_buttonbar_bg_disabled_unpressed_bitmap">@drawable/ui_charcoal_buttonbar_bg_disabled_unpressed</item>
+        <item name="ui_theme_buttonbar_bg_enabled_pressed_bitmap">@drawable/ui_charcoal_buttonbar_bg_enabled_pressed</item>
+        <item name="ui_theme_buttonbar_bg_enabled_unpressed_bitmap">@drawable/ui_charcoal_buttonbar_bg_enabled_unpressed</item>
+        <item name="ui_theme_buttonbar_frame_hleft_bitmap">@drawable/ui_charcoal_buttonbar_frame_hleft</item>
+        <item name="ui_theme_buttonbar_frame_hmid_bitmap">@drawable/ui_charcoal_buttonbar_frame_hmid</item>
+        <item name="ui_theme_buttonbar_frame_hright_bitmap">@drawable/ui_charcoal_buttonbar_frame_hright</item>
+        <item name="ui_theme_buttonbar_frame_solo_bitmap">@drawable/ui_charcoal_buttonbar_frame_solo</item>
+        <item name="ui_theme_buttonbar_frame_vbottom_bitmap">@drawable/ui_charcoal_buttonbar_frame_vbottom</item>
+        <item name="ui_theme_buttonbar_frame_vmid_bitmap">@drawable/ui_charcoal_buttonbar_frame_vmid</item>
+        <item name="ui_theme_buttonbar_frame_vtop_bitmap">@drawable/ui_charcoal_buttonbar_frame_vtop</item>
+        <item name="ui_theme_lightframe_bitmap">@drawable/ui_charcoal_lightframe</item>
+        <item name="ui_theme_lightframe_highlight_bitmap">@drawable/ui_charcoal_lightframe_highlight</item>
+        <item name="ui_theme_radiobutton_disabled_checked_bitmap">@drawable/ui_charcoal_radiobutton_disabled_checked</item>
+        <item name="ui_theme_radiobutton_disabled_unchecked_bitmap">@drawable/ui_charcoal_radiobutton_disabled_unchecked</item>
+        <item name="ui_theme_radiobutton_enabled_checked_bitmap">@drawable/ui_charcoal_radiobutton_enabled_checked</item>
+        <item name="ui_theme_radiobutton_enabled_unchecked_bitmap">@drawable/ui_charcoal_radiobutton_enabled_unchecked</item>
+        <item name="ui_theme_richframe_bitmap">@drawable/ui_charcoal_richframe</item>
+        <item name="ui_theme_spinner_arrow_bitmap">@drawable/ui_charcoal_spinner_arrow</item>
+        <item name="ui_theme_spinner_disabled_pressed_bitmap">@drawable/ui_charcoal_spinner_disabled_pressed</item>
+        <item name="ui_theme_spinner_disabled_unpressed_bitmap">@drawable/ui_charcoal_spinner_disabled_unpressed</item>
+        <item name="ui_theme_spinner_enabled_pressed_bitmap">@drawable/ui_charcoal_spinner_enabled_pressed</item>
+        <item name="ui_theme_spinner_enabled_unpressed_bitmap">@drawable/ui_charcoal_spinner_enabled_unpressed</item>
+        <item name="ui_theme_stdframe_bitmap">@drawable/ui_charcoal_stdframe</item>
+        <item name="ui_theme_submenu_indicator_bitmap">@drawable/ui_charcoal_submenu_indicator</item>
+        <item name="ui_theme_tabframe_bitmap">@drawable/ui_charcoal_tabframe</item>
+        <item name="ui_theme_tabwidget_disabled_selected_bitmap">@drawable/ui_charcoal_tabwidget_disabled_selected</item>
+        <item name="ui_theme_tabwidget_disabled_unselected_bitmap">@drawable/ui_charcoal_tabwidget_disabled_unselected</item>
+        <item name="ui_theme_tabwidget_enabled_selected_bitmap">@drawable/ui_charcoal_tabwidget_enabled_selected</item>
+        <item name="ui_theme_tabwidget_enabled_unselected_bitmap">@drawable/ui_charcoal_tabwidget_enabled_unselected</item>
+        <item name="ui_theme_textbutton_disabled_pressed_bitmap">@drawable/ui_charcoal_textbutton_disabled_pressed</item>
+        <item name="ui_theme_textbutton_disabled_unpressed_bitmap">@drawable/ui_charcoal_textbutton_disabled_unpressed</item>
+        <item name="ui_theme_textbutton_enabled_pressed_bitmap">@drawable/ui_charcoal_textbutton_enabled_pressed</item>
+        <item name="ui_theme_textbutton_enabled_unpressed_bitmap">@drawable/ui_charcoal_textbutton_enabled_unpressed</item>
+        <item name="ui_theme_stdframe_bg_color">@color/ui_charcoal_palette_charcoal_dark</item>
+        <item name="ui_theme_buttonbar_bg_color">@color/ui_charcoal_palette_charcoal_mid</item>
+        <item name="ui_theme_displayworldmap_bg_color">@color/ui_charcoal_palette_charcoal_dark</item>
+    </style>
+    <style name="AndorsTrailDialogTheme_Charcoal_Base" parent="@style/AndorsTrailDialogTheme_Blue">
+        <item name="ui_theme_buttonbar_bg_drawable">@drawable/ui_charcoal_buttonbar_bg</item>
+        <item name="ui_theme_buttonbar_drawable">@drawable/ui_charcoal_buttonbar</item>
+        <item name="ui_theme_buttonbar_frame_drawable">@drawable/ui_charcoal_buttonbar_frame</item>
+        <item name="ui_theme_groupindicator_drawable">@drawable/ui_charcoal_groupindicator</item>
+        <item name="ui_theme_listseparator_drawable">@drawable/ui_charcoal_listseparator</item>
+        <item name="ui_theme_radiobutton_drawable">@drawable/ui_charcoal_radiobutton</item>
+        <item name="ui_theme_spinner_drawable">@drawable/ui_charcoal_spinner</item>
+        <item name="ui_theme_spinner_bg_drawable">@drawable/ui_charcoal_spinner_bg</item>
+        <item name="ui_theme_spinner_list_bg_drawable">@drawable/ui_charcoal_spinner_list_bg</item>
+        <item name="ui_theme_tabwidget_drawable">@drawable/ui_charcoal_tabwidget</item>
+        <item name="ui_theme_textbutton_drawable">@drawable/ui_charcoal_textbutton</item>
+        <item name="ui_theme_togglebutton_drawable">@drawable/ui_charcoal_togglebutton</item>
+        <item name="ui_theme_buttonbar_bg_disabled_pressed_bitmap">@drawable/ui_charcoal_buttonbar_bg_disabled_pressed</item>
+        <item name="ui_theme_buttonbar_bg_disabled_unpressed_bitmap">@drawable/ui_charcoal_buttonbar_bg_disabled_unpressed</item>
+        <item name="ui_theme_buttonbar_bg_enabled_pressed_bitmap">@drawable/ui_charcoal_buttonbar_bg_enabled_pressed</item>
+        <item name="ui_theme_buttonbar_bg_enabled_unpressed_bitmap">@drawable/ui_charcoal_buttonbar_bg_enabled_unpressed</item>
+        <item name="ui_theme_buttonbar_frame_hleft_bitmap">@drawable/ui_charcoal_buttonbar_frame_hleft</item>
+        <item name="ui_theme_buttonbar_frame_hmid_bitmap">@drawable/ui_charcoal_buttonbar_frame_hmid</item>
+        <item name="ui_theme_buttonbar_frame_hright_bitmap">@drawable/ui_charcoal_buttonbar_frame_hright</item>
+        <item name="ui_theme_buttonbar_frame_solo_bitmap">@drawable/ui_charcoal_buttonbar_frame_solo</item>
+        <item name="ui_theme_buttonbar_frame_vbottom_bitmap">@drawable/ui_charcoal_buttonbar_frame_vbottom</item>
+        <item name="ui_theme_buttonbar_frame_vmid_bitmap">@drawable/ui_charcoal_buttonbar_frame_vmid</item>
+        <item name="ui_theme_buttonbar_frame_vtop_bitmap">@drawable/ui_charcoal_buttonbar_frame_vtop</item>
+        <item name="ui_theme_lightframe_bitmap">@drawable/ui_charcoal_lightframe</item>
+        <item name="ui_theme_lightframe_highlight_bitmap">@drawable/ui_charcoal_lightframe_highlight</item>
+        <item name="ui_theme_radiobutton_disabled_checked_bitmap">@drawable/ui_charcoal_radiobutton_disabled_checked</item>
+        <item name="ui_theme_radiobutton_disabled_unchecked_bitmap">@drawable/ui_charcoal_radiobutton_disabled_unchecked</item>
+        <item name="ui_theme_radiobutton_enabled_checked_bitmap">@drawable/ui_charcoal_radiobutton_enabled_checked</item>
+        <item name="ui_theme_radiobutton_enabled_unchecked_bitmap">@drawable/ui_charcoal_radiobutton_enabled_unchecked</item>
+        <item name="ui_theme_richframe_bitmap">@drawable/ui_charcoal_richframe</item>
+        <item name="ui_theme_spinner_arrow_bitmap">@drawable/ui_charcoal_spinner_arrow</item>
+        <item name="ui_theme_spinner_disabled_pressed_bitmap">@drawable/ui_charcoal_spinner_disabled_pressed</item>
+        <item name="ui_theme_spinner_disabled_unpressed_bitmap">@drawable/ui_charcoal_spinner_disabled_unpressed</item>
+        <item name="ui_theme_spinner_enabled_pressed_bitmap">@drawable/ui_charcoal_spinner_enabled_pressed</item>
+        <item name="ui_theme_spinner_enabled_unpressed_bitmap">@drawable/ui_charcoal_spinner_enabled_unpressed</item>
+        <item name="ui_theme_stdframe_bitmap">@drawable/ui_charcoal_stdframe</item>
+        <item name="ui_theme_submenu_indicator_bitmap">@drawable/ui_charcoal_submenu_indicator</item>
+        <item name="ui_theme_tabframe_bitmap">@drawable/ui_charcoal_tabframe</item>
+        <item name="ui_theme_tabwidget_disabled_selected_bitmap">@drawable/ui_charcoal_tabwidget_disabled_selected</item>
+        <item name="ui_theme_tabwidget_disabled_unselected_bitmap">@drawable/ui_charcoal_tabwidget_disabled_unselected</item>
+        <item name="ui_theme_tabwidget_enabled_selected_bitmap">@drawable/ui_charcoal_tabwidget_enabled_selected</item>
+        <item name="ui_theme_tabwidget_enabled_unselected_bitmap">@drawable/ui_charcoal_tabwidget_enabled_unselected</item>
+        <item name="ui_theme_textbutton_disabled_pressed_bitmap">@drawable/ui_charcoal_textbutton_disabled_pressed</item>
+        <item name="ui_theme_textbutton_disabled_unpressed_bitmap">@drawable/ui_charcoal_textbutton_disabled_unpressed</item>
+        <item name="ui_theme_textbutton_enabled_pressed_bitmap">@drawable/ui_charcoal_textbutton_enabled_pressed</item>
+        <item name="ui_theme_textbutton_enabled_unpressed_bitmap">@drawable/ui_charcoal_textbutton_enabled_unpressed</item>
+        <item name="ui_theme_stdframe_bg_color">@color/ui_charcoal_palette_charcoal_dark</item>
+        <item name="ui_theme_buttonbar_bg_color">@color/ui_charcoal_palette_charcoal_mid</item>
+        <item name="ui_theme_displayworldmap_bg_color">@color/ui_charcoal_palette_charcoal_dark</item>
+    </style>
+    <style name="AndorsTrailTheme_Charcoal.NoBackground" parent="@style/AndorsTrailTheme_Charcoal">
+        <item name="android:windowBackground">@null</item>
+    </style>
+    <style name="AndorsTrailTheme_Charcoal_v14" parent="@style/AndorsTrailTheme_Charcoal_Base" />
+    <style name="AndorsTrailDialogTheme_Charcoal_v14" parent="@style/AndorsTrailDialogTheme_Charcoal_Base" />
+    <style name="AndorsTrailTheme_Charcoal" parent="@style/AndorsTrailTheme_Charcoal_v14" />
+    <style name="AndorsTrailDialogTheme_Charcoal" parent="@style/AndorsTrailDialogTheme_Charcoal_v14" />
+</resources>

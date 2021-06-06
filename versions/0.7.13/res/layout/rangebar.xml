@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/statusbar_text" android:textColor="?ui_theme_palette_text_gray_mid_color" android:ellipsize="marquee" android:id="@id/rangebar_label" android:layout_width="@dimen/rangebar_labelwidth_small" android:layout_height="wrap_content" android:layout_marginLeft="3.0sp" android:layout_marginRight="3.0sp" android:scrollHorizontally="true" android:singleLine="true" android:shadowColor="#ff000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ProgressBar android:id="@id/rangebar_progress" android:layout_width="fill_parent" android:layout_height="@dimen/healthbar_height" android:layout_marginRight="3.0sp" android:progressDrawable="@drawable/ui_progress_health" android:layout_centerInParent="true" android:layout_centerVertical="true" style="?android:attr/progressBarStyleHorizontal" />
+            <TextView android:textSize="@dimen/statusbar_text" android:textColor="?ui_theme_palette_text_gray_light_color" android:id="@id/rangebar_text" android:paddingBottom="2.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0sp" android:shadowColor="#ff222222" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</merge>

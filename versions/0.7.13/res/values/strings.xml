@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_copyright">"Copyright © 2010–2013 Oskar Wiksten&lt;br /> Copyright © 2013–2018 The Andor's Trail development team&lt;br /> &lt;br />"</string>
+    <string name="about_authors">"&lt;h4>Created &amp;amp; originally programmed by Oskar Wiksten&lt;/h4> &lt;b>Development team&lt;/b>&lt;br/> • Oskar Wiksten&lt;br/> • Scott Devaney &lt;b>*&lt;/b>&lt;br/> • &lt;a href=https://github.com/Zukero>Kevin Pochat&lt;/a>&lt;br/> • Ian Haase&lt;br/> • &lt;a href=https://github.com/Rijackson>Richard Jackson (rijackson741)&lt;/a> &lt;b>*&lt;/b>&lt;br/> • Christian Berlage &lt;b>*&lt;/b>&lt;br/> • &lt;a href=http://gulisanolaw.com>Mike Gulisano&lt;/a>&lt;br/> • Christian Zink &lt;b>*&lt;/b>&lt;br/> • Daniel-Ømicrón Rodríguez García (Omicronrg9) &lt;b>*&lt;/b>&lt;br/> • Nathan Watson &lt;b>*&lt;/b>&lt;br/> &lt;b>*&lt;/b> Currently active on team&lt;br/> &lt;br/> &lt;b>Development tools (Andor's Trail Content Studio) by&lt;/b>&lt;br/> • &lt;a href=https://github.com/Zukero>Kevin Pochat&lt;/a>&lt;br/> &lt;br/> &lt;b>Additional programming by&lt;/b>&lt;br/> • Samuel Plentz&lt;br/> • Uwe Jugel&lt;br/> • Olivier Samyn&lt;br/> • Ethan Wessel&lt;br/> • Scott Lund&lt;br/> • Lucas Delvallet&lt;br/> • Florian Doublet&lt;br/> • M.H. Alkotob&lt;br/> • Olivier Dragon&lt;br/> • Christian Zink&lt;br/> • Antison&lt;br/> • Nathan Watson&lt;br/> &lt;br/> &lt;b>Additional content created by&lt;/b>&lt;br/> • Tom Jobes&lt;br/> • Stan &amp;quot;Meirerion&amp;quot&lt;br/> • Pete Wheeler&lt;br/> • Michael Schmid&lt;br/> • &lt;a href=https://github.com/Rijackson>Richard Jackson (rijackson741)&lt;/a>&lt;br/> • Ian Haase&lt;br/> • &lt;a href=http://gulisanolaw.com>Mike Gulisano&lt;/a>&lt;br/> • Christian Berlage&lt;br/> • Daniel-Ømicrón Rodríguez García (Omicronrg9)&lt;br/> • Moritz Arendt-Roth (Moerit)&lt;br/> • Antison&lt;br/> &lt;br/> &lt;b>Translations&lt;/b>&lt;br/> • Russian translation by Dreamer..., e.solodookhin, shell.andor, konstmih, istasman, Aleksey Kabanov, Alexander Zubok, Paul Sulemenkov, dromoz, avatar232 and Mingun&lt;br/> • Italian translation by k6blue, liogiu, Joker, Andrea Luciano Damico, NeoAugustus and Premoli Roberto&lt;br/> • French translation by LeSanglier, Misty Soul, zorun.42, Marwane K., Olivier, Sekhmet, Thomas Degave, Éfrit, Zeiko, Arliantir, Lacrom and yannubuntu&lt;br/> • German translation by Bomber, Samuel Plentz, cngunners14, Phoenixor, Tutar, Mütze, Moerit, Mayweed, Christian Berlage, Firefly84 and Blackmore&lt;br/> • Hungarian translation by &lt;a href=https://urbalazs.hu>Balázs Úr and Vala&lt;/a>&lt;br/> • Hebrew translation by eitanbm&lt;br/> • Portuguese(PT) translation by mira&lt;br/> • Portuguese(BR) translation by Mauro Carvalho Chehab, Rafael Mendes (fifa1988), Anderson Nogueira Silva (Andxyz8), Lucas Araújo dos santos barbosa, Ueliton Alves Dos Santos, Erick Ferraz, Ricardo&lt;br/> • Japanese translation by surgecurrent and Balance&lt;br/> • Polish translation by tobik9090siemens, DanielS, Piotr Wieczorek and mat9117 Mateusz Mendel&lt;br/> • Spanish translation by pahsito, Ruben Rodriguez Martin, Echedey&lt;br/> • Dutch translation by GTK and Heimen Stoffels&lt;br/> • Punjabi translation by Satnam S Virdi&lt;br/> • Bulgarian translation by Voom&lt;br/> • Chinese translation (trad) by Yao-Rong(Dragon)&lt;br/> • Chinese translation (simpl) by Loman, Chen-Feng&lt;br/> • Czech translation by Petr Kadlec (Mormegil)&lt;br/> • Turkish translation by Hüseyin Karadağ, HaritaUstasi and Samet Develioğlu, Mustafa KDZ&lt;br/> • Ukrainian translation by zawarudo&lt;br/> • Indonesian translation by Frottle&lt;br/> • Catalan translation by David García Garzón (vokimon)&lt;br/> • Filipino translation by Elytra&lt;br/> &lt;br/> &lt;b>Graphics&lt;/b>&lt;br/> • &lt;a href=http://pixeljoint.com/p/101133.htm>Original hero sprites by Maksiu&lt;/a>&lt;br/> • &lt;a href=http://redknight91.deviantart.com/art/Arena-Game-Sprites-154661559>Hero graphics by RedKnight91&lt;/a>&lt;br/> • &lt;a href=https://opengameart.org/content/ui-pack-0>UI based on graphics by Shadow3097&lt;/a>&lt;br/> • &lt;a href=http://www.mansgreback.com>Typography by Måns Grebäck&lt;/a>&lt;br> • &lt;a href=http://telles0808.deviantart.com/art/RPG-Maker-VX-RTP-Tileset-159218223>Map tilesets graphics by telles0808&lt;/a>&lt;br/> • &lt;a href=http://ails.deviantart.com/art/420-Pixel-Art-Icons-for-RPG-129892453>Item tilesets graphics by Ails&lt;/a>&lt;br/> • &lt;a href=http://nacred.deviantart.com/art/Sprite-Sheet-171751308>Additional monster graphics by nacred&lt;/a>&lt;br/> • &lt;a href=http://opengameart.org/content/whispers-of-avalon-item-icons>Additional graphics by Meway, Len Pabin, Auran, Silviyius&lt;/a>&lt;br/> • &lt;a href=http://opengameart.org/content/10-basic-rpg-enemies>Additional graphics by Stephen Challener (Redshrike)&lt;/a> &lt;a href=http://opengameart.org/content/more-rpg-enemies>(more)&lt;/a>&lt;br/> • &lt;a href=http://opengameart.org/content/skull>Additional graphics by Jorge.Avila&lt;/a>&lt;br/> • &lt;a href=http://opengameart.org/content/dark-fantasy-item-sprites>Additional graphics by Gwes&lt;/a>&lt;br/> • &lt;a href=http://pousse.rapiere.free.fr/tome/>Additional graphics by David Gervais&lt;/a>&lt;br/> • &lt;a href=http://forums.wesnoth.org/viewtopic.php?f=19&amp;amp;t=12207&amp;amp;start=75>Additional graphics by turin&lt;/a>&lt;br/> • &lt;a href=http://opengameart.org/content/zombies-skeletons>Additional graphics by artisticdude&lt;/a>&lt;br/> • &lt;a href=http://pixelhack.blogspot.com/>Additional graphics by Mindflayer / Necroleachate&lt;/a>&lt;br/> • &lt;a href=http://opengameart.org/content/items-set>Additional graphics by Artur Reterski&lt;/a>&lt;br/> • &lt;a href=http://opengameart.org/content/farming-tilesets-magic-animations-and-ui-elements>Additional graphics by Daniel Eddeland&lt;/a>&lt;br/> • &lt;a href=http://opengameart.org/content/liberated-pixel-cup-base-assets-sprites-map-tiles>Additional graphics by Lanea Zimmerman (AKA Sharm)&lt;/a>&lt;br/> • &lt;a href=http://art.gnome.org/themes/icon>Additional graphics by Gnome icon artists&lt;/a>&lt;br/> • &lt;a href=http://forums.rpgmakerweb.com/index.php?/topic/5434-its-a-mad-mad-mad-mad-world-maddies-edits-and-clumping/>Additional graphics by Paladin-Cleric of Awesome&lt;/a>&lt;br/> • &lt;a href=http://ayene-chan.deviantart.com/gallery/32324562>Additional graphics by Ayene-chan&lt;/a>&lt;br/> • &lt;a href=http://vxresource.wordpress.com/2010/03/17/the-real-macks-tileset/>Additional graphics by Mack&lt;/a>&lt;br/> • &lt;a href=http://forums.rpgmakerweb.com/index.php?/topic/9178-amazing-avys-awesome-arrrpg-maker-stuff/ >Additional graphics by Avery, Gits&lt;/a>&lt;br/> • &lt;a href=http://vxresource.wordpress.com/category/resources/tilesets/>Additional graphics by vxresource.wordpress.com&lt;/a>. This website shares tiles with the general public for free with the agreement of their original creators.&lt;br/> • &lt;a href=http://fatboy73.deviantart.com>;Additional graphics by Chris Hall (Fatboy73)&lt;/a>&lt;br/> • Additional graphics by DeBray Bailey&lt;br/> • Additional graphics by Karvis&lt;br/> • Graphic enhancements by OMGeeky&lt;br/> • &lt;a href=http://rltiles.sourceforge.net>Monster tileset graphics by rltiles.sourceforge.net&lt;/a>&lt;br/> Part (or All) of the graphic tiles used in this program is the public domain roguelike tileset RLTiles. Some of the tiles have been modified by Oskar Wiksten. You can find the original tileset at &lt;a href=http://rltiles.sf.net>http://rltiles.sf.net&lt;/a>&lt;br/> &lt;br/> • Some of the graphic data in this software are free game resources distributed by REFMAP (&lt;a href=http://www.tekepon.net/fsm>http://www.tekepon.net/fsm&lt;/a>). You must not use the graphic data which is in this software for any purpose except playing this game. When you want to get these resources, go to the website above.&lt;br/> &lt;br/> &lt;b>English proof reading and correction by&lt;/b>&lt;br/> • taws34&lt;br/> • Elyon&lt;br/> • Stephen Stalnaker&lt;br/> • &lt;a href=https://github.com/Rijackson>Richard Jackson (rijackson741)&lt;/a>&lt;br/> • Antison&lt;br/> • &lt;a href=https://urbalazs.hu>Balázs Úr&lt;/a>&lt;br/> • Nathan Watson&lt;br/> &lt;br/> &lt;b>Testing, feedback, &amp;amp ideas by&lt;/b>&lt;br/> • Stephen Stalnaker&lt;br/> • Antison&lt;br/> • &lt;a href=https://urbalazs.hu>Balázs Úr&lt;/a>&lt;br/> • Nicholas Franks (Taledus)&lt;br/> &lt;br/> &lt;b>&lt;a href=http://andorstrail.com/>Website&lt;/a>, &lt;a href=https://discord.gg/FgwXdy6>Discord&lt;/a>, and developer Slack channels maintained by&lt;/b>&lt;br/> • Scott Devaney&lt;br/> &lt;br/> &lt;b>Forum administrators and moderators&lt;/b>&lt;br/> • Tim Davis&lt;br/> • Josh Kloos&lt;br/> • Travis Miller&lt;br/> • Matthew B. White (Nyktos)&lt;br/> • Brent May&lt;br/> &lt;br/> &lt;b>&lt;a href=https://andorstrail.com/viewtopic.php?f=6&amp;t=4560>Want to see yourself on this page? Visit our contribution guide!&lt;/a>&lt;/b>&lt;br/> &lt;br/>"</string>
+    <string name="app_name">"Andor's Trail"</string>
+    <string name="app_description">Quest-driven fantasy RPG</string>
+    <string name="exit_to_menu">Exit to menu</string>
+    <string name="menu_settings">Preferences</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_save_gamesaved">Game was saved to slot %1$d</string>
+    <string name="menu_save_failed">Failed to save game! Is the SD card mounted and writable?</string>
+    <string name="loadsave_title_save">Save game</string>
+    <string name="loadsave_title_load">Load saved game</string>
+    <string name="loadsave_selectslot">Select slot</string>
+    <string name="savegame_currenthero_displayinfo">level %1$d, %2$d exp, %3$d gold</string>
+    <string name="dialog_loading_message">Loading resources…</string>
+    <string name="dialog_loading_failed_title">Load Failed</string>
+    <string name="dialog_loading_failed_message">"Andor's Trail was unable to load the savegame file.
+
+:(
+
+The file may be damaged or incomplete."</string>
+    <string name="dialog_loading_failed_incorrectversion">"Andor's Trail was unable to load the savegame file. This savegame file is created with a newer version than what is currently running."</string>
+    <string name="dialog_loading_failed_cheat">"Andor's Trail was unable to load the savegame file. This savegame file has already been continued."</string>
+    <string name="dialog_recenter">Recenter</string>
+    <string name="dialog_close">Close</string>
+    <string name="dialog_more">More</string>
+    <string name="dialog_game_over_title">Game over</string>
+    <string name="dialog_game_over_text">You take your last breath and die.</string>
+    <string name="rip_startscreen">(RIP)</string>
+    <string name="dialog_monsterencounter_title">Encounter</string>
+    <string name="dialog_monsterencounter_message">"Do you want to attack?
+Difficulty: %1$s"</string>
+    <string name="dialog_monsterencounter_info">Info</string>
+    <string name="dialog_monsterencounter_conditions">Conditions</string>
+    <string name="status_hp">HP:</string>
+    <string name="status_ap">AP:</string>
+    <string name="status_exp">XP:</string>
+    <string name="heroinfo_char">Overview</string>
+    <string name="heroinfo_inv">Items</string>
+    <string name="heroinfo_skill">Skills</string>
+    <string name="heroinfo_skill_categories">Category</string>
+    <string name="heroinfo_skill_sort">Sort</string>
+    <string name="heroinfo_levelup">Level up</string>
+    <string name="heroinfo_level">Level</string>
+    <string name="heroinfo_mode">Mode</string>
+    <string name="heroinfo_totalexperience">Total experience</string>
+    <string name="heroinfo_wornequipment">Worn equipment</string>
+    <string name="heroinfo_inventory">Inventory</string>
+    <string name="heroinfo_inventory_categories">Category</string>
+    <string name="heroinfo_inventory_sort">Sort By</string>
+    <string name="heroinfo_gold">Gold: %1$d</string>
+    <string name="heroinfo_healthpoints">Health points (HP):</string>
+    <string name="heroinfo_experiencepoints">Experience points (XP):</string>
+    <string name="heroinfo_actionpoints">Action points (AP):</string>
+    <string name="heroinfo_quests">Quests</string>
+    <string name="heroinfo_unlimited_lives_and_saves">"Standard
+(Unlimited lives and saves)"</string>
+    <string name="heroinfo_unlimited_lives">Unlimited lives, 1 save</string>
+    <string name="heroinfo_limited_lives">Limited lives (%1$d/%2$d left)</string>
+    <string name="heroinfo_one_life">Permadeath (1 life)</string>
+    <string name="combat_attack">Attack (%1$d AP)</string>
+    <string name="combat_move">Move (%1$d AP)</string>
+    <string name="combat_use">Use item</string>
+    <string name="combat_endturn">End turn</string>
+    <string name="combat_flee">Flee</string>
+    <string name="combat_begin_flee">You can now flee combat by clicking in the direction you want to move.</string>
+    <string name="combat_flee_failed">You failed to flee!</string>
+    <string name="combat_status_ap">AP: %1$d</string>
+    <string name="combat_monsterhealth">HP:</string>
+    <string name="combat_monsteraction">%1$s is attacking.</string>
+    <string name="combat_result_monstermiss">%1$s misses!</string>
+    <string name="combat_result_monsterhit">%1$s hits you for %2$d hp!</string>
+    <string name="combat_result_monsterhitcritical">%1$s gets a critical hit for %2$d hp!</string>
+    <string name="combat_result_heromiss">Your attack misses.</string>
+    <string name="combat_result_herohit">You hit %1$s for %2$d hp!</string>
+    <string name="combat_result_herohitcritical">You get a critical hit on %1$s for %2$d hp!</string>
+    <string name="combat_result_herokillsmonster">%1$s dies!</string>
+    <string name="combat_not_enough_ap">Not enough AP left this round.</string>
+    <string name="combat_hero_dies">You fall unconscious, but fortunately wake up alive, dazed and fatigued. You lost %1$d experience.</string>
+    <string name="combat_miss_animation_message">MISS</string>
+    <string name="combat_taunt_monster">You taunt %1$s!</string>
+    <string name="combat_condition_player_apply">You are affected by %1$s.</string>
+    <string name="combat_condition_player_clear">You are cleared of %1$s.</string>
+    <string name="combat_condition_player_immune">You are now immunized against %1$s.</string>
+    <string name="combat_condition_monster_apply">%1$s is affected by %2$s.</string>
+    <string name="combat_condition_monster_clear">%1$s is cleared of %2$s.</string>
+    <string name="combat_condition_monster_immune">%1$s is now immunized against %2$s.</string>
+    <string name="combat_log_item_single">You found an item:</string>
+    <string name="combat_log_item_plural">You found %1$d items:</string>
+    <string name="inventory_info">Info</string>
+    <string name="inventory_equip">Equip</string>
+    <string name="inventory_unequip">Unequip</string>
+    <string name="inventory_use">Use</string>
+    <string name="inventory_drop">Drop</string>
+    <string name="inventory_item_used">You used %1$s.</string>
+    <string name="inventory_item_dropped">%1$s was dropped.</string>
+    <string name="inventory_item_equipped">You equipped %1$s.</string>
+    <string name="dialog_loot_pickall">Pick up all</string>
+    <string name="dialog_loot_foundgold">You found %1$d gold.</string>
+    <string name="dialog_loot_pickedupitem">You picked up an item.</string>
+    <string name="dialog_loot_pickedupitems">You picked up %1$d items.</string>
+    <string name="dialog_groundloot_title">Items</string>
+    <string name="dialog_groundloot_message">You found some items.</string>
+    <string name="dialog_monsterloot_title">Victory</string>
+    <string name="dialog_monsterloot_message">You survived the encounter.</string>
+    <string name="dialog_monsterloot_gainedexp">You gained %1$d experience.</string>
+    <string name="monster_difficulty_veryeasy">Very easy</string>
+    <string name="monster_difficulty_easy">Easy</string>
+    <string name="monster_difficulty_normal">Normal</string>
+    <string name="monster_difficulty_hard">Hard</string>
+    <string name="monster_difficulty_veryhard">Very hard</string>
+    <string name="monster_difficulty_impossible">Impossible</string>
+    <string name="actorinfo_class">Class:</string>
+    <string name="actorinfo_difficulty">Difficulty:</string>
+    <string name="actorinfo_health">Health:</string>
+    <string name="actorinfo_attack">Attack:</string>
+    <string name="actorinfo_defense">Defense:</string>
+    <string name="actorinfo_movecost">Move cost (AP):</string>
+    <string name="actorinfo_basetraits">Base combat statistics (without equipment and skills)</string>
+    <string name="actorinfo_currenttraits">Combat statistics (current)</string>
+    <string name="traitsinfo_attack_cost">Attack cost (AP):</string>
+    <string name="traitsinfo_attack_chance">Attack chance:</string>
+    <string name="traitsinfo_attack_damage">Attack damage:</string>
+    <string name="traitsinfo_criticalhit_skill">Critical hit skill:</string>
+    <string name="traitsinfo_criticalhit_multiplier">Critical multiplier:</string>
+    <string name="traitsinfo_defense_chance">Block chance:</string>
+    <string name="traitsinfo_defense_damageresist">Damage resistance:</string>
+    <string name="iteminfo_category">Category:</string>
+    <string name="iteminfo_action_use">Use</string>
+    <string name="iteminfo_action_equip">Equip</string>
+    <string name="iteminfo_action_unequip">Unequip</string>
+    <string name="iteminfo_action_use_ap">Use (%1$d AP)</string>
+    <string name="iteminfo_action_equip_ap">Equip (%1$d AP)</string>
+    <string name="iteminfo_action_unequip_ap">Unequip (%1$d AP)</string>
+    <string name="startscreen_continue">Continue current game</string>
+    <string name="startscreen_newgame">New game</string>
+    <string name="startscreen_newgame_start">Start game</string>
+    <string name="startscreen_newgame_confirm">You will lose your current game and your current character, are you sure you want to start a new game?</string>
+    <string name="startscreen_about">About/help</string>
+    <string name="startscreen_selectherosprite">Choose your hero</string>
+    <string name="startscreen_enterheroname">Enter hero name</string>
+    <string name="startscreen_load">Load</string>
+    <string name="startscreen_game_mode">Mode</string>
+    <string name="startscreen_load_game">Load game</string>
+    <string name="startscreen_load_game_confirm">The current game is unsaved and you will lose your character.</string>
+    <string name="startscreen_error_loading_game">Error loading game</string>
+    <string name="startscreen_error_loading_empty_slot">"Can't load from an empty slot."</string>
+    <string name="startscreen_attention_slot_gets_delete_on_load">Attention</string>
+    <string name="startscreen_attention_message_slot_gets_delete_on_load">Loading this game deletes its save slot. You will have to save again before switching to another game.</string>
+    <string name="startscreen_mode_unlimited_saves_and_lives">Standard (Unlimited lives and saves)</string>
+    <string name="startscreen_mode_unlimited_lives">Medium (Unlimited lives, 1 save)</string>
+    <string name="startscreen_mode_50_lives">Hard (50 lives, 1 save)</string>
+    <string name="startscreen_mode_10_lives">Very hard (10 lives, 1 save)</string>
+    <string name="startscreen_mode_3_lives">Extreme (3 lives, 1 save)</string>
+    <string name="startscreen_mode_1_life">Permadeath (1 life, 1 save)</string>
+    <string name="conversation_rewardexp">[You gained %1$d experience]</string>
+    <string name="conversation_rewardgold">[You gained %1$d gold]</string>
+    <string name="conversation_lostgold">[You lost %1$d gold]</string>
+    <string name="conversation_rewarditem">[You gained an item]</string>
+    <string name="conversation_rewarditems">[You gained %1$d items]</string>
+    <string name="conversation_next">Next</string>
+    <string name="conversation_leave">Leave</string>
+    <string name="shop_buy">Buy</string>
+    <string name="shop_sell">Sell</string>
+    <string name="shop_infoitem">Info</string>
+    <string name="shop_buyitem">Buy (%1$d gold)</string>
+    <string name="shop_sellitem">Sell (%1$d gold)</string>
+    <string name="shop_yourgold">Your gold: %1$d</string>
+    <string name="shop_item_bought">%1$s bought.</string>
+    <string name="shop_item_sold">%1$s sold.</string>
+    <string name="shop_item_sort">Sort</string>
+    <string name="levelup_title">Level up</string>
+    <string name="levelup_description">Welcome to level %1$d!</string>
+    <string name="levelup_buttontext">Level up</string>
+    <string name="levelup_add_health">Increase health (+%1$d HP)</string>
+    <string name="levelup_add_health_description">Adds %1$d to your maximum health.</string>
+    <string name="levelup_add_attackchance">Increase attack chance (+%1$d)</string>
+    <string name="levelup_add_attackchance_description">Adds %1$d to your base attack chance.</string>
+    <string name="levelup_add_attackdamage">Increase attack damage (+%1$d)</string>
+    <string name="levelup_add_attackdamage_description">Adds %1$d to your base attack damage.</string>
+    <string name="levelup_add_blockchance">Increase block chance (+%1$d)</string>
+    <string name="levelup_add_blockchance_description">Adds %1$d to your base block chance.</string>
+    <string name="dialog_rest_title">Rest</string>
+    <string name="dialog_rest_confirm_message">Do you want to rest here?</string>
+    <string name="dialog_rest_message">You have rested and regained your full health.</string>
+    <string name="about_button1">Help</string>
+    <string name="about_button2">Authors</string>
+    <string name="about_button3">License</string>
+    <string name="about_contents1">"Welcome to Andor's Trail, an open-source roguelike RPG on Android.&lt;br /> &lt;br /> &lt;a href=http://andorstrail.com/>Game forums on andorstrail.com for questions and gameplay discussions.&lt;/a>&lt;br /> &lt;br /> &lt;a href=http://docs.andorstrail.com/>Game wiki for info about the Andor's Trail world, among other things.&lt;/a>&lt;br /> &lt;br /> &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/>Project source code on github.com for developers.&lt;/a>&lt;br /> &lt;br /> Please visit the forums to discuss the game with other players.&lt;br />"</string>
+    <string name="about_contents3">This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.&lt;br /> &lt;br /> This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.&lt;br /> &lt;br /> You should have received a copy of the GNU General Public License along with this program; if not, see &lt;a href=http://www.gnu.org/licenses>http://www.gnu.org/licenses&lt;/a>&lt;br /> &lt;br /> For source code and feature requests, please visit the project page at &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/>https://github.com/AndorsTrailRelease/andors-trail/&lt;/a>&lt;br /></string>
+    <string name="about_interface">"&lt;div>&lt;b>Game Settings&lt;/b> can be found by pressing your device's Menu Button.&lt;/div> &lt;p>________________&lt;/p> &lt;h1>Interface Icons&lt;/h1> &lt;div>&lt;b>The Chest&lt;/b>&lt;img alt=chest src=chest.png />&lt;/div> &lt;p>Quickslots [Long press the pouches inside to assign items for instant use]&lt;/p> &lt;div>&lt;b>The Hero&lt;/b>&lt;img alt=hero src=char_hero.png />&lt;/div> &lt;p>Menu [Overview, Quests, Skills &amp;amp; Inventory *]&lt;/p> &lt;p>* (While in inventory, press an item for information &amp;amp; long press for more options)&lt;/p> &lt;div>&lt;b>The Enemy&lt;/b>&lt;img alt=monster src=monster.png />&lt;/div> &lt;p>Information [Appears during Combat]&lt;/p> &lt;p>________________&lt;/p> &lt;h1>Combat&lt;/h1> &lt;p>Actions taken during battle cost AP...&lt;/p> &lt;div>&lt;b>Attacking&lt;/b> - [3AP] *&lt;/div> &lt;img alt=attacking src=doubleattackexample.png /> &lt;p>* (Equipping Gear &amp;amp; Using Items may alter AP &amp;amp; usage cost)&lt;/p> &lt;div>&lt;b>Using Items&lt;/b> - [5AP]&lt;/div> &lt;div>&lt;b>Fleeing&lt;/b> - [6AP]&lt;/div> &lt;p>________________&lt;/p> &lt;h1>Advanced Combat&lt;/h1> &lt;div>During Combat, long press a tile adjacent to the Hero...&lt;/div> &lt;div>&lt;b>To Flee&lt;/b>&lt;/div> &lt;p>(chosen tile is highlighted - Attack Button changes to Move)&lt;/p> &lt;img alt=flee src=flee_example.png /> &lt;p>[flee mode activated - Long press enemy to re-enter combat]&lt;/p> &lt;div>&lt;b>To Change Targets&lt;/b>&lt;/div> &lt;p>(the red target highlight shifts between enemies)&lt;/p> &lt;p>[the target has been changed]&lt;/p>"</string>
+    <string name="dialog_newversion_title">Welcome</string>
+    <string name="dialog_newversion_message">"Thank you for downloading Andor's Trail!
+
+Please note that this version of Andor's Trail is a WORK IN PROGRESS, which means that all maps are not yet complete.
+Please visit the project forums to discuss the game with other players or to help make the game even better (see about).
+
+Thanks for all the feedback!"</string>
+    <string name="dialog_newversion_permission_information">"
+
+In order to save and load your games (and only for this purpose) Andor's Trail will ask you for permission to access your storage."</string>
+    <string name="dialog_permission_information_title">Loading and saving games</string>
+    <string name="dialog_permission_information">"Andor's Trail writes saved games to user accessible storage on your device. This allows you to easily back up your saved games or transfer them to a new device. Please visit our forums for more information.
+
+Andor's Trail does not use access to your device for any other purpose and does not access the internet. Andor's Trail is open source; the sources can be found on github."</string>
+    <string name="questlog_includecompleted_prompt">Select quests to show</string>
+    <string name="questlog_includecompleted_hidecompleted">Active quests</string>
+    <string name="questlog_includecompleted_includecompleted">All quests</string>
+    <string name="questlog_includecompleted_onlycompleted">Completed quests</string>
+    <string name="questlog_queststatus">Status: %1$s</string>
+    <string name="questlog_queststatus_inprogress">In progress</string>
+    <string name="questlog_queststatus_completed">Completed</string>
+    <string name="preferences_display_category">Display</string>
+    <string name="preferences_display_fullscreen_title">Fullscreen</string>
+    <string name="preferences_display_fullscreen">Displays the game in fullscreen mode. (Requires restart)</string>
+    <string name="preferences_dialog_category">Dialog confirmation</string>
+    <string name="preferences_dialog_confirmrest_title">Confirm rest</string>
+    <string name="preferences_dialog_confirmrest">Gives a question about whether you want to rest when entering a bed. Otherwise, you will always automatically rest.</string>
+    <string name="preferences_dialog_confirmattack_title">Confirm attack</string>
+    <string name="preferences_dialog_confirmattack">"Enables the 'Do you want to attack..?' dialog box when attacking a monster."</string>
+    <string name="preferences_dialog_monsterloot_title">Display monster loot</string>
+    <string name="preferences_dialog_monsterloot">Choose how you want to show the results of a fight to be shown (gold, experience, items).</string>
+    <string name="preferences_combat_category">Combat</string>
+    <string name="preferences_combat_speed_title">Combat speed</string>
+    <string name="preferences_combat_speed">Determines how fast monsters attack.</string>
+    <string name="preferences_display_loot_dialog">Always show loot dialog box</string>
+    <string name="preferences_display_loot_dialog_on_items">Show loot dialog box when finding items</string>
+    <string name="preferences_display_loot_dialog_on_items_or_toast">Dialog for items, notif. otherwise</string>
+    <string name="preferences_display_loot_toast">Show short notification</string>
+    <string name="preferences_display_loot_toast_on_items">Show notification only when finding items</string>
+    <string name="preferences_display_loot_never">Do not display</string>
+    <string name="preferences_attackspeed_instant">Instant (no animations)</string>
+    <string name="preferences_attackspeed_fast">Fast</string>
+    <string name="preferences_attackspeed_normal">Normal</string>
+    <string name="preferences_attackspeed_slow">Slow</string>
+    <string name="preferences_movement_category">Movement</string>
+    <string name="preferences_movementmethod_title">Movement method</string>
+    <string name="preferences_movementmethod">Type of movement method and handling of obstacles.</string>
+    <string name="preferences_movementmethods_straight">Straight (original)</string>
+    <string name="preferences_movementmethods_avoid">Avoiding obstacles</string>
+    <string name="actorinfo_currentconditions">Active conditions</string>
+    <string name="actorcondition_info_removes_all">Removes all %1$s</string>
+    <string name="actorcondition_info_immunity">Immune to %1$s</string>
+    <string name="iteminfo_effect_chance_of">%1$s chance of %2$s</string>
+    <string name="iteminfo_effect_duration">(%1$d rounds)</string>
+    <string name="iteminfo_effect_works_on_source">On source</string>
+    <string name="iteminfo_effect_works_on_target">On target</string>
+    <string name="iteminfo_effect_works_on_attacker">On attacker</string>
+    <string name="iteminfo_effect_works_when_hitting_target">When hitting target</string>
+    <string name="iteminfo_effect_works_when_killing_target">On every kill</string>
+    <string name="iteminfo_effect_works_when_used">When used</string>
+    <string name="iteminfo_effect_works_when_equipped">When equipped</string>
+    <string name="iteminfo_effect_works_when_hit_by_attacker">When hit by attacker</string>
+    <string name="iteminfo_effect_works_when_killed_by_attacker">When killed by attacker</string>
+    <string name="iteminfo_effect_decrease_current_hp">Drains %1$s HP</string>
+    <string name="iteminfo_effect_increase_current_hp">Restores %1$s HP</string>
+    <string name="iteminfo_effect_decrease_current_ap">Drains %1$s AP</string>
+    <string name="iteminfo_effect_increase_current_ap">Restores %1$s AP</string>
+    <string name="iteminfo_effect_increase_max_hp">Raises max HP +%1$d</string>
+    <string name="iteminfo_effect_decrease_max_hp">Lowers max HP by %1$d</string>
+    <string name="iteminfo_effect_increase_max_ap">Raises max AP +%1$d</string>
+    <string name="iteminfo_effect_decrease_max_ap">Lowers max AP by %1$d</string>
+    <string name="iteminfo_effect_increase_movecost">Move cost penalty +%1$d AP</string>
+    <string name="iteminfo_effect_decrease_movecost">Lowers move cost %1$d AP</string>
+    <string name="preferences_display_scaling_factor_title">Scaling factor</string>
+    <string name="preferences_display_scaling_factor">Makes the game view display everything larger or smaller.</string>
+    <string name="preferences_display_scaling_factor_50_percent">Half size</string>
+    <string name="preferences_display_scaling_factor_75_percent">0.75x size</string>
+    <string name="preferences_display_scaling_factor_normal">Normal size</string>
+    <string name="preferences_display_scaling_factor_50_percent_larger">1.5x size</string>
+    <string name="preferences_display_scaling_factor_double">Double size</string>
+    <string name="preferences_language_default">System language</string>
+    <string name="preferences_language">Language</string>
+    <string name="preferences_language_description">Select the language. English is used if the system language is not available or content has not been translated. (Requires restart)</string>
+    <string name="inventory_assign">Assign quick slot</string>
+    <string name="inventory_selectitem">Select item to assign</string>
+    <string name="inventory_assign_slot1">Slot 1</string>
+    <string name="inventory_assign_slot2">Slot 2</string>
+    <string name="inventory_assign_slot3">Slot 3</string>
+    <string name="inventory_unassign">Un-assign quick slot</string>
+    <string name="preferences_movement_dpad_position_title">Virtual d-pad</string>
+    <string name="preferences_movement_dpad_position">Enables a virtual on-screen directional pad to guide movement.</string>
+    <string name="preferences_movement_dpad_minimizeable_title">Minimizable d-pad</string>
+    <string name="preferences_movement_dpad_minimizeable">If the virtual d-pad is enabled, this setting allows the d-pad to be minimized by pressing its center.</string>
+    <string name="preferences_movement_dpad_positions_disabled">Disabled</string>
+    <string name="preferences_movement_dpad_positions_lower_right">Lower right corner</string>
+    <string name="preferences_movement_dpad_positions_lower_left">Lower left corner</string>
+    <string name="preferences_movement_dpad_positions_center_bottom">Center bottom</string>
+    <string name="preferences_movement_dpad_positions_center_left">Center left</string>
+    <string name="preferences_movement_dpad_positions_center_right">Center right</string>
+    <string name="preferences_movement_dpad_positions_upper_left">Upper left corner</string>
+    <string name="preferences_movement_dpad_positions_upper_right">Upper right corner</string>
+    <string name="preferences_movement_dpad_positions_center_top">Center top</string>
+    <string name="actorconditioninfo_constant_effect">Constant effect</string>
+    <string name="actorconditioninfo_effect_every_round">Every round</string>
+    <string name="actorconditioninfo_effect_every_full_round">Every full round</string>
+    <string name="bulkselection_totalcost_buy">Total cost: %1$d gold</string>
+    <string name="bulkselection_totalcost_sell">Total cost: %1$d gold</string>
+    <string name="bulkselection_select_all">All</string>
+    <string name="bulkselection_sell_confirmation_title">Are you sure?</string>
+    <string name="bulkselection_sell_confirmation">Are you sure you want to sell %1$s? This item is %2$s and you might not be able to recover it.</string>
+    <string name="skill_title_weapon_chance">Weapon Accuracy</string>
+    <string name="skill_title_weapon_dmg">Hard Hit</string>
+    <string name="skill_title_barter">Merchant</string>
+    <string name="skill_title_dodge">Dodge</string>
+    <string name="skill_title_barkskin">Bark Skin</string>
+    <string name="skill_title_more_criticals">More Criticals</string>
+    <string name="skill_title_better_criticals">Better Criticals</string>
+    <string name="skill_title_speed">Combat Speed</string>
+    <string name="skill_title_coinfinder">Treasure Hunter</string>
+    <string name="skill_title_more_exp">Quick Learner</string>
+    <string name="skill_title_cleave">Cleave</string>
+    <string name="skill_title_eater">Corpse Eater</string>
+    <string name="skill_title_fortitude">Increased Fortitude</string>
+    <string name="skill_title_evasion">Evasion</string>
+    <string name="skill_title_regeneration">Regeneration</string>
+    <string name="skill_title_lower_exploss">Failure Mastery</string>
+    <string name="skill_title_magicfinder">Magic Finder</string>
+    <string name="skill_title_resistance_mental">Strong Mind</string>
+    <string name="skill_title_resistance_physical_capacity">Enduring Body</string>
+    <string name="skill_title_resistance_blood_disorder">Pure Blood</string>
+    <string name="skill_shortdescription_weapon_chance">Increased attack chance</string>
+    <string name="skill_shortdescription_weapon_dmg">Increased attack damage</string>
+    <string name="skill_shortdescription_barter">Better shop prices</string>
+    <string name="skill_shortdescription_dodge">Increased block chance</string>
+    <string name="skill_shortdescription_barkskin">Damage resistance</string>
+    <string name="skill_shortdescription_more_criticals">Increased critical skill</string>
+    <string name="skill_shortdescription_better_criticals">Increased critical damage</string>
+    <string name="skill_shortdescription_speed">Increased maximum action points</string>
+    <string name="skill_shortdescription_coinfinder">Higher chance of finding gold</string>
+    <string name="skill_shortdescription_more_exp">More experience from monster kills</string>
+    <string name="skill_shortdescription_cleave">Recover action points on every kill</string>
+    <string name="skill_shortdescription_eater">Recover health points on every kill</string>
+    <string name="skill_shortdescription_fortitude">Gain health on each level up</string>
+    <string name="skill_shortdescription_evasion">Increased chance of fleeing</string>
+    <string name="skill_shortdescription_regeneration">Gain health every round</string>
+    <string name="skill_shortdescription_lower_exploss">Decrease amount of lost experience when dying</string>
+    <string name="skill_shortdescription_magicfinder">Increased chance of finding magic items</string>
+    <string name="skill_shortdescription_resistance_mental">Resistance against mental conditions</string>
+    <string name="skill_shortdescription_resistance_physical_capacity">Resistance against physical capacity conditions</string>
+    <string name="skill_shortdescription_resistance_blood_disorder">Resistance against blood disorders</string>
+    <string name="skill_longdescription_weapon_chance">Increases attack chance by %1$d percentage points for each skill level.</string>
+    <string name="skill_longdescription_weapon_dmg">Increases max damage by %1$d for each skill level.</string>
+    <string name="skill_longdescription_barter">For every skill level, decreases the buying and selling gold penalty by %1$d percentage points.</string>
+    <string name="skill_longdescription_dodge">Increases block chance by %1$d percentage points for each skill level.</string>
+    <string name="skill_longdescription_barkskin">Increases damage resistance by %1$d for each skill level.</string>
+    <string name="skill_longdescription_more_criticals">Increases any existing critical skill given by equipment by %1$d %% for each skill level.</string>
+    <string name="skill_longdescription_better_criticals">Increases any existing critical multiplier given by equipment by %1$d %% for each skill level.</string>
+    <string name="skill_longdescription_speed">Increases maximum action points (AP) by %1$d for each skill level.</string>
+    <string name="skill_longdescription_coinfinder">Increases chance of finding gold in monster drops by %1$d %%, and increases amount of gold in drops by %2$d %% for each skill level (up to the maximum amount that the monster drops).</string>
+    <string name="skill_longdescription_more_exp">Increases amount of exp given by defeating monsters by %1$d %% for each skill level.</string>
+    <string name="skill_longdescription_cleave">Gives +%1$d action points (AP) on every kill per skill level.</string>
+    <string name="skill_longdescription_eater">Gives +%1$d health points (HP) on every kill per skill level.</string>
+    <string name="skill_longdescription_fortitude">On every subsequent level-up, maximum health points (HP) will be raised by %1$d per skill level. This is not applied retroactively, only subsequent level-ups will be affected.</string>
+    <string name="skill_longdescription_evasion">For every skill level, reduces both the chance of failed flee attempts by %1$d %% and the chance that an adjacent monster will attack by %2$d %%.</string>
+    <string name="skill_longdescription_regeneration">Gain +%1$d health points (HP) on every round per skill level when no monsters are directly adjacent.</string>
+    <string name="skill_longdescription_lower_exploss">For every skill level, reduces the amount of lost experience caused by death by %1$d %% (percentage of existing exp loss value, not percentage points). %2$d levels will remove all experience loss caused by death.</string>
+    <string name="skill_longdescription_magicfinder">Increases the chance of finding non-ordinary items by %1$d %% for every skill level.</string>
+    <string name="skill_longdescription_resistance_mental">Lowers the chance of being afflicted with mental conditions by %1$d %% for every skill level, up to a maximum of %2$d %%. This includes conditions caused by monster attacks such as Dazed or Weapon Feebleness.</string>
+    <string name="skill_longdescription_resistance_physical_capacity">Lowers the chance of being afflicted with conditions affecting your physical capacity by %1$d %% for every skill level, up to a maximum of %2$d %%. This includes conditions caused by monster attacks such as Fatigue.</string>
+    <string name="skill_longdescription_resistance_blood_disorder">Lowers the chance of being afflicted with disorders of the blood by %1$d %% for every skill level, up to a maximum of %2$d %%. This includes conditions caused by monster attacks such as Poison or bleeding wounds.</string>
+    <string name="skillinfo_action_levelup">Level up</string>
+    <string name="skill_current_level">Current level: %1$d</string>
+    <string name="skill_current_level_with_maximum">Current level: %1$d / %2$d</string>
+    <string name="skill_prerequisite_other_skill">To level up this skill, you need at least level %1$d of the %2$s skill.</string>
+    <string name="skill_prerequisite_level">To level up this skill, you need at least experience level %1$d.</string>
+    <string name="skill_prerequisite_stat">To level up this skill, you need at least %1$d %2$s (base stats).</string>
+    <string name="skill_number_of_increases_one">You may select one skill to improve.</string>
+    <string name="skill_number_of_increases_several">You may select %1$d skills to improve.</string>
+    <string name="levelup_adds_new_skillpoint">This level also gives you a new skill point to spend!</string>
+    <string name="loadsave_save_to_new_slot">Create new savegame slot</string>
+    <string name="loadsave_save_overwrite_confirmation_title">Overwrite savegame?</string>
+    <string name="loadsave_save_overwrite_confirmation">This savegame contains a different player name (%1$s) than your current player name (%2$s). Are you sure you want to overwrite this savegame?</string>
+    <string name="iteminfo_displaytypes_ordinary">Ordinary</string>
+    <string name="iteminfo_displaytypes_quest">Quest item</string>
+    <string name="iteminfo_displaytypes_legendary">Legendary</string>
+    <string name="iteminfo_displaytypes_extraordinary">Extraordinary</string>
+    <string name="iteminfo_displaytypes_rare">Rare</string>
+    <string name="actorconditioninfo_category">Condition category: %1$s</string>
+    <string name="actorcondition_categories_spiritual">Spiritual</string>
+    <string name="actorcondition_categories_mental">Mental</string>
+    <string name="actorcondition_categories_physical">Physical Capacity</string>
+    <string name="actorcondition_categories_blood">Blood Disorder</string>
+    <string name="traitsinfo_base_max_hp">Max HP:</string>
+    <string name="traitsinfo_base_max_ap">Max AP:</string>
+    <string name="menu_save_saving_not_allowed_in_combat">Cannot save the game while in combat.</string>
+    <string name="menu_save_switch_character_title">Switch character</string>
+    <string name="menu_save_switch_character">Saving allows you to switch to another character and later continue the current game. Do you want to save and exit the current game?</string>
+    <string name="preferences_optimized_drawing_title">Optimized drawing</string>
+    <string name="preferences_optimized_drawing">Disable this if you see graphical artifacts. Enabling this option will make the game only redraw changed parts of the screen every frame.</string>
+    <string name="preferences_high_quality_filters_title">High quality filters</string>
+    <string name="preferences_high_quality_filters">Disable this if you experience performance issues on filtered maps (dark caves for example). Enabling this option will make the game use advanced color filters, instead of solid color overlays.</string>
+    <string name="skill_title_shadow_bless">Dark blessing of the Shadow</string>
+    <string name="skill_shortdescription_shadow_bless">Resistance against all types of conditions</string>
+    <string name="skill_longdescription_shadow_bless">Lowers the chance of being afflicted with all types of conditions by %1$d %%. This includes all types of conditions caused by monster attacks such as Poison, Dazed or Fatigue.</string>
+    <string name="inventory_movetop">Move to top</string>
+    <string name="inventory_movebottom">Move to bottom</string>
+    <string name="actorinfo_immune_criticals">Immune to critical hits</string>
+    <string name="traitsinfo_criticalhit_effectivechance">Effective critical chance:</string>
+    <string name="skill_title_crit1">Internal bleeding</string>
+    <string name="skill_shortdescription_crit1">Chance of internal bleeding</string>
+    <string name="skill_longdescription_crit1">"For every critical hit made, there is a %1$d %% chance that the hit will cause internal bleeding on the target, effectively causing the 'Internal bleeding' condition on the target. Internal bleeding severely lowers offensive combat abilities, making the target less able to land successful attacks."</string>
+    <string name="skill_title_crit2">Fracture</string>
+    <string name="skill_shortdescription_crit2">Chance of bone fracture</string>
+    <string name="skill_longdescription_crit2">"For every critical hit made, there is a %1$d %% chance that the hit will fracture some of the target's bones, effectively causing the 'Fracture' condition on the target. This will severely lower the target's defensive combat abilities, making it less able to defend itself in subsequent attacks."</string>
+    <string name="skill_title_rejuvenation">Rejuvenation</string>
+    <string name="skill_shortdescription_rejuvenation">Chance of effect removal</string>
+    <string name="skill_longdescription_rejuvenation">Every round (6 seconds), there is a %1$d %% chance that one of the active negative actor conditions will be lowered by one magnitude. This applies to all temporary effect types that affect the body; mental conditions such as Dazed, physical capacity conditions such as Fatigue and also blood disorders such as poison.</string>
+    <string name="skill_title_taunt">Taunt</string>
+    <string name="skill_shortdescription_taunt">Attacker loses AP on miss</string>
+    <string name="skill_longdescription_taunt">When an attacker makes an attack that misses, there is a %1$d %% chance that the attacker loses %2$d action points (AP). This applies to all types of melee attacks against you.</string>
+    <string name="skill_title_concussion">Concussion</string>
+    <string name="skill_shortdescription_concussion">Chance of concussion</string>
+    <string name="skill_longdescription_concussion">"When making an attack on a target whose block chance (BC) is at least %1$d lower than your attack chance (AC), there is a %2$d %% chance that the hit will cause a concussion on the target. A concussion will severely lower the target's offensive combat abilities, making the target less able to land successful attacks."</string>
+    <string name="about_button4">About</string>
+    <string name="preferences_ui_category">Interface</string>
+    <string name="preferences_ui_enable_animations_title">Enable animations</string>
+    <string name="preferences_ui_enable_animations">Show animations for various interface elements, such as the combat bar.</string>
+    <string name="menu_button_worldmap">Map</string>
+    <string name="menu_button_worldmap_failed">Map cannot be displayed.</string>
+    <string name="display_worldmap_not_available">The map cannot be displayed from this location.</string>
+    <string name="display_worldmap_title">Map</string>
+    <string name="inventory_equip_offhand">Equip (offhand)</string>
+    <string name="iteminfo_effect_weapon_attack_cost">Attack cost: %1$d AP</string>
+    <string name="iteminfo_effect_increase_attack_cost">Increases attack cost by %1$d AP</string>
+    <string name="iteminfo_effect_decrease_attack_cost">Lowers attack cost by %1$d AP</string>
+    <string name="iteminfo_effect_weapon_attack_chance">Attack chance: %1$d</string>
+    <string name="iteminfo_effect_increase_attack_chance">Increases attack chance by %1$d</string>
+    <string name="iteminfo_effect_decrease_attack_chance">Lowers attack chance by %1$d</string>
+    <string name="iteminfo_effect_weapon_attack_damage">Attack damage: %1$d</string>
+    <string name="iteminfo_effect_weapon_attack_damage_minmax">Attack damage: %1$d-%2$d</string>
+    <string name="iteminfo_effect_increase_attack_damage">Increases attack damage by %1$d</string>
+    <string name="iteminfo_effect_set_damage_modifier">Damage modifier: %1$d%%</string>
+    <string name="iteminfo_effect_increase_attack_damage_minmax">Increases attack damage by %1$d-%2$d</string>
+    <string name="iteminfo_effect_decrease_attack_damage">Lowers attack damage by %1$d</string>
+    <string name="iteminfo_effect_decrease_attack_damage_minmax">Lowers attack damage by %1$d-%2$d</string>
+    <string name="iteminfo_effect_increase_critical_skill">Increases critical skill by %1$d</string>
+    <string name="iteminfo_effect_decrease_critical_skill">Lowers critical skill by %1$d</string>
+    <string name="iteminfo_effect_critical_multiplier">Enables critical hits with a multiplier of x%1$.1f</string>
+    <string name="iteminfo_effect_increase_block_chance">Increases block chance by %1$d</string>
+    <string name="iteminfo_effect_decrease_block_chance">Lowers block chance by %1$d</string>
+    <string name="iteminfo_effect_increase_damage_resistance">Raises damage resistance by %1$d</string>
+    <string name="iteminfo_effect_decrease_damage_resistance">Lowers damage resistance by %1$d</string>
+    <string name="iteminfo_effect_increase_use_cost">Increases AP cost of using items in combat by %1$d AP</string>
+    <string name="iteminfo_effect_decrease_use_cost">Lowers AP cost of using items in combat by %1$d AP</string>
+    <string name="iteminfo_effect_increase_reequip_cost">Increases AP cost of equipping items in combat by %1$d AP</string>
+    <string name="iteminfo_effect_decrease_reequip_cost">Lowers AP cost of equipping items in combat by %1$d AP</string>
+    <string name="loadsave_save_overwrite_confirmation_all">Are you sure you want to overwrite this savegame?</string>
+    <string name="loadsave_save_overwrite_confirmation_slot">(slot %1$d)</string>
+    <string name="loadsave_empty_slot">%1$d.&lt;empty></string>
+    <string name="preferences_display_overwrite_savegame_entries_always_confirm">Always show confirmation dialog box</string>
+    <string name="preferences_display_overwrite_savegame_entries_confirm_overwrite">Only show when overwriting a different playername</string>
+    <string name="preferences_display_overwrite_savegame_entries_never_confirm">Never display confirmation dialog box</string>
+    <string name="preferences_dialog_overwrite_savegame_title">Confirm overwriting savegames</string>
+    <string name="preferences_dialog_overwrite_savegame">Gives a question about whether you want to overwrite when saving to a savegame slot that already contains a savegame.</string>
+    <string name="heroinfo_reequip_cost">Re-equip cost (AP):</string>
+    <string name="heroinfo_useitem_cost">Use item cost (AP):</string>
+    <string name="combat_result_monstermoved">%1$s moves.</string>
+    <string name="combat_log_title">Combat log</string>
+    <string name="combat_log_noentries">No entries yet.</string>
+    <string name="localize_resources_from_mo_filename" />
+    <string name="conversation_reward_quest_finished">[Quest completed: \"%1$s\"]</string>
+    <string name="conversation_reward_quest_updated">[Quest updated: \"%1$s\"]</string>
+    <string name="skill_title_weapon_prof_dagger">Dagger proficiency</string>
+    <string name="skill_title_weapon_prof_1hsword">One-handed sword proficiency</string>
+    <string name="skill_title_weapon_prof_2hsword">Two-handed sword proficiency</string>
+    <string name="skill_title_weapon_prof_axe">Axe proficiency</string>
+    <string name="skill_title_weapon_prof_blunt">Blunt weapon proficiency</string>
+    <string name="skill_title_weapon_prof_unarmed">Unarmed fighting</string>
+    <string name="skill_title_armor_prof_shield">Shield proficiency</string>
+    <string name="skill_title_armor_prof_unarmored">Unarmored fighting</string>
+    <string name="skill_title_armor_prof_light">Light armor proficiency</string>
+    <string name="skill_title_armor_prof_heavy">Heavy armor proficiency</string>
+    <string name="skill_title_fightstyle_dualwield">Fighting style: Dual wield</string>
+    <string name="skill_title_fightstyle_2hand">Fighting style: Two-handed weapon</string>
+    <string name="skill_title_fightstyle_weapon_shield">Fighting style: Weapon and shield</string>
+    <string name="skill_title_fightstyle_unarmed_unarmored">Fighting style: Way of the monk</string>
+    <string name="skill_title_specialization_dualwield">Specialization: Dual wield</string>
+    <string name="skill_title_specialization_2hand">Specialization: Two-handed weapon</string>
+    <string name="skill_title_specialization_weapon_shield">Specialization: Weapon and shield</string>
+    <string name="skill_title_weapon_prof_pole">Pole weapon proficiency</string>
+    <string name="skill_shortdescription_weapon_prof_dagger">Better at fighting with daggers</string>
+    <string name="skill_shortdescription_weapon_prof_1hsword">Better at fighting with one-handed swords</string>
+    <string name="skill_shortdescription_weapon_prof_2hsword">Better at fighting with two-handed swords</string>
+    <string name="skill_shortdescription_weapon_prof_axe">Better at fighting with axes</string>
+    <string name="skill_shortdescription_weapon_prof_blunt">Better at fighting with blunt weapons</string>
+    <string name="skill_shortdescription_weapon_prof_unarmed">Better at fighting without weapons</string>
+    <string name="skill_shortdescription_armor_prof_shield">Make better use of shields and parrying weapons</string>
+    <string name="skill_shortdescription_armor_prof_unarmored">Better at fighting without armor</string>
+    <string name="skill_shortdescription_armor_prof_light">Make better use of light armor</string>
+    <string name="skill_shortdescription_armor_prof_heavy">Make better use of heavy armor</string>
+    <string name="skill_shortdescription_fightstyle_dualwield">Wield two weapons at the same time</string>
+    <string name="skill_shortdescription_fightstyle_2hand">Make better use of weapons that require both hands</string>
+    <string name="skill_shortdescription_fightstyle_weapon_shield">Better at fighting with weapon and shield</string>
+    <string name="skill_shortdescription_fightstyle_unarmed_unarmored">Better at fighting unarmed/unarmored</string>
+    <string name="skill_shortdescription_specialization_dualwield">Expert at dual wielding</string>
+    <string name="skill_shortdescription_specialization_2hand">Expert at two-handed weapons</string>
+    <string name="skill_shortdescription_specialization_weapon_shield">Expert at fighting with weapon and shield</string>
+    <string name="skill_shortdescription_weapon_prof_pole">Better at fighting with pole weapons</string>
+    <string name="skill_longdescription_weapon_prof_dagger">"For each skill level, increases attack chance when using daggers and shortswords by %1$d %% of the item's base attack chance, increases block chance by %2$d %% of the item's base block chance, and increases critical skill by %3$d %% of the item's base critical skill."</string>
+    <string name="skill_longdescription_weapon_prof_1hsword">"For each skill level, increases attack chance of rapiers, longswords and broadswords by %1$d %% of the item's base attack chance, increases block chance by %2$d %% of the item's base block chance, and increases critical skill by %3$d %% of the item's base critical skill."</string>
+    <string name="skill_longdescription_weapon_prof_2hsword">"For each skill level, increases attack chance of two-handed swords by %1$d %% of the item's base attack chance, increases block chance by %2$d %% of the item's base block chance, and increases critical skill by %3$d %% of the item's base critical skill."</string>
+    <string name="skill_longdescription_weapon_prof_axe">"For each skill level, increases attack chance of axes and greataxes by %1$d %% of the item's base attack chance, increases block chance by %2$d %% of the item's base block chance, and increases critical skill by %3$d %% of the item's base critical skill."</string>
+    <string name="skill_longdescription_weapon_prof_blunt">"For each skill level, increases attack chance of blunt weapons by %1$d %% of the item's base attack chance, increases block chance by %2$d %% of the item's base block chance, and increases critical skill by %3$d %% of the item's base critical skill. This includes clubs, quarterstaves, maces, scepters, whips, war hammers and giant hammers."</string>
+    <string name="skill_longdescription_weapon_prof_unarmed">When fighting without a weapon and shield, gain %1$d attack chance, %2$d damage potential and %3$d block chance per skill level.</string>
+    <string name="skill_longdescription_armor_prof_shield">Increase damage resistance by %1$d per skill level while having a shield or parrying weapon equipped.</string>
+    <string name="skill_longdescription_armor_prof_unarmored">While fighting without having any piece of armor equipped, gain %1$d block chance per skill level. Items made of cloth are not considered as being armor.</string>
+    <string name="skill_longdescription_armor_prof_light">For every skill level, increases the block chance of every piece of light armor being worn by %1$d %% of their original block chances. Light armors include leather, light metal and hide armors.</string>
+    <string name="skill_longdescription_armor_prof_heavy">For every skill level, increases the block chance of every piece of heavy armor being worn by %1$d %% of their original block chances. Pieces of heavy armor have their movement penalties reduced by %2$d %% per skill level, and their attack speed penalties reduced by %3$d %% per skill level. Heavy armors include metal armors, chain mail and plate mail.</string>
+    <string name="skill_longdescription_fightstyle_dualwield">"Gives benefits when fighting with two weapons at the same time, one in the main hand and one in the off-hand.
+
+Without this skill, only %1$d %% of a weapon's qualities may be used when equipped in the off-hand. This includes attack chance, critical skill, damage potential and block chance. Without this skill, attack cost (AP cost) of making an attack is the sum of the attack cost of the main weapon and that of the weapon used in the off-hand. The lower of both damage modifiers will be used.
+
+With one level of this skill, %2$d %% of the off-hand's weapon's qualities may be used, and the attack cost is the highest attack cost of both weapons plus %3$d %% of the lowest attack cost of both weapons. The average of both damage modifiers will be used.
+
+With two levels of this skill, %4$d %% of the off-hand's weapon's qualities may be used, and the attack cost equals the highest of the attack costs of the two equipped weapons. The highest damage modifier will be used."</string>
+    <string name="skill_longdescription_fightstyle_2hand">"Gives benefits when using weapons that require both hands to wield, such as two-handed swords, greataxes or giant hammers.
+
+Every skill level increases damage potential of two-handed weapons with %1$d %% of the original damage potential."</string>
+    <string name="skill_longdescription_fightstyle_weapon_shield">"Gives benefits when fighting with a weapon in the main hand and having a shield or parrying weapon equipped in the off-hand.
+
+Every skill level increases the attack chance of weapons in the main hand with %1$d %% of their original attack chances, and the block chance of shields or parrying weapons by %2$d %% of their original block chances."</string>
+    <string name="skill_longdescription_fightstyle_unarmed_unarmored">"While fighting without having any piece of armor equipped and without using a weapon or shield, gain %1$d attack chance, %2$d block chance, %3$d damage resistance and increase the maximum damage by %4$d per skill level. The skill also gives a critical multiplier of 1 plus 0.%5$d per level.
+
+Items made of cloth are not considered as being armor."</string>
+    <string name="skill_longdescription_specialization_dualwield">Increases the attack chance of both wielded weapons by an additional %1$d %% of their original attack chances, in addition to the benefits given by the weapon style skill. The block chances of both wielded weapons are also increased by %2$d %% of their original block chances.</string>
+    <string name="skill_longdescription_specialization_2hand">Increases damage potential of two-handed weapons by an additional %1$d %% of the original damage potential, in addition to the benefits given by the weapon style skill. The attack chances of two-handed weapons are also increased by %2$d %% of their original attack chances.</string>
+    <string name="skill_longdescription_specialization_weapon_shield">Increases both attack chances and damage potential of weapons in the main hand. The attack chance is increased by %1$d %% of the original attack chance, and the damage potential is increased by %2$d %% of the original damage potential.</string>
+    <string name="skill_longdescription_weapon_prof_pole">"For each skill level, increases attack chance when using pole weapons by %1$d %% of the item's base attack chance, increases block chance by %2$d %% of the item's base block chance, and increases critical skill by %3$d %% of the item's base critical skill."</string>
+    <string name="preferences_quickslots_placement">Quickslot position</string>
+    <string name="preferences_quickslots_placement_summary">Where to place the quickslots</string>
+    <string name="preferences_quickslots_placements_horizontal_center_bottom">Center bottom</string>
+    <string name="preferences_quickslots_placements_vertical_center_left">Middle left</string>
+    <string name="preferences_quickslots_placements_vertical_center_right">Middle right</string>
+    <string name="preferences_quickslots_placements_vertical_bottom_left">Bottom left, along left border</string>
+    <string name="preferences_quickslots_placements_horizontal_bottom_left">Bottom left, along bottom border</string>
+    <string name="preferences_quickslots_placements_horizontal_bottom_right">Bottom right, along bottom border</string>
+    <string name="preferences_quickslots_placements_vertical_bottom_right">Bottom right, along right border</string>
+    <string name="preferences_ui_show_quickslots_when_toolbox_is_visible_title">Show quickslots when toolbox is opened</string>
+    <string name="preferences_ui_show_quickslots_when_toolbox_is_visible">Makes the quickslot buttons be displayed as soon as the toolbox is opened</string>
+    <string name="startscreen_incompatible_savegames">"This is a development version of Andor's Trail. Savegames produced by this version are incompatible with the release version."</string>
+    <string name="startscreen_non_release_version">"This is a prerelease version of Andor's Trail. Savegames produced by this version might not be compatible with the release version."</string>
+    <string name="heroinfo_gamestats">Game statistics</string>
+    <string name="heroinfo_gamestats_quests">Completed quests</string>
+    <string name="heroinfo_gamestats_deaths">Times fallen unconscious</string>
+    <string name="heroinfo_gamestats_spent_gold">Gold spent in shops</string>
+    <string name="heroinfo_gamestats_bonemeals">Bonemeal potions used</string>
+    <string name="heroinfo_gamestats_num_used_items">Items used</string>
+    <string name="heroinfo_gamestats_visited_maps">Places visited</string>
+    <string name="heroinfo_gamestats_fav_item">Most commonly used item</string>
+    <string name="heroinfo_gamestats_num_killed_monsters">Monsters killed</string>
+    <string name="heroinfo_gamestats_top_boss">Most powerful monster killed</string>
+    <string name="heroinfo_gamestats_fav_monsters">Most commonly killed monsters</string>
+    <string name="heroinfo_gamestats_name_and_qty">%1$s (%2$d)</string>
+    <string name="preferences_ui_use_localized_resources_title">Use localized resources</string>
+    <string name="preferences_ui_use_localized_resources">Use translation of interface and content, where available. (requires restart)</string>
+    <string name="change_locale_requires_restart">"Changing locale requires restart. Andor's Trail has been closed."</string>
+    <string name="inventory_category_all">All</string>
+    <string name="inventory_category_favorites">Favorites</string>
+    <string name="inventory_category_weapons">Weapon</string>
+    <string name="inventory_category_armor">Armor</string>
+    <string name="inventory_category_jewelry">Jewelry</string>
+    <string name="inventory_category_potion">Potion</string>
+    <string name="inventory_category_food">Food</string>
+    <string name="inventory_category_quest">Quest Item</string>
+    <string name="inventory_category_other">Other</string>
+    <string name="inventory_sort_custom">Unsorted</string>
+    <string name="inventory_sort_name">Name</string>
+    <string name="inventory_sort_price">Price</string>
+    <string name="inventory_sort_quantity">Quantity</string>
+    <string name="inventory_sort_rarity">Rarity</string>
+    <string name="inventory_sort_type">Type</string>
+    <string name="shoplist_sort_custom">Unsorted</string>
+    <string name="shoplist_sort_name">Name</string>
+    <string name="shoplist_sort_price">Price</string>
+    <string name="shoplist_sort_quantity">Quantity</string>
+    <string name="shoplist_sort_rarity">Rarity</string>
+    <string name="shoplist_sort_type">Type</string>
+    <string name="skill_category_all">All</string>
+    <string name="skill_category_offense">Offense</string>
+    <string name="skill_category_defense">Defense</string>
+    <string name="skill_category_criticals">Criticals</string>
+    <string name="skill_category_immunity">Immunity</string>
+    <string name="skill_category_utility">Utility</string>
+    <string name="skill_category_speciality">Speciality</string>
+    <string name="skill_category_proficiency">Proficiency</string>
+    <string name="skill_sort_unsorted">Unsorted</string>
+    <string name="skill_sort_name">Name</string>
+    <string name="skill_sort_points">Points</string>
+    <string name="skill_sort_unlocked">Unlocked</string>
+    <string name="preferences_display_theme_title">Theme</string>
+    <string name="preferences_display_theme">Choose the UI theme. (requires restart)</string>
+    <string name="preferences_display_theme_blue">Cobalt</string>
+    <string name="preferences_display_theme_green">Malachite</string>
+    <string name="preferences_display_theme_charcoal">Obsidian</string>
+    <string name="change_theme_requires_restart">"Changing UI theme requires restart. Andor's Trail has been closed."</string>
+    <string name="storage_permissions_mandatory">"Access to storage is mandatory for Andor's Trail to handle saved games and worldmap. Closing Andor's Trail."</string>
+    <string name="skill_title_spore_immunity">Spore poison immunity</string>
+    <string name="skill_shortdescription_spore_immunity">Full immunity to spore poison</string>
+    <string name="skill_longdescription_spore_immunity">Permanently prevents monster attacks from inflicting the Spore poisoning status effect.</string>
+    <string name="preferences_movement_dpad_transparency_title">D-pad transparency</string>
+    <string name="preferences_movement_dpad_transparency">If the virtual d-pad is enabled, this setting determines how transparent it should be.</string>
+    <string name="preferences_movement_dpad_transparency_30_pct">30%</string>
+    <string name="preferences_movement_dpad_transparency_40_pct">40%</string>
+    <string name="preferences_movement_dpad_transparency_50_pct">50%</string>
+    <string name="preferences_movement_dpad_transparency_60_pct">60%</string>
+    <string name="preferences_movement_dpad_transparency_70_pct">70%</string>
+    <string name="worldmap_template" formatted="false">"&lt;!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">
+&lt;html xmlns=\"http://www.w3.org/1999/xhtml\">
+&lt;head>
+\u0009&lt;meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />
+\u0009&lt;meta name=\"viewport\" content=\"initial-scale=1.0, minimum-scale=0.02, maximum-scale=5.0\" />
+\u0009&lt;title>&lt;/title>
+\u0009&lt;style type=\"text/css\">
+html, body { height:100%; padding:0; margin:0; }
+div#table { height:100%; width:100%; display:table; }
+div#cell { display:table-cell; vertical-align:middle; text-align:center;}
+div#maps { width:{{sizex}}px; height:{{sizey}}px; position:relative; display:inline-block; }
+div#playerPosition { position:absolute; z-index:3; font-size:19pt; color:red; text-shadow:rgba(0, 0, 0, 1) 2px 2px 2px; }
+img { z-index:1; position:absolute; }
+.namedarea { position: absolute; z-index:2; font-size:16pt; text-shadow:black 0.1em 0.1em 0.2em; text-align:center; }
+.namedarea span { display:inline-block; vertical-align:middle; line-height:1em; }
+.settlement { color:white; }
+.other { color:#cccccc; }
+\u0009&lt;/style>
+&lt;/head>
+&lt;body>
+
+&lt;div id=\"table\">
+&lt;div id=\"cell\">
+&lt;div id=\"maps\">
+{{maps}}
+{{areas}}
+&lt;div id=\"playerPosition\">x&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+
+&lt;script type=\"text/javascript\">
+var player = document.getElementById(\"playerPosition\");
+var params = window.location.search.substring(1);
+if (params) {
+\u0009var pos = params.split(\",\");
+\u0009var x = parseInt(pos[0])-({{offsetx}});
+\u0009var y = parseInt(pos[1])-({{offsety}});
+\u0009player.style.top = y + \"px\";
+\u0009player.style.left = x + \"px\";
+} else {
+\u0009player.style.display = \"none\";
+}
+&lt;/script>
+
+&lt;/body>
+&lt;/html>"</string>
+</resources>

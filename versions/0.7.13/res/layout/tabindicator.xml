@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?ui_theme_tabwidget_drawable" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center|top" android:id="@id/tabindicator_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textColor="?ui_theme_textbutton_textcolor_color" android:ellipsize="marquee" android:gravity="bottom|center" android:layout_gravity="bottom|center" android:id="@id/tabindicator_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scrollHorizontally="true" android:singleLine="true" />
+</LinearLayout>

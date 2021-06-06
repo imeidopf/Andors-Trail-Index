@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
 <map version="1.0" orientation="orthogonal" width="25" height="30" tilewidth="32" tileheight="32">
     <tileset firstgid="1" name="map_0" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_0.png" />
+        <image source="../drawable/map_0.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="65" name="map_1" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_1.png" />
+        <image source="../drawable/map_1.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="129" name="map_2" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_2.png" />
+        <image source="../drawable/map_2.png" width="256" height="256" />
     </tileset>
     <layer name="Ground" width="25" height="30">
         <data encoding="base64" compression="zlib"> eJzFlo0OgjAMhEEERYf4g8r7P6mQtElzabuORCW5xGx4H1uvg7qqqjqoblGz6EDaL5pIPYy3ixLNRf0b+L/0WPUU46yhgLEDbxZecm7lXxxGR5JjZ4Uh1/EyGK2zJ6uOMOcx3sBJ4re3Jz1xeF1NhsGckWqhMdCDOZgXqUnh4D3SX/PIaVA4WBsvNxF/rqvGGUnMKPWXucF9m4lzJVmZ0SSzkYx7JkVeNjV/i3F3OFoPWt4ywxqDOTLTs8HwzivOcFL8mSGzdirwx9wl8GYlevYoozP8+VnRH/cpd+ZqZznm9gH+yPDWkOt5rIXV9xYj0vOjw56CjFx/c/9in0drEWGs102Zi2Y2uo5q4z5FzpTBGC9leO9WrEFpLXL7Zp21JX3xT0YkI79gbDlrSxj43fANBr738P4PDw8TrQ==

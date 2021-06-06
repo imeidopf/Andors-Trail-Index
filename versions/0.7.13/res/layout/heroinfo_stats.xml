@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/AndorsTrail_Style_TabFrame"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/heroinfo_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/heroinfo_title" android:background="?ui_theme_stdframe_bitmap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@android:string/unknownName" android:drawableLeft="@drawable/char_hero_large" style="@style/titleWithIcon" />
+            <TableLayout android:background="?ui_theme_stdframe_bitmap" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TableRow>
+                    <TextView android:text="@string/heroinfo_mode" style="@style/traitsinfo_label" />
+                    <TextView android:id="@id/heroinfo_mode" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@android:string/unknownName" />
+                </TableRow>
+                <TableRow>
+                    <TextView android:text="@string/heroinfo_level" style="@style/traitsinfo_label" />
+                    <TextView android:id="@id/heroinfo_level" android:text="@android:string/unknownName" />
+                </TableRow>
+                <TableRow>
+                    <TextView android:text="@string/heroinfo_totalexperience" style="@style/traitsinfo_label" />
+                    <TextView android:id="@id/heroinfo_totalexperience" android:text="@android:string/unknownName" />
+                </TableRow>
+            </TableLayout>
+            <LinearLayout android:orientation="vertical" android:background="?ui_theme_stdframe_bitmap" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gpl.rpg.AndorsTrail.view.RangeBar android:id="@id/heroinfo_healthbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <com.gpl.rpg.AndorsTrail.view.RangeBar android:id="@id/heroinfo_expbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0sp" />
+                <com.gpl.rpg.AndorsTrail.view.RangeBar android:id="@id/heroinfo_apbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0sp" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="?ui_theme_stdframe_bitmap" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/actorinfo_currenttraits" style="@style/actorinfo_sectionheader" />
+                <View android:background="?ui_theme_listseparator_drawable" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-1.0dip" android:layout_marginBottom="-1.0dip" />
+                <TableLayout android:id="@id/actorinfo_stats_table" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TableRow>
+                        <TextView android:text="@string/heroinfo_reequip_cost" style="@style/traitsinfo_label" />
+                        <TextView android:id="@id/heroinfo_reequip_cost" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:text="@string/heroinfo_useitem_cost" style="@style/traitsinfo_label" />
+                        <TextView android:id="@id/heroinfo_useitem_cost" />
+                    </TableRow>
+                    <include layout="@layout/traitsinfoview" />
+                </TableLayout>
+                <com.gpl.rpg.AndorsTrail.view.ItemEffectsView android:id="@id/actorinfo_onhiteffects" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <TextView android:id="@id/actorinfo_currentconditions_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/actorinfo_currentconditions" style="@style/actorinfo_sectionheader" />
+                <com.gpl.rpg.AndorsTrail.view.ActorConditionList android:id="@id/actorinfo_currentconditions" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/actorinfo_basetraits" style="@style/actorinfo_sectionheader" />
+                <View android:background="?ui_theme_listseparator_drawable" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-1.0dip" android:layout_marginBottom="-1.0dip" />
+                <TableLayout android:id="@id/heroinfo_basestats_table" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TableRow>
+                        <TextView android:text="@string/traitsinfo_base_max_hp" style="@style/traitsinfo_label" />
+                        <TextView android:id="@id/basetraitsinfo_max_hp" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:text="@string/traitsinfo_base_max_ap" style="@style/traitsinfo_label" />
+                        <TextView android:id="@id/basetraitsinfo_max_ap" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:text="@string/heroinfo_reequip_cost" style="@style/traitsinfo_label" />
+                        <TextView android:id="@id/heroinfo_base_reequip_cost" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:text="@string/heroinfo_useitem_cost" style="@style/traitsinfo_label" />
+                        <TextView android:id="@id/heroinfo_base_useitem_cost" />
+                    </TableRow>
+                    <include layout="@layout/traitsinfoview" />
+                </TableLayout>
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/heroinfo_gamestats" style="@style/actorinfo_sectionheader" />
+                <View android:id="@id/actorinfo_currentconditions_title2" android:background="?ui_theme_listseparator_drawable" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-1.0dip" android:layout_marginBottom="-1.0dip" />
+                <include layout="@layout/heroinfo_stats_gamestats" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?ui_theme_stdframe_bitmap" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/heroinfo_levelup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/heroinfo_levelup" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/title_bg_layout" />
+    <TextView android:id="@id/startscreen_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/unknownName" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/startcreen_centerarea" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.4">
+            <TextView android:textColor="#ff880000" android:gravity="center_horizontal" android:id="@id/startscreen_dev_version" android:background="#ffffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" />
+        </LinearLayout>
+        <FrameLayout android:gravity="bottom|center" android:id="@id/startscreen_fragment_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.6" />
+    </LinearLayout>
+</RelativeLayout>

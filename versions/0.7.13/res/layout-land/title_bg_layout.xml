@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/title_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title_bg_sky_layout" />
+    <com.gpl.rpg.AndorsTrail.view.CloudsAnimatorView android:id="@id/ts_clouds_animator_back" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="-30.0sp" android:src="@drawable/ts_background" android:scaleType="fitEnd" />
+    <com.gpl.rpg.AndorsTrail.view.CloudsAnimatorView android:id="@id/ts_clouds_animator_mid" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="-30.0sp" android:src="@drawable/ts_midground" android:scaleType="fitEnd" />
+    <com.gpl.rpg.AndorsTrail.view.CloudsAnimatorView android:id="@id/ts_clouds_animator_front" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/ts_foreground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="-30.0sp" android:src="@drawable/ts_foreground" android:scaleType="fitEnd" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+        <TextView android:id="@id/title_logo_placeholder_above" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.0" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.4">
+            <TextView android:id="@id/title_logo_placeholder_left" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.0" />
+            <ImageView android:id="@id/title_logo" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="10.0sp" android:layout_marginTop="20.0sp" android:layout_marginRight="10.0sp" android:src="@drawable/title_logo_animated" android:scaleType="fitCenter" android:layout_weight="1.0" />
+            <TextView android:id="@id/title_logo_placeholder_right" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.7" />
+        </LinearLayout>
+        <TextView android:id="@id/title_logo_placeholder_below" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.6" />
+    </LinearLayout>
+</RelativeLayout>

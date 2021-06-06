@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/abilitymodifierinfo_change_attack_cost" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/iteminfo_effect_increase_attack_cost" />
+    <TextView android:id="@id/abilitymodifierinfo_change_attack_chance" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/iteminfo_effect_increase_attack_chance" />
+    <TextView android:id="@id/abilitymodifierinfo_change_attack_damage" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/iteminfo_effect_increase_attack_damage" />
+    <TextView android:id="@id/abilitymodifierinfo_set_damage_modifier" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/iteminfo_effect_set_damage_modifier" />
+    <TextView android:id="@id/abilitymodifierinfo_change_critical_skill" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/iteminfo_effect_increase_critical_skill" />
+    <TextView android:id="@id/abilitymodifierinfo_change_critical_multiplier" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/iteminfo_effect_critical_multiplier" />
+    <TextView android:id="@id/abilitymodifierinfo_change_block_chance" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/iteminfo_effect_increase_block_chance" />
+    <TextView android:id="@id/abilitymodifierinfo_change_damage_resistance" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/iteminfo_effect_increase_damage_resistance" />
+    <TextView android:id="@id/abilitymodifierinfo_change_maxhp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/iteminfo_effect_increase_max_hp" />
+    <TextView android:id="@id/abilitymodifierinfo_change_maxap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/iteminfo_effect_increase_max_ap" />
+    <TextView android:id="@id/abilitymodifierinfo_change_movecost" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/iteminfo_effect_increase_movecost" />
+    <TextView android:id="@id/abilitymodifierinfo_change_use_cost" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/iteminfo_effect_increase_use_cost" />
+    <TextView android:id="@id/abilitymodifierinfo_change_reequip_cost" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/iteminfo_effect_increase_reequip_cost" />
+</merge>

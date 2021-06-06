@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="start|center|top" android:layout_gravity="bottom" android:background="?ui_theme_stdframe_bitmap" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="start|center|top" android:layout_gravity="bottom" android:id="@id/save_preview_hero_info" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/save_preview_hero_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:gravity="start|center|top" android:id="@id/save_preview_hero_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@android:string/unknownName" android:layout_toRightOf="@id/save_preview_hero_icon" />
+    </RelativeLayout>
+    <Button android:id="@id/startscreen_continue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/startscreen_continue" android:layout_below="@id/save_preview_hero_info" />
+</RelativeLayout>

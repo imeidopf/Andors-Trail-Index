@@ -3,9 +3,9 @@ import configparser, mysql.connector
 from modules import questlist, monsterlist, itemlist, itemcategories, worldmap
 
 # Update this to reflect the version of Andor's Trail we want to use.
-# Place the xml and raw files inside the res folder. E.g. res/0.7.10
+# Place the 'res' folder from the APK into the versions folder with the following structure: versions/0.7.13/
 appVersion = '0.7.13'
-resPath = "versions/{}/raw/".format(appVersion)
+resPath = "versions\\{}\\res\\".format(appVersion)
 
 # Database connection
 # Setup the database connection.
@@ -20,11 +20,11 @@ con = mysql.connector.connect(
 cursor = con.cursor()
 
 # Run each module and generate database records.
-questlist.build(resPath, "questlist*.json", config, con, cursor)
-monsterlist.build(resPath, "monsterlist*.json", config, con, cursor)
+#questlist.build(resPath, "questlist*.json", config, con, cursor)
+#monsterlist.build(resPath, "monsterlist*.json", config, con, cursor)
 # itemlist.build(appVersion)
 # itemcategories.build(appVersion)
-worldmap.generateMap(appVersion)
+worldmap.generateMapImages(resPath + "xml\\", "*.tmx")
 
 # Done!
 print("All resources have been built!")

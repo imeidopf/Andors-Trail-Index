@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:id="@id/heroinfo_gamestats_table" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:id="@id/heroinfo_gamestats_quests_row">
+        <TextView android:text="@string/heroinfo_gamestats_quests" style="@style/traitsinfo_label" />
+        <TextView android:id="@id/heroinfo_gamestats_quests" />
+    </TableRow>
+    <TableRow android:id="@id/heroinfo_gamestats_visited_maps_row">
+        <TextView android:text="@string/heroinfo_gamestats_visited_maps" style="@style/traitsinfo_label" />
+        <TextView android:id="@id/heroinfo_gamestats_visited_maps" />
+    </TableRow>
+    <TableRow android:id="@id/heroinfo_gamestats_deaths_row">
+        <TextView android:text="@string/heroinfo_gamestats_deaths" style="@style/traitsinfo_label" />
+        <TextView android:id="@id/heroinfo_gamestats_deaths" />
+    </TableRow>
+    <TableRow android:id="@id/heroinfo_gamestats_spent_gold_row">
+        <TextView android:text="@string/heroinfo_gamestats_spent_gold" style="@style/traitsinfo_label" />
+        <TextView android:id="@id/heroinfo_gamestats_spent_gold" />
+    </TableRow>
+    <TableRow android:id="@id/heroinfo_gamestats_bonemeals_row">
+        <TextView android:text="@string/heroinfo_gamestats_bonemeals" style="@style/traitsinfo_label" />
+        <TextView android:id="@id/heroinfo_gamestats_bonemeals" />
+    </TableRow>
+    <TableRow android:id="@id/heroinfo_gamestats_num_used_items_row">
+        <TextView android:text="@string/heroinfo_gamestats_num_used_items" style="@style/traitsinfo_label" />
+        <TextView android:id="@id/heroinfo_gamestats_num_used_items" />
+    </TableRow>
+    <TableRow android:id="@id/heroinfo_gamestats_num_killed_monsters_row">
+        <TextView android:text="@string/heroinfo_gamestats_num_killed_monsters" style="@style/traitsinfo_label" />
+        <TextView android:id="@id/heroinfo_gamestats_num_killed_monsters" />
+    </TableRow>
+    <TableRow android:id="@id/heroinfo_gamestats_fav_item_row1">
+        <TextView android:text="@string/heroinfo_gamestats_fav_item" style="@style/traitsinfo_2linelabel" />
+    </TableRow>
+    <TableRow android:id="@id/heroinfo_gamestats_fav_item_row2">
+        <TextView android:id="@id/heroinfo_gamestats_fav_item" style="@style/traitsinfo_2linevalue" />
+    </TableRow>
+    <TableRow android:id="@id/heroinfo_gamestats_top_boss_row1">
+        <TextView android:text="@string/heroinfo_gamestats_top_boss" style="@style/traitsinfo_2linelabel" />
+    </TableRow>
+    <TableRow android:id="@id/heroinfo_gamestats_top_boss_row2">
+        <TextView android:id="@id/heroinfo_gamestats_top_boss" style="@style/traitsinfo_2linevalue" />
+    </TableRow>
+    <TableRow android:id="@id/heroinfo_gamestats_fav_monsters_row1">
+        <TextView android:text="@string/heroinfo_gamestats_fav_monsters" style="@style/traitsinfo_2linelabel" />
+    </TableRow>
+    <TableRow android:id="@id/heroinfo_gamestats_fav_monsters_row2">
+        <TextView android:id="@id/heroinfo_gamestats_fav_monsters" style="@style/traitsinfo_2linevalue" />
+    </TableRow>
+</TableLayout>

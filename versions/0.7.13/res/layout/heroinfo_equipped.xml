@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="180.0dip" android:layout_height="200.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/heroinfo_worn_center" android:layout_width="80.0dip" android:layout_height="100.0dip" android:layout_centerInParent="true">
+        <ImageView android:id="@id/heroinfo_inventory_heroicon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/char_hero" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/heroinfo_worn_center" android:layout_centerHorizontal="true">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/equip_square" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/heroinfo_worn_head" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/equip_head" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/equip_square" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/heroinfo_worn_body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/equip_body" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/equip_square" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/heroinfo_worn_neck" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/equip_neck" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/heroinfo_worn_center" android:layout_centerHorizontal="true">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/equip_square" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/heroinfo_worn_hand" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/equip_hand" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/equip_square" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/heroinfo_worn_feet" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/equip_feet" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/heroinfo_worn_center" android:layout_centerVertical="true">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/equip_square" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/heroinfo_worn_weapon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/equip_weapon" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/equip_square" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/heroinfo_worn_ringleft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/equip_ring" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/heroinfo_worn_center" android:layout_centerVertical="true">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/equip_square" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/heroinfo_worn_shield" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/equip_shield" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/equip_square" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/heroinfo_worn_ringright" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/equip_ring" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

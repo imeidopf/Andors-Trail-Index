@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ui_blue_palette_blue_dark">#ff122438</color>
+    <color name="ui_blue_palette_blue_mid">#ff2e4464</color>
+    <color name="ui_blue_palette_blue_light">#ff4a6390</color>
+    <color name="ui_blue_palette_highlight_gray_dark">#ff5e5e5e</color>
+    <color name="ui_blue_palette_highlight_gray_mid">#ff8c8c8c</color>
+    <color name="ui_blue_palette_highlight_gray_light">#ffb9b9b9</color>
+    <color name="ui_blue_palette_text_gray_darker">#ffb0b0b0</color>
+    <color name="ui_blue_palette_text_gray_dark">#ffdadada</color>
+    <color name="ui_blue_palette_text_gray_mid">#ffededed</color>
+    <color name="ui_blue_palette_text_gray_light">#fffcfcfc</color>
+    <color name="ui_blue_palette_orange_dark">#ffc98e00</color>
+    <color name="ui_blue_palette_orange_light">#ffffb400</color>
+    <color name="ui_blue_palette_mustard_dark">#ffa2a21d</color>
+    <color name="ui_blue_palette_mustard_light">#ffbbbb22</color>
+    <color name="ui_blue_palette_cyan_dark">#ff1e8f9c</color>
+    <color name="ui_blue_palette_cyan_light">#ff5ee3f1</color>
+    <color name="ui_green_palette_green_dark">#ff142323</color>
+    <color name="ui_green_palette_green_mid">#ff1f3434</color>
+    <color name="ui_green_palette_green_light">#ff294646</color>
+    <color name="ui_charcoal_palette_charcoal_dark">#ff161616</color>
+    <color name="ui_charcoal_palette_charcoal_mid">#ff2e2e2e</color>
+    <color name="ui_charcoal_palette_charcoal_light">#ff404040</color>
+</resources>

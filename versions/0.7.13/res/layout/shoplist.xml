@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="left" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/AndorsTrail_Style_TabFrame"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AndorsTrail_Style_StdFrame">
+        <TextView android:gravity="center_vertical" android:layout_gravity="left" android:id="@id/shop_gc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/ui_icon_coins" />
+        <LinearLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.2" />
+        <Button android:gravity="left" android:layout_gravity="right" android:orientation="horizontal" android:id="@id/shoplist_sort_filters" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_weight="1.0" style="@style/AndorsTrail_Style_SpinnerEmulator" />
+    </LinearLayout>
+    <ListView android:id="@id/shop_list" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AndorsTrail_Style_ListView_Frameless" />
+</LinearLayout>

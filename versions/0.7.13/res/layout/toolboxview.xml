@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/toolbox_save" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ui_icon_save" style="@style/toolboxButtonTile" />
+    <ImageButton android:id="@id/toolbox_combatlog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ui_icon_combat" style="@style/toolboxButtonTile" />
+    <ImageButton android:id="@id/toolbox_map" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ui_icon_map" style="@style/toolboxButtonTile" />
+    <ImageButton android:id="@id/toolbox_quickitems" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ui_icon_equipment" style="@style/toolboxButtonTile" />
+</LinearLayout>

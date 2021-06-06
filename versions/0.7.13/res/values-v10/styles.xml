@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ConversationListView" parent="@style/AndorsTrail_Style_ListView">
+        <item name="android:listSelector">@null</item>
+        <item name="android:overScrollFooter">@null</item>
+    </style>
+</resources>

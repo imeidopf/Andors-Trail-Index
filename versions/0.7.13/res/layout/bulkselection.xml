@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="center_horizontal" android:id="@id/bulkselection_itemname" android:background="?ui_theme_richframe_bitmap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/inventory_info" android:drawableLeft="@drawable/equip_weapon" style="@style/titleWithIcon" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/AndorsTrail_Style_StdFrame">
+        <LinearLayout android:orientation="vertical" android:padding="@dimen/dialog_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/bulkselection_action_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/inventory_drop" />
+                <EditText android:id="@id/bulkselection_amount_taken" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1" android:singleLine="true" android:inputType="number" />
+                <TextView android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="/" />
+                <TextView android:id="@id/bulkselection_amount_available" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="250" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/bulkselection_decrement_button" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-1" />
+                <SeekBar android:layout_gravity="center_vertical" android:id="@id/bulkselection_slider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <Button android:id="@id/bulkselection_increment_button" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+1" />
+                <Button android:id="@id/bulkselection_select_all_button" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bulkselection_select_all" />
+            </LinearLayout>
+            <TextView android:id="@id/bulkselection_summary_totalgold" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bulkselection_totalcost_buy" />
+        </LinearLayout>
+    </ScrollView>
+    <ListView android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AndorsTrail_Style_StdFrame">
+        <Button android:id="@id/bulkselection_cancel_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@android:string/cancel" android:layout_weight="1.0" />
+        <Button android:id="@id/bulkselection_finalize_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/inventory_drop" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

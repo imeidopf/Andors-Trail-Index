@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cледа́та на Андор</string>
+    <string name="dialog_loading_failed_message">"Cледа́та на Андор не успя да зареди файла за запазване на играта. 
+ 
+:( 
+ 
+Файлът може да е повреден или непълен."</string>
+    <string name="dialog_loading_failed_incorrectversion">Cледа́та на Андор не успя да зареди файла за играта. Този файл на играта е създаден с по-нова версия от това, което се изпълнява в момента.</string>
+    <string name="about_contents1">"Добре дошли в Cледа́та на Андор, ролеви игри с Android с отворен код. &lt;br /> 
+ &lt;br /> 
+ &lt;a href=http://andorstrail.com/> Форуми на andorstrail.com за въпроси и дискусии за играта. &lt;/a> &lt;br /> 
+ &lt;br /> 
+ &lt;a href=http://andorstrail.com/wiki> Уики за игри, освен всичко останало, за информация за света на Cледа́та на Андор. &lt;/a> &lt;br /> 
+ &lt;br /> 
+ &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/> Изходен код на проекта на github.com за разработчици. &lt;/a> &lt;br /> 
+ &lt;br /> 
+ Моля, посетете форумите, за да обсъдите играта с други играчи. &lt;br />"</string>
+    <string name="localize_resources_from_mo_filename">bg.mo</string>
+</resources>

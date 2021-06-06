@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/inv_menu_info" android:title="@string/inventory_info" />
+    <item android:id="@id/inv_menu_equip" android:visible="false" android:title="@string/inventory_equip" />
+    <item android:id="@id/inv_menu_equip_offhand" android:visible="false" android:title="@string/inventory_equip_offhand" />
+    <item android:id="@id/inv_menu_unequip" android:visible="false" android:title="@string/inventory_unequip" />
+    <item android:id="@id/inv_menu_use" android:visible="false" android:title="@string/inventory_use" />
+    <item android:id="@id/inv_menu_drop" android:title="@string/inventory_drop" />
+    <item android:id="@id/inv_menu_assign" android:visible="false" android:title="@string/inventory_assign">
+        <menu>
+            <item android:id="@id/inv_assign_slot1" android:title="@string/inventory_assign_slot1" />
+            <item android:id="@id/inv_assign_slot2" android:title="@string/inventory_assign_slot2" />
+            <item android:id="@id/inv_assign_slot3" android:title="@string/inventory_assign_slot3" />
+        </menu>
+    </item>
+    <item android:id="@id/inv_menu_movetop" android:title="@string/inventory_movetop" />
+    <item android:id="@id/inv_menu_movebottom" android:title="@string/inventory_movebottom" />
+</menu>

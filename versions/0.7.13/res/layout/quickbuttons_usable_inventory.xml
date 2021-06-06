@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="left" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/quickbuttons_assignlist" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AndorsTrail_Style_ListView_Frameless" />
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/AndorsTrail_Style_TabFrame"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="left" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AndorsTrail_Style_StdFrame">
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/heroinfo_wornequipment" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/heroinfo_equipped" />
+            <include layout="@layout/heroinfo_statsicons" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="left" android:orientation="vertical" android:background="?ui_theme_stdframe_bitmap" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/heroinfo_inventory" />
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:gravity="left" android:id="@id/inventorylist_category_filters_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="" android:layout_weight="1.0" style="@style/AndorsTrail_Style_SpinnerEmulator" />
+            <Button android:gravity="left" android:id="@id/inventorylist_sort_filters_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" style="@style/AndorsTrail_Style_SpinnerEmulator" />
+        </LinearLayout>
+    </LinearLayout>
+    <ListView android:id="@id/inventorylist_root" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

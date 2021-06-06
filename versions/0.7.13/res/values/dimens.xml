@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="smalltext">12.0sp</dimen>
+    <dimen name="smalltext_buttonheight">35.0sp</dimen>
+    <dimen name="titletext">20.0sp</dimen>
+    <dimen name="healthbar_height">12.0sp</dimen>
+    <dimen name="dialog_margin">10.0sp</dimen>
+    <dimen name="dialog_iconpadding_right">10.0sp</dimen>
+    <dimen name="dialog_iconpadding_bottom">10.0sp</dimen>
+    <dimen name="boxshape_margin">5.0dip</dimen>
+    <dimen name="boxshape_width">100.0dip</dimen>
+    <dimen name="section_margin">10.0dip</dimen>
+    <dimen name="conversation_statementpadding">5.0dip</dimen>
+    <dimen name="conversation_textsize">16.0sp</dimen>
+    <dimen name="conversation_replyseparator_margintop">5.0dip</dimen>
+    <dimen name="conversation_replyseparator_marginbottom">5.0dip</dimen>
+    <dimen name="actionbar_text">12.0sp</dimen>
+    <dimen name="statusbar_text">11.0sp</dimen>
+    <dimen name="rangebar_labelwidth_small">30.0dip</dimen>
+    <dimen name="rangebar_labelwidth_large">120.0dip</dimen>
+</resources>
