@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <map version="1.0" orientation="orthogonal" width="10" height="10" tilewidth="32" tileheight="32">
     <tileset firstgid="1" name="map_10" tilewidth="32" tileheight="32">
         <image source="../drawable/map_10.png" width="256" height="256" />

@@ -1,25 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
 <map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
     <properties>
         <property name="outdoors" value="1" />
     </properties>
     <tileset firstgid="1" name="map_4" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_4.png" />
+        <image source="../drawable/map_4.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="65" name="map_3" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_3.png" />
+        <image source="../drawable/map_3.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="129" name="map_0" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_0.png" />
+        <image source="../drawable/map_0.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="193" name="map_2" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_2.png" />
+        <image source="../drawable/map_2.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="257" name="map_1" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_1.png" />
+        <image source="../drawable/map_1.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="321" name="map_5" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_5.png" />
+        <image source="../drawable/map_5.png" width="256" height="256" />
     </tileset>
     <layer name="Ground" width="30" height="30">
         <data encoding="base64" compression="zlib"> eJydVtlOw0AQW/iPHA1pWlrC8YE8ICEQr1U/mKwUq8bxbFoeLOWYHXvOpEopvQdoCe79x4yfCd8zPidsAz8RD9v1EzaEreiAny9B1lGRPfvZCQ/rg90woSNUomMjvhEvfFXGD2uHTdbSkJ3LQ5e8loFsOFb1w9rxDLxrNXBa9Bn719x2cmZb4G1XuCM9L4bXacw2tTzPWh6vOK94DuJ1YJs6uGb0BV+1nNuu2Lfp0qNDwZd7zxxtWvauswcX+iGyiTRFfYV543fDrN/NrObfaeKYRrnXedMdtjazGXujqZGYxrTcKxyrcl8zs3sTXy86RrpPQay4bq/gRB00vhz/mTDKPQMzyrVvyb+bK/RQIzU73cB7lhx36e9+j+qKuSn5HdNlzuogZp4v3u/QhLOoPXov4nT1aQJu/S5wD0BTX/BxDmrDu8ydcXOqM1/KcakX0RO3atU5VR/uDOco25/Ssvd2xj5CL+cPE57Eh+4yx6l63Y4pzelx5kUP8r7rCpzR9z+Cnj/NvNgFTYFLeaE15/HhHwAP9kqJj3NczXXKeawNMMPu/IlwMHVwu4P30jGVv0FAifco7/Q/Ffoxm7f8K7mdEdWTZx8cdxNek/9/dnPI76+pn+4jcNxPeEvLnaQzr/2sOzuqexS7/mfAh8689lhlzmruo1pg57u6/gIr9TPa

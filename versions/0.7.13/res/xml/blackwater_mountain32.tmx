@@ -1,31 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?>
 <map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
     <properties>
         <property name="outdoors" value="1" />
     </properties>
     <tileset firstgid="1" name="map_13" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_13.png" />
+        <image source="../drawable/map_13.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="65" name="map_14" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_14.png" />
+        <image source="../drawable/map_14.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="129" name="map_3" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_3.png" />
+        <image source="../drawable/map_3.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="193" name="map_4" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_4.png" />
+        <image source="../drawable/map_4.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="257" name="map_9" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_9.png" />
+        <image source="../drawable/map_9.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="321" name="map_0" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_0.png" />
+        <image source="../drawable/map_0.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="385" name="map_2" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_2.png" />
+        <image source="../drawable/map_2.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="449" name="map_1" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_1.png" />
+        <image source="../drawable/map_1.png" width="256" height="256" />
     </tileset>
     <layer name="Ground" width="30" height="30">
         <data encoding="base64" compression="zlib"> eJzFl0luAyEQRdk5A+007U3iQ8UnzmEsJfdII/Gl8ndVQRFZWXwZNcODmsA5pfTq6LzroOjYmVeM73nX066lta35GMey1gVzM/oq7020LTbGsax1PSa00voWe1U0y7TO5tnc0rFjg0exi2MDa58W+xxgRs/pxSTiuLfvKLM3B3Hs2byXwyzk/SHd5iMzVuHvkxBqiWcvluSUdJuPVkwtCjdiY+Zs6T4fLbbk5sBZC3G2ZivLt55fl8GzcqzDtxaX2ThnNFd4byNcsJ8FFz6Cf7lmyzGaPUa5VS+CCx+ByzVbjvFyaYSrCVwt9npzceaZeyAb3BGBO3MPYE6kbjCXYzfCnrn3CvmX2bLGcLzO+AbS9irfNLLGcLxabx9LqO+eX7w8OCnjRoT6/pf3yKyi9e5R+vwHZvXzJdnxqb0FZjlZtKufv5L/No/Gbm8dMCEZf+/t99rE/1UKjc/07UL9WGclZtW36P8Q7aty5k3p52+WfhrvF5U8Ra8=

@@ -1,22 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?>
 <map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="32" tileheight="32">
     <tileset firstgid="1" name="map_14" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_14.png" />
+        <image source="../drawable/map_14.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="65" name="map_10" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_10.png" />
+        <image source="../drawable/map_10.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="129" name="map_0" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_0.png" />
+        <image source="../drawable/map_0.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="193" name="map_9" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_9.png" />
+        <image source="../drawable/map_9.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="257" name="map_1" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_1.png" />
+        <image source="../drawable/map_1.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="321" name="map_2" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_2.png" />
+        <image source="../drawable/map_2.png" width="256" height="256" />
     </tileset>
     <layer name="Ground" width="20" height="20">
         <data encoding="base64" compression="zlib"> eJy9k28KgDAIxXcWW+vPder+Z2mDBBF1GtKHH2yhj6e9QSkFfmbprIRIL+8Z59pphC3gg/bg/WLsDp/H64P2VEELsXwOH6fRq6H5tHzMaILe+H6zOqlGg89N9awdW3N/zaGmGckjZsfacySPs+xIO5TeVeS/8x3iPPRdRbOTlUFJz1un1Xqz5cmiN7MZdV6y9UDRegAcw1IG

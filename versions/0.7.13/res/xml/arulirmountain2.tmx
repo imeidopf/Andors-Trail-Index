@@ -1,25 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
 <map version="1.0" orientation="orthogonal" width="15" height="15" tilewidth="32" tileheight="32">
     <properties>
         <property name="outdoors" value="1" />
     </properties>
     <tileset firstgid="1" name="map_4" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_4.png" />
+        <image source="../drawable/map_4.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="65" name="map_3" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_3.png" />
+        <image source="../drawable/map_3.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="129" name="map_5" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_5.png" />
+        <image source="../drawable/map_5.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="193" name="map_0" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_0.png" />
+        <image source="../drawable/map_0.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="257" name="map_1" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_1.png" />
+        <image source="../drawable/map_1.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="321" name="map_2" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_2.png" />
+        <image source="../drawable/map_2.png" width="256" height="256" />
     </tileset>
     <layer name="Ground" width="15" height="15">
         <data encoding="base64" compression="zlib"> eJyVklEKgCAQRL2IWLEa1Bm7Twfqw+OkMAvDsoV+PAK356yrSwhhARdIjdVQGhvq0qimvpNrfd63OG6mfRP9z/TaA5fXY+NA/+J4mum5ndP0OOP+kcibdW9Q8Y00X4/DyVUi5is4y1+ukLdjpnHASyZX3RGEXD2nfXtfFLgVfp5wNVvvZ6RnMdnsjvS6AX4XvecXKSxNVQ==

@@ -1,28 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?>
 <map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="32" tileheight="32">
     <properties>
         <property name="outdoors" value="1" />
     </properties>
     <tileset firstgid="1" name="map_13" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_13.png" />
+        <image source="../drawable/map_13.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="65" name="map_9" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_9.png" />
+        <image source="../drawable/map_9.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="129" name="map_0" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_0.png" />
+        <image source="../drawable/map_0.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="193" name="map_8" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_8.png" />
+        <image source="../drawable/map_8.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="257" name="map_7" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_7.png" />
+        <image source="../drawable/map_7.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="321" name="map_1" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_1.png" />
+        <image source="../drawable/map_1.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="385" name="map_2" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_2.png" />
+        <image source="../drawable/map_2.png" width="256" height="256" />
     </tileset>
     <layer name="Ground" width="30" height="20">
         <data encoding="base64" compression="zlib"> eJytldsOwiAQRHlrtYq09dLq//+nJWHjZLJDifpw0guXYXdY6EIIHRDL87xxIaaNRJw2emKkOV/O/Az+Zw2vv1qftdu6Rpq/r+hauwLXl/WW8vTa7d30D5QrzFF0YkEwlvy9UvvTiclycaRcTdQvr/XqkGCc53sSuvY+FDwPY2m7OeC4QaB0e9Gfde8OSgvhvW665hH3R6/z98OhRZf3uu0d9GgucD20zF8D/ca9Y/qmi/1+1VT+Iab7by3W5frFdqtHZgm6dtkjharfWj2u8M61yx4pOM9757B3TqbwOQ9nMe4bsJ5azkvvXsJ+6IWKB8eovHPO9+5N9KILfjxTqOe95pMah15E0uA8/MMnD7wjOG7lWwt7e8J0Oe6ab611WtsTb8EmHMQ=

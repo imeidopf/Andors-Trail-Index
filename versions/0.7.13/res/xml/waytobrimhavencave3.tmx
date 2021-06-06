@@ -1,52 +1,51 @@
-<?xml version="1.0" encoding="utf-8"?>
 <map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
     <tileset firstgid="1" name="map_25" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_25.png" />
+        <image source="../drawable/map_25.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="65" name="map_21" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_21.png" />
+        <image source="../drawable/map_21.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="129" name="map_0" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_0.png" />
+        <image source="../drawable/map_0.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="193" name="map_35" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_35.png" />
+        <image source="../drawable/map_35.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="257" name="map_37" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_37.png" />
+        <image source="../drawable/map_37.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="321" name="map_3" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_3.png" />
+        <image source="../drawable/map_3.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="385" name="map_46" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_46.png" />
+        <image source="../drawable/map_46.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="449" name="map_16" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_16.png" />
+        <image source="../drawable/map_16.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="513" name="map_26" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_26.png" />
+        <image source="../drawable/map_26.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="577" name="map_1" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_1.png" />
+        <image source="../drawable/map_1.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="641" name="map_5" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_5.png" />
+        <image source="../drawable/map_5.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="705" name="map_2" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_2.png" />
+        <image source="../drawable/map_2.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="769" name="map_17" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_17.png" />
+        <image source="../drawable/map_17.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="833" name="map_4" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_4.png" />
+        <image source="../drawable/map_4.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="897" name="map_29" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_29.png" />
+        <image source="../drawable/map_29.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="961" name="map_27" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_27.png" />
+        <image source="../drawable/map_27.png" width="256" height="256" />
     </tileset>
     <layer name="Ground" width="30" height="30">
         <data encoding="base64" compression="zlib"> eJy9lkFOAzEMRTNd0iUgENB2j0KH7iqxm5yh7XG4w6iLnqgn6UGIJVvzsRwnBcTiS52O42c7jicxhNA7iqwdKxaEa/ZZG3g3gE00fFoaDF9WbLjmwOtozTYrgQ362DvcpHyR/YWFnHd4HmHdzWxivQFX1o2OtC/k7Srr5rOpzpqLtkcly9euwtNKXCvkon/N/K00m2q+5Rr8NctjE6//J67my363xipaF1TqD8tf4r1u6acx2DNCz4IW/hG4njRL+vnUTTOsv5IdK0w8b8IifYKQ38qW8+zlSqKZ9qJ4WiW2xbdsdK7EpNn0mH0vsm5Z8qzZm4rf0YlvDbUg5kP2+Zy1zLpjyfOCY6B6kJ3McYnZY2obnKlS36esc9Y968xacgzCTxD3Otg1jCovPGMb/n/RTfmeHQl/ULkcHK5VD7Ehf69Zq+77e4u96qaYNRPraOVq2VAeEoc3x0p5Yh2R632/9EzSbOyFwWFadfa+nXjf6Q2/CdjJYZb6qmSL953S/UTYVp/o2uyD31cW37tn1HJFm1Jf1eZ2KZeWmVuqMe7lBYQ28l+E31LrUp41rr436n0dwnSPpTsTvrdqLfNHzrXXUxZXx0X+57P6vgvnI7SfI6/HWuzwjJVkrdP3p59I19cS3tW8d9dK+/oCtsZqKg==

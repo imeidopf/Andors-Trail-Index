@@ -1,67 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?>
 <map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
     <tileset firstgid="1" name="map_3" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_3.png" />
+        <image source="../drawable/map_3.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="65" name="map_4" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_4.png" />
+        <image source="../drawable/map_4.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="129" name="map_0" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_0.png" />
+        <image source="../drawable/map_0.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="193" name="map_6" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_6.png" />
+        <image source="../drawable/map_6.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="257" name="map_19" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_19.png" />
+        <image source="../drawable/map_19.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="321" name="map_7" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_7.png" />
+        <image source="../drawable/map_7.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="385" name="map_20" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_20.png" />
+        <image source="../drawable/map_20.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="449" name="map_21" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_21.png" />
+        <image source="../drawable/map_21.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="513" name="map_10" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_10.png" />
+        <image source="../drawable/map_10.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="577" name="map_2" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_2.png" />
+        <image source="../drawable/map_2.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="641" name="map_1" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_1.png" />
+        <image source="../drawable/map_1.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="705" name="map_5" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_5.png" />
+        <image source="../drawable/map_5.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="769" name="map_8" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_8.png" />
+        <image source="../drawable/map_8.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="833" name="map_17" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_17.png" />
+        <image source="../drawable/map_17.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="897" name="map_16" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_16.png" />
+        <image source="../drawable/map_16.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="961" name="map_9" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_9.png" />
+        <image source="../drawable/map_9.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="1025" name="map_11" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_11.png" />
+        <image source="../drawable/map_11.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="1089" name="map_12" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_12.png" />
+        <image source="../drawable/map_12.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="1153" name="map_13" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_13.png" />
+        <image source="../drawable/map_13.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="1217" name="map_14" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_14.png" />
+        <image source="../drawable/map_14.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="1281" name="map_15" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_15.png" />
+        <image source="../drawable/map_15.png" width="256" height="256" />
     </tileset>
     <layer name="Ground" width="30" height="30">
         <data encoding="base64" compression="zlib"> eJytl81twzAMhaVe4z06hUeJYwdRcuk4Hag/F49VCzWB5ydSotIGeEAsWfpIiqTtMYQwOnXZ9LbpAWNX0HnT4lBeP3fotnMTjLFtV4eS0z7RfdNKfokNVozQbhnzxoW5UyyVgh4fXJ+A3cNddu4llhIf2J4cV/nleyQ3POeBytw5llr3ebYnjw/xVytw3zuV1y6x1GrYxNz0By5qiMdrzR7kSqx7uV+xztXGkLs+yf029vQIuWwry+Mz5zD7yPOPYM9N0WZnn5HdymGeR+5HLFXzGdmcw68vRy7Pe7k1tieHeX4E7mcs1eLyWQ/0n6+xb1ixmInribcnnxNxaz3IG2+rtnBO+oZW4711pcWbuVodeXTa9Uy8OW9b9cu1XOPW2DWu9kzlXiDcFlvjYp0gV8tn7XnWc9ZW70Culs9aL/DkGvvM+2futKv1LMN9TkreMVurI+4dWTeDYdViK+a1XiLc/D5+D3oMLbW4nNt4L3J7mNY51M75P7me/K5xRydrCsc81M7Oyi/ch78ppoq0bxC+R/OZ/ZW1P97YsLo=

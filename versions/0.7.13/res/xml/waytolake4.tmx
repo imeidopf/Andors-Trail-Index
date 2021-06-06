@@ -1,25 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
 <map version="1.0" orientation="orthogonal" width="20" height="25" tilewidth="32" tileheight="32">
     <tileset firstgid="1" name="map_3" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_3.png" />
+        <image source="../drawable/map_3.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="65" name="map_4" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_4.png" />
+        <image source="../drawable/map_4.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="129" name="map_5" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_5.png" />
+        <image source="../drawable/map_5.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="193" name="map_0" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_0.png" />
+        <image source="../drawable/map_0.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="257" name="map_2" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_2.png" />
+        <image source="../drawable/map_2.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="321" name="map_7" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_7.png" />
+        <image source="../drawable/map_7.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="385" name="map_1" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_1.png" />
+        <image source="../drawable/map_1.png" width="256" height="256" />
     </tileset>
     <layer name="Ground" width="20" height="25">
         <data encoding="base64" compression="zlib"> eJylk2sOhCAQg7kYR9FFg5LoAZfjLZtA0tThMfjjC8pILQy1xhibcICF0dK8BNd8YgOuPB5UOwQtT7VP4kzswJ3HhWpLXlf8eqj/ayHrRQUL+D2pNqMXwS/PW9JbAe0/AunhuZR+afQs6eG5YL9WgZoW7xd7zL10tK5o8/1p9aPmucdIL0c8S/57vZ313NKXPNdy7ei5vPc8B9LC3F/muSff0Qykhbm/zXNPnNVWPnrfzuTtLSP3Was1o8dZ1uaj5mPk/mp9SGxEFOY07ATnScuXiMKchh+o4PP3

@@ -1,31 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?>
 <map version="1.0" orientation="orthogonal" width="10" height="9" tilewidth="32" tileheight="32">
     <tileset firstgid="1" name="map_16" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_16.png" />
+        <image source="../drawable/map_16.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="65" name="map_38" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_38.png" />
+        <image source="../drawable/map_38.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="129" name="map_0" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_0.png" />
+        <image source="../drawable/map_0.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="193" name="map_18" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_18.png" />
+        <image source="../drawable/map_18.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="257" name="map_36" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_36.png" />
+        <image source="../drawable/map_36.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="321" name="map_19" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_19.png" />
+        <image source="../drawable/map_19.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="385" name="map_1" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_1.png" />
+        <image source="../drawable/map_1.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="449" name="map_33" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_33.png" />
+        <image source="../drawable/map_33.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="513" name="map_2" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_2.png" />
+        <image source="../drawable/map_2.png" width="256" height="256" />
     </tileset>
     <layer name="Ground" width="10" height="9">
         <data encoding="base64" compression="zlib"> eJzjZGBg4MaBOZHYXECcAsRJaDgdTRykLhWIk9FwBpo4SN0kIGZgZGCQgeJJDJgYpk4Ohzy6OkegursMEIxNHcgvaURgdH/iwuj+xIUBZNsgrQ==

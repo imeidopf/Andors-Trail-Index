@@ -1,58 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?>
 <map version="1.0" orientation="orthogonal" width="20" height="15" tilewidth="32" tileheight="32">
     <tileset firstgid="1" name="map_25" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_25.png" />
+        <image source="../drawable/map_25.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="65" name="map_21" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_21.png" />
+        <image source="../drawable/map_21.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="129" name="map_0" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_0.png" />
+        <image source="../drawable/map_0.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="193" name="map_36" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_36.png" />
+        <image source="../drawable/map_36.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="257" name="map_19" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_19.png" />
+        <image source="../drawable/map_19.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="321" name="map_18" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_18.png" />
+        <image source="../drawable/map_18.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="385" name="map_2" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_2.png" />
+        <image source="../drawable/map_2.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="449" name="map_1" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_1.png" />
+        <image source="../drawable/map_1.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="513" name="map_3" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_3.png" />
+        <image source="../drawable/map_3.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="577" name="map_5" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_5.png" />
+        <image source="../drawable/map_5.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="641" name="map_6" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_6.png" />
+        <image source="../drawable/map_6.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="705" name="map_4" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_4.png" />
+        <image source="../drawable/map_4.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="769" name="map_7" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_7.png" />
+        <image source="../drawable/map_7.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="833" name="map_17" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_17.png" />
+        <image source="../drawable/map_17.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="897" name="map_9" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_9.png" />
+        <image source="../drawable/map_9.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="961" name="map_20" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_20.png" />
+        <image source="../drawable/map_20.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="1025" name="map_10" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_10.png" />
+        <image source="../drawable/map_10.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="1089" name="map_8" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_8.png" />
+        <image source="../drawable/map_8.png" width="256" height="256" />
     </tileset>
     <layer name="Ground" width="20" height="15">
         <data encoding="base64" compression="zlib"> eJyVktsNwjAMRR1YJxS6Ap2B9ItdmKHb8V4FRzjCsm5q83GUKnJPbqKbiSgz+w7ZAc0V5tThuOIqYG7HzMyhwySzNncx/9W5UXyLwwRyz2Au6ltAbjQzyp0jvgjN52W8MudE9DT7Q9Cn36G6tun7nZQT/Rvx3ZiN+C68vgM++4b2Xe+yvtSe7iDyreWuGR/0y9b62Dr4r6/XR9tB7dP3Q3uoj72+eAyCd0bE5Z1hz/oAhepvDQ==

@@ -1,40 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?>
 <map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
     <properties>
         <property name="outdoors" value="1" />
     </properties>
     <tileset firstgid="1" name="map_0" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_0.png" />
+        <image source="../drawable/map_0.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="65" name="map_4" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_4.png" />
+        <image source="../drawable/map_4.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="129" name="map_6" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_6.png" />
+        <image source="../drawable/map_6.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="193" name="map_3" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_3.png" />
+        <image source="../drawable/map_3.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="257" name="map_5" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_5.png" />
+        <image source="../drawable/map_5.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="321" name="map_1" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_1.png" />
+        <image source="../drawable/map_1.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="385" name="map_16" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_16.png" />
+        <image source="../drawable/map_16.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="449" name="map_7" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_7.png" />
+        <image source="../drawable/map_7.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="513" name="map_19" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_19.png" />
+        <image source="../drawable/map_19.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="577" name="map_9" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_9.png" />
+        <image source="../drawable/map_9.png" width="256" height="256" />
     </tileset>
     <tileset firstgid="641" name="map_2" tilewidth="32" tileheight="32">
-        <image source="../drawable/map_2.png" />
+        <image source="../drawable/map_2.png" width="256" height="256" />
     </tileset>
     <layer name="Ground" width="30" height="30">
         <data encoding="base64" compression="zlib"> eJzd10kKwzAMBVAfIterO5CmV/GlDUWgUmF+JUt1DMnir6zoeSDTklJaQDIHje0RsqrIdYIpvRtnnWiSdedszj6FEzHJenCKo1dx1suz3MD1PX289ZSXcH+ZWp/IPP91tXrL/rh1B1ezpaut2bvPR3a999CRXcuM2jNc1Ee66F4aYaJerRuxR7ntfo8w2149bul0eufkcb37GHHXAa5Vh0ztPdzjWnVPsL9R05PLoHON5Kxunuy2/wCaa33rRDy0JjRe0/f/SEZzsuKhNVl11hmgZ44Vmt8b/tWEJQ==
