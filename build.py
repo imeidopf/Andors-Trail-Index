@@ -20,8 +20,8 @@ con = mysql.connector.connect(
 cursor = con.cursor()
 
 # Run each module and generate database records.
-#questlist.build(resPath, "questlist*.json", config, con, cursor)
-#monsterlist.build(resPath, "monsterlist*.json", config, con, cursor)
+# questlist.build(resPath, "questlist*.json", config, con, cursor)
+# monsterlist.build(resPath, "monsterlist*.json", config, con, cursor)
 # itemlist.build(appVersion)
 # itemcategories.build(appVersion)
 worldmap.generateMapImages(resPath + "xml\\", "*.tmx")
