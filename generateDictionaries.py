@@ -1,7 +1,7 @@
 import os, glob, json, mysql.connector
 
 appVersion = "0.7.13"
-resPath = "versions/{}/raw/".format(appVersion)
+resPath = "versions/{}/res/raw/".format(appVersion)
 
 dictQuests = {}
 dictMonsters = {}
@@ -23,6 +23,8 @@ for file in globQuests:
     for quest in fileData:
         dictQuests.update(quest)
 
+print('Generated dictionary for questlist JSON files...')
+
 for file in globMonsters:
     f = open(file)
     fileData = json.load(f)
@@ -30,6 +32,8 @@ for file in globMonsters:
     
     for monster in fileData:
         dictMonsters.update(monster)
+
+print('Generated dictionary for monsterlist JSON files...')
 
 for file in globConditions:
     f = open(file)
@@ -39,6 +43,8 @@ for file in globConditions:
     for condition in fileData:
         dictConditions.update(condition)
 
+print('Generated dictionary for conditionlist JSON files...')
+
 for file in globItems:
     f = open(file)
     fileData = json.load(f)
@@ -47,6 +53,8 @@ for file in globItems:
     for item in fileData:
         dictItems.update(item)
 
+print('Generated dictionary for itemlist JSON files...')
+
 for file in globDrops:
     f = open(file)
     fileData = json.load(f)
@@ -54,6 +62,8 @@ for file in globDrops:
     
     for drop in fileData:
         dictDrops.update(drop)
+
+print('Generated dictionary for droplist JSON files...')
 
 file_quest = open("dictionary_quests.json", "w")
 file_quest.write(json.dumps(dictQuests))
