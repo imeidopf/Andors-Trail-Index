@@ -1,20 +1,22 @@
--- CREATE TABLE quest (
---     questID int(5) NOT NULL AUTO_INCREMENT,
---     questShortName varchar(25) NOT NULL UNIQUE,
---     questName varchar(50) NOT NULL,
---     UNIQUE (questID, questShortName)
--- );
+CREATE TABLE IF NOT EXISTS quest (
+  QuestID int AUTO_INCREMENT,
+  Name varchar(25) NOT NULL,
+  ShortName varchar(50) NOT NULL,
+  CONSTRAINT quest_pk PRIMARY KEY (QuestID)
+);
+CREATE UNIQUE INDEX quest_ShortName_uindex ON quest (ShortName);
 
--- CREATE TABLE stage (
---     stageID int(5) NOT NULL AUTO_INCREMENT,
---     questShortName varchar(25) NOT NULL,
---     progress int(3),
---     logText text,
---     rewardExp int,
---     finishesQuest boolean,
---     UNIQUE KEY (stageID),
---     FOREIGN KEY (questShortName) REFERENCES quest(questShortName)
--- );
+CREATE TABLE IF NOT EXISTS stage
+(
+	StageID int AUTO_INCREMENT,
+	Progress int(4) NULL,
+	LogText text NULL,
+	RewardExperience int NULL,
+	FinishesQuest bool DEFAULT false NULL,
+	ShortName int NULL,
+	CONSTRAINT stage_pk PRIMARY KEY (StageID),
+	CONSTRAINT Stage_Quest_fk FOREIGN KEY (ShortName) REFERENCES quest (ShortName)
+);
 
 -- CREATE TABLE monster (
 --     monsterID int(5) NOT NULL AUTO_INCREMENT,
